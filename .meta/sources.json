@@ -1,4 +1,16 @@
 {
-  "version": 1,
-  "sources": []
+  "sources": [
+    {
+      "category": "programming",
+      "corpus_paths": [
+        "corpus/agentic-software-development/workflow-strategies.md",
+        "corpus/index.md"
+      ],
+      "indexed_at": "2026-02-08T20:16:29+00:00",
+      "log_path": "logs/programming.md",
+      "title": "OpenAI's Internal Strategy for Agentic Software Development",
+      "url": "https://x.com/i/status/2019566641491963946"
+    }
+  ],
+  "version": 2
 }
