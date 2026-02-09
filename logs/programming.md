@@ -21,3 +21,19 @@ The implementation strategy includes six key pillars: encouraging engineers to a
 
 ---
 
+### [Using Codex Plan Mode to Clarify Fuzzy Development Ideas](https://x.com/i/status/2019079129518281053)
+*2026-02-09T04:45:30+00:00* | Tags: codex, ai-assisted-development, software-design, planning, code-review
+
+This tweet highlights an advanced technique for using Codex Plan Mode more effectively when starting a new project with unclear requirements. Rather than simply letting the AI plan out implementation steps, the author suggests instructing it to actively challenge your assumptions and ask probing questions about your half-formed ideas.
+
+The approach transforms Plan Mode from a passive planning tool into an interactive design review session, similar to having a senior engineer interrogate your proposal before any code is written. By forcing the AI to 'grill you' with uncomfortable questions, you're pushed to confront edge cases, ambiguities, and potential issues in your design that you might not have considered otherwise. This pre-planning interrogation can save significant development time by surfacing problems early in the conceptual phase rather than during implementation.
+
+**Key Points:**
+  - Plan Mode can be used proactively to challenge and refine vague project ideas
+  - Instructing the AI to ask difficult questions mimics a senior engineer design review
+  - This technique helps identify problems and edge cases before writing any code
+  - Challenging your assumptions early leads to more concrete, well-thought-out plans
+  - The approach is particularly valuable when you have a general idea but unclear implementation path
+
+---
+

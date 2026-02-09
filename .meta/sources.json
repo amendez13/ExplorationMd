@@ -10,6 +10,16 @@
       "log_path": "logs/programming.md",
       "title": "OpenAI's Internal Strategy for Agentic Software Development",
       "url": "https://x.com/i/status/2019566641491963946"
+    },
+    {
+      "category": "programming",
+      "corpus_paths": [
+        "corpus/agentic-software-development/interactive-planning-techniques.md"
+      ],
+      "indexed_at": "2026-02-09T04:45:55+00:00",
+      "log_path": "logs/programming.md",
+      "title": "Using Codex Plan Mode to Clarify Fuzzy Development Ideas",
+      "url": "https://x.com/i/status/2019079129518281053"
     }
   ],
   "version": 2
