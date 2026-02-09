@@ -87,3 +87,17 @@ The system uses a queued message approach in Codex where follow-up prompts are p
 
 ---
 
+### [Claude Code Usage Tips from the Creator](https://x.com/i/status/2017742741636321619)
+*2026-02-09T07:31:20+00:00* | Tags: claude-code, ai-tools, developer-workflows, productivity, best-practices
+
+Boris, the creator of Claude Code, shares insights about different approaches to using Claude Code within his team. He emphasizes that the development team's usage patterns differ from his own personal usage, highlighting the flexibility and adaptability of the tool. The key message is that there is no single 'correct' way to use Claude Code - users should experiment with different workflows and configurations to discover what works best for their individual needs and preferences.
+
+**Key Points:**
+  - The Claude Code team uses the tool differently than its creator does
+  - There is no single 'right way' to use Claude Code
+  - Individual setups and workflows vary significantly between users
+  - Experimentation is encouraged to find what works best for each user
+  - Flexibility and personalization are core principles of the tool
+
+---
+

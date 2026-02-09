@@ -53,6 +53,16 @@
       "log_path": "logs/programming.md",
       "title": "Autonomous AI Agent Workflow for Daily Project Maintenance",
       "url": "https://x.com/i/status/1999934160442687526"
+    },
+    {
+      "category": "programming",
+      "corpus_paths": [
+        "topics/agentic-software-development/ai-assisted-coding-practices.md"
+      ],
+      "indexed_at": "2026-02-09T07:31:20+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Claude Code Usage Tips from the Creator",
+      "url": "https://x.com/i/status/2017742741636321619"
     }
   ],
   "version": 2
