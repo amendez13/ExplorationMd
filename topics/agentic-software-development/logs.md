@@ -1,6 +1,6 @@
-# Programming Log
+# Agentic Software Development - Source Log
 
-*Chronological record of programming content*
+*Chronological record of sources for this topic*
 
 ---
 

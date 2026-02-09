@@ -1,32 +1,60 @@
 # CLAUDE.md for ExplorationMd
 
-This file provides instructions for Claude when integrating new knowledge into this repository.
+Instructions for Claude when integrating new knowledge into this repository.
 
 ## Repository Structure
 
 ```
 ExplorationMd/
-├── logs/                    # Append-only category logs (chronological)
-│   └── {category}.md        # e.g., programming.md, technology.md
-├── corpus/                  # Integrated knowledge corpus (emergent structure)
-│   ├── index.md             # Master index of all topics
-│   └── {topic}/             # Topic directories
-│       └── {subtopic}.md    # Integrated knowledge files
-├── .meta/
-│   └── sources.json         # Source tracking (v2 schema)
-└── topics/                  # Legacy per-article files (read-only)
+├── README.md                    # Main entry point with links to all topics
+├── CLAUDE.md                    # These instructions
+├── topics/                      # All knowledge organized by topic
+│   └── {topic-name}/            # e.g., agentic-software-development
+│       ├── README.md            # Topic overview with links to all articles
+│       ├── logs.md              # Chronological log of sources for this topic
+│       └── {article}.md         # Individual knowledge articles
+└── .meta/
+    └── sources.json             # Source tracking
 ```
 
-## Two-Tier Knowledge Organization
+## Navigation Principle
 
-### 1. Category Logs (`logs/`)
+The repository is designed for markdown navigation. Every document should be reachable by clicking links starting from the main README.md.
 
-Append-only chronological records. Each new URL creates an entry in the appropriate category log.
+## Topic Structure
 
-**Format:**
+Each topic is a directory under `topics/` containing:
+
+### 1. README.md (Topic Overview)
+
 ```markdown
-### [Article Title](https://example.com/url)
-*2026-02-08T10:30:00Z* | Tags: tag1, tag2
+# Topic Name
+
+Brief description of what this topic covers.
+
+## Articles
+
+- [Article Title](article-slug.md) - Brief description
+- [Another Article](another-slug.md) - Brief description
+
+## Recent Activity
+
+See [logs.md](logs.md) for chronological source history.
+```
+
+### 2. logs.md (Chronological Log)
+
+Append-only record of all sources for this topic.
+
+```markdown
+# Topic Name - Source Log
+
+*Chronological record of sources for this topic*
+
+---
+
+### [Article Title](https://source-url)
+*2026-02-09T10:30:00Z* | Tags: tag1, tag2
 
 Summary paragraph describing the content.
 
@@ -37,22 +65,18 @@ Summary paragraph describing the content.
 ---
 ```
 
-**Categories:** programming, technology, finance, science, health, misc
+### 3. Article Files (Knowledge Articles)
 
-### 2. Knowledge Corpus (`corpus/`)
-
-Emergent, integrated knowledge organized by topic. Content is synthesized and cross-referenced.
-
-## Corpus File Structure
-
-Every corpus file MUST have this structure:
+Integrated knowledge synthesized from sources.
 
 ```markdown
-# Topic Title
+# Article Title
 
 ## Index
+
 - [Section One](#section-one)
 - [Section Two](#section-two)
+- [Sources](#sources)
 
 ---
 
@@ -70,27 +94,19 @@ More content [2]...
 2. [another.com](https://another-url)
 ```
 
-### Required Elements
-
-1. **Title**: Single `#` heading at the top
-2. **Index**: `## Index` section with anchor links to all content sections
-3. **Separator**: `---` after the index
-4. **Content Sections**: `##` headings for each topic area
-5. **Sources Section**: `## Sources` at the end with numbered references
-
 ## Integration Guidelines
 
-### When to Create New Files
+### Determining Topic Placement
 
-- Create a new topic directory when content doesn't fit existing topics
-- Create a new file within a topic for distinct subtopics
-- Prefer updating existing files over creating new ones
+1. **Existing topic fits**: Add to that topic's logs.md and update/create articles
+2. **New topic needed**: Create new topic directory with README.md and logs.md
+3. **Topic naming**: Use lowercase with hyphens (e.g., `agentic-software-development`)
 
-### When to Update Existing Files
+### When Processing New Content
 
-- New content relates to existing topic
-- Content adds depth or new perspective to existing sections
-- Content provides updated information
+1. **Always append to logs.md**: Every source gets a log entry in the topic's logs.md
+2. **Integrate into articles**: Synthesize knowledge into new or existing article files
+3. **Update README.md**: Add links to any new articles created
 
 ### Handling Conflicting Information
 
@@ -112,12 +128,6 @@ Explanation of alternative...
 Comparison of tradeoffs and when each approach applies...
 ```
 
-### Source References
-
-- Use numbered references like `[1]` in text
-- All factual claims should cite their source
-- Add full URLs to the Sources section at the end
-
 ## Response Format for Integration
 
 When integrating new content, respond with JSON only (no markdown fences):
@@ -129,13 +139,14 @@ When integrating new content, respond with JSON only (no markdown fences):
   "edits": [
     {
       "action": "create" | "update",
-      "file_path": "topic-name/subtopic.md",
+      "file_path": "topic-name/article-slug.md",
       "section": "Section Name" (for updates, null for creates),
       "content": "The markdown content",
       "sources": ["https://source-url"]
     }
   ],
-  "index_updates": ["- [New Topic](topic-name/)"]
+  "readme_updates": ["- [New Article](article.md) - Description"],
+  "index_updates": ["- [New Topic](topics/topic-name/)"]
 }
 ```
 
@@ -146,24 +157,26 @@ When integrating new content, respond with JSON only (no markdown fences):
 - **DO NOT include `## Sources`** - sources are appended automatically
 - **DO NOT include `---` separators** - the system manages file structure
 - Only provide the actual section content (text, lists, code blocks)
-- If updating a specific section, provide only that section's content (no heading)
+- If updating a specific section, provide only that section's content
 
 **For `"action": "create"`:**
-- Include the full file structure: title, content sections, `## Sources`
+- Include the title and content sections
 - **DO NOT include `## Index`** - it will be generated from your headings
 - The system will add proper structure and separators
-```
 
-If content doesn't warrant corpus integration (too specific, ephemeral, or not generalizable):
+If content doesn't warrant integration (too specific, ephemeral, or not generalizable):
 
 ```json
 {
-  "rationale": "Content is too specific for corpus integration",
-  "topic_path": "",
+  "rationale": "Content is too specific for article integration",
+  "topic_path": "topic-name",
   "edits": [],
+  "readme_updates": [],
   "index_updates": []
 }
 ```
+
+Note: Even when no article integration occurs, the content is still logged to the topic's logs.md.
 
 ## Quality Guidelines
 
@@ -173,9 +186,4 @@ If content doesn't warrant corpus integration (too specific, ephemeral, or not g
 4. **Be concise**: Distill to essential insights
 5. **Use clear structure**: Consistent headings and formatting
 6. **Cite sources**: Every factual claim needs a reference
-
-## Topic Naming Conventions
-
-- Use lowercase with hyphens: `agentic-software-development`
-- Be specific but not overly narrow
-- Group related content under common parent topics
+7. **Update READMEs**: Keep topic README.md files current with article links
