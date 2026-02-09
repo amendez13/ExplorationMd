@@ -20,6 +20,17 @@
       "log_path": "logs/programming.md",
       "title": "Using Codex Plan Mode to Clarify Fuzzy Development Ideas",
       "url": "https://x.com/i/status/2019079129518281053"
+    },
+    {
+      "category": "programming",
+      "corpus_paths": [
+        "corpus/agentic-software-development/interactive-planning-techniques.md",
+        "corpus/agentic-software-development/interactive-planning-techniques.md"
+      ],
+      "indexed_at": "2026-02-09T04:46:41+00:00",
+      "log_path": "logs/programming.md",
+      "title": "Plan Prompt - A Relentless Product Architecture Framework",
+      "url": "https://x.com/i/status/2019079131284066656"
     }
   ],
   "version": 2

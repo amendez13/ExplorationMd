@@ -37,3 +37,19 @@ The approach transforms Plan Mode from a passive planning tool into an interacti
 
 ---
 
+### [Plan Prompt - A Relentless Product Architecture Framework](https://x.com/i/status/2019079131284066656)
+*2026-02-09T04:46:10+00:00* | Tags: product-management, ai-prompts, technical-planning, requirements-gathering, product-strategy
+
+This tweet presents a comprehensive prompt template designed for AI-assisted product planning and technical strategy. The prompt establishes an adversarial yet collaborative approach where the AI acts as a rigorous interrogator, systematically extracting hidden assumptions, edge cases, and blind spots before any implementation begins. The framework emphasizes exhaustive discovery over premature planning.
+
+The methodology prioritizes ruthless clarity through continuous questioning using tools like request_user_input. It explicitly forbids moving forward until all unknowns are surfaced, including constraints around timeline, budget, team capacity, and technical limitations. The prompt even encourages challenging the fundamental problem definition itself, ensuring that the right problem is being solved. Only after complete mutual clarity should structured planning commence.
+
+**Key Points:**
+  - Uses relentless questioning to extract all details, assumptions, and blind spots before planning
+  - Challenges vague language and explores edge cases, failure modes, and second-order consequences
+  - Requires surfacing unstated constraints like timeline, budget, team size, and technical limitations
+  - Questions fundamental assumptions about whether the right problem is being solved
+  - Delays structured planning until complete clarity is achieved between human and AI
+
+---
+
