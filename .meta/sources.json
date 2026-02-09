@@ -42,6 +42,17 @@
       "log_path": "logs/programming.md",
       "title": "Two Practices for Effective AI-Assisted Programming",
       "url": "https://x.com/i/status/2019391670609940746"
+    },
+    {
+      "category": "programming",
+      "corpus_paths": [
+        "corpus/agentic-software-development/workflow-strategies.md",
+        "corpus/agentic-software-development/workflow-strategies.md"
+      ],
+      "indexed_at": "2026-02-09T06:07:07+00:00",
+      "log_path": "logs/programming.md",
+      "title": "Autonomous AI Agent Workflow for Daily Project Maintenance",
+      "url": "https://x.com/i/status/1999934160442687526"
     }
   ],
   "version": 2

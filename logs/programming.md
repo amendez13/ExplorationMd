@@ -69,3 +69,19 @@ The second practice is designing from the middle out by focusing on the program'
 
 ---
 
+### [Autonomous AI Agent Workflow for Daily Project Maintenance](https://x.com/i/status/1999934160442687526)
+*2026-02-09T06:06:39+00:00* | Tags: ai-agents, autonomous-coding, workflow-automation, llm-development, code-maintenance
+
+The author describes a sophisticated workflow for using AI coding agents (Claude Code, GPT-5.2, Opus 4.5) to maintain multiple active projects simultaneously. Rather than manually managing all projects daily, they use carefully crafted prompts to have agents autonomously explore codebases, identify bugs and improvements, review code written by other agents, and enhance UI/UX. The workflow leverages the reliability of modern LLMs combined with comprehensive test suites to allow agents to work semi-autonomously with minimal supervision.
+
+The system uses a queued message approach in Codex where follow-up prompts are pre-loaded, allowing agents to work through improvements, planning ("beads"), implementation, and self-review cycles over several hours without human intervention. The author runs this workflow multiple times daily across 7+ projects using three machines and multiple AI subscriptions, with physical command palette devices ($60 from Temu) enabling one-button execution of complex prompt sequences. This represents an extreme implementation of AI-assisted development where agents handle routine maintenance, polish, and incremental improvements while the developer focuses mental energy on higher-level concerns.
+
+**Key Points:**
+  - Uses AI agents daily to maintain forward progress on 7+ projects simultaneously, even when lacking mental bandwidth for direct engagement
+  - Employs standardized prompts for code exploration, bug detection, peer review of agent-written code, and UI/UX improvement analysis
+  - Leverages message queuing in Codex to create 3+ hour autonomous work sessions with pre-loaded follow-up instructions
+  - Trusts modern LLMs (GPT-5.2, Opus 4.5) with unit/integration tests to work semi-autonomously, relying on agents to catch each other's mistakes
+  - Uses physical command palette hardware devices to trigger complex prompt sequences with single button presses
+
+---
+
