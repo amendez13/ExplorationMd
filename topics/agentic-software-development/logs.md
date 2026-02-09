@@ -101,3 +101,18 @@ Boris, the creator of Claude Code, shares insights about different approaches to
 
 ---
 
+### [Learning with Claude - Tips for Using Claude Code as a Learning Tool](https://x.com/bcherny/status/2017742759218794768)
+*2026-02-09T19:03:55+00:00* | Tags: claude-code, learning, ai-assisted-education, programming-education, developer-tools
+
+This tweet from Boris Cherny shares practical tips for using Claude Code as an educational tool to enhance learning and understanding of programming concepts. The recommendations focus on leveraging Claude's capabilities beyond just code generation, emphasizing its potential as an interactive teaching assistant that can explain, visualize, and help solidify understanding through various methods.
+
+The tips cover four main approaches: using explanatory output styles to understand the reasoning behind code changes, generating visual HTML presentations to break down unfamiliar code concepts, creating ASCII diagrams to map out complex protocols and codebase architectures, and building custom spaced-repetition learning workflows where Claude acts as an interactive tutor that identifies knowledge gaps and reinforces learning through follow-up questions.
+
+**Key Points:**
+  - Enable 'Explanatory' or 'Learning' output styles in Claude Code's config to get detailed explanations of the reasoning behind code changes
+  - Use Claude to generate visual HTML slide presentations that break down and explain unfamiliar code concepts
+  - Request ASCII diagrams to visualize complex protocols, system architectures, and codebase structures for better comprehension
+  - Create custom spaced-repetition learning skills where you explain concepts to Claude, it asks clarifying questions to identify gaps, and stores the results for reinforcement
+  - Claude Code can serve as an interactive learning companion beyond just a code generation tool
+
+---

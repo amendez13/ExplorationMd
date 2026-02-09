@@ -21,26 +21,36 @@ Effective use of AI coding agents requires both tactical techniques and a broade
 
 ## Usage Philosophy and Personalization
 
-A fundamental principle in working with AI coding agents is that there is no single "correct" way to use them. Even among the creators and core developers of these tools, usage patterns vary significantly based on individual preferences and needs [1].
+Individuals develop personal philosophies for when and how to engage AI coding agents, often based on task complexity, familiarity, or the desire to maintain certain skills [1].
 
-### Key Principles
+**Autonomous vs. Supervised Modes**
 
-**Embrace Experimentation**
-Users should actively experiment with different workflows, configurations, and interaction patterns to discover what works best for their specific context. What works for one developer or team may not be optimal for another [1].
+Different tasks call for different levels of agent autonomy [2]:
+- **"Just fix"**: Point the agent at a bug with minimal instruction and let it determine the approach
+- **Guided implementation**: Provide architectural direction but let the agent handle details
+- **Pair programming**: Collaborate interactively, reviewing each step before proceeding
 
-**Expect Divergent Practices**
-The development team behind Claude Code uses the tool differently than its creator does, illustrating that even experts with deep knowledge of the system adopt personalized approaches [1]. This diversity of usage patterns is a feature, not a bug.
+**Challenging the Agent**
 
-**Flexibility Over Prescription**
-Rather than following rigid best practices, the tool is designed to accommodate a wide range of workflows. The core philosophy emphasizes adaptability and personalization over standardized procedures [1].
+Treat the agent as a capable peer who can critique your work [2]:
+- Ask: "Can you review this code and tell me what could be improved?"
+- Request: "Show me a more elegant solution to this problem"
+- The agent often suggests better abstractions, more idiomatic patterns, or overlooked edge cases
+- This accelerates skill development by exposing you to alternative approaches
 
-### Practical Implications
+**Reusable Skills and Automation**
 
-- Start with default settings but don't be afraid to customize
-- Try different communication styles with your AI agent
-- Experiment with when to use planning modes versus direct implementation
-- Adjust the level of autonomy you grant based on task complexity and your comfort level
-- Iterate on your workflow as you gain experience and discover patterns that suit your thinking style
+A core principle: if you do something more than once a day, turn it into a custom skill [2]:
+- Create slash commands for repetitive workflows (e.g., `/deploy`, `/test-all`, `/review-pr`)
+- Commit skills to git so they're available across projects and team members
+- Skills encapsulate domain knowledge and best practices
+- Over time, build a library of project-specific and personal productivity commands
+
+Example skill use cases:
+- Database migrations with validation steps
+- Generating API documentation from code
+- Running security checks before commits
+- Deploying to specific environments with pre-flight checks [2]
 
 ## Context Files for Design Clarity
 
