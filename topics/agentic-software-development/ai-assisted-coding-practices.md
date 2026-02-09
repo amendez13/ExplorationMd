@@ -1,3 +1,5 @@
+[← Back to Topic](README.md) | [← Home](../../README.md)
+
 # AI-Assisted Coding Practices
 
 ## Index
@@ -81,6 +83,4 @@ Partitioning work into smaller, well-specified pieces serves an additional pract
 
 ## Sources
 
-1. [Source URL will be added]
 1. [x.com](https://x.com/i/status/2019391670609940746)
-2. [Source](source URL will be added)

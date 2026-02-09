@@ -1,3 +1,5 @@
+[← Back to Topic](README.md) | [← Home](../../README.md)
+
 # Agentic Software Development - Source Log
 
 *Chronological record of sources for this topic*

@@ -1,6 +1,4 @@
-# Agentic Software Development Workflows
-
-## Index
+[← Back to Topic](README.md) | [← Home](../../README.md)
 
 # Agentic Software Development Workflows
 
@@ -84,8 +82,6 @@ The transition to agent-first development represents a deep cultural change, com
 - Address organizational resistance and learning curves
 - Build consensus around new workflows and standards
 
-## Cultural and Organizational Considerations
-
 ## Autonomous Maintenance Workflow
 
 ### The Approach
@@ -149,9 +145,5 @@ This trust model represents a significant shift from traditional development pra
 
 ## Sources
 
-[1] OpenAI's Internal Strategy for Agentic Software Development (source URL to be added)
 1. [x.com](https://x.com/i/status/2019566641491963946)
-2. [Source](SOURCE_URL_PLACEHOLDER)
-3. [x.com](https://x.com/i/status/1999934160442687526)
-4. [x.com](https://x.com/i/status/1999934160442687526)
-5. [Source](source_url_placeholder)
+2. [x.com](https://x.com/i/status/1999934160442687526)

@@ -1,3 +1,5 @@
+[← Home](../../README.md)
+
 # Agentic Software Development
 
 Knowledge and resources about AI-powered coding agents and development workflows.
