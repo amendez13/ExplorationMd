@@ -86,15 +86,15 @@ The transition to agent-first development represents a deep cultural change, com
 
 ### The Approach
 
-The autonomous maintenance workflow uses AI coding agents to maintain continuous forward progress across multiple active projects without constant developer supervision [1]. Rather than manually managing all projects daily, the developer creates structured prompts that enable agents to autonomously explore codebases, identify improvements, review other agents' code, and enhance UI/UX.
+The autonomous maintenance workflow uses AI coding agents to maintain continuous forward progress across multiple active projects without constant developer supervision [2]. Rather than manually managing all projects daily, the developer creates structured prompts that enable agents to autonomously explore codebases, identify improvements, review other agents' code, and enhance UI/UX.
 
-This represents an extreme implementation of AI-assisted development where agents handle routine maintenance, polish, and incremental improvements while the developer focuses mental energy on higher-level concerns [1]. The workflow is particularly effective for maintaining momentum on 7+ projects simultaneously, even when the developer lacks mental bandwidth for direct engagement.
+This represents an extreme implementation of AI-assisted development where agents handle routine maintenance, polish, and incremental improvements while the developer focuses mental energy on higher-level concerns [2]. The workflow is particularly effective for maintaining momentum on 7+ projects simultaneously, even when the developer lacks mental bandwidth for direct engagement.
 
 ### Core Components
 
 **Standardized Prompt Library**
 
-The workflow relies on carefully crafted, reusable prompts for common maintenance tasks [1]:
+The workflow relies on carefully crafted, reusable prompts for common maintenance tasks [2]:
 
 - **Code exploration prompts**: Direct agents to systematically review codebase structure and identify areas needing attention
 - **Bug detection prompts**: Guide agents through analysis to find potential issues, edge cases, or error-handling gaps
@@ -103,26 +103,26 @@ The workflow relies on carefully crafted, reusable prompts for common maintenanc
 
 **Test-Driven Trust**
 
-The system relies on comprehensive test suites to validate agent work [1]. Modern LLMs (GPT-5.2, Opus 4.5) combined with unit and integration tests provide sufficient reliability for semi-autonomous operation. The developer trusts agents to catch each other's mistakes through the review cycle.
+The system relies on comprehensive test suites to validate agent work [2]. Modern LLMs (GPT-5.2, Opus 4.5) combined with unit and integration tests provide sufficient reliability for semi-autonomous operation. The developer trusts agents to catch each other's mistakes through the review cycle.
 
 **Physical Command Palette Integration**
 
-The workflow uses physical command palette devices ($60 from Temu) that enable one-button execution of complex prompt sequences [1]. This hardware integration removes friction from initiating autonomous work sessions and makes the workflow practical for daily use across multiple machines.
+The workflow uses physical command palette devices ($60 from Temu) that enable one-button execution of complex prompt sequences [2]. This hardware integration removes friction from initiating autonomous work sessions and makes the workflow practical for daily use across multiple machines.
 
 ### Queued Message Technique
 
-The queued message approach in Codex allows agents to work through multi-hour improvement cycles without human intervention [1]:
+The queued message approach in Codex allows agents to work through multi-hour improvement cycles without human intervention [2]:
 
 1. **Initial exploration**: Agent explores codebase and identifies opportunities
 2. **Planning ("beads")**: Pre-loaded follow-up prompt directs agent to create structured plan
 3. **Implementation**: Agent works through planned improvements
 4. **Self-review**: Agent reviews its own changes for quality and correctness
 
-By pre-loading follow-up prompts in the queue, a single initialization can trigger 3+ hours of autonomous work [1]. The agent proceeds through each phase automatically, with each queued message building on the context from previous steps.
+By pre-loading follow-up prompts in the queue, a single initialization can trigger 3+ hours of autonomous work [2]. The agent proceeds through each phase automatically, with each queued message building on the context from previous steps.
 
 ### Multi-Project Scaling
 
-The workflow scales across multiple dimensions [1]:
+The workflow scales across multiple dimensions [2]:
 
 - **Multiple projects**: Maintains 7+ active projects simultaneously
 - **Multiple machines**: Distributes work across three machines to maximize throughput
@@ -133,7 +133,7 @@ This scaling strategy ensures continuous forward progress across the entire proj
 
 ### Trust Model
 
-The workflow embodies a specific trust model for AI agents [1]:
+The workflow embodies a specific trust model for AI agents [2]:
 
 - **Reliability assumption**: Modern LLMs are sufficiently reliable for routine maintenance tasks when paired with test suites
 - **Peer review**: Agents review each other's work, providing a cross-check mechanism
@@ -145,5 +145,5 @@ This trust model represents a significant shift from traditional development pra
 
 ## Sources
 
-1. [x.com](https://x.com/i/status/2019566641491963946)
-2. [x.com](https://x.com/i/status/1999934160442687526)
+1. [OpenAI's Internal Strategy for Agentic Software Development](https://x.com/i/status/2019566641491963946)
+2. [Autonomous AI Agent Workflow for Daily Project Maintenance](https://x.com/i/status/1999934160442687526)

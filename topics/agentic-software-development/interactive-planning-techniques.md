@@ -138,5 +138,5 @@ Both techniques can be used sequentially: the Product Architecture Framework fir
 
 ## Sources
 
-1. [x.com](https://x.com/mrmps/status/1879977943851299036)
-2. [x.com](https://x.com/i/status/2019079129518281053)
+1. [Using Codex Plan Mode to Clarify Fuzzy Development Ideas](https://x.com/i/status/2019079129518281053)
+2. [Plan Prompt - A Relentless Product Architecture Framework](https://x.com/i/status/2019079131284066656)

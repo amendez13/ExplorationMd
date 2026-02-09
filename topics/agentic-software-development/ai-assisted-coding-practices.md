@@ -83,4 +83,4 @@ Partitioning work into smaller, well-specified pieces serves an additional pract
 
 ## Sources
 
-1. [x.com](https://x.com/i/status/2019391670609940746)
+1. [Two Practices for Effective AI-Assisted Programming](https://x.com/i/status/2019391670609940746)
