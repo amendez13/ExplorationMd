@@ -4,10 +4,8 @@
 
 - [Overview](#overview)
 - [Interrogative Plan Mode](#interrogative-plan-mode)
-  - [The Technique](#the-technique)
-  - [Benefits](#benefits)
-  - [When to Apply](#when-to-apply)
-  - [Implementation Approach](#implementation-approach)
+- [Product Architecture Planning Framework](#product-architecture-planning-framework)
+- [Comparison: Implementation vs. Product Planning](#comparison-implementation-vs-product-planning)
 - [Sources](#sources)
 
 ---
@@ -57,26 +55,6 @@ To effectively use interrogative Plan Mode:
 5. **Then Plan**: Only after thorough questioning should you proceed to actual implementation planning
 
 This approach recognizes that AI agents can serve not just as code generators or planners, but as thinking partners that help developers refine their own understanding before committing to implementation.
-
-## ## Index
-
-## Index
-
-- [Overview](#overview)
-- [Interrogative Plan Mode](#interrogative-plan-mode)
-  - [The Technique](#the-technique)
-  - [Benefits](#benefits)
-  - [When to Apply](#when-to-apply)
-  - [Implementation Approach](#implementation-approach)
-- [Product Architecture Planning Framework](#product-architecture-planning-framework)
-  - [The Framework](#the-framework)
-  - [Methodology](#methodology)
-  - [Key Differentiators](#key-differentiators)
-  - [When to Apply](#when-to-apply-1)
-- [Comparison: Implementation vs. Product Planning](#comparison-implementation-vs-product-planning)
-- [Sources](#sources)
-
-## ## Sources
 
 ## Product Architecture Planning Framework
 
@@ -141,8 +119,6 @@ It may be excessive for:
 - Implementations with clear, documented requirements
 - Time-sensitive tactical decisions
 
----
-
 ## Comparison: Implementation vs. Product Planning
 
 While both Interrogative Plan Mode and the Product Architecture Planning Framework use questioning techniques, they operate at different scopes:
@@ -158,18 +134,7 @@ While both Interrogative Plan Mode and the Product Architecture Planning Framewo
 
 Both techniques can be used sequentially: the Product Architecture Framework first to validate the problem and surface constraints, then Interrogative Plan Mode to design the implementation approach [1][2].
 
----
-
 ## Sources
 
-1. [Interrogative Plan Mode - X/Twitter](https://x.com/mrmps/status/1879977943851299036)
-2. [Plan Prompt - A Relentless Product Architecture Framework](source_url_placeholder)
-
-## Sources
-
-[1] Source URL (to be added)
-1. [x.com](https://x.com/i/status/2019079129518281053)
-2. [Source]((will be provided separately))
-3. [x.com](https://x.com/i/status/2019079131284066656)
-6. [x.com](https://x.com/i/status/2019079131284066656)
-7. [Source](source_url_placeholder)
+1. [x.com](https://x.com/mrmps/status/1879977943851299036)
+2. [x.com](https://x.com/i/status/2019079129518281053)
