@@ -53,3 +53,19 @@ The methodology prioritizes ruthless clarity through continuous questioning usin
 
 ---
 
+### [Two Practices for Effective AI-Assisted Programming](https://x.com/i/status/2019391670609940746)
+*2026-02-09T06:05:29+00:00* | Tags: ai-assisted-coding, software-design, llm-prompting, modular-architecture, best-practices
+
+The author shares how they transitioned from hand-coding to successfully leveraging AI-generated code with minimal hallucinations by adopting two key practices. The first is maintaining a context file—an informal document where developers dump their thoughts, design notes, to-do lists, file formats, and module organization ideas. This file serves both as a clarifying design exercise and as a comprehensive prompt for the LLM, allowing even half-formed speculative thoughts to be captured.
+
+The second practice is designing from the middle out by focusing on the program's core engine as a reusable component with clearly specified inputs, outputs, and invariants. This approach avoids over-constraining the interface through top-down design and prevents premature optimization. By breaking the problem into well-specified, testable pieces that can be individually designed and then integrated, developers achieve proper modularity and separation of concerns that LLMs typically don't provide when given only high-level program requirements. This partitioning also helps avoid exceeding the LLM's context limits.
+
+**Key Points:**
+  - Maintain a context file from the start of your project where you dump design thoughts, notes, to-do lists, and specifications—even informal or speculative ideas—to help clarify your design and provide comprehensive prompts for the LLM
+  - Design from the middle out by treating your program's core engine as a reusable component with clearly specified inputs, outputs, and invariants, avoiding classical top-down design
+  - Break problems into well-specified, individually testable pieces (like parsers or modules) that can be clearly specified to the LLM and later integrated
+  - Don't worry about low-level performance details initially; focus on getting a working, unit-testable engine first
+  - Partitioning work into smaller, well-specified pieces prevents overrunning the LLM's context limit and reduces hallucinations
+
+---
+

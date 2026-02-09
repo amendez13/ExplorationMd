@@ -31,6 +31,17 @@
       "log_path": "logs/programming.md",
       "title": "Plan Prompt - A Relentless Product Architecture Framework",
       "url": "https://x.com/i/status/2019079131284066656"
+    },
+    {
+      "category": "programming",
+      "corpus_paths": [
+        "corpus/agentic-software-development/ai-assisted-coding-practices.md",
+        "corpus/agentic-software-development/index.md"
+      ],
+      "indexed_at": "2026-02-09T06:06:01+00:00",
+      "log_path": "logs/programming.md",
+      "title": "Two Practices for Effective AI-Assisted Programming",
+      "url": "https://x.com/i/status/2019391670609940746"
     }
   ],
   "version": 2
