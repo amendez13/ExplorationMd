@@ -71,6 +71,14 @@
       "log_path": "topics/programming/logs.md",
       "title": "Boost Productivity with Parallel Git Worktrees and Claude Sessions",
       "url": "https://x.com/i/status/2017742743125299476"
+    },
+    {
+      "category": "programming",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-09T20:31:14+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Why Codex Outperforms Claude for Development Tasks",
+      "url": "https://x.com/i/status/2014374967589126183"
     }
   ],
   "version": 2

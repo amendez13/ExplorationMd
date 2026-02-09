@@ -116,3 +116,19 @@ The tips cover four main approaches: using explanatory output styles to understa
   - Claude Code can serve as an interactive learning companion beyond just a code generation tool
 
 ---
+### [Why Codex Outperforms Claude for Development Tasks](https://x.com/i/status/2014374967589126183)
+*2026-02-09T20:31:14+00:00* | Tags: ai-coding-assistants, codex, claude, developer-tools, llm-comparison
+
+This Twitter thread argues that Codex (likely referring to a code-focused AI tool) is superior to Claude for software development work, despite Claude's strengths in other areas. The author claims Codex better follows explicit rules in configuration files, demonstrates more persistence in tackling problems, and reads more code context to behave like a senior engineer. The thread suggests Claude ignores rules approximately 50% of the time and is more prone to 'junior mistakes' in coding scenarios.
+
+However, the author acknowledges Claude's value for non-development tasks, citing its stronger 'personality' and referencing @openclaw as an example of Claude's effectiveness as a general assistant. The thread provides three specific recommendations for improving Codex results: copying working .md rule files from other users, installing new Agent Skills, and joining the Codex Discord community for support.
+
+**Key Points:**
+  - Codex allegedly follows configuration rules more consistently than Claude (50% rule-following claim for Claude)
+  - Codex is positioned as more persistent and reads more code context, acting like a senior engineer
+  - Claude is recommended for non-development tasks due to its personality and assistant-like qualities
+  - Three fixes to improve Codex results: copy working .md rules, install Agent Skills, and join the Discord community
+  - The thread suggests a tool specialization approach: Codex for coding, Claude for general assistance
+
+---
+
