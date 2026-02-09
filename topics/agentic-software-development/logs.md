@@ -6,6 +6,20 @@
 
 ---
 
+### [Prompt Library - Relentless Product Discovery Interrogation](note://relentless-product-discovery-interrogation)
+*2026-02-09T20:59:15Z* | Tags: prompt-library, product-planning, requirements-discovery, interrogation, ai-prompts
+Source: manual note
+
+This prompt template instructs an AI agent to interrogate a product idea with relentless questioning before any planning or implementation. It emphasizes exhaustive discovery of assumptions, constraints, and blind spots while challenging the problem framing itself.
+
+**Key Points:**
+  - Forces a question-first phase using request_user_input to surface missing details
+  - Demands explicit constraints (timeline, budget, team capacity, technical limits)
+  - Challenges vague language and tests edge cases and second-order effects
+  - Blocks planning until mutual clarity is achieved, then proceeds to a structured plan
+
+---
+
 ### [OpenAI's Internal Strategy for Agentic Software Development](https://x.com/i/status/2019566641491963946)
 *2026-02-08T20:16:06+00:00* | Tags: ai-coding-agents, software-development, openai, developer-tools, agentic-workflows
 
@@ -131,4 +145,3 @@ However, the author acknowledges Claude's value for non-development tasks, citin
   - The thread suggests a tool specialization approach: Codex for coding, Claude for general assistance
 
 ---
-
