@@ -95,6 +95,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "OpenAI's Internal Approach to Agentic Software Development",
       "url": "https://x.com/gdb/status/2019566641491963946"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-10T20:35:11+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "ESR on LLM-Assisted Development Workflow (Enhanced)",
+      "url": "https://x.com/esrtweet/status/2019391670609940746"
     }
   ],
   "version": 2
