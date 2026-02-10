@@ -87,6 +87,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Self-Correction CLAUDE.md Reminder",
       "url": "note://18"
+    },
+    {
+      "category": "Agentic Software Development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-10T20:12:00+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "OpenAI's Internal Approach to Agentic Software Development",
+      "url": "https://x.com/gdb/status/2019566641491963946"
     }
   ],
   "version": 2
