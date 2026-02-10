@@ -62,3 +62,21 @@ Greg Brockman (OpenAI President) shares how OpenAI is retooling their teams towa
 - Build observability infrastructure around agent workflows
 
 ---
+
+### [Autonomous Agent Prompts for Continuous Project Improvement](https://x.com/doodlestein/status/1999934160442687526)
+*2026-02-10* | Tags: autonomous-agents, prompts, code-review, ux-polish, multi-project, codex
+
+Developer shares prompts used to keep multiple projects advancing daily through autonomous agent work. With sufficient unit tests and e2e integration tests, agents can explore, find bugs, and fix issues without going rogue. Runs this workflow across 7+ projects on 3 machines, using a command palette device to trigger prompts instantly.
+
+**Key Points:**
+- Use prompts that have agents "randomly explore" code files, trace execution flows, and fix obvious bugs with "fresh eyes"
+- Have agents cross-review code written by other agents, looking for bugs, inefficiencies, security issues
+- When dissatisfied with a project, prompt agents to scrutinize UX and suggest "Stripe-level" polish improvements
+- Queue follow-up prompts to elaborate suggestions into granular tasks with dependency structure
+- Include a "plan space" review step before implementation to catch suboptimal task design
+- End with a "fresh eyes" review of all new code for obvious bugs
+- Have Claude commit changes in logically grouped commits with detailed messages
+- Works best with Opus 4.5 or GPT 5.2 with high thinking effort
+- Uses hardware command palette for one-button prompt execution
+
+---

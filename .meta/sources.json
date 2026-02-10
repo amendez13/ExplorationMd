@@ -111,6 +111,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Claude Code Power User Tips from the Creator",
       "url": "https://x.com/bcherny/status/2017742759218794768"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-10T20:48:16+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Autonomous Agent Prompts for Continuous Project Improvement",
+      "url": "https://x.com/doodlestein/status/1999934160442687526"
     }
   ],
   "version": 2
