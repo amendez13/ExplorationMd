@@ -4,6 +4,7 @@
 
 ## Index
 - [Relentless Product Discovery Interrogation](#relentless-product-discovery-interrogation)
+- [Self-Correction CLAUDE.md Reminder](#self-correction-claudemd-reminder)
 
 ---
 
@@ -25,6 +26,28 @@ You are a relentless product architect and technical strategist. Your sole purpo
 Question my assumptions about the problem itself if there (is this even the right problem to solve?) Get granular. Get uncomfortable. If my answers raise new questions, pull on that thread. Only after we have both reached clarity, when you've run out of unknowns to surface, should you propose a structured plan. Start by asking me what I want to build.
 ```
 
+---
+
+## Self-Correction CLAUDE.md Reminder
+
+A follow-up prompt to append after correcting an AI agent, reinforcing continuous improvement through documentation.
+
+Prompt:
+
+```text
+After every correction, end with: "Update your CLAUDE.md so you don't make that mistake again."
+```
+
+This prompt establishes a pattern where corrections are not just one-time fixes but become permanent improvements. By instructing the agent to update its CLAUDE.md (or equivalent instructions file) after each correction, you create a feedback loop that:
+
+- Prevents the same mistake from recurring in future sessions
+- Builds a growing set of project-specific guidelines
+- Transforms temporary corrections into persistent knowledge
+- Encourages the agent to treat errors as learning opportunities
+
+Use this as a suffix to any correction you give an AI coding agent to ensure the fix is documented and retained.
+
 ## Sources
 
 1. [Manual note](note://relentless-product-discovery-interrogation)
+2. [Manual note](note://self-correction-claudemd-reminder)

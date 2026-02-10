@@ -130,6 +130,19 @@ The tips cover four main approaches: using explanatory output styles to understa
   - Claude Code can serve as an interactive learning companion beyond just a code generation tool
 
 ---
+
+### [Prompt Library - Self-Correction CLAUDE.md Reminder](note://self-correction-claudemd-reminder)
+*2026-02-10T00:00:00Z* | Tags: prompt-library, ai-prompts, continuous-improvement, error-correction, documentation
+
+A simple but powerful prompt pattern to append after correcting an AI coding agent. Instructs the agent to update its CLAUDE.md file after each correction, creating a feedback loop that transforms one-time fixes into permanent documentation.
+
+**Key Points:**
+  - Creates persistent learning from corrections by documenting mistakes in instruction files
+  - Prevents recurring errors across sessions by building project-specific guidelines
+  - Reinforces the principle that errors are learning opportunities
+  - Simple suffix pattern: "Update your CLAUDE.md so you don't make that mistake again."
+
+---
 ### [Why Codex Outperforms Claude for Development Tasks](https://x.com/i/status/2014374967589126183)
 *2026-02-09T20:31:14+00:00* | Tags: ai-coding-assistants, codex, claude, developer-tools, llm-comparison
 

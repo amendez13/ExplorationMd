@@ -79,6 +79,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Why Codex Outperforms Claude for Development Tasks",
       "url": "https://x.com/i/status/2014374967589126183"
+    },
+    {
+      "category": "Prompt Library",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-10T19:33:31+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Self-Correction CLAUDE.md Reminder",
+      "url": "note://18"
     }
   ],
   "version": 2
