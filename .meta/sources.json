@@ -103,6 +103,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "ESR on LLM-Assisted Development Workflow (Enhanced)",
       "url": "https://x.com/esrtweet/status/2019391670609940746"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-10T20:46:49+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Claude Code Power User Tips from the Creator",
+      "url": "https://x.com/bcherny/status/2017742759218794768"
     }
   ],
   "version": 2

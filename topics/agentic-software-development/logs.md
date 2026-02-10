@@ -6,6 +6,25 @@
 
 ---
 
+### [Claude Code Power User Tips from the Creator](https://x.com/bcherny/status/2017742759218794768)
+*2026-02-10* | Tags: claude-code, workflow, parallelism, prompting, skills, environment-setup
+
+Boris Cherny (creator of Claude Code) shares 10 categories of tips sourced from the Claude Code team. Emphasizes that there's no single right way to use Claude Code - experimentation is key.
+
+**Key Points:**
+- Parallel worktrees (3-5 at once) is the single biggest productivity unlock; native support built into Claude Desktop
+- Start complex tasks in plan mode; pour energy into the plan so Claude can 1-shot implementation
+- Invest in CLAUDE.md - after every correction, tell Claude to update it; ruthlessly iterate over time
+- Create reusable skills for anything done more than once a day; commit to git for cross-project use
+- Claude can autonomously fix bugs: paste Slack thread via MCP, say "fix", or "go fix failing CI tests"
+- Advanced prompting: "grill me on these changes", "prove this works", "scrap this and implement the elegant solution"
+- Environment: Ghostty terminal, voice dictation (3x faster than typing), /statusline for context usage
+- Use subagents to throw more compute at problems and keep main context window clean
+- Use Claude for data/analytics via bq CLI or database MCPs - no manual SQL needed
+- Enable "Explanatory" output style for learning; generate HTML presentations or ASCII diagrams
+
+---
+
 ### [ESR on LLM-Assisted Development Workflow](https://x.com/esrtweet/status/2019391670609940746)
 *2026-02-10* | Tags: workflow, mindset, designer-notes, solo-developer, codex
 

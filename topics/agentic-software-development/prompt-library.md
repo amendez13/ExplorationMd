@@ -5,6 +5,9 @@
 ## Index
 - [Relentless Product Discovery Interrogation](#relentless-product-discovery-interrogation)
 - [Self-Correction CLAUDE.md Reminder](#self-correction-claudemd-reminder)
+- [Staff Engineer Plan Review](#staff-engineer-plan-review)
+- [Elegant Solution Refinement](#elegant-solution-refinement)
+- [Prove It Works](#prove-it-works)
 
 ---
 
@@ -47,7 +50,50 @@ This prompt establishes a pattern where corrections are not just one-time fixes 
 
 Use this as a suffix to any correction you give an AI coding agent to ensure the fix is documented and retained.
 
+---
+
+## Staff Engineer Plan Review
+
+Prompt to have a second Claude instance review a plan as a senior engineer before implementation.
+
+Prompt:
+
+```text
+Review this plan as a staff engineer. Identify any gaps in error handling, edge cases not covered, potential performance issues, or simpler alternatives. Don't approve until you're satisfied with the design.
+```
+
+Use this after generating a plan in one Claude session - spin up a second session, share the plan, and have it critique the approach before implementation begins [3].
+
+---
+
+## Elegant Solution Refinement
+
+After getting a working but mediocre implementation, prompt Claude to start fresh with full context.
+
+Prompt:
+
+```text
+Knowing everything you know now, scrap this and implement the elegant solution.
+```
+
+This prompt works because Claude has learned from the first attempt - what worked, what didn't, and where the complexity lies. The second pass often produces significantly cleaner code [3].
+
+---
+
+## Prove It Works
+
+Verification prompt that forces Claude to demonstrate correctness rather than just claim it.
+
+Prompt:
+
+```text
+Prove to me this works. Diff the behavior between main and this feature branch.
+```
+
+This shifts from trusting Claude's assertions to requiring evidence. Particularly useful for subtle changes where manual verification would be tedious [3].
+
 ## Sources
 
 1. [Manual note](note://relentless-product-discovery-interrogation)
 2. [Manual note](note://self-correction-claudemd-reminder)
+3. [Boris Cherny on X](https://x.com/bcherny/status/2017742759218794768) - Claude Code creator sharing tips (2026)
