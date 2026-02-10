@@ -80,3 +80,40 @@ Developer shares prompts used to keep multiple projects advancing daily through 
 - Uses hardware command palette for one-button prompt execution
 
 ---
+
+### [Agent Scripts - Shared Guardrails and Helper Tools](https://github.com/steipete/agent-scripts)
+*2026-02-10* | Tags: agents-md, guardrails, git-workflow, portability, canonical-rules
+
+Peter Steinberger's repository of shared guardrail helpers and scripts for AI agents, maintained as a canonical mirror across multiple development repositories. Demonstrates advanced AGENTS.md architecture with pointer-based rules inheritance.
+
+**Key Points:**
+- Use a "canonical mirror" model where one repository is the authoritative source for shared agent rules
+- Pointer-based architecture: downstream repos reference shared rules via `READ ~/Projects/agent-scripts/AGENTS.MD BEFORE ANYTHING`
+- Helper scripts must remain byte-identical across consuming repositories for consistency
+- Key tools: `committer` (safe git commits), `docs-list.ts` (documentation validation with front-matter requirements)
+- Portability principles: zero repo-specific imports, no tsconfig aliases, code must run in isolation
+- Conventional Commits required; no destructive git ops without explicit consent
+- Safe-by-default: review status/diff before pushing; deletions use `trash` command
+- File management: keep files under ~500 lines; refactor/split as needed
+- Shared vs local rules: shared blocks live in canonical AGENTS.MD, repo-specific additions go after the pointer line
+- Sync workflow includes submodule handling and SHA bumping
+- Avoid "AI slop" UI - intentional typography, committed color palettes, 1-2 high-impact motion moments
+
+---
+
+### [CodexSkillManager - macOS App for Agent Skills](https://github.com/Dimillian/CodexSkillManager)
+*2026-02-10* | Tags: skill-management, macos, codex, claude-code, clawdhub
+
+A macOS SwiftUI app for organizing and managing AI agent skills locally and remotely. Provides a unified interface for skills across Codex and Claude Code environments.
+
+**Key Points:**
+- Manages skills from three directories: `~/.codex/skills`, `~/.codex/skills/public`, and `~/.claude/skills`
+- Renders skill documentation with Markdown formatting
+- Import skills from folders or ZIP archives; delete skills from sidebar
+- Browse remote skills from Clawdhub (a skill catalog) with search and recent additions
+- Shows installation status indicators for Codex, Claude, or both
+- Download remote skills for local use in either agent environment
+- Build with Swift: `swift build && swift run CodexSkillManager`
+- Requires macOS 26+ and Swift 6.2+
+
+---

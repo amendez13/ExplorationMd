@@ -7,6 +7,7 @@
 - [The Shift](#the-shift)
 - [Adoption Framework](#adoption-framework)
 - [Infrastructure Requirements](#infrastructure-requirements)
+- [Guardrail Helpers and Safety Patterns](#guardrail-helpers-and-safety-patterns)
 - [Code Quality at Scale](#code-quality-at-scale)
 - [Sources](#sources)
 
@@ -36,6 +37,23 @@ This represents not just a technical change but a deep cultural shift with signi
 - Update whenever the agent does something wrong or struggles with a task
 - Treat as living documentation that improves agent effectiveness over time
 
+#### Advanced AGENTS.md Architecture [2]
+
+For organizations managing multiple repositories, consider a **canonical mirror model**:
+
+- Maintain a single authoritative repository for shared agent rules (e.g., `agent-scripts`)
+- Downstream repos reference shared rules via a pointer line: `READ ~/Projects/agent-scripts/AGENTS.MD BEFORE ANYTHING`
+- Shared blocks (`[shared]` and `<tools>`) live only in the canonical source
+- Repo-specific additions go **after** the pointer line in consuming repos
+- Helper scripts remain byte-identical across repositories for consistency
+
+**Sync workflow for multi-repo updates:**
+1. Pull latest from canonical source
+2. Verify each target repo contains the pointer line at top
+3. Append repo-local instructions separately (prevents overwrites)
+4. Update all helper scripts simultaneously
+5. For submodules: repeat pointer check, push changes, bump parent repo SHAs
+
 **Build a skills library:**
 - Write reusable skills for anything you get agents to do
 - Commit skills to a shared repository
@@ -64,6 +82,32 @@ Build infrastructure around agent workflows:
 - **Trajectory tracking** - record not just committed code but the agent paths that produced it
 - **Central tool management** - control which tools agents can access
 
+## Guardrail Helpers and Safety Patterns
+
+Reusable helper tools can enforce safety constraints across agent workflows [2].
+
+### Git Safety
+
+- Use a **committer helper** script that stages exactly specified files and enforces non-empty commit messages
+- Require **Conventional Commits** format (`feat|fix|refactor|build|ci|chore|docs|style|perf|test`)
+- Safe-by-default: review status/diff before pushing
+- No destructive operations (`reset --hard`, `rm`) without explicit consent
+- Prefer HTTPS for remotes; avoid repo-wide find-and-replace scripts
+- Use `trash` command for deletions as a safety guardrail
+
+### File Management
+
+- Keep files under ~500 lines; refactor/split as needed
+- Stage upstream files in `/tmp/` before cherry-picking—never overwrite tracked files directly
+- Zero repo-specific imports for maximum portability of helper scripts
+
+### Documentation Validation
+
+- Use tools like **docs-list** to validate documentation structure
+- Enforce front-matter requirements: `summary` and `read_when` fields
+- Update docs when APIs/behavior change—no shipping without docs updates
+- Add `read_when` hints on cross-cutting documentation
+
 ## Code Quality at Scale
 
 Managing AI-generated code at scale is an emerging challenge requiring new processes and conventions.
@@ -86,3 +130,4 @@ As a code reviewer for AI-generated code:
 ## Sources
 
 1. [Greg Brockman on X](https://x.com/gdb/status/2019566641491963946) - OpenAI's internal approach to agentic software development (2026)
+2. [agent-scripts](https://github.com/steipete/agent-scripts) - Shared guardrails and helper tools for AI agents with canonical mirror architecture

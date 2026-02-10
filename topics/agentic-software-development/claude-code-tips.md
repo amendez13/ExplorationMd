@@ -69,6 +69,18 @@ If you do something more than once a day, turn it into a skill or command [1].
 
 Commit skills to git and reuse across every project. Build a personal library of capabilities.
 
+### Skill Management Tools
+
+**CodexSkillManager** [2] is a macOS app that provides a unified interface for managing skills:
+
+- Manages skills across three directories: `~/.codex/skills`, `~/.codex/skills/public`, and `~/.claude/skills`
+- Browse and download remote skills from Clawdhub (a community skill catalog)
+- Visual installation status indicators showing whether skills are installed for Codex, Claude, or both
+- Import skills from folders or ZIP archives
+- Render skill documentation with Markdown formatting
+
+This centralizes skill discovery and management rather than manually copying files between directories.
+
 ## Autonomous Bug Fixing
 
 Claude can fix most bugs with minimal direction [1].
@@ -163,3 +175,4 @@ Build a spaced-repetition learning skill: you explain your understanding, Claude
 ## Sources
 
 1. [Boris Cherny on X](https://x.com/bcherny/status/2017742759218794768) - Claude Code creator sharing tips from the Claude Code team (2026)
+2. [CodexSkillManager](https://github.com/Dimillian/CodexSkillManager) - macOS app for managing agent skills across Codex and Claude Code
