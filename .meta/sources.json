@@ -135,6 +135,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Comprehensive README Generator Prompt",
       "url": "https://gist.github.com/Shpigford/c7f9a32e8e6a0e0babb3f8dca4268e2f"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-10T21:13:57+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Vibe Coding - A New Kind of Development",
+      "url": "https://x.com/i/status/1886192184808149383"
     }
   ],
   "version": 2

@@ -135,3 +135,21 @@ Josh Pigford shares a comprehensive prompt/skill for generating "absurdly thorou
 - Architecture section should include directory structure, request lifecycle diagrams, data flow, and key component explanations
 
 ---
+
+### [Vibe Coding - A New Kind of Development](https://x.com/karpathy/status/1886192184808149383)
+*2026-02-10* | Tags: vibe-coding, workflow, mindset, throwaway-projects, voice-input, karpathy
+
+Andrej Karpathy (AI thought leader, former Tesla AI director and OpenAI researcher) introduces the concept of "vibe coding" - a development style where you fully surrender to the AI's capabilities and stop treating the code as something you need to understand or control.
+
+**Key Points:**
+- "Vibe coding" means fully giving in to the vibes, embracing exponentials, and forgetting that the code even exists
+- Always "Accept All" - don't read the diffs anymore
+- Use voice input (SuperWhisper) to barely touch the keyboard
+- Make trivial requests without hesitation ("decrease the padding on the sidebar by half")
+- When error messages appear, just copy-paste them with no comment - usually that fixes it
+- Code grows beyond usual comprehension; would require significant effort to actually read through
+- When LLMs can't fix a bug, work around it or ask for random changes until it goes away
+- Acknowledges this is best suited for "throwaway weekend projects" rather than production code
+- Represents a paradigm shift: "building a project, but it's not really coding - I just see stuff, say stuff, run stuff, and copy paste stuff"
+
+---
