@@ -128,56 +128,6 @@ Explanation of alternative...
 Comparison of tradeoffs and when each approach applies...
 ```
 
-## Response Format for Integration
-
-When integrating new content, respond with JSON only (no markdown fences):
-
-```json
-{
-  "rationale": "Brief explanation of placement decision",
-  "topic_path": "topic-name",
-  "edits": [
-    {
-      "action": "create" | "update",
-      "file_path": "topic-name/article-slug.md",
-      "section": "Section Name" (for updates, null for creates),
-      "content": "The markdown content",
-      "sources": ["https://source-url"]
-    }
-  ],
-  "readme_updates": ["- [New Article](article.md) - Description"],
-  "index_updates": ["- [New Topic](topics/topic-name/)"]
-}
-```
-
-### Critical Rules for `content` Field
-
-**For `"action": "update"`:**
-- **DO NOT include `## Index`** - the system regenerates it automatically
-- **DO NOT include `## Sources`** - sources are appended automatically
-- **DO NOT include `---` separators** - the system manages file structure
-- Only provide the actual section content (text, lists, code blocks)
-- If updating a specific section, provide only that section's content
-
-**For `"action": "create"`:**
-- Include the title and content sections
-- **DO NOT include `## Index`** - it will be generated from your headings
-- The system will add proper structure and separators
-
-If content doesn't warrant integration (too specific, ephemeral, or not generalizable):
-
-```json
-{
-  "rationale": "Content is too specific for article integration",
-  "topic_path": "topic-name",
-  "edits": [],
-  "readme_updates": [],
-  "index_updates": []
-}
-```
-
-Note: Even when no article integration occurs, the content is still logged to the topic's logs.md.
-
 ## Quality Guidelines
 
 1. **Synthesize, don't copy**: Transform content into integrated knowledge
