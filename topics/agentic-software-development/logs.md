@@ -117,3 +117,21 @@ A macOS SwiftUI app for organizing and managing AI agent skills locally and remo
 - Requires macOS 26+ and Swift 6.2+
 
 ---
+
+### [README Generator Prompt](https://gist.github.com/Shpigford/c7f9a32e8e6a0e0babb3f8dca4268e2f)
+*2026-02-10* | Tags: prompts, documentation, readme, technical-writing
+
+Josh Pigford shares a comprehensive prompt/skill for generating "absurdly thorough" README files. The prompt guides AI agents through deep codebase exploration before writing documentation that serves three purposes: local development setup, system understanding, and production deployment.
+
+**Key Points:**
+- Three-phase workflow: deep codebase exploration, deployment target detection, then strategic questioning only for critical ambiguities
+- Deep exploration first: understand project structure, config files, database schema, dependencies, and scripts before writing anything
+- Twelve-section README structure: overview, tech stack, prerequisites, getting started, architecture, environment variables, scripts, testing, deployment, troubleshooting, contributing, licensing
+- Writing principles: "be absurdly thorough", make every command copy-pasteable, explain the "why" not just the "what"
+- Assume readers are setting up on a fresh machine with no prior codebase familiarity
+- Use tables liberally for reference material (env vars, commands, options)
+- Include linked table of contents for documents over ~200 lines
+- Detect deployment platform from config files (Dockerfile, fly.toml, render.yaml, etc.) and tailor instructions accordingly
+- Architecture section should include directory structure, request lifecycle diagrams, data flow, and key component explanations
+
+---

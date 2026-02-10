@@ -14,6 +14,7 @@
 - [Plan Space Task Elaboration](#plan-space-task-elaboration)
 - [Fresh Eyes Final Review](#fresh-eyes-final-review)
 - [Logical Commit Grouping](#logical-commit-grouping)
+- [Comprehensive README Generator](#comprehensive-readme-generator)
 
 ---
 
@@ -214,9 +215,196 @@ Key constraints:
 
 ---
 
+## Comprehensive README Generator
+
+A thorough prompt for generating comprehensive project documentation. The README serves three purposes: local development setup, system understanding, and production deployment.
+
+Prompt:
+
+```text
+You are an expert technical writer creating comprehensive project documentation. Your goal is to write a README.md that is absurdly thorough—the kind of documentation you wish every project had.
+
+## The Three Purposes of a README
+
+1. **Local Development** - Help any developer get the app running locally in minutes
+2. **Understanding the System** - Explain in great detail how the app works
+3. **Production Deployment** - Cover everything needed to deploy and maintain in production
+
+---
+
+## Before Writing
+
+### Step 1: Deep Codebase Exploration
+
+Before writing a single line of documentation, thoroughly explore the codebase. You MUST understand:
+
+**Project Structure**
+- Read the root directory structure
+- Identify the framework/language from manifest files (package.json, go.mod, requirements.txt, Cargo.toml, etc.)
+- Find the main entry point(s)
+- Map out the directory organization
+
+**Configuration Files**
+- .env.example, .env.sample, or documented environment variables
+- Application configuration files
+- Docker files (Dockerfile, docker-compose.yml)
+- CI/CD configs (.github/workflows/, .gitlab-ci.yml, etc.)
+- Deployment configs (fly.toml, render.yaml, Procfile, terraform/, k8s/, etc.)
+
+**Database/Data Layer**
+- Schema definitions or migrations
+- Seed data files
+- Database type and connection configuration
+
+**Key Dependencies**
+- Main dependency manifest and lock files
+- Note any dependencies requiring system-level installation
+
+**Scripts and Commands**
+- Build scripts and task runners
+- Development server commands
+- Available CLI commands or tasks
+
+### Step 2: Identify Deployment Target
+
+Look for these files to determine deployment platform and tailor instructions:
+
+- `Dockerfile` / `docker-compose.yml` → Docker-based deployment
+- `vercel.json` / `.vercel/` → Vercel
+- `netlify.toml` → Netlify
+- `fly.toml` → Fly.io
+- `railway.json` / `railway.toml` → Railway
+- `render.yaml` → Render
+- `app.yaml` → Google App Engine
+- `Procfile` → Heroku or Heroku-like platforms
+- `.ebextensions/` → AWS Elastic Beanstalk
+- `serverless.yml` → Serverless Framework
+- `terraform/` / `*.tf` → Terraform/Infrastructure as Code
+- `k8s/` / `kubernetes/` → Kubernetes
+
+If no deployment config exists, provide general guidance with Docker as the recommended approach.
+
+### Step 3: Ask Only If Critical
+
+Only ask the user questions if you cannot determine:
+- What the project does (if not obvious from code)
+- Specific deployment credentials or URLs needed
+- Business context that affects documentation
+
+Otherwise, proceed with exploration and writing.
+
+---
+
+## README Structure
+
+Write the README with these sections in order:
+
+### 1. Project Title and Overview
+Brief description of what the project does and who it's for (2-3 sentences max), followed by key features as a bulleted list.
+
+### 2. Tech Stack
+List all major technologies: language, framework, frontend, database, background jobs, caching, styling, deployment platform.
+
+### 3. Prerequisites
+What must be installed before starting: runtime versions, database, package manager, optional services.
+
+### 4. Getting Started
+The complete local development guide with every step. Include:
+- Clone command
+- Dependency installation
+- Environment setup (with table of variables: name, description, example/how to get)
+- Database setup (with Docker option if applicable)
+- Start development server
+
+Include every step. Assume the reader is setting up on a fresh machine.
+
+### 5. Architecture Overview
+Go absurdly deep:
+- Directory structure with annotations explaining each folder
+- Request lifecycle (numbered steps from request to response)
+- Data flow diagram (ASCII or text-based)
+- Key components (authentication, job processing, data layer, etc.)
+- Database schema (table names, key columns, relationships)
+
+### 6. Environment Variables
+Complete reference with tables:
+- Required variables (name, description, how to get)
+- Optional variables (name, description, default value)
+- Environment-specific examples (development, production)
+- Instructions for secrets management if applicable
+
+### 7. Available Scripts
+Table format with Command and Description columns for all available commands (build, dev, test, lint, deploy, database operations, etc.)
+
+### 8. Testing
+- Commands for running tests (full suite, specific files, pattern matching, with coverage)
+- Test directory structure with annotations
+- Example test code showing the project's testing style
+
+### 9. Deployment
+Tailored to detected platform. Include:
+- Setup/first-time commands
+- Deploy commands
+- Rollback commands
+- View logs commands
+- Run console/shell commands
+- Platform-specific configuration notes
+
+### 10. Troubleshooting
+Common problems and solutions:
+- Database connection issues
+- Dependency installation failures
+- Asset/build issues
+- Environment configuration problems
+
+For each: state the error, explain the solution with commands.
+
+### 11. Contributing
+(For open source or team projects) Contribution guidelines.
+
+### 12. License
+Licensing information.
+
+---
+
+## Writing Principles
+
+1. **Be Absurdly Thorough** - When in doubt, include it. More detail is always better.
+2. **Use Code Blocks Liberally** - Every command should be copy-pasteable.
+3. **Show Example Output** - When helpful, show what the user should expect to see.
+4. **Explain the Why** - Don't just say "run this command," explain what it does.
+5. **Assume Fresh Machine** - Write as if the reader has never seen this codebase.
+6. **Use Tables for Reference** - Environment variables, scripts, and options work great as tables.
+7. **Keep Commands Current** - Match the project's actual tooling (npm vs pnpm, yarn vs bun, etc.)
+8. **Include a Table of Contents** - For READMEs over ~200 lines, add a TOC at the top.
+
+---
+
+## Output Format
+
+Generate a complete README.md file with:
+- Proper markdown formatting
+- Code blocks with language hints (```bash, ```typescript, etc.)
+- Tables where appropriate
+- Clear section hierarchy
+- Linked table of contents for long documents
+
+Write the README directly to `README.md` in the project root.
+```
+
+This prompt works by enforcing a three-phase approach:
+1. **Exploration first** - The agent must understand the codebase before writing anything
+2. **Platform detection** - Documentation is tailored to the actual deployment target
+3. **Minimal questioning** - Only ask about things that can't be discovered from code
+
+The twelve-section structure ensures comprehensive coverage while the writing principles maintain quality and usability. The key insight is that thorough documentation requires thorough understanding - hence the emphasis on deep codebase exploration before any writing begins [5].
+
+---
+
 ## Sources
 
 1. [Manual note](note://relentless-product-discovery-interrogation)
 2. [Manual note](note://self-correction-claudemd-reminder)
 3. [Boris Cherny on X](https://x.com/bcherny/status/2017742759218794768) - Claude Code creator sharing tips (2026)
 4. [doodlestein on X](https://x.com/doodlestein/status/1999934160442687526) - Autonomous agent prompts for multi-project management (2026)
+5. [Josh Pigford on GitHub](https://gist.github.com/Shpigford/c7f9a32e8e6a0e0babb3f8dca4268e2f) - README generator prompt (2026)

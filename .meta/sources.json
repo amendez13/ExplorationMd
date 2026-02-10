@@ -127,6 +127,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Agent Scripts and Skill Management Tools",
       "url": "https://x.com/PaulSolt/status/2014374962325323893"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-10T21:07:16+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Comprehensive README Generator Prompt",
+      "url": "https://gist.github.com/Shpigford/c7f9a32e8e6a0e0babb3f8dca4268e2f"
     }
   ],
   "version": 2
