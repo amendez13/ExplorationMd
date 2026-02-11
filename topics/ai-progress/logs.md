@@ -16,5 +16,6 @@ Twitter thread explaining AI progress to people outside the tech bubble. Author 
 - Preparedness imperative: better to be aware and adapt than be caught off-guard
 - Adoption will lag capability but won't take a decade-plus in most industries
 - Individual action: stay informed, try the newest tools to understand progress firsthand
+- Urgency and angst: author expresses frustration at holding back the full picture and genuine anxiety about loved ones remaining unaware
 
 ---
