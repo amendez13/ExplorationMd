@@ -345,3 +345,23 @@ Andrej Karpathy shares extensive observations after weeks of intensive Claude Co
 - December 2025 marks a "threshold of coherence" causing phase shift in software engineering
 
 ---
+
+### [How to Make Your Agent Learn and Ship While You Sleep](https://substack.com)
+*2026-02-11T00:00:00Z* | Tags: automation, overnight-agents, compound-learning, scheduled-tasks, launchd, persistent-memory, autonomous-shipping
+
+Developer describes a nightly automation loop where AI agents review daily work, extract learnings into persistent memory (AGENTS.md/CLAUDE.md), and then pick up the next priority feature from a backlog to implement—all running unattended overnight.
+
+**Key Points:**
+- Two-part nightly loop: compound review at 10:30 PM (extracts learnings from missed sessions), auto-compound at 11:00 PM (implements next priority item)
+- Order matters: review updates AGENTS.md with patterns/gotchas; implementation job pulls fresh context before coding
+- Uses three open-source projects: Compound Engineering Plugin (learning extraction), Compound Product (PRD-to-tasks pipeline), Ralph (autonomous agent loop)
+- For Claude Code: replace `amp execute` with `claude -p "..." --dangerously-skip-permissions`
+- Daily compound review script: agent reviews threads from last 24 hours, retroactively extracts learnings from sessions that didn't compound, updates AGENTS.md, commits and pushes to main
+- Auto-compound script: fetches latest main (with fresh learnings), finds latest prioritized report, picks #1 priority, creates feature branch, generates PRD, converts to tasks, runs execution loop, creates draft PR
+- Uses launchd on macOS (preferred over cron for edge case handling) with plist files for scheduling
+- Requires caffeinate to prevent Mac sleep during automation window (5 PM to 2 AM)
+- AGENTS.md/CLAUDE.md becomes "living knowledge base" that grows every night; agent reads its own updated instructions before each run
+- "Compound effect": patterns discovered Monday inform Tuesday's work; gotchas hit Wednesday avoided Thursday
+- Extension ideas: Slack notifications, multiple priority tracks, automatic PR merge if CI passes, weekly changelog generation
+
+---
