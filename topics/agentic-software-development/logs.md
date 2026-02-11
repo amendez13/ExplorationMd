@@ -182,3 +182,26 @@ Developer demonstrates a multi-model pipeline to reverse engineer a coffee shop'
 - Shows how skills can bridge AI agents to arbitrary external systems with no official API support
 
 ---
+
+### [Shipping at Inference-Speed](https://steipete.me/posts/2025/shipping-at-inference-speed)
+*2026-02-11* | Tags: inference-speed, parallel-projects, architectural-oversight, codex, model-selection, workflow
+
+Peter Steinberger describes how AI coding assistants have transformed development velocity to the point where output is limited only by inference time and architectural thinking. Shares detailed workflow for managing 3-8 simultaneous projects with agents writing essentially all code.
+
+**Key Points:**
+- Software creation is now mostly limited by inference time and hard thinking, not coding speed
+- GPT 5.2 Codex excels at large refactors through extensive file reading (10-15 min) before writing; Opus is faster for small edits but misses context on larger features
+- Manages 3-8 simultaneous projects with careful mental model juggling
+- Uses queueing features rather than complex orchestration; commits directly to main rather than using branches
+- Cross-references existing solutions across projects to save prompts; maintains docs folders with structured subsystem documentation
+- Uses image references for UI iterations ("fix padding" with screenshots)
+- Lets agents autonomously run in project folders for pattern implementation
+- TypeScript for web, Go for CLI, Swift for macOS/iOS applications
+- Context window set to 233,000 tokens for better file visibility
+- Architecture decisions still require manual thinking: dependency selection, framework choices, data flow patterns
+- Never uses issue trackers; prioritizes immediate implementation
+- Starts with CLI prototypes before building extensions or UIs
+- Runs two Macs simultaneously for parallel development; keeps tasks running remotely while traveling
+- "Don't read much code anymore. Watch the stream and sometimes look at key parts" - focus shifted from code review to architectural oversight
+
+---

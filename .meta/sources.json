@@ -183,6 +183,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Multi-Model Pipeline: Reverse Engineering an App to Build an AI-Controlled CLI",
       "url": "https://x.com/robinebers/status/2010936430718304719"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-11T10:20:18+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Shipping at Inference-Speed",
+      "url": "https://steipete.me/posts/2025/shipping-at-inference-speed"
     }
   ],
   "version": 2

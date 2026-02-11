@@ -7,6 +7,7 @@
 - [Mindset Over Tools](#mindset-over-tools)
 - [Designer Notes](#designer-notes)
 - [Session Workflow](#session-workflow)
+- [Inference-Speed Shipping](#inference-speed-shipping)
 - [Design Principles](#design-principles)
 - [The Compression Factor](#the-compression-factor)
 - [Sources](#sources)
@@ -51,6 +52,52 @@ The specific agent matters less than mindset, but practical considerations inclu
 - **Editor integration**: Keep the agent in a separate terminal rather than forcing integration if your editor's terminal emulator has limitations
 - **Simplicity**: Use tools "in the dumbest and most obvious way" - don't over-engineer the setup
 
+## Inference-Speed Shipping
+
+At the advanced end of solo development, output becomes limited primarily by **inference time and architectural thinking** rather than coding speed [2]. This represents a fundamental shift from implementation to oversight.
+
+### Parallel Project Management
+
+Advanced practitioners manage 3-8 simultaneous projects with careful mental model juggling [2]:
+
+- Use queueing features rather than complex orchestration systems
+- Commit directly to main rather than using branches
+- Avoid reverting; instead redirect toward different solutions
+- Keep tasks running remotely while traveling
+- Run multiple machines simultaneously for parallel development
+
+### Model Selection Strategy
+
+Different models excel at different tasks [2]:
+
+- **GPT 5.2 Codex**: Superior for large refactors - reads files extensively (10-15 minutes) before writing. Better context management and token efficiency
+- **Claude Opus**: Faster for small edits but can miss context in larger features
+- **General principle**: Match the model to the task scope
+
+### Workflow Optimizations
+
+- Cross-reference existing solutions across projects to save prompts
+- Maintain docs folders with structured subsystem documentation
+- Use image references for UI iterations ("fix padding" with screenshots)
+- Let agents autonomously run in project folders for pattern implementation
+- Start with CLI prototypes before building extensions or UIs
+- Never use issue trackers; prioritize immediate implementation
+
+### What Still Requires Human Thinking
+
+Even at inference-speed, certain decisions remain manual [2]:
+
+- Dependency and framework selection
+- System architecture decisions (websockets vs. HTML, etc.)
+- Data flow patterns between client/server
+- Mental model maintenance across parallel projects
+
+### The Oversight Shift
+
+> "These days I don't read much code anymore. I watch the stream and sometimes look at key parts."
+
+This represents a paradigm shift from **code review to architectural oversight**. The developer's role becomes system design and direction rather than implementation details.
+
 ## Design Principles
 
 When working with LLMs on code design, leverage the principle that **core code is often implied by a core data structure and natural operations on it** [1]. If you define your data structures well, the LLM can often infer appropriate operations and implementations.
@@ -80,3 +127,4 @@ This was "done in minutes" - a task that would have been "annoyingly long" by ha
 ## Sources
 
 1. [Eric S. Raymond on X](https://x.com/esrtweet/status/2019391670609940746) - Discussion thread on LLM-assisted development workflow (2026)
+2. [Shipping at Inference-Speed](https://steipete.me/posts/2025/shipping-at-inference-speed) - Peter Steinberger on AI-assisted development velocity (2025)
