@@ -143,6 +143,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Vibe Coding - A New Kind of Development",
       "url": "https://x.com/i/status/1886192184808149383"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-11T05:16:58+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Multi-Agent Orchestration Complexity",
+      "url": "https://x.com/i/status/2021386270904287295"
     }
   ],
   "version": 2

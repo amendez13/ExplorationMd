@@ -153,3 +153,16 @@ Andrej Karpathy (AI thought leader, former Tesla AI director and OpenAI research
 - Represents a paradigm shift: "building a project, but it's not really coding - I just see stuff, say stuff, run stuff, and copy paste stuff"
 
 ---
+
+### [Multi-Agent Orchestration as Core Complexity](https://x.com/i/status/2021386270904287295)
+*2026-02-11* | Tags: multi-agent, orchestration, context-management, agent-coordination
+
+Developer shares experience building multi-agent setups, noting that agent orchestration is where the real complexity lives. References Steve Yegge's early identification of this challenge.
+
+**Key Points:**
+- Getting individual agents to work is not the hard part
+- The core challenge is getting multiple agents to coordinate effectively
+- Context loss mid-task is a major problem in multi-agent systems
+- Agent orchestration is an emerging area of complexity that industry leaders identified early
+
+---

@@ -7,6 +7,7 @@
 - [The Shift](#the-shift)
 - [Adoption Framework](#adoption-framework)
 - [Infrastructure Requirements](#infrastructure-requirements)
+  - [Multi-Agent Orchestration](#multi-agent-orchestration)
 - [Guardrail Helpers and Safety Patterns](#guardrail-helpers-and-safety-patterns)
 - [Code Quality at Scale](#code-quality-at-scale)
 - [Sources](#sources)
@@ -82,6 +83,16 @@ Build infrastructure around agent workflows:
 - **Trajectory tracking** - record not just committed code but the agent paths that produced it
 - **Central tool management** - control which tools agents can access
 
+### Multi-Agent Orchestration
+
+As organizations scale agent usage, **multi-agent orchestration** emerges as a key architectural challenge [3]:
+
+- Getting any single agent to work is relatively straightforward
+- The real complexity lies in coordinating multiple agents
+- **Context loss mid-task** is a major failure mode when agents hand off work
+- Solutions require careful attention to context propagation and task boundaries
+- This is an active area of exploration with no settled best practices
+
 ## Guardrail Helpers and Safety Patterns
 
 Reusable helper tools can enforce safety constraints across agent workflows [2].
@@ -131,3 +142,4 @@ As a code reviewer for AI-generated code:
 
 1. [Greg Brockman on X](https://x.com/gdb/status/2019566641491963946) - OpenAI's internal approach to agentic software development (2026)
 2. [agent-scripts](https://github.com/steipete/agent-scripts) - Shared guardrails and helper tools for AI agents with canonical mirror architecture
+3. [X thread on multi-agent orchestration](https://x.com/i/status/2021386270904287295) - Practitioner experience with multi-agent coordination challenges (2026)
