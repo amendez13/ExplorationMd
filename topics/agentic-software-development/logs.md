@@ -325,3 +325,23 @@ Developer shares that diagrams are becoming the primary way of reasoning about c
 - Open source: https://github.com/AlaricLighworker/beautiful-mermaid
 
 ---
+
+### [Karpathy on Claude Coding: Phase Shift Observations](https://x.com/i/status/2015883857489522876)
+*2026-02-11* | Tags: workflow-shift, model-limitations, tenacity, speedups, skill-atrophy, slopacolypse, karpathy
+
+Andrej Karpathy shares extensive observations after weeks of intensive Claude Code usage. Documents the rapid transition from 80% manual to 80% agent coding within a month, detailed failure modes of current agents, and broader implications for the profession.
+
+**Key Points:**
+- Workflow shifted from 80% manual/20% agent to 80% agent/20% manual between November-December 2025; biggest coding workflow change in ~2 decades
+- IDEs still necessary; "agent swarm" and "no IDE" hype premature; models make subtle conceptual errors like a "slightly sloppy, hasty junior dev"
+- Common failure modes: wrong assumptions without checking, no clarification-seeking, no inconsistency surfacing, no tradeoff presentation, sycophancy, overcomplication, code bloat, dead code accumulation, orthogonal code changes
+- Agent tenacity is remarkable - never tire, never demoralize, will struggle for 30 minutes to victory where humans would give up; "stamina is a core bottleneck to work"
+- Speedup is hard to measure; main effect is expansion of what's worth building and approachable
+- Declarative over imperative: "Don't tell it what to do, give it success criteria and watch it go"
+- Programming feels more fun with drudgery removed; remaining work is creative; some engineers will split based on whether they liked coding vs building
+- Skill atrophy already noticeable; generation and discrimination are different brain capabilities
+- 2026 predicted as "slopacolypse" year across GitHub, Substack, arXiv, social media
+- Open questions: 10X engineer ratio may grow substantially; generalists may outperform specialists; much of society is bottlenecked by digital knowledge work
+- December 2025 marks a "threshold of coherence" causing phase shift in software engineering
+
+---

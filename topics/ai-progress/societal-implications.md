@@ -16,6 +16,7 @@
 - [The Opportunity Side](#the-opportunity-side)
 - [Building Adaptability](#building-adaptability)
 - [The Bigger Picture](#the-bigger-picture)
+- [The 2026 Slopacolypse](#the-2026-slopacolypse)
 - [Adoption Timeline](#adoption-timeline)
   - [The Emerging AI Economy](#the-emerging-ai-economy)
 - [Sources](#sources)
@@ -190,6 +191,21 @@ He thinks we're building that country [3].
 
 The people building this technology are simultaneously more excited and more frightened than anyone else. They believe it's too powerful to stop and too important to abandon [3].
 
+## The 2026 Slopacolypse
+
+Karpathy predicts 2026 as the year of the "slopacolypse"—a flood of low-quality AI-generated content across all digital media [6]:
+
+**Affected platforms**:
+- GitHub (auto-generated code of questionable quality)
+- Substack (AI-written articles)
+- arXiv (AI-assisted research papers)
+- X/Instagram (synthetic social content)
+- Digital media generally
+
+**The dual reality**: Alongside actual, real improvements in AI-assisted productivity, there will be a massive wave of "AI hype productivity theater"—the appearance of output without corresponding value.
+
+This creates a signal-to-noise problem: genuine productivity gains will be harder to distinguish from hollow volume. The ability to produce content no longer correlates with quality or insight.
+
 ## Adoption Timeline
 
 Capability will arrive before widespread adoption. Enterprise spending will increase, but consumer patterns remain uncertain. Most industries won't take a decade-plus to adapt, but exceptions will exist [1].
@@ -211,3 +227,4 @@ The advice: be prepared now rather than caught off-guard later.
 3. [Something Big Is Happening (Part 2) - Matt Shumer](https://x.com/mattshumer_)
 4. [AI Adoption Gap Widening - Shanu Mathew](https://x.com/ShanuMathew93/status/2004918070133854548)
 5. [Silent Sirens, Flashing For Us All - Jack Clark](https://importai.substack.com/p/import-ai-438-cyber-capability-overhang)
+6. [Andrej Karpathy on X](https://x.com/i/status/2015883857489522876) - Claude coding observations and 2026 predictions (2026)

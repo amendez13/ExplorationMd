@@ -271,6 +271,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Beautiful Mermaid - Visual Diagrams for Agent Reasoning",
       "url": "https://x.com/i/status/2016564311393464497"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-11T20:27:49+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Karpathy on Claude Coding: Phase Shift Observations",
+      "url": "https://x.com/i/status/2015883857489522876"
     }
   ],
   "version": 2
