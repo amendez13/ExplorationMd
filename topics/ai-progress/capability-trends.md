@@ -4,6 +4,7 @@
 
 ## Index
 
+- [Historical Perspective](#historical-perspective)
 - [Capability Timeline](#capability-timeline)
 - [Productivity Compression](#productivity-compression)
 - [METR Task Duration Measurements](#metr-task-duration-measurements)
@@ -12,6 +13,23 @@
 - [Sources](#sources)
 
 ---
+
+## Historical Perspective
+
+The current AI moment gains context when viewed against the full arc of computing history. Eric S. Raymond, who began programming in 1975, provides a firsthand account of the transformation [3]:
+
+**1975 Computing**:
+- Programs run via punched cards fed into programmable calculators
+- Computers were "giant creatures that lived in glass-walled rooms"
+- Unix and C had not yet left Bell Labs; DOS and IBM PC were six years away
+- Global computing capacity roughly equivalent to a single modern smartphone
+- Teletypes used as production equipment; video terminals barely existed
+- Pixel-addressable color displays were science fiction
+- No version control, no public forges, computer games countable on two hands
+
+**Then vs Now**: Programming was "slow and laborious"—monthly code output was tiny by modern standards. Today, practitioners converse with AI to produce "finished programs I would once have considered prohibitively complex to attempt within a single working day" [3].
+
+Even science-fiction fans couldn't have predicted this timeline. Raymond notes he wouldn't have predicted pocket devices with real-time access to world knowledge arriving within "multiple centuries" [3].
 
 ## Capability Timeline
 
@@ -71,3 +89,4 @@ Important: Default models in free tiers are often a year or more behind what pay
 
 1. [X thread on AI progress](https://x.com/i/status/2021256989876109403)
 2. [Something Big Is Happening - Matt Shumer](https://x.com/mattshumer_)
+3. [Fifty Years of Progress - Eric S. Raymond](https://x.com/esrtweet/status/2004829013068444050)

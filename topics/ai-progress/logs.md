@@ -84,3 +84,19 @@ Essay by Jack Clark (Anthropic co-founder) on how AI progress remains largely in
 - Clark uses a higher-dimensional metaphor: AI exists partially beyond normal observable reality, visible only as glimpses passing through our four-dimensional space
 
 ---
+
+### [Fifty Years of Progress](https://x.com/esrtweet/status/2004829013068444050)
+*2026-02-11T20:00:00Z* | Tags: ai-progress, computing-history, singularity, personal-reflection
+
+Eric S. Raymond (pioneering open-source developer, author of "The Cathedral and the Bazaar") reflects on 50 years of computing progress after using GPT-4.1 through Aider for AI-assisted coding.
+
+**Key Points:**
+- 1975 baseline: Programs run via punched cards on calculators; Unix/C hadn't left Bell Labs; DOS six years away; global computing capacity roughly equivalent to one modern smartphone
+- Primitive tooling: Teletypes as production gear; no version control; no public forges; pixel-addressable color displays were science fiction
+- Programming velocity: Code production was "slow and laborious"—monthly output was tiny by modern standards
+- Present day: "Call spirits from the vasty deep"—conversing with AI to produce in a single day programs that would once have been "prohibitively complex to attempt"
+- Personal milestone: Still coding after 50 years, adapting through every technology generation
+- Prediction failure: Even as a science-fiction fan, would have predicted pocket devices with real-time world knowledge access multiple centuries away
+- Conclusion: "The Singularity is upon us. Everything I've lived through and learned was just prologue."
+
+---
