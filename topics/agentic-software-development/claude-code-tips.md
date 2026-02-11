@@ -14,6 +14,7 @@
 - [Subagents](#subagents)
 - [Data and Analytics](#data-and-analytics)
 - [Learning Mode](#learning-mode)
+- [Visual Reasoning with Diagrams](#visual-reasoning-with-diagrams)
 - [Sources](#sources)
 
 ---
@@ -184,8 +185,31 @@ Enable the "Explanatory" or "Learning" output style in `/config` to have Claude 
 
 Build a spaced-repetition learning skill: you explain your understanding, Claude asks follow-ups to fill gaps, stores the result.
 
+## Visual Reasoning with Diagrams
+
+Diagrams are becoming a primary tool for reasoning about code when working with AI agents [4]. The text-based Mermaid format is particularly effective because agents can both read and generate it.
+
+### Why Diagrams Work for Agent Collaboration
+
+- Agents can generate architecture diagrams, sequence diagrams, and flowcharts as text
+- Visual representations help maintain shared understanding of system state
+- Diagrams serve as artifacts that persist across context windows
+- Mermaid's text-based format is agent-native - no image generation required
+
+### Tooling: Beautiful Mermaid
+
+**Beautiful Mermaid** [4] is a high-performance Mermaid renderer built for developers who use diagrams daily:
+
+- Renders 100 diagrams in under 100ms
+- SVG-level theming and extensive customization options
+- ASCII renderer for terminal-based workflows (ported from Alexander Grooff's Go implementation)
+- Integrations with chat.com and Craft Docs
+
+The ASCII rendering capability is notable for terminal-based agent workflows where visual diagrams need to appear inline in the conversation.
+
 ## Sources
 
 1. [Boris Cherny on X](https://x.com/bcherny/status/2017742759218794768) - Claude Code creator sharing tips from the Claude Code team (2026)
 2. [CodexSkillManager](https://github.com/Dimillian/CodexSkillManager) - macOS app for managing agent skills across Codex and Claude Code
 3. [@robinebers on X](https://x.com/robinebers/status/2010936430718304719) - Multi-model pipeline for reverse engineering an app and building an AI-controlled CLI skill
+4. [Beautiful Mermaid on X](https://x.com/i/status/2016564311393464497) - Diagrams as primary reasoning tool for agent workflows, introducing Beautiful Mermaid renderer

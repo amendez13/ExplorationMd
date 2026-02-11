@@ -263,6 +263,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Quality Over Speed: The Anti-Slop Playbook",
       "url": "https://x.com/i/status/2017871044737192409"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-11T18:46:35+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Beautiful Mermaid - Visual Diagrams for Agent Reasoning",
+      "url": "https://x.com/i/status/2016564311393464497"
     }
   ],
   "version": 2

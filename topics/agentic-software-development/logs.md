@@ -310,3 +310,18 @@ Developer argues that in 2026, building actual quality products is the competiti
 - Competitive advantage emerges from doing what others skip in their rush to ship
 
 ---
+
+### [Beautiful Mermaid - Visual Diagrams for Agent Reasoning](https://x.com/i/status/2016564311393464497)
+*2026-02-11* | Tags: diagrams, mermaid, visual-reasoning, tooling, craft-docs
+
+Developer shares that diagrams are becoming the primary way of reasoning about code with AI agents. Introduces "Beautiful Mermaid" - a fast, themeable renderer for Mermaid diagrams built for daily use.
+
+**Key Points:**
+- Diagrams are becoming a primary tool for reasoning about code when working with agents
+- Mermaid format is praised for its agent-friendly text-based diagram syntax
+- Beautiful Mermaid is a new renderer: 100 diagrams under 100ms, svg-level theming, extensive customization
+- ASCII renderer ported from Alexander Grooff's Go implementation to TypeScript
+- Integration coming to chat.com and Craft Docs
+- Open source: https://github.com/AlaricLighworker/beautiful-mermaid
+
+---
