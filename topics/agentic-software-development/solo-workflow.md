@@ -6,6 +6,7 @@
 
 - [The New Abstraction Layer](#the-new-abstraction-layer)
   - [The Mental Model Challenge](#the-mental-model-challenge)
+    - [The Pellet Gun / Laser Beam Experience](#the-pellet-gun--laser-beam-experience)
   - [The Skill Gap Reality](#the-skill-gap-reality)
   - [Legacy Assumptions Paradox](#legacy-assumptions-paradox)
 - [Mindset Over Tools](#mindset-over-tools)
@@ -43,6 +44,12 @@ The core difficulty is building reliable mental models for entities that are:
 - **Changing** - Capabilities shift with model updates
 
 These properties contrast sharply with traditional software engineering, where determinism, predictability, and transparency are foundational assumptions. Integrating stochastic components into what was "good old fashioned engineering" requires rethinking fundamental assumptions about reliability and verification [3].
+
+#### The Pellet Gun / Laser Beam Experience
+
+A vivid metaphor captures the experiential reality: AI coding assistants behave like "a weapon that fires pellets or sometimes even misfires, and then once in a while when you hold it just right a powerful beam of laser erupts and melts your problem" [5]. Most attempts yield modest results or outright failures. Occasionally, when conditions align, the tool produces exceptional results that dissolve complex problems instantly.
+
+This variability is central to the user experience. Success depends partly on skill—prompt construction, context management, task decomposition—but also on factors outside user control. Practitioners must internalize that inconsistency is the norm, not the exception, and structure their workflows to accommodate both the misfires and the breakthrough moments.
 
 ### The Skill Gap Reality
 
@@ -178,3 +185,4 @@ This was "done in minutes" - a task that would have been "annoyingly long" by ha
 2. [Shipping at Inference-Speed](https://steipete.me/posts/2025/shipping-at-inference-speed) - Peter Steinberger on AI-assisted development velocity (2025)
 3. [Andrej Karpathy on X](https://x.com/i/status/2004607146781278521) - The new programmable layer of abstraction (2026)
 4. [Anthropic engineer on X](https://x.com/i/status/2004626064187031831) - Legacy assumptions and the mental adjustment problem (2026)
+5. [Developer on X](https://x.com/i/status/2004628491862696070) - The pellet gun / laser beam experience metaphor (2026)

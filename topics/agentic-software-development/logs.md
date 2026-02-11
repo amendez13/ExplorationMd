@@ -277,3 +277,18 @@ An Anthropic engineer on the Claude Code team reflects on the continuous mental 
 - "This is *still* just the beginning" - expectation recalibration is ongoing even for early adopters
 
 ---
+
+### [The Pellet Gun / Laser Beam Experience](https://x.com/i/status/2004628491862696070)
+*2026-02-11* | Tags: user-experience, stochastic-behavior, mental-model, expectations
+
+Developer describes the inconsistent experience of AI coding assistants using a vivid metaphor: a weapon that fires pellets, sometimes misfires, but occasionally produces a powerful laser beam when held just right.
+
+**Key Points:**
+- AI coding tools produce highly variable results - inconsistency is the norm, not the exception
+- Most attempts yield modest results ("pellets") or outright failures ("misfires")
+- Occasionally, when conditions align perfectly, the tool produces exceptional results ("laser beam" that "melts your problem")
+- The metaphor captures the stochastic nature that makes these tools both frustrating and transformative
+- Success depends partly on skill ("hold it just right") but also on factors outside user control
+- This variability is a core experiential reality that practitioners must internalize
+
+---
