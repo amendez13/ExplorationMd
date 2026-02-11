@@ -151,6 +151,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Multi-Agent Orchestration Complexity",
       "url": "https://x.com/i/status/2021386270904287295"
+    },
+    {
+      "category": "ai-progress",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-11T05:33:52+00:00",
+      "log_path": "topics/ai-progress/logs.md",
+      "title": "The Real State of AI Progress",
+      "url": "https://x.com/i/status/2021256989876109403"
     }
   ],
   "version": 2
