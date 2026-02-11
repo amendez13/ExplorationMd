@@ -159,6 +159,14 @@
       "log_path": "topics/ai-progress/logs.md",
       "title": "The Real State of AI Progress",
       "url": "https://x.com/i/status/2021256989876109403"
+    },
+    {
+      "category": "AI Progress",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-11T07:46:29+00:00",
+      "log_path": "topics/ai-progress/logs.md",
+      "title": "Something Big Is Happening",
+      "url": "note://31"
     }
   ],
   "version": 2

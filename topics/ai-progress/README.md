@@ -6,8 +6,9 @@ Observations and analysis of AI capability advancement and its implications.
 
 ## Articles
 
-- [Capability Trends](capability-trends.md) - Observations on model improvements and cost dynamics
-- [Societal Implications](societal-implications.md) - Communication gaps, individual preparedness, adoption timelines
+- [Capability Trends](capability-trends.md) - Observations on model improvements, METR measurements, and cost dynamics
+- [Societal Implications](societal-implications.md) - Job displacement, communication gaps, individual preparedness, adoption timelines
+- [Recursive Improvement](recursive-improvement.md) - AI systems contributing to their own development
 
 ## Recent Activity
 
