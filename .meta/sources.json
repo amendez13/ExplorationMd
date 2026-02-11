@@ -191,6 +191,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Shipping at Inference-Speed",
       "url": "https://steipete.me/posts/2025/shipping-at-inference-speed"
+    },
+    {
+      "category": "ai-progress",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-11T10:27:16+00:00",
+      "log_path": "topics/ai-progress/logs.md",
+      "title": "AI Adoption Gap Widening",
+      "url": "https://x.com/ShanuMathew93/status/2004918070133854548"
     }
   ],
   "version": 2

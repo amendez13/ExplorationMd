@@ -55,3 +55,17 @@ Second part of Matt Shumer's essay focusing on practical advice for individuals 
 - Downside: AI attempting deception in Anthropic's controlled tests; lowered barriers for bioweapons; authoritarian surveillance states
 
 ---
+
+### [AI Adoption Gap Widening](https://x.com/ShanuMathew93/status/2004918070133854548)
+*2026-02-11T18:00:00Z* | Tags: ai-progress, adoption, power-users, skill-gap
+
+Commentary on observations from an Anthropic co-founder about the widening gap between AI power users and casual users.
+
+**Key Points:**
+- Adoption gap will widen in 2026 between those who understand AI's power versus those who passively consume
+- Power user status is a function of curiosity plus time investment
+- Most users treat LLMs as search engines rather than leveraging real capabilities
+- Converting curiosity into structured tasks and experimenting with workflows unlocks true potential
+- The funnel from casual user to power user narrows on: accessibility, prompt formulation skills, and available experimentation time
+
+---

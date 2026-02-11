@@ -5,6 +5,7 @@
 ## Index
 
 - [The Communication Gap](#the-communication-gap)
+- [The Power User Gap](#the-power-user-gap)
 - [Job Displacement](#job-displacement)
 - [Why This Automation Wave Is Different](#why-this-automation-wave-is-different)
 - [Urgency and Emotional Weight](#urgency-and-emotional-weight)
@@ -30,6 +31,19 @@ Common dismissal patterns [2]:
 - "I tried ChatGPT and it wasn't that good" — based on free-tier models that are over a year behind paid access
 - "It makes stuff up" — true of 2023-2024 models, no longer representative
 - "It can't do what I do" — often asserted without testing current models on actual work
+
+## The Power User Gap
+
+The adoption gap will widen in 2026 between those who've truly experienced AI's capabilities versus those who passively consume [4]. Becoming an AI power user is fundamentally a function of curiosity plus time investment.
+
+**The core problem**: Most users treat LLMs like search engines—asking quick questions and expecting instant answers. Real capabilities emerge from converting curiosity into structured tasks and experimenting with workflows [4].
+
+**The narrowing funnel** from casual user to power user depends on three factors [4]:
+1. **Accessibility** — Having access to capable models (not just free tiers)
+2. **Prompt formulation skills** — Learning to frame problems in ways AI can solve
+3. **Available experimentation time** — Dedicating time to active exploration rather than passive reading
+
+This creates a self-reinforcing gap: those who invest time discover capabilities that motivate further investment, while casual users never experience enough to understand what they're missing.
 
 ## Job Displacement
 
@@ -184,3 +198,4 @@ The advice: be prepared now rather than caught off-guard later.
 1. [X thread on AI progress](https://x.com/i/status/2021256989876109403)
 2. [Something Big Is Happening - Matt Shumer](https://x.com/mattshumer_)
 3. [Something Big Is Happening (Part 2) - Matt Shumer](https://x.com/mattshumer_)
+4. [AI Adoption Gap Widening - Shanu Mathew](https://x.com/ShanuMathew93/status/2004918070133854548)
