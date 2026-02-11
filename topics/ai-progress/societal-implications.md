@@ -17,6 +17,7 @@
 - [Building Adaptability](#building-adaptability)
 - [The Bigger Picture](#the-bigger-picture)
 - [Adoption Timeline](#adoption-timeline)
+  - [The Emerging AI Economy](#the-emerging-ai-economy)
 - [Sources](#sources)
 
 ---
@@ -44,6 +45,10 @@ The adoption gap will widen in 2026 between those who've truly experienced AI's 
 3. **Available experimentation time** — Dedicating time to active exploration rather than passive reading
 
 This creates a self-reinforcing gap: those who invest time discover capabilities that motivate further investment, while casual users never experience enough to understand what they're missing.
+
+Jack Clark (Anthropic co-founder) describes this phenomenon vividly: "Most of AI progress has this flavor: if you have a bit of intellectual curiosity and some time, you can very quickly shock yourself with how amazingly capable modern AI systems are. But you need to have that magic combination of time and curiosity, and otherwise you're going to consume AI like most people do—as a passive viewer of some unremarkable synthetic slop content" [5].
+
+By summer 2026, Clark expects that "many people who work with frontier AI systems will feel as though they live in a parallel world to people who don't" [5].
 
 ## Job Displacement
 
@@ -191,6 +196,12 @@ Capability will arrive before widespread adoption. Enterprise spending will incr
 
 The underlying capability for massive disruption could be here by end of 2026. Ripple effects through the economy will take time, but the ability is arriving now [2].
 
+### The Emerging AI Economy
+
+The AI economy will move fast relative to everything else—similar to how the crypto economy moved oddly fast relative to the rest of the digital economy, but with a crucial difference: the AI economy already touches much more of "regular" economic reality [5].
+
+Clark predicts that by summer 2026 "it will be as though the digital world is going through some kind of fast evolution, with some parts of it emitting a huge amount of heat and light and moving with counter-intuitive speed relative to everything else. Great fortunes will be won and lost here." Yet it will all feel "somewhat ghostly, even to practitioners that work at its center" [5].
+
 The advice: be prepared now rather than caught off-guard later.
 
 ## Sources
@@ -199,3 +210,4 @@ The advice: be prepared now rather than caught off-guard later.
 2. [Something Big Is Happening - Matt Shumer](https://x.com/mattshumer_)
 3. [Something Big Is Happening (Part 2) - Matt Shumer](https://x.com/mattshumer_)
 4. [AI Adoption Gap Widening - Shanu Mathew](https://x.com/ShanuMathew93/status/2004918070133854548)
+5. [Silent Sirens, Flashing For Us All - Jack Clark](https://importai.substack.com/p/import-ai-438-cyber-capability-overhang)

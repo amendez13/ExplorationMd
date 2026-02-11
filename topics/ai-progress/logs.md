@@ -69,3 +69,18 @@ Commentary on observations from an Anthropic co-founder about the widening gap b
 - The funnel from casual user to power user narrows on: accessibility, prompt formulation skills, and available experimentation time
 
 ---
+
+### [Silent Sirens, Flashing For Us All](https://importai.substack.com/p/import-ai-438-cyber-capability-overhang)
+*2026-02-11T19:00:00Z* | Tags: ai-progress, adoption, parallel-worlds, illegibility, ai-economy
+
+Essay by Jack Clark (Anthropic co-founder) on how AI progress remains largely invisible to the general public despite transformative changes.
+
+**Key Points:**
+- AI is under-elicited: those with curiosity, time, and access can shock themselves with capabilities, but passive consumers see only "unremarkable synthetic slop"
+- By summer 2026, AI practitioners will feel they live in a "parallel world" from non-users
+- The emerging "AI economy" will evolve rapidly—faster than even crypto did—but touches more of regular economic reality
+- Progress feels "ghostly" even to practitioners: no visible drones or robots, yet invisible digital transformations accelerate
+- The funnel from casual user to power user narrows dramatically on curiosity, access, prompt formulation, and experimentation time
+- Clark uses a higher-dimensional metaphor: AI exists partially beyond normal observable reality, visible only as glimpses passing through our four-dimensional space
+
+---
