@@ -246,3 +246,18 @@ Boris Cherny (creator of Claude Code) reflects on the tool's evolution from a Se
 - Technology described as "alien and magical" - enabling people to build and create beyond traditional coding limitations
 
 ---
+
+### [The New Programmable Layer of Abstraction](https://x.com/i/status/2004607146781278521)
+*2026-02-11* | Tags: abstraction-layer, mental-model, skill-gap, agents, karpathy
+
+Andrej Karpathy (AI thought leader, former Tesla AI director, OpenAI researcher) describes the overwhelming new conceptual landscape facing programmers. Characterizes the moment as a "magnitude 9 earthquake" rocking the profession.
+
+**Key Points:**
+- Programmers must now master a new layer of abstraction on top of traditional engineering: agents, subagents, prompts, contexts, memory, modes, permissions, tools, plugins, skills, hooks, MCP, LSP, slash commands, workflows, IDE integrations
+- The feeling of being "behind" is pervasive - sensing potential 10X productivity boost but struggling to claim it feels like "skill issue"
+- Programming profession is being "dramatically refactored" with programmer contributions becoming "increasingly sparse and between"
+- Must build mental models for "fundamentally stochastic, fallible, unintelligible and changing entities" intermingled with traditional deterministic engineering
+- Compares to being handed a "powerful alien tool" with no manual - everyone must figure out how to operate it themselves
+- Call to action: "Roll up your sleeves to not fall behind"
+
+---

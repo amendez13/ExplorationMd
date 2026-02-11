@@ -231,6 +231,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Claude Code Creator Reflects on One Year of Progress",
       "url": "https://x.com/i/status/2004887829252317325"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-11T13:41:50+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "The New Programmable Layer of Abstraction",
+      "url": "https://x.com/i/status/2004607146781278521"
     }
   ],
   "version": 2

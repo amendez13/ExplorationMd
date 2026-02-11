@@ -4,6 +4,7 @@
 
 ## Index
 
+- [The New Abstraction Layer](#the-new-abstraction-layer)
 - [Mindset Over Tools](#mindset-over-tools)
 - [Designer Notes](#designer-notes)
 - [Session Workflow](#session-workflow)
@@ -13,6 +14,38 @@
 - [Sources](#sources)
 
 ---
+
+## The New Abstraction Layer
+
+Programming has gained a new conceptual layer that sits on top of traditional software engineering [3]. Beyond the usual layers of abstraction (hardware, OS, runtime, frameworks), developers must now master:
+
+- **Agents and subagents** - Autonomous units that explore, plan, and execute
+- **Prompts and contexts** - How to communicate intent and provide relevant information
+- **Memory and modes** - Session state, plan mode vs. implementation mode
+- **Permissions and tools** - Sandboxing, allowed actions, CLI integrations
+- **Plugins, skills, hooks** - Extending agent capabilities and automating workflows
+- **MCP and LSP** - Protocol-level integrations for tool and language server communication
+- **Slash commands and workflows** - Higher-level automation patterns
+- **IDE integrations** - Embedding agents into development environments
+
+This represents a fundamental shift in what "programming" means. The programmer's contributions are becoming "increasingly sparse and between" as agents handle more of the implementation work [3].
+
+### The Mental Model Challenge
+
+The core difficulty is building reliable mental models for entities that are:
+
+- **Stochastic** - Outputs vary even for identical inputs
+- **Fallible** - Make mistakes in non-deterministic ways
+- **Unintelligible** - Internal reasoning is not fully transparent
+- **Changing** - Capabilities shift with model updates
+
+These properties contrast sharply with traditional software engineering, where determinism, predictability, and transparency are foundational assumptions. Integrating stochastic components into what was "good old fashioned engineering" requires rethinking fundamental assumptions about reliability and verification [3].
+
+### The Skill Gap Reality
+
+The feeling of being behind is pervasive among practitioners. The potential productivity boost from properly leveraging available tools could be 10X or more, but capturing that boost requires mastering a rapidly evolving ecosystem with no definitive manual [3].
+
+Karpathy describes this as being handed a "powerful alien tool" that everyone must figure out how to operate on their own, while a "magnitude 9 earthquake" reshapes the profession. The response: "Roll up your sleeves to not fall behind" [3].
 
 ## Mindset Over Tools
 
@@ -128,3 +161,4 @@ This was "done in minutes" - a task that would have been "annoyingly long" by ha
 
 1. [Eric S. Raymond on X](https://x.com/esrtweet/status/2019391670609940746) - Discussion thread on LLM-assisted development workflow (2026)
 2. [Shipping at Inference-Speed](https://steipete.me/posts/2025/shipping-at-inference-speed) - Peter Steinberger on AI-assisted development velocity (2025)
+3. [Andrej Karpathy on X](https://x.com/i/status/2004607146781278521) - The new programmable layer of abstraction (2026)
