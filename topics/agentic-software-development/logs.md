@@ -292,3 +292,21 @@ Developer describes the inconsistent experience of AI coding assistants using a 
 - This variability is a core experiential reality that practitioners must internalize
 
 ---
+
+### [Quality Over Speed: The Anti-Slop Playbook](https://x.com/i/status/2017871044737192409)
+*2026-02-11* | Tags: product-quality, ai-slop, user-engagement, validation, differentiation
+
+Developer argues that in 2026, building actual quality products is the competitive advantage while others rush to ship "AI slop." Presents a five-point playbook for standing out through customer-centric practices.
+
+**Key Points:**
+- Build actual products while competitors ship low-quality "AI slop"
+- Validate ideas before building - don't skip discovery because AI makes building fast
+- Create public roadmaps where users can upvote features - transparency builds trust
+- Let people report bugs and see them getting fixed - visible accountability
+- Test software before release - basic discipline often skipped when velocity feels unlimited
+- Make customers feel like they're part of something - community engagement as differentiator
+- These practices "used to be the gold standard" but are now rare because AI makes building "fun and fast"
+- Speed without quality is noise; sustainable success requires both
+- Competitive advantage emerges from doing what others skip in their rush to ship
+
+---

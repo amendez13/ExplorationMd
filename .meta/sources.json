@@ -255,6 +255,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "The Pellet Gun / Laser Beam Experience",
       "url": "https://x.com/i/status/2004628491862696070"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-11T13:51:04+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Quality Over Speed: The Anti-Slop Playbook",
+      "url": "https://x.com/i/status/2017871044737192409"
     }
   ],
   "version": 2
