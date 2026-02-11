@@ -100,3 +100,18 @@ Eric S. Raymond (pioneering open-source developer, author of "The Cathedral and 
 - Conclusion: "The Singularity is upon us. Everything I've lived through and learned was just prologue."
 
 ---
+
+### [Claude Code Creator: One Year of Progress](https://x.com/i/status/2004887829252317325)
+*2026-02-11* | Tags: ai-progress, capability-trends, productivity-metrics, claude-code
+
+Boris Cherny, creator of Claude Code, reflects on the tool's evolution and shares concrete productivity metrics demonstrating AI capability advancement.
+
+**Key Points:**
+- Claude Code began as a side project in September 2024
+- One year ago: Claude struggled to generate bash commands without escaping issues; worked seconds to minutes at a time
+- Current state: Claude consistently runs for minutes, hours, and days (using Stop hooks)
+- 30-day metrics: 259 PRs, 497 commits, 40k lines added, 38k lines removed—all AI-generated
+- "Code is no longer the bottleneck"—software engineering is fundamentally changing
+- Describes the technology as "alien and magical"
+
+---

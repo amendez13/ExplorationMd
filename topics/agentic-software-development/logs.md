@@ -230,3 +230,19 @@ Official Anthropic documentation providing comprehensive guidance on getting the
 - Common failures: kitchen-sink sessions, repeated corrections, over-specified CLAUDE.md, unverified output, infinite exploration
 
 ---
+
+### [Claude Code Creator Reflects on One Year of Progress](https://x.com/i/status/2004887829252317325)
+*2026-02-11* | Tags: claude-code, productivity-metrics, capability-trends, origin-story, opus-4.5
+
+Boris Cherny (creator of Claude Code) reflects on the tool's evolution from a September 2024 side project to a core development tool. Shares concrete productivity metrics demonstrating the shift in software engineering.
+
+**Key Points:**
+- Claude Code started as a side project in September 2024; grew beyond expectations
+- A year ago: Claude struggled to generate bash commands without escaping issues; worked for seconds or minutes at a time
+- Today: Claude consistently runs for minutes, hours, and days at a time (using Stop hooks)
+- 30-day productivity metrics: 259 PRs, 497 commits, 40k lines added, 38k lines removed
+- Every single line written by Claude Code + Opus 4.5 - no human-written code
+- "Code is no longer the bottleneck" - software engineering is fundamentally changing
+- Technology described as "alien and magical" - enabling people to build and create beyond traditional coding limitations
+
+---

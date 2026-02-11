@@ -53,6 +53,12 @@ Current experience from practitioners [2]:
 - AI opens the app, clicks through buttons, tests features, iterates on its own
 - AI demonstrates something resembling judgment and taste—knowing "what the right call is"
 
+**Concrete metrics from Claude Code creator** [4]:
+- 30-day output: 259 PRs, 497 commits, 40,000 lines added, 38,000 lines removed
+- Every line written by Claude Code + Opus 4.5 with no human-written code
+- AI runs for minutes, hours, and even days autonomously (using Stop hooks)
+- One year prior, the same AI struggled with basic bash escaping and worked only seconds to minutes at a time
+
 ## METR Task Duration Measurements
 
 METR tracks the length of real-world tasks (measured by human expert completion time) that AI can complete successfully end-to-end without human help [2]:
@@ -90,3 +96,4 @@ Important: Default models in free tiers are often a year or more behind what pay
 1. [X thread on AI progress](https://x.com/i/status/2021256989876109403)
 2. [Something Big Is Happening - Matt Shumer](https://x.com/mattshumer_)
 3. [Fifty Years of Progress - Eric S. Raymond](https://x.com/esrtweet/status/2004829013068444050)
+4. [Claude Code Creator Reflects on One Year of Progress - Boris Cherny](https://x.com/i/status/2004887829252317325)

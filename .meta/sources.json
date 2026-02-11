@@ -223,6 +223,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Claude Code Best Practices - Official Documentation",
       "url": "https://code.claude.com/docs/en/best-practices"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-11T13:35:08+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Claude Code Creator Reflects on One Year of Progress",
+      "url": "https://x.com/i/status/2004887829252317325"
     }
   ],
   "version": 2
