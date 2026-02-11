@@ -205,3 +205,28 @@ Peter Steinberger describes how AI coding assistants have transformed developmen
 - "Don't read much code anymore. Watch the stream and sometimes look at key parts" - focus shifted from code review to architectural oversight
 
 ---
+
+### [Claude Code Best Practices - Official Documentation](https://code.claude.com/docs/en/best-practices)
+*2026-02-11* | Tags: claude-code, best-practices, context-management, verification, planning, prompting, environment, scaling, official-docs
+
+Official Anthropic documentation providing comprehensive guidance on getting the most out of Claude Code. Covers the agentic coding paradigm where Claude explores, plans, and implements autonomously, with emphasis on managing the fundamental constraint: context window performance degradation.
+
+**Key Points:**
+- Context window is the core constraint - performance degrades as it fills; track usage continuously with `/statusline`
+- Verification is highest-leverage: include tests, screenshots, or expected outputs so Claude can self-check
+- Four-phase workflow: Explore (Plan Mode) → Plan → Implement (Normal Mode) → Commit
+- Specific prompts reduce corrections: scope tasks, point to sources, reference existing patterns, describe symptoms
+- CLAUDE.md should be concise - only include what would cause mistakes if removed; bloated files are ignored
+- Permission allowlists and sandboxing reduce interruptions while maintaining safety
+- CLI tools are most context-efficient for external services; MCP servers extend to Notion, Figma, databases
+- Hooks guarantee deterministic actions; skills extend domain knowledge on-demand
+- Custom subagents run in separate contexts for specialized tasks (security review, research)
+- Course-correct early: `Esc` to stop, `Esc+Esc` or `/rewind` to restore state, `/clear` between tasks
+- Subagents keep main context clean - delegate research that would consume tokens
+- Checkpoints persist across sessions; rewind any time to restore conversation and/or code state
+- Headless mode (`claude -p`) enables CI integration, pre-commit hooks, and batch processing
+- Parallel sessions via Claude Desktop, web, or agent teams; Writer/Reviewer pattern for quality
+- Fan-out patterns for migrations: loop through file lists with scoped `--allowedTools`
+- Common failures: kitchen-sink sessions, repeated corrections, over-specified CLAUDE.md, unverified output, infinite exploration
+
+---

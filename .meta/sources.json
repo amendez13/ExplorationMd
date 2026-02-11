@@ -215,6 +215,14 @@
       "log_path": "topics/ai-progress/logs.md",
       "title": "Fifty Years of Progress",
       "url": "https://x.com/esrtweet/status/2004829013068444050"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-11T11:18:28+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Claude Code Best Practices - Official Documentation",
+      "url": "https://code.claude.com/docs/en/best-practices"
     }
   ],
   "version": 2

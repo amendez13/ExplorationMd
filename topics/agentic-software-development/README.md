@@ -6,6 +6,7 @@ Knowledge and resources about AI-powered coding agents and development workflows
 
 ## Articles
 
+- [Best Practices](best-practices.md) - Official Anthropic guidance on context management, verification, planning, and scaling Claude Code
 - [Claude Code Tips](claude-code-tips.md) - Power user tips from the Claude Code team for parallel work, prompting, and environment setup
 - [Team Adoption](team-adoption.md) - Organizational strategies for adopting agentic development workflows
 - [Solo Workflow](solo-workflow.md) - Individual practitioner workflow and mindset for LLM-assisted development
