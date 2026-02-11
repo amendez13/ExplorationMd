@@ -261,3 +261,19 @@ Andrej Karpathy (AI thought leader, former Tesla AI director, OpenAI researcher)
 - Call to action: "Roll up your sleeves to not fall behind"
 
 ---
+
+### [Legacy Assumptions and the Mental Adjustment Problem](https://x.com/i/status/2004626064187031831)
+*2026-02-11* | Tags: mindset, legacy-assumptions, opus-4.5, productivity, debugging, anthropic
+
+An Anthropic engineer on the Claude Code team reflects on the continuous mental recalibration required to use AI models effectively. Observes that newer engineers without legacy model assumptions often use AI more effectively than experienced practitioners.
+
+**Key Points:**
+- Experienced engineers regularly approach problems manually before remembering "Claude can probably do this"
+- Concrete example: While debugging a memory leak, one engineer used traditional profiler-based approach; a coworker asked Claude to make a heap dump and analyze it—Claude 1-shotted the fix and submitted a PR
+- Newer engineers and new grads without assumptions about model limitations use tools more effectively
+- Legacy memories formed with older models create mental friction that must be continuously overcome
+- Mental re-adjustment to model capabilities needed "every month or two" as models improve
+- First month as an engineer without opening an IDE at all - Opus 4.5 wrote ~200 PRs, every line
+- "This is *still* just the beginning" - expectation recalibration is ongoing even for early adopters
+
+---

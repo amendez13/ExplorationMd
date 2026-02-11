@@ -239,6 +239,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "The New Programmable Layer of Abstraction",
       "url": "https://x.com/i/status/2004607146781278521"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-11T13:43:07+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Legacy Assumptions and the Mental Adjustment Problem",
+      "url": "https://x.com/i/status/2004626064187031831"
     }
   ],
   "version": 2

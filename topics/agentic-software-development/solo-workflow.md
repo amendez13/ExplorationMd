@@ -5,6 +5,9 @@
 ## Index
 
 - [The New Abstraction Layer](#the-new-abstraction-layer)
+  - [The Mental Model Challenge](#the-mental-model-challenge)
+  - [The Skill Gap Reality](#the-skill-gap-reality)
+  - [Legacy Assumptions Paradox](#legacy-assumptions-paradox)
 - [Mindset Over Tools](#mindset-over-tools)
 - [Designer Notes](#designer-notes)
 - [Session Workflow](#session-workflow)
@@ -46,6 +49,18 @@ These properties contrast sharply with traditional software engineering, where d
 The feeling of being behind is pervasive among practitioners. The potential productivity boost from properly leveraging available tools could be 10X or more, but capturing that boost requires mastering a rapidly evolving ecosystem with no definitive manual [3].
 
 Karpathy describes this as being handed a "powerful alien tool" that everyone must figure out how to operate on their own, while a "magnitude 9 earthquake" reshapes the profession. The response: "Roll up your sleeves to not fall behind" [3].
+
+### Legacy Assumptions Paradox
+
+Counterintuitively, experienced engineers may face more friction than newcomers when using AI tools effectively [4]. This stems from **legacy assumptions**—mental models formed when earlier models had significant limitations.
+
+**The pattern repeats weekly**: An engineer starts approaching a problem manually (connecting a profiler, examining heap allocations by hand), only to see a colleague ask Claude to perform the same task and get a working PR in one shot [4].
+
+Engineers who began working after models became highly capable lack these legacy memories. They ask the model to attempt tasks that experienced practitioners would have assumed were "out of scope" for AI—and often succeed.
+
+**The recalibration cadence**: Model capabilities improve fast enough that expectations need adjustment "every month or two" [4]. What the model couldn't do last quarter may now be trivially within reach. The hardest part for early adopters is continuing to re-adjust upward.
+
+**Concrete milestone**: One Anthropic engineer reported their first month without opening an IDE at all—Opus 4.5 wrote approximately 200 PRs, every single line [4]. This suggests the skill gap isn't just about using AI more, but about overcoming the instinct to use AI less than optimal.
 
 ## Mindset Over Tools
 
@@ -162,3 +177,4 @@ This was "done in minutes" - a task that would have been "annoyingly long" by ha
 1. [Eric S. Raymond on X](https://x.com/esrtweet/status/2019391670609940746) - Discussion thread on LLM-assisted development workflow (2026)
 2. [Shipping at Inference-Speed](https://steipete.me/posts/2025/shipping-at-inference-speed) - Peter Steinberger on AI-assisted development velocity (2025)
 3. [Andrej Karpathy on X](https://x.com/i/status/2004607146781278521) - The new programmable layer of abstraction (2026)
+4. [Anthropic engineer on X](https://x.com/i/status/2004626064187031831) - Legacy assumptions and the mental adjustment problem (2026)
