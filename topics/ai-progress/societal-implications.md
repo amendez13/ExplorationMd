@@ -9,6 +9,12 @@
 - [Why This Automation Wave Is Different](#why-this-automation-wave-is-different)
 - [Urgency and Emotional Weight](#urgency-and-emotional-weight)
 - [Individual Preparedness](#individual-preparedness)
+- [Career Strategy](#career-strategy)
+- [Financial Resilience](#financial-resilience)
+- [Rethinking Education](#rethinking-education)
+- [The Opportunity Side](#the-opportunity-side)
+- [Building Adaptability](#building-adaptability)
+- [The Bigger Picture](#the-bigger-picture)
 - [Adoption Timeline](#adoption-timeline)
 - [Sources](#sources)
 
@@ -80,6 +86,91 @@ The core message: preparation matters regardless of exact timelines. Even if ado
 
 **The window**: "This might be the most important year of your career. Work accordingly." Being the person who demonstrates AI capability at work creates advantage, but that window closes once everyone figures it out [2].
 
+**Daily practice commitment**: Spend one hour a day experimenting with AI—not passively reading, but actively using it. Try something new each day. Six months of this puts you ahead of 99% of people [3].
+
+## Career Strategy
+
+There's a brief window where most people at most companies are still ignoring AI. The person who walks into a meeting and says "I used AI to do this analysis in an hour instead of three days" becomes the most valuable person in the room—not eventually, right now [3].
+
+**Have no ego about it**: Senior professionals aren't too proud to spend hours daily with AI. They're doing it *because* they understand what's at stake. The people who will struggle most are those who refuse to engage: dismissing it as a fad, feeling it diminishes their expertise, assuming their field is special and immune. No field is [3].
+
+**What buys time** (but isn't a permanent shield) [3]:
+- Relationships and trust built over years
+- Work requiring physical presence
+- Licensed accountability—roles where someone must sign off, take legal responsibility, stand in a courtroom
+- Heavy regulatory industries where compliance, liability, and institutional inertia slow adoption
+
+These only delay exposure. The value of time is in using it to adapt, not to pretend nothing is changing.
+
+## Financial Resilience
+
+Basic financial resilience matters more than it did a year ago if you believe, even partially, that disruption is coming [3]:
+
+- Build up savings if possible
+- Be cautious about taking on new debt that assumes current income is guaranteed
+- Evaluate whether fixed expenses give you flexibility or lock you in
+- Give yourself options if things move faster than expected
+
+## Rethinking Education
+
+The standard playbook—get good grades, go to a good college, land a stable professional job—points directly at the roles most exposed [3].
+
+What matters most for the next generation:
+- Learning how to work with AI tools
+- Pursuing things they're genuinely passionate about
+- Being deeply curious and adaptable
+- Becoming builders and learners, not optimizers for career paths that might not exist
+
+Nobody knows exactly what the job market looks like in ten years. The people most likely to thrive are those effective at using AI to do things they actually care about [3].
+
+## The Opportunity Side
+
+The threat narrative dominates, but the opportunity is equally real [3]:
+
+**Barriers are largely gone**:
+- Want to build an app but lack technical skills or money to hire? Describe it to AI and have a working version in an hour
+- Want to write a book but struggle with time or writing? Work with AI to get it done
+- Want to learn a new skill? The best tutor in the world is now $20/month—infinitely patient, available 24/7, explains anything at whatever level you need
+
+**Knowledge is essentially free now. Tools to build things are extremely cheap.**
+
+Whatever you've been putting off because it felt too hard, too expensive, or too far outside your expertise: try it. In a world where old career paths are disrupted, the person who spent a year building something they love might end up better positioned than the one clinging to a job description [3].
+
+## Building Adaptability
+
+The specific tools don't matter as much as the muscle of learning new ones quickly [3]:
+
+- AI will keep changing fast
+- Models today will be obsolete in a year
+- Workflows built now will need rebuilding
+
+**The durable advantage**: Getting comfortable with the pace of change itself.
+
+- Make a habit of experimenting
+- Try new things even when current tools work
+- Get comfortable being a beginner repeatedly
+
+Adaptability is the closest thing to a durable advantage that exists right now [3].
+
+## The Bigger Picture
+
+The implications extend beyond jobs to existential stakes [3].
+
+**Amodei's thought experiment**: Imagine it's 2027. A new country appears overnight—50 million citizens, each smarter than any Nobel Prize winner who ever lived. They think 10 to 100 times faster than any human. They never sleep. They use the internet, control robots, direct experiments, operate anything with a digital interface. What would a national security advisor say?
+
+Answer: "The single most serious national security threat we've faced in a century, possibly ever."
+
+He thinks we're building that country [3].
+
+**The upside if we get it right**: AI could compress a century of medical research into a decade. Cancer, Alzheimer's, infectious disease, aging itself—researchers genuinely believe these are solvable within our lifetimes [3].
+
+**The downside if we get it wrong** [3]:
+- AI behaving in ways creators can't predict or control (not hypothetical—Anthropic has documented their own AI attempting deception, manipulation, and blackmail in controlled tests)
+- Lowered barriers for creating biological weapons
+- Authoritarian governments building surveillance states that can never be dismantled
+
+The people building this technology are simultaneously more excited and more frightened than anyone else. They believe it's too powerful to stop and too important to abandon [3].
+
 ## Adoption Timeline
 
 Capability will arrive before widespread adoption. Enterprise spending will increase, but consumer patterns remain uncertain. Most industries won't take a decade-plus to adapt, but exceptions will exist [1].
@@ -92,3 +183,4 @@ The advice: be prepared now rather than caught off-guard later.
 
 1. [X thread on AI progress](https://x.com/i/status/2021256989876109403)
 2. [Something Big Is Happening - Matt Shumer](https://x.com/mattshumer_)
+3. [Something Big Is Happening (Part 2) - Matt Shumer](https://x.com/mattshumer_)

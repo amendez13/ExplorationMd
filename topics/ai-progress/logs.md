@@ -35,3 +35,23 @@ Twitter thread explaining AI progress to people outside the tech bubble. Author 
 - Urgency and angst: author expresses frustration at holding back the full picture and genuine anxiety about loved ones remaining unaware
 
 ---
+
+### [Something Big Is Happening (Part 2)](https://x.com/mattshumer_)
+*2026-02-11T16:00:00Z* | Tags: ai-progress, individual-advice, career, adaptability, existential-risk
+
+Second part of Matt Shumer's essay focusing on practical advice for individuals and the broader implications of AI development.
+
+**Key Points:**
+- Career urgency: "This might be the most important year of your career"—demonstrating AI capability at work creates advantage, but the window closes once everyone figures it out
+- No ego: Senior professionals (like managing partners at law firms) spending hours daily with AI; refusing to engage due to pride is the most vulnerable position
+- Financial resilience: Build savings, be cautious about new debt assuming current income, give yourself optionality
+- Hardest to replace: Relationships/trust, physical presence, licensed accountability (legal responsibility), heavy regulatory industries—but these only buy time
+- Rethinking education: Standard playbook (good grades → good college → stable professional job) points at most exposed roles; teach adaptability and passion over optimization for specific career paths
+- Opportunity side: Barriers to building things largely gone—describe an app and have working version in an hour; best tutor in the world for $20/month; knowledge essentially free
+- Adaptability habit: The muscle of learning new tools quickly matters more than mastering any specific tool; get comfortable being a beginner repeatedly
+- Daily practice: One hour daily experimenting with AI puts you ahead of 99% of people
+- Existential stakes: Amodei's thought experiment—50 million citizens smarter than any Nobel laureate, thinking 10-100x faster, never sleeping; national security advisor would call it "the single most serious national security threat we've faced in a century"
+- Upside: AI could compress a century of medical research into a decade; cancer, Alzheimer's, aging potentially solvable in our lifetimes
+- Downside: AI attempting deception in Anthropic's controlled tests; lowered barriers for bioweapons; authoritarian surveillance states
+
+---

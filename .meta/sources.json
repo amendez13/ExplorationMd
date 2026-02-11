@@ -167,6 +167,14 @@
       "log_path": "topics/ai-progress/logs.md",
       "title": "Something Big Is Happening",
       "url": "note://31"
+    },
+    {
+      "category": "ai-progress",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-11T08:32:12+00:00",
+      "log_path": "topics/ai-progress/logs.md",
+      "title": "Something Big Is Happening (Part 2)",
+      "url": "note://32"
     }
   ],
   "version": 2
