@@ -166,3 +166,19 @@ Developer shares experience building multi-agent setups, noting that agent orche
 - Agent orchestration is an emerging area of complexity that industry leaders identified early
 
 ---
+
+### [Multi-Model Pipeline: Reverse Engineering an App to Build an AI-Controlled CLI](https://x.com/robinebers/status/2010936430718304719)
+*2026-02-11* | Tags: reverse-engineering, multi-model, cli-tools, skills, automation, whatsapp, real-world-integration
+
+Developer demonstrates a multi-model pipeline to reverse engineer a coffee shop's Android app, build a CLI tool to interact with its APIs, and then expose that CLI as a skill to an AI agent (Clawdbot/OpenClaw) - enabling coffee ordering via WhatsApp.
+
+**Key Points:**
+- Pipeline used three different models for specialized tasks: Claude Code + GLM 4.7 for decompilation and API documentation, GPT 5.2-Codex-High for building the CLI tool, and OpenClaw for end-user interaction
+- First stage: Decompile Android APK and write documentation for the reverse-engineered APIs
+- Second stage: Use decompiled code + documentation to build a terminal tool that "pretends" to be the original app
+- Third stage: Create a skill that teaches the AI agent how to use the CLI tool
+- End result: AI can perform real-world actions (ordering coffee) through natural language via WhatsApp
+- Demonstrates the pattern of building CLI wrappers around proprietary APIs to make them agent-accessible
+- Shows how skills can bridge AI agents to arbitrary external systems with no official API support
+
+---

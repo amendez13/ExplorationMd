@@ -175,6 +175,14 @@
       "log_path": "topics/ai-progress/logs.md",
       "title": "Something Big Is Happening (Part 2)",
       "url": "note://32"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-11T10:11:55+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Multi-Model Pipeline: Reverse Engineering an App to Build an AI-Controlled CLI",
+      "url": "https://x.com/robinebers/status/2010936430718304719"
     }
   ],
   "version": 2

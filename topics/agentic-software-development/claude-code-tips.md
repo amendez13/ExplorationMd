@@ -81,6 +81,18 @@ Commit skills to git and reuse across every project. Build a personal library of
 
 This centralizes skill discovery and management rather than manually copying files between directories.
 
+### Advanced Pattern: CLI Wrappers for External Systems
+
+Skills can bridge AI agents to systems with no official API support by building CLI wrappers [3]. One developer demonstrated a multi-model pipeline:
+
+1. **Reverse engineer the target**: Use Claude Code + GLM to decompile an Android APK and document its internal APIs
+2. **Build a CLI tool**: Use Codex to create a terminal tool that mimics the original app's behavior
+3. **Create the skill**: Write a skill that teaches the AI agent how to use the CLI
+
+The result: ordering coffee via WhatsApp by telling an AI agent "order my usual" - the agent invokes the skill, which calls the CLI, which talks to the coffee shop's backend.
+
+This pattern unlocks automation for any system with a mobile app or web interface, even without official API access. The key insight is that **any programmatic interface can become agent-accessible** through the CLI → skill abstraction layer.
+
 ## Autonomous Bug Fixing
 
 Claude can fix most bugs with minimal direction [1].
@@ -176,3 +188,4 @@ Build a spaced-repetition learning skill: you explain your understanding, Claude
 
 1. [Boris Cherny on X](https://x.com/bcherny/status/2017742759218794768) - Claude Code creator sharing tips from the Claude Code team (2026)
 2. [CodexSkillManager](https://github.com/Dimillian/CodexSkillManager) - macOS app for managing agent skills across Codex and Claude Code
+3. [@robinebers on X](https://x.com/robinebers/status/2010936430718304719) - Multi-model pipeline for reverse engineering an app and building an AI-controlled CLI skill
