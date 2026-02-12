@@ -17,6 +17,7 @@ Knowledge and resources about AI-powered coding agents and development workflows
 - [OpenAI Agent Primitives](openai-agent-primitives.md) - Skills, Shell Tool, and Compaction patterns for long-running agents
 - [Agent Limitations](agent-limitations.md) - Practical constraints and failure modes of coding agents, including latency, context debt, and setup overhead
 - [OSS Monetization](oss-monetization.md) - How coding agents may disrupt attention-based open-source business models
+- [Agent-Native Design](agent-native-design.md) - Designing software for agents as first-class users, not just using agents to build software
 
 ## Recent Activity
 

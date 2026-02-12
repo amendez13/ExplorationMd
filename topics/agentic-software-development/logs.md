@@ -469,3 +469,22 @@ OpenAI's Charlie Guo introduces three agentic primitives for building long-runni
 - Network + skills = exfiltration risk; maintain strict allowlists and treat tool output as untrusted
 
 ---
+
+### [Designing Software for Agents as First-Class Users](https://x.com/rauchg/status/example)
+*2026-02-12* | Tags: agent-native-design, paradigm-shift, product-thinking, cli-tools, skills, delegation
+
+Discussion sparked by Guillermo Rauch's observation: most people who are AI-native in building software do not build AI-native software. Compares the current moment to early internet when merchant websites copied physical stores instead of creating native e-commerce experiences.
+
+**Key Points:**
+- Distinction between "AI-native builders" (using AI to code) and "AI-native products" (designed for agent consumption)
+- Test for agentic thinking: "Would I delegate this to a person? If so, think agentically"
+- Instead of building a local research app, create skills and CLIs that agents can use to do research
+- Two design questions: "How would an agent use this?" vs "How can an agent do this?"
+- Example tradeoff: build a browser automation script vs give Claude browser access directly
+- Security/privacy considerations factor into the decision (some tasks need deterministic scripts, others benefit from agent flexibility)
+- The real shift: designing for agents as first-class users of software, not just builders of it
+- We're still in the "digital catalog phase" - equivalent to early web replicating physical catalogs
+- Some builders are executing old ideas that just became feasible, rather than rethinking what to build
+- Not everything should be agentic (e.g., auth should remain deterministic)
+
+---

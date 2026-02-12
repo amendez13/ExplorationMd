@@ -402,6 +402,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Skills in OpenAI API - Cookbook",
       "url": "https://developers.openai.com/cookbook/examples/skills_in_api"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-12T21:07:18+00:00",
+      "log_path": "topics/topics/agentic-software-development/logs.md",
+      "title": "Agent-Native Design",
+      "url": "note://61"
     }
   ],
   "version": 2
