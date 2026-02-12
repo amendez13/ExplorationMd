@@ -206,6 +206,18 @@ Peter Steinberger describes how AI coding assistants have transformed developmen
 
 ---
 
+### [Senior Engineers Coding as Strength, Not Weakness](https://x.com/i/status/2021767364304679098)
+*2026-02-12* | Tags: engineering-culture, seniority, leadership, scaling, agentic-development
+
+Tweet observation: senior engineers who continued coding were historically seen (in some org cultures) as unable to “let go” and scale, but that norm is changing rapidly.
+
+**Key Points:**
+- Status signals around “hands-on” work can shift as tooling and leverage change
+- Senior engineers can stay closer to implementation without becoming the throughput limiter
+- Culture and incentives matter: hands-on leadership can be a force multiplier when paired with strong review and delegation
+
+---
+
 ### [Claude Code Best Practices - Official Documentation](https://code.claude.com/docs/en/best-practices)
 *2026-02-11* | Tags: claude-code, best-practices, context-management, verification, planning, prompting, environment, scaling, official-docs
 

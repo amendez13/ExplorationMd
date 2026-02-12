@@ -295,6 +295,16 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Entire - AI Code Transparency Platform",
       "url": "https://entire.io/"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [
+        "topics/agentic-software-development/hands-on-leadership.md"
+      ],
+      "indexed_at": "2026-02-12T11:18:51+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Senior Engineers Coding as Strength, Not Weakness",
+      "url": "https://x.com/i/status/2021767364304679098"
     }
   ],
   "version": 2
