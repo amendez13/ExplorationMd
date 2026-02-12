@@ -6,10 +6,12 @@
 
 - [The Old Bargain: Free Code → Human Attention](#the-old-bargain-free-code--human-attention)
 - [What Agents Break](#what-agents-break)
+- [Why Agent-Optimized Docs Can Be “Anti-Business”](#why-agent-optimized-docs-can-be-anti-business)
 - [Tailwind as a Warning Signal (As Claimed)](#tailwind-as-a-warning-signal-as-claimed)
 - [Likely Adaptations](#likely-adaptations)
 - [A New “Agent Marketplace” Hypothesis](#a-new-agent-marketplace-hypothesis)
 - [Counterforces and Mitigations](#counterforces-and-mitigations)
+- [Open Questions](#open-questions)
 - [Sources](#sources)
 
 ---
@@ -29,6 +31,12 @@ Coding agents can:
 - Shift “attention” from humans to model-mediated interfaces, where traditional funnels (docs → product → revenue) are less visible. [1]
 
 If this dynamic holds, OSS that depends on attention capture as its core monetization mechanism becomes more fragile.
+
+## Why Agent-Optimized Docs Can Be “Anti-Business”
+
+The source claims a maintainership dilemma: documentation optimized for agent consumption may further reduce human docs traffic, accelerating the collapse of “docs → premium” conversion funnels. [1]
+
+In this framing, maintainers are being asked to improve the very mechanism (agent consumption) that bypasses their monetization surfaces. [1]
 
 ## Tailwind as a Warning Signal (As Claimed)
 
@@ -61,6 +69,12 @@ Even if attention funnels weaken, several factors can preserve OSS incentives:
 - **Agent-aware packaging**: developers may demand provenance, trust, and support signals (signing, SBOMs, maintenance SLAs) that reintroduce “human governance” even when agents write the glue code.
 
 The practical takeaway for OSS maintainers is to identify which part of their current model depends on human attention, then diversify revenue toward channels that remain legible and enforceable in agent-mediated workflows.
+
+## Open Questions
+
+- If “attention” moves to agent interfaces, what *new* surfaces become monetizable (e.g., provenance guarantees, support SLAs, compliance, verified knowledge bases)?
+- Which OSS categories are most exposed (UI libraries with premium add-ons, ORMs, CMS frameworks) versus more resilient (infra primitives funded by large buyers)?
+- What equilibrium forms if many projects gate access (fragmentation, trust/licensing blowback, “agent app stores”)?
 
 ## Sources
 
