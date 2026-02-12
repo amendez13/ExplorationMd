@@ -2,7 +2,9 @@
 
 # Tools
 
-Tools and workflows that support AI-assisted work, including usage tracking utilities and file-first knowledge systems.
+Tools and workflows for any practical purpose, including developer tooling, note-taking systems, productivity utilities, and AI-assisted workflows.
+
+This topic is intentionally broad: if a tool is useful, it belongs here.
 
 ## Articles
 
