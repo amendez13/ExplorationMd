@@ -364,6 +364,28 @@
       "log_path": "topics/knowledge-tools/logs.md",
       "title": "Obsidian: File-First Notes, Migration, and CLI Search",
       "url": "https://x.com/i/status/2021534318506512672"
+    },
+    {
+      "category": "ai-tooling",
+      "corpus_paths": [
+        "topics/ai-tooling/openusage-ai-limits-tracker.md",
+        "topics/ai-tooling/README.md"
+      ],
+      "indexed_at": "2026-02-12T19:49:42+00:00",
+      "log_path": "topics/ai-tooling/logs.md",
+      "title": "OpenUsage - AI Limits Tracker (Landing Page)",
+      "url": "https://www.openusage.ai/"
+    },
+    {
+      "category": "ai-tooling",
+      "corpus_paths": [
+        "topics/ai-tooling/openusage-ai-limits-tracker.md",
+        "topics/ai-tooling/README.md"
+      ],
+      "indexed_at": "2026-02-12T19:49:42+00:00",
+      "log_path": "topics/ai-tooling/logs.md",
+      "title": "OpenUsage (GitHub Repository)",
+      "url": "https://github.com/robinebers/openusage"
     }
   ],
   "version": 2
