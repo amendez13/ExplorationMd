@@ -1,10 +1,11 @@
 [← Back to Topic](README.md) | [← Home](../../README.md)
 
-# Team Adoption of Agentic Development
+# Team and Organization Adoption of Agentic Development
 
 ## Index
 
 - [The Shift](#the-shift)
+- [Leadership Norm Shift](#leadership-norm-shift)
 - [Adoption Framework](#adoption-framework)
 - [Infrastructure Requirements](#infrastructure-requirements)
   - [Multi-Agent Orchestration](#multi-agent-orchestration)
@@ -22,6 +23,18 @@ Software development is undergoing a fundamental transformation. Engineers who h
 The goal for organizations adopting this approach: **agents should be the tool of first resort** for any technical task, rather than directly using editors or terminals.
 
 This represents not just a technical change but a deep cultural shift with significant downstream implications.
+
+## Leadership Norm Shift
+
+A long-running expectation in some organizations was that, past a certain level of seniority, continuing to write code signaled an inability to delegate or scale impact [5]. That status signal is shifting.
+
+In agentic workflows, hands-on technical leadership can become higher leverage because leaders can stay close to implementation without being the bottleneck. Practical patterns include:
+
+- Using agents for mechanical implementation while senior engineers focus on architecture, constraints, and review quality
+- Running small experiments to validate assumptions quickly, then delegating scale-out execution
+- Modeling and enforcing quality standards in review, tests, and interface design
+
+The net effect is a redefinition of "hands-on": less about writing every line manually, more about maintaining tight feedback loops and engineering judgment across teams.
 
 ## Adoption Framework
 
@@ -159,3 +172,4 @@ The irony: in an era where anyone can ship fast, doing what was always correct (
 2. [agent-scripts](https://github.com/steipete/agent-scripts) - Shared guardrails and helper tools for AI agents with canonical mirror architecture
 3. [X thread on multi-agent orchestration](https://x.com/i/status/2021386270904287295) - Practitioner experience with multi-agent coordination challenges (2026)
 4. [X post on quality vs speed](https://x.com/i/status/2017871044737192409) - Product quality as competitive advantage in the AI era (2026)
+5. [X post on hands-on leadership](https://x.com/i/status/2021767364304679098) - Shifting norms around senior engineers writing code (2026)

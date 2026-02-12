@@ -299,7 +299,7 @@
     {
       "category": "agentic-software-development",
       "corpus_paths": [
-        "topics/agentic-software-development/hands-on-leadership.md"
+        "topics/agentic-software-development/team-adoption.md"
       ],
       "indexed_at": "2026-02-12T11:18:51+00:00",
       "log_path": "topics/agentic-software-development/logs.md",
@@ -355,35 +355,35 @@
       "url": "note://55"
     },
     {
-      "category": "knowledge-tools",
+      "category": "tools",
       "corpus_paths": [
-        "topics/knowledge-tools/obsidian-file-first-notes.md",
-        "topics/knowledge-tools/README.md"
+        "topics/tools/obsidian-file-first-notes.md",
+        "topics/tools/README.md"
       ],
       "indexed_at": "2026-02-12T14:56:11+00:00",
-      "log_path": "topics/knowledge-tools/logs.md",
+      "log_path": "topics/tools/logs.md",
       "title": "Obsidian: File-First Notes, Migration, and CLI Search",
       "url": "https://x.com/i/status/2021534318506512672"
     },
     {
-      "category": "ai-tooling",
+      "category": "tools",
       "corpus_paths": [
-        "topics/ai-tooling/openusage-ai-limits-tracker.md",
-        "topics/ai-tooling/README.md"
+        "topics/tools/openusage-ai-limits-tracker.md",
+        "topics/tools/README.md"
       ],
       "indexed_at": "2026-02-12T19:49:42+00:00",
-      "log_path": "topics/ai-tooling/logs.md",
+      "log_path": "topics/tools/logs.md",
       "title": "OpenUsage - AI Limits Tracker (Landing Page)",
       "url": "https://www.openusage.ai/"
     },
     {
-      "category": "ai-tooling",
+      "category": "tools",
       "corpus_paths": [
-        "topics/ai-tooling/openusage-ai-limits-tracker.md",
-        "topics/ai-tooling/README.md"
+        "topics/tools/openusage-ai-limits-tracker.md",
+        "topics/tools/README.md"
       ],
       "indexed_at": "2026-02-12T19:49:42+00:00",
-      "log_path": "topics/ai-tooling/logs.md",
+      "log_path": "topics/tools/logs.md",
       "title": "OpenUsage (GitHub Repository)",
       "url": "https://github.com/robinebers/openusage"
     }
