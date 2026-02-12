@@ -1,13 +1,13 @@
-# CLAUDE.md for ExplorationMd
+# AGENTS.md for ExplorationMd
 
-Instructions for Claude when integrating new knowledge into this repository.
+Instructions for any agent when integrating new knowledge into this repository.
 
 ## Repository Structure
 
 ```
 ExplorationMd/
 ├── README.md                    # Main entry point with links to all topics
-├── CLAUDE.md                    # These instructions
+├── AGENTS.md                    # These instructions
 ├── topics/                      # All knowledge organized by topic
 │   └── {topic-name}/            # e.g., agentic-software-development
 │       ├── README.md            # Topic overview with links to all articles
