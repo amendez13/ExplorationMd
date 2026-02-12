@@ -394,3 +394,31 @@ Former GitHub CEO Thomas Dohmke launches Entire, a developer platform for managi
 - Investors include Madrona, M12, Basis Set, Harry Stebbings, Jerry Yang, Datadog founder Olivier Pomel
 
 ---
+
+### [OSS Monetization and the “Attention Layer” Problem](https://x.com/i/status/2009688028931875156)
+*2026-02-12T12:15:11Z* | Tags: oss, open-source, monetization, attention-economy, docs, open-core, consulting, closed-source, agent-marketplace
+
+Developer argues that common OSS monetization models depend on *human attention* (docs, brand recognition, perceived expertise), and that coding agents break this funnel by consuming documentation and libraries without routing humans through the maintainer’s surfaces. Uses Tailwind as a cautionary example and predicts a shift toward paid access gating and agent-oriented marketplaces.
+
+**Key Points:**
+- OSS monetization is framed as “free access now, monetize human attention downstream”
+- Coding agents reduce docs traffic and maintainer recognition by bypassing human browsing and discovery
+- Open-core and “expertise moat” models are predicted to weaken when agents mediate usage and learning
+- Tailwind is cited as evidence that downloads can rise while revenue and docs traffic fall
+- “Optimizing docs for agents” is portrayed as accelerating the collapse of the human attention funnel
+- Proposed response: move monetization to the gate via closed source, source-available licenses, or metered access
+- Prediction: an agent-native marketplace where libraries become paid, authenticated capabilities (like APIs)
+
+---
+
+### [Moats Shift to Complexity and Higher Abstraction](https://x.com/i/status/2010044820740563412)
+*2026-02-12* | Tags: abstraction, moats, complexity, competitive-advantage, product-strategy, llm-coding
+
+A short X exchange argues that as LLMs increasingly generate implementation, the enduring value in "code" is in the abstractions you sell or offer. In this framing, defensibility tends to come either from real-world complexity or from building higher-level abstractions that LLMs cannot reliably produce end-to-end from a prompt.
+
+**Key Points:**
+- Code can be viewed primarily as a stack of abstractions, not as the core product itself
+- As LLMs improve, the market shifts toward offering higher-level abstractions rather than raw implementation
+- Moats come from either complexity (messy constraints and edge cases) or from higher abstractions that are hard for LLMs to generate reliably
+
+---

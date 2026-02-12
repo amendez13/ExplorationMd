@@ -53,6 +53,13 @@ Programming has gained a new conceptual layer that sits on top of traditional so
 
 This represents a fundamental shift in what "programming" means. The programmer's contributions are becoming "increasingly sparse and between" as agents handle more of the implementation work [3].
 
+### Abstraction Moats
+
+One framing is that code is ultimately just abstractions—and as LLMs generate more implementation on demand, value shifts toward **choosing and offering the right abstractions** [7]. In this view, defensibility tends to come from either:
+
+- **Complexity**: messy real-world systems with many integrations, edge cases, and constraints
+- **Higher abstractions**: interfaces and products that are hard for an LLM to reliably generate end-to-end from a prompt
+
 ### The Mental Model Challenge
 
 The core difficulty is building reliable mental models for entities that are:
@@ -292,3 +299,4 @@ The phase shift raises fundamental questions about the future of software develo
 4. [Anthropic engineer on X](https://x.com/i/status/2004626064187031831) - Legacy assumptions and the mental adjustment problem (2026)
 5. [Developer on X](https://x.com/i/status/2004628491862696070) - The pellet gun / laser beam experience metaphor (2026)
 6. [Andrej Karpathy on X](https://x.com/i/status/2015883857489522876) - Claude coding observations (2026)
+7. [X discussion on abstraction moats](https://x.com/i/status/2010044820740563412) - Code as abstractions; moats in complexity or higher abstraction (2026)

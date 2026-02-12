@@ -305,6 +305,26 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Senior Engineers Coding as Strength, Not Weakness",
       "url": "https://x.com/i/status/2021767364304679098"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [
+        "topics/agentic-software-development/solo-workflow.md"
+      ],
+      "indexed_at": "2026-02-12T12:16:44+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Moats Shift to Complexity and Higher Abstraction",
+      "url": "https://x.com/i/status/2010044820740563412"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [
+        "topics/agentic-software-development/oss-monetization.md"
+      ],
+      "indexed_at": "2026-02-12T12:15:11+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "OSS Monetization and the “Attention Layer” Problem",
+      "url": "https://x.com/i/status/2009688028931875156"
     }
   ],
   "version": 2
