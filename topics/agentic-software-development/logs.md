@@ -365,3 +365,20 @@ Developer describes a nightly automation loop where AI agents review daily work,
 - Extension ideas: Slack notifications, multiple priority tracks, automatic PR merge if CI passes, weekly changelog generation
 
 ---
+
+### [Entire - AI Code Transparency Platform](https://entire.io/)
+*2026-02-12T00:00:00Z* | Tags: agent-tooling, infrastructure, code-review, transparency, git, thomas-dohmke, github
+
+Former GitHub CEO Thomas Dohmke launches Entire, a developer platform for managing AI-generated code at scale. The company raised a record $60M seed round at $300M valuation from Felicis, Madrona, and others. Entire addresses the fundamental challenge that traditional software production pipelines were never designed for the era of AI agents.
+
+**Key Points:**
+- Three-component architecture: git-compatible database for AI code, universal semantic reasoning layer for multi-agent coordination, AI-native UI for agent-human collaboration
+- Checkpoints CLI is the first product: open source tool that captures prompts, agent decision steps, implementation logic, and full transcripts alongside code
+- Solves the "review bottleneck" - security and compliance require human sign-off but review cannot keep pace with agent velocity
+- Git-compatible database stores reasoning context that agents emit, not just the code output - enables querying intent, not just implementation
+- Currently supports Anthropic Claude Code and Google Gemini CLI
+- Positions as a layer above GitHub/GitLab rather than a competitor - manages agent reasoning while existing platforms handle code storage
+- Founded by Thomas Dohmke (GitHub CEO 2021-2025, previously sold HockeyApp to Microsoft)
+- Investors include Madrona, M12, Basis Set, Harry Stebbings, Jerry Yang, Datadog founder Olivier Pomel
+
+---

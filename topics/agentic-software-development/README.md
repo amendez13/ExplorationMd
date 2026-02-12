@@ -13,6 +13,7 @@ Knowledge and resources about AI-powered coding agents and development workflows
 - [Vibe Coding](vibe-coding.md) - Andrej Karpathy's hands-off approach to AI-assisted development for throwaway projects
 - [Prompt Library](prompt-library.md) - Reusable prompt templates for planning and discovery
 - [Overnight Agents](overnight-agents.md) - Nightly automation loops for compounding learnings and autonomous feature shipping
+- [Agent Tooling](agent-tooling.md) - Infrastructure for managing AI-generated code, including Entire's reasoning capture platform
 
 ## Recent Activity
 

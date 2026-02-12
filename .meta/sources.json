@@ -287,6 +287,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "How to Make Your Agent Learn and Ship While You Sleep",
       "url": "note://48"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-12T08:29:55+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Entire - AI Code Transparency Platform",
+      "url": "https://entire.io/"
     }
   ],
   "version": 2
