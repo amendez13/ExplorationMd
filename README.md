@@ -6,6 +6,7 @@ A knowledge repository organized by topic. Content is curated from various sourc
 
 - [Agentic Software Development](topics/agentic-software-development/) - AI-powered coding agents, development workflows, and best practices
 - [AI Progress](topics/ai-progress/) - Observations on AI capability advancement and cost dynamics
+- [Knowledge Tools](topics/knowledge-tools/) - Note-taking, PKM workflows, and searchable knowledge bases
 
 ## Structure
 
