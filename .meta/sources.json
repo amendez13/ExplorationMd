@@ -325,6 +325,16 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "OSS Monetization and the “Attention Layer” Problem",
       "url": "https://x.com/i/status/2009688028931875156"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [
+        "topics/agentic-software-development/agentic-ml-experimentation.md"
+      ],
+      "indexed_at": "2026-02-12T13:19:47+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Agentic ML Experimentation (Human-in-the-Loop)",
+      "url": "https://x.com/i/status/2005421816110862601"
     }
   ],
   "version": 2
