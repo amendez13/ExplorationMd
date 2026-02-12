@@ -426,7 +426,7 @@ A short X exchange argues that as LLMs increasingly generate implementation, the
 ### [Agentic ML Experimentation (Human-in-the-Loop)](https://x.com/i/status/2005421816110862601)
 *2026-02-12T13:19:47Z* | Tags: ml-experiments, training-runs, testing, debugging, wandb, profiling, human-in-the-loop, code-quality, pr-triage
 
-Developer reports using Claude as a “lab assistant” running end-to-end ML experimentation loops: implementing changes, debugging with toy examples, writing tests, launching and monitoring training runs, and maintaining a living record of runs/results. The human remains actively in the loop, correcting subtle mistakes and pushing back on bloated or over-coupled designs.
+Developer reports using Claude as a "lab assistant" running end-to-end ML experimentation loops: implementing changes, debugging with toy examples, writing tests, launching and monitoring training runs, and maintaining a living record of runs/results. The human remains actively in the loop, correcting subtle mistakes and pushing back on bloated or over-coupled designs.
 
 **Key Points:**
 - Runs a full experiment workflow: implement → debug (toy examples) → test fail/pass → launch training → tail logs → pull wandb stats
@@ -434,5 +434,22 @@ Developer reports using Claude as a “lab assistant” running end-to-end ML ex
 - Uses profiling to find optimizer inefficiencies, fixes them, and measures improvement
 - Reviews open PRs, categorizes/prioritizes them, and makes commits against selected items
 - Still requires strong human oversight for subtle errors, confusion episodes, missed ideas, and design bloat/coupling
+
+---
+
+### [Shell + Skills + Compaction: Tips for Long-Running Agents](https://developers.openai.com/blog/skills-shell-tips)
+*2026-02-12T00:00:00Z* | Tags: openai, skills, shell-tool, compaction, context-management, long-running-agents, security, enterprise
+
+OpenAI's Charlie Guo introduces three agentic primitives for building long-running agents: Skills (reusable instruction bundles aligned with Agent Skills open standard), Shell Tool (OpenAI-hosted containers for dependency installation and script execution), and Server-Side Compaction (automatic context management). Includes 10 practical tips and 3 implementation patterns.
+
+**Key Points:**
+- Skills bundle files with SKILL.md manifests as versioned playbooks; descriptions should explain when to use/avoid, not marketing copy
+- Negative examples in skill descriptions reduce misfires (~20% accuracy drop recovered after adding edge cases in Glean testing)
+- Shell tool supports both hosted containers and local runtimes; `/mnt/data` is the artifact boundary
+- Compaction prevents context window failures; design for it as default, not fallback
+- Two-layer allowlist system: org-level sets max destinations, request-level must be subset
+- `domain_secrets` for auth: models see placeholders, sidecar injects real values for approved destinations only
+- Enterprise pattern: Glean achieved 73% → 85% accuracy and 18.1% TTFT reduction with Salesforce-oriented skills
+- Network + skills = exfiltration risk; maintain strict allowlists and treat tool output as untrusted
 
 ---

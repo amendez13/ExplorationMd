@@ -386,6 +386,14 @@
       "log_path": "topics/tools/logs.md",
       "title": "OpenUsage (GitHub Repository)",
       "url": "https://github.com/robinebers/openusage"
+    },
+    {
+      "category": "Agentic Software Development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-12T20:46:14+00:00",
+      "log_path": "topics/topics/agentic-software-development/logs.md",
+      "title": "Shell + Skills + Compaction: Tips for Long-Running Agents",
+      "url": "https://developers.openai.com/blog/skills-shell-tips"
     }
   ],
   "version": 2
