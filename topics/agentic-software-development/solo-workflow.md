@@ -13,6 +13,12 @@
 - [Mindset Over Tools](#mindset-over-tools)
 - [Designer Notes](#designer-notes)
 - [Session Workflow](#session-workflow)
+- [Example: Agentic ML Experimentation](#example-agentic-ml-experimentation-human-in-the-loop)
+  - [What The Agent Did](#what-the-agent-did)
+  - [Artifacts That Made It Work](#artifacts-that-made-it-work)
+  - [Human-in-the-Loop Responsibilities](#human-in-the-loop-responsibilities)
+  - [Failure Modes Observed](#failure-modes-observed)
+  - [Practical Playbook](#practical-playbook)
 - [Inference-Speed Shipping](#inference-speed-shipping)
 - [Design Principles](#design-principles)
 - [Speedup vs. Expansion](#speedup-vs-expansion)
@@ -132,6 +138,55 @@ The specific agent matters less than mindset, but practical considerations inclu
 - **Agent choice**: Prefer agents that treat the entire code directory as context (e.g., Codex CLI) over those requiring explicit file selection (e.g., Aider)
 - **Editor integration**: Keep the agent in a separate terminal rather than forcing integration if your editor's terminal emulator has limitations
 - **Simplicity**: Use tools "in the dumbest and most obvious way" - don't over-engineer the setup
+
+## Example: Agentic ML Experimentation (Human-in-the-Loop)
+
+An example of a coding agent operating as a “lab assistant” for ML experimentation: implementing changes, creating/debugging tests, launching training runs, monitoring metrics, and maintaining lightweight research documentation—while a human stays responsible for direction, design quality, and catching subtle errors [8].
+
+### What The Agent Did
+
+In one reported workflow, the agent ran a full loop across code, experimentation, and operations: implementing features, debugging with toy examples, writing tests (including intentionally failing/passing cycles), launching training runs, and “babysitting” those runs by tailing logs and pulling stats from Weights & Biases (wandb) [8].
+
+Beyond execution, the agent also maintained an ongoing record of highlights and experiment history (tables of runs/results), performed profiling, identified optimizer inefficiencies, implemented fixes, and measured the improvements [8].
+
+It also handled repo hygiene tasks like scanning open PRs, categorizing and prioritizing them, and making commits on selected items [8].
+
+### Artifacts That Made It Work
+
+This workflow depends less on any single capability and more on a set of durable artifacts that an agent can update continuously: a running markdown “lab notebook” of highlights, a structured registry of runs/results, reproducible toy examples for debugging, and an experiment tracking system (wandb) as the source of truth for metrics and comparisons [8].
+
+If you already use “overnight” or long-running agent loops, this is the same pattern applied to research and training operations: keep the loop tight, keep the state externalized, and let the agent coordinate the repetitive steps (see [Overnight Agents](overnight-agents.md)) [8].
+
+### Human-in-the-Loop Responsibilities
+
+The report emphasizes that the human stayed “very much in the loop”, repeatedly providing oversight and correction [8]. In practice, this means the person remains responsible for:
+
+- Research direction and prioritization (which hypotheses to test next) [8]
+- Design and architecture decisions (preventing unnecessary coupling and bloat) [8]
+- Reviewing subtle correctness issues the agent may miss [8]
+- Injecting new ideas the agent doesn’t propose on its own [8]
+
+This aligns with broader “anti-slop” guidance: treat agents as high-throughput implementers, not as final arbiters of correctness or design quality (see [Agent Limitations and Failure Modes](agent-limitations.md)) [8].
+
+### Failure Modes Observed
+
+The agent made “subtle mistakes” that required pointed correction, got confused at times, missed ideas that the human had to introduce, and sometimes produced bloated designs with coupled abstractions that were reverted [8].
+
+These are not just “bugs”; they’re workflow hazards:
+
+- Confidently wrong assumptions that only show up under careful review [8]
+- Local optimizations that degrade system design (abstraction bloat) [8]
+- Confusion spirals mid-task, even while continuing to produce plausible output [8]
+
+### Practical Playbook
+
+If you want to replicate this style of agentic experimentation, the key is to structure the work so the agent can loop safely and you can audit quickly [8]:
+
+1. **Require a small reproducer** for each bug/behavior change (toy example or minimal script) [8].
+2. **Use tests as gates**, including “make it fail first” when debugging regressions [8].
+3. **Treat experiment tracking as state**, not a convenience (wandb dashboards + consistent run naming) [8].
+4. **Keep a single source of truth for results** (a runs/results table updated after each run) [8].
+5. **Add periodic architecture checkpoints** to prevent bloat: explicit constraints and a willingness to revert over-coupled designs [8].
 
 ## Inference-Speed Shipping
 
@@ -300,3 +355,4 @@ The phase shift raises fundamental questions about the future of software develo
 5. [Developer on X](https://x.com/i/status/2004628491862696070) - The pellet gun / laser beam experience metaphor (2026)
 6. [Andrej Karpathy on X](https://x.com/i/status/2015883857489522876) - Claude coding observations (2026)
 7. [X discussion on abstraction moats](https://x.com/i/status/2010044820740563412) - Code as abstractions; moats in complexity or higher abstraction (2026)
+8. [Developer on X](https://x.com/i/status/2005421816110862601) - Using Claude as an ML lab assistant for end-to-end experimentation loops (2026)

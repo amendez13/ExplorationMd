@@ -323,7 +323,7 @@
       ],
       "indexed_at": "2026-02-12T12:15:11+00:00",
       "log_path": "topics/agentic-software-development/logs.md",
-      "title": "OSS Monetization and the “Attention Layer” Problem",
+      "title": "OSS Monetization and the \u201cAttention Layer\u201d Problem",
       "url": "https://x.com/i/status/2009688028931875156"
     },
     {
@@ -345,6 +345,14 @@
       "log_path": "topics/ai-progress/logs.md",
       "title": "Relative Competition and Work Hours",
       "url": "https://x.com/i/status/2003380683876503718"
+    },
+    {
+      "category": "Agentic Software Development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-12T13:50:27+00:00",
+      "log_path": "topics/topics/agentic-software-development/logs.md",
+      "title": "Integrated Agentic ML Experimentation into Solo Workflow",
+      "url": "note://55"
     }
   ],
   "version": 2
