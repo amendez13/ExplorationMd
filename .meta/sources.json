@@ -335,6 +335,16 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Agentic ML Experimentation (Human-in-the-Loop)",
       "url": "https://x.com/i/status/2005421816110862601"
+    },
+    {
+      "category": "ai-progress",
+      "corpus_paths": [
+        "topics/ai-progress/relative-competition-work-hours.md"
+      ],
+      "indexed_at": "2026-02-12T13:28:06+00:00",
+      "log_path": "topics/ai-progress/logs.md",
+      "title": "Relative Competition and Work Hours",
+      "url": "https://x.com/i/status/2003380683876503718"
     }
   ],
   "version": 2

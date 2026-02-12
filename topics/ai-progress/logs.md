@@ -115,3 +115,16 @@ Boris Cherny, creator of Claude Code, reflects on the tool's evolution and share
 - Describes the technology as "alien and magical"
 
 ---
+
+### [Relative Competition and Work Hours](https://x.com/i/status/2003380683876503718)
+*2026-02-12T13:28:06Z* | Tags: ai-progress, productivity, competition, labor, startups
+
+Thread arguing that better AI tooling does not necessarily reduce hours worked, because work is often relative to competitors. The author points to AI startups with large AI tool budgets whose developers still work long hours to outcompete other AI-native teams.
+
+**Key Points:**
+- In AI startups, there is often no practical limit on spending for AI dev tooling, and teams use it heavily
+- Even with strong AI tooling, competitive pressure can increase rather than decrease working hours
+- When everyone adopts better tools, the bar rises: teams must deliver either higher quality or more output to be “best in the industry”
+- Tool gains may be reinvested into iteration speed and scope rather than leisure time
+
+---
