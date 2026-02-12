@@ -423,6 +423,22 @@ A short X exchange argues that as LLMs increasingly generate implementation, the
 
 ---
 
+### [Skills in OpenAI API - Cookbook](https://developers.openai.com/cookbook/examples/skills_in_api)
+*2026-02-12* | Tags: openai, skills, api, skill-manifest, shell-tool, hosted-containers, local-execution
+
+Official OpenAI cookbook documentation on implementing Skills via the API. Provides detailed code examples for creating, uploading, and using skills in both hosted container and local shell environments.
+
+**Key Points:**
+- Skills are reusable bundles with SKILL.md manifest, scripts, requirements.txt, and assets
+- Skills fill the "middle layer" between prompts (always-on behavior) and tools (atomic capabilities)
+- Two upload methods: multipart file upload or zip upload (recommended for reproducibility)
+- Hosted shell (container_auto) and local shell both supported with identical skill_reference syntax
+- Version pinning recommended for production; avoid floating to "latest"
+- CLI design principles: run from command line, deterministic output, clear error messages, write to known paths
+- Limits: 50 MB max zip, 500 max files, 25 MB max uncompressed file size, exactly one manifest required
+
+---
+
 ### [Agentic ML Experimentation (Human-in-the-Loop)](https://x.com/i/status/2005421816110862601)
 *2026-02-12T13:19:47Z* | Tags: ml-experiments, training-runs, testing, debugging, wandb, profiling, human-in-the-loop, code-quality, pr-triage
 
