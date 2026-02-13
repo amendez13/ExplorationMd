@@ -444,6 +444,14 @@
       "log_path": "topics/topics/agentic-software-development/logs.md",
       "title": "Claude Code Large-Project Workflow merged into Solo Workflow",
       "url": "note://65"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-13T14:52:07+00:00",
+      "log_path": "topics/topics/agentic-software-development/logs.md",
+      "title": "The Eternal September of Open Source - GitHub's Response to AI-Generated Contributions",
+      "url": "https://github.blog/open-source/maintainers/welcome-to-the-eternal-september-of-open-source-heres-what-we-plan-to-do-for-maintainers/"
     }
   ],
   "version": 2

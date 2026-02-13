@@ -520,3 +520,20 @@ Discussion sparked by Guillermo Rauch's observation: most people who are AI-nati
 - AI tools like Warp, Claude Code, Cursor mentioned as coding agents; Grok recommended for research/planning phase
 
 ---
+
+### [The Eternal September of Open Source - GitHub's Response to AI-Generated Contributions](https://github.blog/open-source/maintainers/welcome-to-the-eternal-september-of-open-source-heres-what-we-plan-to-do-for-maintainers/)
+*2026-02-13* | Tags: open-source, maintainer-burden, contribution-quality, github, ai-contributions, eternal-september, trust-systems
+
+GitHub frames the current moment as open source's "Eternal September"—a reference to Usenet's 1993 influx of unprepared users. The cost to create contributions has dropped dramatically with AI tools, but review time hasn't decreased, overwhelming maintainers with volume.
+
+**Key Points:**
+- The asymmetry problem: AI slashes contribution creation cost, but review cost remains constant—maintainers can't keep up
+- curl ended its bug bounty program after AI-generated security reports exploded, each taking hours to validate
+- Ghostty moved to invitation-only contributions
+- Multiple projects adopted explicit rules about AI-generated submissions
+- Mitchell Hashimoto's Vouch implements explicit trust management requiring vouching by trusted maintainers
+- GitHub already shipped: pinned comments, noise-reducing banners, PR performance improvements, temporary interaction limits
+- Coming soon: repository-level PR controls, PR deletion from UI
+- Under exploration: criteria-based gating (requiring linked issues), improved automated triage tools
+
+---
