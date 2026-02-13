@@ -426,6 +426,16 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "The SHIP Framework for Non-Coders",
       "url": "note://63"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [
+        "topics/agentic-software-development/claude-code-large-project-workflow.md"
+      ],
+      "indexed_at": "2026-02-13T08:50:08+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "How I use Claude Code for real engineering",
+      "url": "https://youtu.be/kZ-zzHVUrO4?si=Ue6dee2iQmKy6tOu"
     }
   ],
   "version": 2

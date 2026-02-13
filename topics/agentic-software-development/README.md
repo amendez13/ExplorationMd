@@ -8,6 +8,7 @@ Knowledge and resources about AI-powered coding agents and development workflows
 
 - [Best Practices](best-practices.md) - Official Anthropic guidance on context management, verification, planning, and scaling Claude Code
 - [Claude Code Tips](claude-code-tips.md) - Power user tips from the Claude Code team for parallel work, prompting, and environment setup
+- [Claude Code Large-Project Workflow](claude-code-large-project-workflow.md) - A practical plan-mode-first workflow for multi-phase engineering work and context management
 - [Team and Organization Adoption](team-adoption.md) - Team-level and organizational strategies for adopting agentic development workflows and hands-on technical leadership
 - [Solo Workflow](solo-workflow.md) - Individual practitioner workflow and mindset for LLM-assisted development (including human-in-the-loop experimentation loops)
 - [Vibe Coding](vibe-coding.md) - Andrej Karpathy's hands-off approach to AI-assisted development for throwaway projects

@@ -218,6 +218,20 @@ Tweet observation: senior engineers who continued coding were historically seen 
 
 ---
 
+### [How I use Claude Code for real engineering](https://youtu.be/kZ-zzHVUrO4?si=Ue6dee2iQmKy6tOu)
+*2026-02-13* | Tags: claude-code, plan-mode, workflow, context-management, large-projects, prompting
+
+Matt Pocock walks through his workflow for tackling larger coding projects with Claude Code using plan mode. The approach is plan-first exploration (including clarifying questions), multi-phase execution that can span context windows, and durable plan storage (e.g., GitHub issues) to survive resets.
+
+**Key Points:**
+- Start with a rough (often dictated) prompt, then use plan mode to refine the work and surface clarifying questions
+- Break complex features into multi-phase plans sized to fit within context-window limits
+- Use lightweight rules to keep plans concise and track unresolved questions explicitly
+- Monitor context usage during implementation and plan around inevitable context resets
+- Persist the plan outside the chat (e.g., as a GitHub issue) to rehydrate later without re-planning
+
+---
+
 ### [Claude Code Best Practices - Official Documentation](https://code.claude.com/docs/en/best-practices)
 *2026-02-11* | Tags: claude-code, best-practices, context-management, verification, planning, prompting, environment, scaling, official-docs
 
