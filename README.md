@@ -6,6 +6,7 @@ A knowledge repository organized by topic. Content is curated from various sourc
 
 - [Agentic Software Development](topics/agentic-software-development/README.md) - AI-powered coding agents, development workflows, and best practices
 - [AI Progress](topics/ai-progress/README.md) - Observations on AI capability advancement and cost dynamics
+- [Investment and Finance](topics/investment-finance/README.md) - Investment strategies, market analysis, and financial planning
 - [Tools](topics/tools/README.md) - AI-assisted workflow tools for usage tracking, note-taking, and searchable knowledge systems
 
 ## Structure
