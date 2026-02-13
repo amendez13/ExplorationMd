@@ -13,6 +13,8 @@
 - [Mindset Over Tools](#mindset-over-tools)
 - [Designer Notes](#designer-notes)
 - [Session Workflow](#session-workflow)
+  - [Tool Setup](#tool-setup)
+  - [Large-Project Workflow (Plan-First)](#large-project-workflow-plan-first)
 - [Example: Agentic ML Experimentation](#example-agentic-ml-experimentation-human-in-the-loop)
   - [What The Agent Did](#what-the-agent-did)
   - [Artifacts That Made It Work](#artifacts-that-made-it-work)
@@ -144,6 +146,18 @@ The specific agent matters less than mindset, but practical considerations inclu
 - **Agent choice**: Prefer agents that treat the entire code directory as context (e.g., Codex CLI) over those requiring explicit file selection (e.g., Aider)
 - **Editor integration**: Keep the agent in a separate terminal rather than forcing integration if your editor's terminal emulator has limitations
 - **Simplicity**: Use tools "in the dumbest and most obvious way" - don't over-engineer the setup
+
+### Large-Project Workflow (Plan-First)
+
+For multi-hour or multi-session engineering tasks, a reliable pattern is to invest up front in a plan that makes “done” unambiguous, then execute in phases sized to fit within context-window limits [10].
+
+**Core loop** [10]:
+1. **Dump a rough prompt** (often dictated) to get moving, even if it’s incomplete.
+2. **Use plan mode to explore and ask questions**, surfacing unknowns and decisions before writing code.
+3. **Convert the plan into phases**, each small enough to complete without a reset.
+4. **Execute with higher autonomy** once the plan is stable, while tracking progress against the checklist.
+
+**Durability**: Persist the plan outside the chat (for example, in a GitHub issue) so you can “rehydrate” the agent after a context reset without re-discovering requirements [10].
 
 ## Example: Agentic ML Experimentation (Human-in-the-Loop)
 
@@ -438,3 +452,4 @@ The analogy: building architects don't lay bricks, but understanding systems, st
 7. [X discussion on abstraction moats](https://x.com/i/status/2010044820740563412) - Code as abstractions; moats in complexity or higher abstraction (2026)
 8. [Developer on X](https://x.com/i/status/2005421816110862601) - Using Claude as an ML lab assistant for end-to-end experimentation loops (2026)
 9. [Rob's SHIP Framework (YouTube)](https://youtube.com) - Four-step framework for non-coders building apps with AI (2026)
+10. [YouTube: “How I use Claude Code for real engineering”](https://youtu.be/kZ-zzHVUrO4?si=Ue6dee2iQmKy6tOu) - Plan-first workflow for large projects (2026)

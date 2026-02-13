@@ -430,12 +430,20 @@
     {
       "category": "agentic-software-development",
       "corpus_paths": [
-        "topics/agentic-software-development/claude-code-large-project-workflow.md"
+        "topics/agentic-software-development/solo-workflow.md"
       ],
       "indexed_at": "2026-02-13T08:50:08+00:00",
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "How I use Claude Code for real engineering",
       "url": "https://youtu.be/kZ-zzHVUrO4?si=Ue6dee2iQmKy6tOu"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-13T10:22:30+00:00",
+      "log_path": "topics/topics/agentic-software-development/logs.md",
+      "title": "Claude Code Large-Project Workflow merged into Solo Workflow",
+      "url": "note://65"
     }
   ],
   "version": 2
