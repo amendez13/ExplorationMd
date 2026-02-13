@@ -15,6 +15,7 @@ Understanding when and how AI coding agents fail is essential for effective use.
   - [Scope Creep and Orthogonal Changes](#scope-creep-and-orthogonal-changes)
 - [Why IDEs Still Matter](#why-ides-still-matter)
 - [The Agent Swarm Reality](#the-agent-swarm-reality)
+- [Delegation Limitations](#delegation-limitations)
 - [Mitigation Strategies](#mitigation-strategies)
 - [Sources](#sources)
 
@@ -107,6 +108,29 @@ Multi-agent setups compound the failure modes above. Each agent can make wrong a
 
 For production-quality code, tight human oversight remains necessary. The agent is an amplifier, not a replacement for judgment.
 
+## Delegation Limitations
+
+A fundamental limitation of current AI agents is their primitive approach to task decomposition and delegation [2].
+
+**The Heuristic Problem**: Existing methods for agents to break down complex tasks and delegate work rely on simple heuristics rather than adaptive capabilities. When faced with multi-step problems, agents use rigid decomposition strategies that don't adjust to:
+
+- Environmental changes during execution
+- Failures in delegated subtasks
+- Shifting requirements mid-task
+
+**What's Missing**: Effective delegation requires more than splitting work. It involves:
+
+- **Authority transfer**: Clearly defining what decisions a sub-agent can make
+- **Accountability tracking**: Understanding who is responsible for what outcomes
+- **Trust establishment**: Protocols for verifying sub-agent capabilities
+- **Role boundaries**: Clear interfaces between delegator and delegatee
+
+Current agents lack frameworks for these dimensions. When an agent spawns a sub-agent or hands off work, there's no robust mechanism for maintaining accountability or adapting when things go wrong.
+
+**The Emerging Agentic Web**: As agents increasingly interact with other agents (and humans), the need for "intelligent delegation" protocols becomes critical. The current approach—simple task splitting with fire-and-forget handoffs—doesn't scale to complex delegation networks where multiple agents must coordinate, recover from failures, and maintain clear lines of responsibility.
+
+This limitation is particularly acute in multi-agent systems where the orchestration problem compounds: not only must each agent handle its own task correctly, but the system must manage the delegation relationships themselves.
+
 ## Mitigation Strategies
 
 Based on observed failure patterns:
@@ -141,3 +165,4 @@ Based on observed failure patterns:
 ## Sources
 
 1. [Andrej Karpathy on X](https://x.com/i/status/2015883857489522876) - Observations from intensive Claude coding (2026)
+2. [Intelligent AI Delegation](https://arxiv.org/abs/2602.11865) - Tomašev, Franklin, Osindero (arXiv, February 2026)

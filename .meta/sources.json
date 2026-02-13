@@ -452,6 +452,14 @@
       "log_path": "topics/topics/agentic-software-development/logs.md",
       "title": "The Eternal September of Open Source - GitHub's Response to AI-Generated Contributions",
       "url": "https://github.blog/open-source/maintainers/welcome-to-the-eternal-september-of-open-source-heres-what-we-plan-to-do-for-maintainers/"
+    },
+    {
+      "category": "Research Paper",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-13T14:57:01+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Intelligent AI Delegation",
+      "url": "https://x.com/i/status/2022232952978145344"
     }
   ],
   "version": 2

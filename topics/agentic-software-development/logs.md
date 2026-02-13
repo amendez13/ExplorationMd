@@ -537,3 +537,17 @@ GitHub frames the current moment as open source's "Eternal September"—a refere
 - Under exploration: criteria-based gating (requiring linked issues), improved automated triage tools
 
 ---
+
+### [Intelligent AI Delegation](https://arxiv.org/abs/2602.11865)
+*2026-02-13* | Tags: delegation, multi-agent, task-decomposition, orchestration, limitations, research-paper
+
+arXiv paper by Nenad Tomašev, Matija Franklin, and Simon Osindero addressing how AI agents decompose problems and delegate work. Argues that existing methods rely on simple heuristics and lack adaptive capabilities for complex delegation networks.
+
+**Key Points:**
+- Current task decomposition and delegation methods use simple heuristics, not adaptive frameworks
+- Effective delegation requires authority transfer, responsibility tracking, accountability, and trust protocols
+- Framework designed for both human and AI delegators/delegatees in mixed collaboration scenarios
+- Addresses the gap for "the emerging agentic web" where agents increasingly interact with other agents
+- Proposes dynamic adaptation to environmental changes and robust failure handling
+
+---
