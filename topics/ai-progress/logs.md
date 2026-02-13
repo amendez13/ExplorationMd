@@ -128,3 +128,19 @@ Thread arguing that better AI tooling does not necessarily reduce hours worked, 
 - Tool gains may be reinvested into iteration speed and scope rather than leisure time
 
 ---
+
+### [Epistemic Trust](https://x.com/JaimeObregon)
+*2026-02-13T12:00:00Z* | Tags: information-overload, epistemic-trust, ai-era, trust, attention-economy
+
+Jaime Gómez-Obregón reflects on how the promised "information age" has become an era of information overload—permanent cognitive overwhelm that AI's exponential growth only accelerates. With attention as the new scarcest resource, the temptation to exaggerate and theatricalize truth grows. Impact replaces rigor; the emotional displaces the intellectual.
+
+**Key Points:**
+- The 1990s "information superhighway" optimism gave way to information overload and permanent cognitive overwhelm
+- AI accelerates the information avalanche—too many messages, too many voices, too many shouted certainties
+- Careful curation of information sources is essential: if you choose what goes into your stomach, why feed information-junk to your brain?
+- In the AI era, we return to something deeply human: trusting not messages but people—those who have demonstrated rigor, intellectual honesty, and an authentic voice
+- Peter Fonagy's concept of "epistemic trust": humans evaluate not just content but whether the source deserves to influence their understanding of reality
+- Knowledge transmission requires connection and credibility, not just arguments
+- Epistemic trust means deliberately choosing who influences how you understand reality—carefully, precisely because everything seems to say everything, all the time
+
+---

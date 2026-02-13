@@ -17,6 +17,7 @@
 - [Building Adaptability](#building-adaptability)
 - [The Bigger Picture](#the-bigger-picture)
 - [The 2026 Slopacolypse](#the-2026-slopacolypse)
+- [Epistemic Trust in the Age of Information Overload](#epistemic-trust-in-the-age-of-information-overload)
 - [Adoption Timeline](#adoption-timeline)
   - [The Emerging AI Economy](#the-emerging-ai-economy)
 - [Sources](#sources)
@@ -206,6 +207,22 @@ Karpathy predicts 2026 as the year of the "slopacolypse"—a flood of low-qualit
 
 This creates a signal-to-noise problem: genuine productivity gains will be harder to distinguish from hollow volume. The ability to produce content no longer correlates with quality or insight.
 
+## Epistemic Trust in the Age of Information Overload
+
+The "information age" promised in the 1990s has given way to an era of information overload—permanent cognitive overwhelm [7]. The exponential growth of AI accelerates this avalanche. There are too many messages, too many voices, too many shouted certainties. With attention replacing time as the scarcest resource, the temptation grows to exaggerate, inflate, and theatricalize truth or post-truth.
+
+**Impact replaces rigor. The emotional displaces the intellectual.**
+
+In this environment, vetting what you consume becomes essential. If you choose carefully what goes into your stomach, why feed your brain information-junk? [7]
+
+**The shift from message to messenger**: In the AI era, it's no longer enough for a message to sound plausible or spectacular. Paradoxically, we return to something deeply human: trusting not the messages, but the people behind them—humans with hopes, fears, and desires. Fallible people. Those who have demonstrated rigor, intellectual honesty, and an authentic voice [7].
+
+**Epistemic trust** is a concept from psychology attributed to Peter Fonagy. It describes how humans don't just evaluate a message's content—they evaluate whether the source is one whose information deserves to be incorporated into their understanding of the world [7].
+
+Knowledge isn't transmitted through arguments alone. It requires connection and credibility. We truly learn when we trust the person, not just the message [7].
+
+In this era of information overload, epistemic trust means deliberately deciding who gets to influence how you understand reality—and making that choice carefully, precisely because everything seems to say everything, all the time [7].
+
 ## Adoption Timeline
 
 Capability will arrive before widespread adoption. Enterprise spending will increase, but consumer patterns remain uncertain. Most industries won't take a decade-plus to adapt, but exceptions will exist [1].
@@ -228,3 +245,4 @@ The advice: be prepared now rather than caught off-guard later.
 4. [AI Adoption Gap Widening - Shanu Mathew](https://x.com/ShanuMathew93/status/2004918070133854548)
 5. [Silent Sirens, Flashing For Us All - Jack Clark](https://importai.substack.com/p/import-ai-438-cyber-capability-overhang)
 6. [Andrej Karpathy on X](https://x.com/i/status/2015883857489522876) - Claude coding observations and 2026 predictions (2026)
+7. [Epistemic Trust - Jaime Gómez-Obregón](https://x.com/JaimeObregon) - On trusting people over messages in the age of AI (2026)
