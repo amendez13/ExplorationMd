@@ -488,3 +488,21 @@ Discussion sparked by Guillermo Rauch's observation: most people who are AI-nati
 - Not everything should be agentic (e.g., auth should remain deterministic)
 
 ---
+
+### [The SHIP Framework for Non-Coders](https://youtube.com)
+*2026-02-13* | Tags: ship-framework, no-code, system-architecture, blueprints, tool-selection, test-builds, solo-workflow
+
+20-year coder shares the SHIP framework for building apps with AI without writing code. The insight: experienced coders initially struggled with AI because their approach was wrong—the skill needed isn't coding, it's system architecture. Like giving a carpenter blueprints instead of just saying "build me a house."
+
+**Key Points:**
+- SHIP = Systems Planning, Handpick Tools, Initial Test Build, Production Build
+- Systems Planning: spend 10 minutes identifying components (data storage, auth, external services) before touching AI
+- Handpick Tools: don't let AI decide your stack—it often recommends fragmented services when one tool (e.g., Supabase) handles all
+- Initial Test Build: build the ugliest possible version to prove the concept works; skip login, UI polish, edge cases
+- Production Build: throw away the test and rebuild from scratch—trying to salvage messy test code creates spiraling bugs
+- Magic phrase for non-technical users: "Answer without technical jargon. I'm not an engineer. Help me understand so I can make decisions."
+- AI is "your construction crew"—the value is in architecture and systems thinking, not coding
+- "Learning to code is definitely dying, but architecture and systems thinking—that's your next $100,000 skill"
+- AI tools like Warp, Claude Code, Cursor mentioned as coding agents; Grok recommended for research/planning phase
+
+---

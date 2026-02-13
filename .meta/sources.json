@@ -418,6 +418,14 @@
       "log_path": "topics/tools/logs.md",
       "title": "AI Agent Skills for Coding Assistants",
       "url": "note://62"
+    },
+    {
+      "category": "Agentic Software Development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-13T07:53:07+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "The SHIP Framework for Non-Coders",
+      "url": "note://63"
     }
   ],
   "version": 2

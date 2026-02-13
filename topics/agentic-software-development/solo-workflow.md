@@ -28,6 +28,12 @@
 - [The Fun Factor](#the-fun-factor)
 - [Skill Atrophy](#skill-atrophy)
 - [Open Questions](#open-questions)
+- [The SHIP Framework](#the-ship-framework)
+  - [Systems Planning](#systems-planning)
+  - [Handpick Your Tools](#handpick-your-tools)
+  - [Initial Test Build](#initial-test-build)
+  - [Production Build](#production-build)
+  - [The Architect Mindset](#the-architect-mindset)
 - [Sources](#sources)
 
 ---
@@ -346,6 +352,81 @@ The phase shift raises fundamental questions about the future of software develo
 
 ---
 
+## The SHIP Framework
+
+A four-step framework for building apps with AI without writing code, developed by an experienced coder who discovered that traditional coding expertise can actually be a hindrance when working with AI [9].
+
+The core insight: the problem isn't AI capability—it's approach. Like giving a master carpenter no blueprints and asking them to "build me a house," telling AI to "build me an app" produces messy results not because the AI is incapable, but because it's guessing what you actually want.
+
+**The key skill isn't coding—it's system architecture.**
+
+### Systems Planning
+
+Before touching an AI coder, identify the individual components your app requires [9]:
+
+- Where will data live?
+- Do I need user login?
+- What external services are needed?
+- How do the pieces connect?
+
+Take 10 minutes to write down high-level components first. This prevents AI from creating "a mess of a project" that gets "totally lost in the code that it created" [9].
+
+### Handpick Your Tools
+
+Don't let AI make your technology decisions. AI will often suggest multiple services when one would suffice [9].
+
+**Example from practice**: When planning a custom chatbot app, Grok recommended Clerk for authentication, Vercel Postgres for database, and Vercel Blob for file storage—while also mentioning Supabase could handle all three. The AI defaulted to a fragmented architecture when consolidation was clearly simpler [9].
+
+**The decision process**:
+1. Ask AI to list component requirements for your app
+2. Research options yourself: cost, free tiers, feature coverage
+3. Decide tradeoffs (single provider lock-in vs. multi-service complexity)
+4. Create a written plan you can copy for the next step
+
+**Magic phrase for non-engineers**: "Answer without technical jargon. I'm not an engineer. Help me understand so I can make decisions." [9]
+
+### Initial Test Build
+
+Build the ugliest possible version to prove the concept works. No pretty designs, no extra features—just validation that your system architecture is viable [9].
+
+**What to skip in the test build**:
+- Login systems
+- Password resets
+- UI polish
+- Edge case handling
+
+**What to prove**:
+- Core functionality works (e.g., "AI can connect to your data")
+- Services integrate correctly
+- The fundamental idea is viable
+
+This step alone saves "hundreds of hours" by catching bad ideas before polish [9]. One practitioner spent three months building an iPhone app only to discover Apple would never approve it—time that would have been saved by validating core assumptions first.
+
+### Production Build
+
+The counterintuitive insight: **throw away the test and rebuild from scratch** [9].
+
+Most people fail because they try to salvage their messy test builds, spending days "untangling code that I didn't even understand because I didn't write it." Every fix creates two new bugs.
+
+The best AI builders:
+1. Document what worked in the test
+2. Refine the plan based on learnings
+3. Start fresh with a "battle-tested blueprint"
+
+This puts you in the "top 1%" because you're giving AI explicit architecture instead of vague requests [9].
+
+### The Architect Mindset
+
+The framework reframes what "technical" means in the AI era [9]:
+
+> "Think of the AI more like your construction crew, the skilled labor that you no longer have to pay for. You're actually becoming more technical than most people out there today. You're just not becoming a coder in the traditional sense."
+
+The analogy: building architects don't lay bricks, but understanding systems, structures, and how everything connects is "a very technical job" and "extremely valuable."
+
+**The claim**: "Learning to code is definitely dying, but architecture and systems thinking—that's your next $100,000 skill." [9]
+
+---
+
 ## Sources
 
 1. [Eric S. Raymond on X](https://x.com/esrtweet/status/2019391670609940746) - Discussion thread on LLM-assisted development workflow (2026)
@@ -356,3 +437,4 @@ The phase shift raises fundamental questions about the future of software develo
 6. [Andrej Karpathy on X](https://x.com/i/status/2015883857489522876) - Claude coding observations (2026)
 7. [X discussion on abstraction moats](https://x.com/i/status/2010044820740563412) - Code as abstractions; moats in complexity or higher abstraction (2026)
 8. [Developer on X](https://x.com/i/status/2005421816110862601) - Using Claude as an ML lab assistant for end-to-end experimentation loops (2026)
+9. [Rob's SHIP Framework (YouTube)](https://youtube.com) - Four-step framework for non-coders building apps with AI (2026)
