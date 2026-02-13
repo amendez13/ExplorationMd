@@ -410,6 +410,14 @@
       "log_path": "topics/topics/agentic-software-development/logs.md",
       "title": "Agent-Native Design",
       "url": "note://61"
+    },
+    {
+      "category": "Tools",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-13T07:36:50+00:00",
+      "log_path": "topics/tools/logs.md",
+      "title": "AI Agent Skills for Coding Assistants",
+      "url": "note://62"
     }
   ],
   "version": 2

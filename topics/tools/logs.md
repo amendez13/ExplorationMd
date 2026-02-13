@@ -34,6 +34,19 @@ The project repository documents OpenUsage’s feature set (menu bar UI, schedul
 
 ---
 
+### Most-Used AI Agent Skills (Global and Project-Dependent)
+*2026-02-13T00:00:00Z* | Tags: tools, ai-agents, skills, claude-code, codex, react, convex, tauri, swiftui, swift-concurrency
+
+Summary of frequently-used AI agent skills for coding assistants, organized by global (cross-project) and project-dependent categories.
+
+**Key Points:**
+- Global skills: vercel-react-best-practices (React/Next.js optimization), brainstorming (structured requirement gathering), convex-best-practices (Convex patterns), frontend-design (avoiding generic AI aesthetics)
+- Project-dependent: tauri-v2 (cross-platform desktop), swiftui-expert-skill (modern SwiftUI APIs), swift-concurrency (Swift 6 migration), swiftui-liquid-glass (iOS 26+ glass effects), swiftui-skills (Apple documentation patterns)
+- Skills are modular packages that extend AI assistants with domain expertise
+- Install via `npx add-skill <org>/<repo>` for most skills
+
+---
+
 ### [Obsidian "file over app" notes workflow (Apple Notes migration, iCloud sync, CLI search)](https://x.com/i/status/2021534318506512672)
 *2026-02-12* | Tags: tools, obsidian, markdown, pkm, note-taking, file-over-app, apple-notes, migration, icloud, cli, publish
 
