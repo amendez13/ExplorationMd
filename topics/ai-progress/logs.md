@@ -144,3 +144,16 @@ Jaime Gómez-Obregón reflects on how the promised "information age" has become 
 - Epistemic trust means deliberately choosing who influences how you understand reality—carefully, precisely because everything seems to say everything, all the time
 
 ---
+
+### [Spotify says its best developers haven't written a line of code since December, thanks to AI](https://techcrunch.com/2026/02/12/spotify-says-its-best-developers-havent-written-a-line-of-code-since-december-thanks-to-ai/)
+*2026-02-14T11:40:40Z* | Tags: ai-progress, capability-trends, enterprise-adoption, ai-coding, claude-code, spotify
+
+TechCrunch reports comments from Spotify's Q4 earnings call describing a workflow where AI (including Claude Code) handles much of the direct code-writing and deployment steps, with engineers shifting toward prompting, review, and rapid shipping.
+
+**Key Points:**
+- Spotify co-CEO Gustav Söderström said the company's best developers "have not written a single line of code since December"
+- Spotify described an internal AI system ("Honk") used to increase coding speed and product velocity
+- Example workflow: from a phone via Slack, an engineer asks Claude to fix a bug or add an iOS feature, receives a new app build back in Slack, then merges to production before reaching the office
+- Spotify credited the system with speeding up coding and deployment "tremendously" and framed this as "just the beginning"
+
+---

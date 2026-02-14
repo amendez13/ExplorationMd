@@ -681,6 +681,16 @@
       "log_path": "topics/topics/tools/logs.md",
       "title": "MCP Servers Catalog: Exa and Ref",
       "url": "note://79"
+    },
+    {
+      "category": "ai-progress",
+      "corpus_paths": [
+        "topics/ai-progress/capability-trends.md"
+      ],
+      "indexed_at": "2026-02-14T11:40:40+00:00",
+      "log_path": "topics/ai-progress/logs.md",
+      "title": "Spotify says its best developers haven't written a line of code since December, thanks to AI",
+      "url": "https://techcrunch.com/2026/02/12/spotify-says-its-best-developers-havent-written-a-line-of-code-since-december-thanks-to-ai/"
     }
   ],
   "version": 2

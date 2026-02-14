@@ -7,6 +7,7 @@
 - [Historical Perspective](#historical-perspective)
 - [Capability Timeline](#capability-timeline)
 - [Productivity Compression](#productivity-compression)
+- [Enterprise Adoption Signals](#enterprise-adoption-signals)
 - [METR Task Duration Measurements](#metr-task-duration-measurements)
 - [Cost Dynamics](#cost-dynamics)
 - [Model Recommendations](#model-recommendations)
@@ -59,6 +60,12 @@ Current experience from practitioners [2]:
 - AI runs for minutes, hours, and even days autonomously (using Stop hooks)
 - One year prior, the same AI struggled with basic bash escaping and worked only seconds to minutes at a time
 
+## Enterprise Adoption Signals
+
+Signals of AI-driven productivity gains are also starting to appear in large, mature product organizations. In Spotify's Q4 earnings call, co-CEO Gustav Söderström said the company's best developers "have not written a single line of code since December" as internal tooling and Claude Code take over much of the direct code production [5]. Spotify described an internal system ("Honk") that enables remote, real-time development and deployment workflows—for example, asking Claude (via Slack on a phone) to fix a bug or add an iOS feature during a commute, then reviewing the result and merging to production before arriving at the office [5].
+
+If accurate and repeatable, this suggests a role shift where top engineers spend more time on specifying, reviewing, and shipping changes than on manual typing—while retaining responsibility for correctness and product decisions [5].
+
 ## METR Task Duration Measurements
 
 METR tracks the length of real-world tasks (measured by human expert completion time) that AI can complete successfully end-to-end without human help [2]:
@@ -97,3 +104,4 @@ Important: Default models in free tiers are often a year or more behind what pay
 2. [Something Big Is Happening - Matt Shumer](https://x.com/mattshumer_)
 3. [Fifty Years of Progress - Eric S. Raymond](https://x.com/esrtweet/status/2004829013068444050)
 4. [Claude Code Creator Reflects on One Year of Progress - Boris Cherny](https://x.com/i/status/2004887829252317325)
+5. [TechCrunch: Spotify says its best developers haven't written a line of code since December, thanks to AI](https://techcrunch.com/2026/02/12/spotify-says-its-best-developers-havent-written-a-line-of-code-since-december-thanks-to-ai/)
