@@ -14,6 +14,9 @@
 - [Designer Notes](#designer-notes)
 - [Session Workflow](#session-workflow)
   - [Tool Setup](#tool-setup)
+  - [Preloading Context with Diagram Files](#preloading-context-with-diagram-files)
+  - [Automation: Aliases, CLIs, and Hooks](#automation-aliases-clis-and-hooks)
+  - [Handling Drift](#handling-drift)
   - [Large-Project Workflow (Plan-First)](#large-project-workflow-plan-first)
 - [Example: Agentic ML Experimentation](#example-agentic-ml-experimentation-human-in-the-loop)
   - [What The Agent Did](#what-the-agent-did)
@@ -126,6 +129,8 @@ At the start of a session, direct the LLM to read these notes: "Go read this fil
 
 This practice aligns with the broader pattern of maintaining AGENTS.md or CLAUDE.md files, but emphasizes that good documentation benefits both AI and human collaborators.
 
+One high-leverage extension is to treat diagrams as first-class “compressed context” for agents. A small repo-local memory area of Markdown (often with Mermaid diagrams) can capture system flows, decision points, and dependencies in a form models ingest quickly, reducing repeated “orientation” and lowering the chance of breaking downstream assumptions [11].
+
 ## Session Workflow
 
 A straightforward session workflow [1]:
@@ -146,6 +151,30 @@ The specific agent matters less than mindset, but practical considerations inclu
 - **Agent choice**: Prefer agents that treat the entire code directory as context (e.g., Codex CLI) over those requiring explicit file selection (e.g., Aider)
 - **Editor integration**: Keep the agent in a separate terminal rather than forcing integration if your editor's terminal emulator has limitations
 - **Simplicity**: Use tools "in the dumbest and most obvious way" - don't over-engineer the setup
+
+### Preloading Context with Diagram Files
+
+If you invest in repo “memory” artifacts, make them easy to load at the start of a session. A practical pattern is to keep diagrams under a predictable directory (for example `AI/diagrams/`) and use a one-shot glob/concat command to append them into the agent’s initial context (for example `cat AI/diagrams/**/*.md`) [11]. This spends more tokens up front, but buys speed and reliability once execution starts [11].
+
+Good times to generate/backfill diagrams: after something works (often at the PR boundary), and early in older codebases where orientation cost is otherwise paid repeatedly [11].
+
+### Automation: Aliases, CLIs, and Hooks
+
+Once context loading is stable, remove launch friction and push quality checks earlier in the loop [11]:
+
+- **Aliases**: Encode common launch modes (model choice, permission mode, context preload) as one-command starts [11].
+- **Tiny personal CLIs**: Wrap repeated prompt recipes behind a few questions so you produce consistent artifacts without re-remembering prompts [11].
+- **CLI + IDE together**: Use CLI flows for fast, configurable launches and IDEs for precise edits and diagnostics you can feed back into the agent loop [11].
+
+For correctness gates, “stop hooks” can run the checks you already trust (typecheck, lint, format) right when the agent pauses, so it fixes failures immediately instead of leaving cleanup for you [11]. If a hook communicates with the agent via a JSON protocol on stdout, keep stdout clean and send debug output to stderr to avoid breaking the protocol [11].
+
+### Handling Drift
+
+When an agent drifts, it can be faster to restart from a known-good checkpoint than to steer a confused session back on course [11]. Patterns that help:
+
+- Export the conversation and have another model critique it as a “second set of eyes” [11].
+- Revert to a previous commit and restart from a revised prompt rather than patching a deeply drifted thread [11].
+- Prefer plan-first modes for anything beyond small edits; they materially reduce drift [11].
 
 ### Large-Project Workflow (Plan-First)
 
@@ -453,3 +482,4 @@ The analogy: building architects don't lay bricks, but understanding systems, st
 8. [Developer on X](https://x.com/i/status/2005421816110862601) - Using Claude as an ML lab assistant for end-to-end experimentation loops (2026)
 9. [Rob's SHIP Framework (YouTube)](https://youtube.com) - Four-step framework for non-coders building apps with AI (2026)
 10. [YouTube: “How I use Claude Code for real engineering”](https://youtu.be/kZ-zzHVUrO4?si=Ue6dee2iQmKy6tOu) - Plan-first workflow for large projects (2026)
+11. [The senior engineer's guide to AI coding: Context loading, custom hooks, and automation](note://76) - Diagram-driven context loading plus hooks/automation for quality gates (2026)

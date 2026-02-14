@@ -571,13 +571,21 @@
     {
       "category": "agentic-software-development",
       "corpus_paths": [
-        "topics/agentic-software-development/senior-engineer-ai-coding.md",
+        "topics/agentic-software-development/solo-workflow.md",
         "topics/agentic-software-development/README.md"
       ],
       "indexed_at": "2026-02-14T07:57:25+00:00",
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "The senior engineer's guide to AI coding: Context loading, custom hooks, and automation",
       "url": "note://76"
+    },
+    {
+      "category": "Agentic Software Development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-14T08:26:41+00:00",
+      "log_path": "topics/topics/agentic-software-development/logs.md",
+      "title": "Integrated Senior-Engineer Workflow Patterns into Solo Workflow",
+      "url": "note://77"
     }
   ],
   "version": 2
