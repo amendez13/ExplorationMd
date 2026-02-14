@@ -567,6 +567,17 @@
       "log_path": "topics/topics/tools/offline-first-media-summarization.md/logs.md",
       "title": "Summarize (summarize.sh): Offline-First Link, File, and Media Summaries",
       "url": "note://75"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [
+        "topics/agentic-software-development/senior-engineer-ai-coding.md",
+        "topics/agentic-software-development/README.md"
+      ],
+      "indexed_at": "2026-02-14T07:57:25+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "The senior engineer's guide to AI coding: Context loading, custom hooks, and automation",
+      "url": "note://76"
     }
   ],
   "version": 2
