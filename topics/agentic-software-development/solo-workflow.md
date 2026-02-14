@@ -39,7 +39,74 @@
   - [Initial Test Build](#initial-test-build)
   - [Production Build](#production-build)
   - [The Architect Mindset](#the-architect-mindset)
+- [Diagram (Summary)](#diagram-summary)
 - [Sources](#sources)
+
+---
+
+## Diagram (Summary)
+
+```mermaid
+flowchart TB
+  A[Agentic solo dev workflow] --> SHIFT[Workflow shift<br/>English intent<br/>agent does code]
+  A --> LAYER[New abstraction layer<br/>agents prompts context<br/>tools permissions skills]
+  A --> MINDSET[Mindset over tools<br/>optimize for reliability]
+
+  LAYER --> MM[New mental model<br/>stochastic fallible changing]
+  MM --> VAR[Variable outcomes<br/>pellet vs laser]
+  MM --> VERIFY[Compensate with verification<br/>tests checks review]
+
+  subgraph SESSION[Session workflow]
+    S0[Start] --> S1[Tool setup<br/>pick agent and editor flow]
+    S1 --> S2[Preload context<br/>diagrams docs key files]
+    S2 --> S3[Declare success criteria<br/>not step by step]
+    S3 --> S4[Plan first for large tasks<br/>questions decisions phases]
+    S4 --> S5[Execute phase<br/>agent runs loops]
+    S5 --> S6[Quality gates<br/>tests lint typecheck format]
+    S6 --> S7[Review and ship<br/>commit push deploy]
+    S6 -->|fail| S5
+    S5 --> DRIFT[Detect drift]
+    DRIFT -->|restart| S2
+    DRIFT -->|replan| S4
+  end
+
+  subgraph LEVERAGE[Leverage patterns]
+    D1[Declarative framing<br/>make this true]
+    D2[Test first then implement]
+    D3[Naive correct then optimize]
+    D4[Externalize state<br/>plans diagrams run logs]
+  end
+
+  subgraph SHIP[SHIP framework]
+    P1[Systems planning<br/>components data flows]
+    P2[Handpick tools<br/>avoid needless complexity]
+    P3[Initial test build<br/>prove core idea]
+    P4[Production rebuild<br/>use blueprint from test]
+    P5[Architect mindset<br/>human owns design]
+    P1 --> P2 --> P3 --> P4 --> P5
+  end
+
+  subgraph OPS[Inference speed shipping]
+    O1[Parallel projects<br/>queue work run remotely]
+    O2[Model selection by scope]
+    O3[Oversight shift<br/>watch stream<br/>spot check code]
+  end
+
+  subgraph RISKS[Failure modes and risks]
+    R1[Subtle mistakes<br/>confidently wrong]
+    R2[Abstraction bloat<br/>coupling]
+    R3[Confusion spirals]
+    R4[Skill atrophy risk]
+  end
+
+  SHIFT --> SESSION
+  MINDSET --> LEVERAGE
+  LEVERAGE --> SESSION
+  SHIP --> SESSION
+  OPS --> SESSION
+  RISKS --> VERIFY
+  VERIFY --> SESSION
+```
 
 ---
 
