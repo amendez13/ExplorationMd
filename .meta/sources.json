@@ -586,6 +586,38 @@
       "log_path": "topics/topics/agentic-software-development/logs.md",
       "title": "Integrated Senior-Engineer Workflow Patterns into Solo Workflow",
       "url": "note://77"
+    },
+    {
+      "category": "tools",
+      "corpus_paths": [
+        "topics/tools/ai-prompt-coach.md",
+        "topics/tools/README.md"
+      ],
+      "indexed_at": "2026-02-14T09:51:10+00:00",
+      "log_path": "topics/tools/logs.md",
+      "title": "AI Prompt Coach (announcement thread)",
+      "url": "https://x.com/i/status/2021570677162340560"
+    },
+    {
+      "category": "tools",
+      "corpus_paths": [
+        "topics/tools/ai-prompt-coach.md",
+        "topics/tools/README.md"
+      ],
+      "indexed_at": "2026-02-14T09:51:10+00:00",
+      "log_path": "topics/tools/logs.md",
+      "title": "AI Prompt Coach (tool site)",
+      "url": "https://coach.robinebers.com/"
+    },
+    {
+      "category": "tools",
+      "corpus_paths": [
+        "topics/tools/ai-prompt-coach.md"
+      ],
+      "indexed_at": "2026-02-14T09:51:10+00:00",
+      "log_path": "topics/tools/logs.md",
+      "title": "AI Prompt Coach example evaluation (15-principle rubric)",
+      "url": "https://coach.robinebers.com/p/j579efb0x2bpbx9m1jmzac4yeh7x2b1c"
     }
   ],
   "version": 2

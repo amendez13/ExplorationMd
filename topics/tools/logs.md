@@ -158,3 +158,39 @@ Short thread of implementation notes about a media summarization workflow: some 
 - Performance can be a limiting factor (“slooooooow”)
 
 ---
+
+### [AI Prompt Coach (announcement thread)](https://x.com/i/status/2021570677162340560)
+*2026-02-14T09:51:10Z* | Tags: tools, prompt-engineering, ai-coding, prompts, coaching
+
+Short promo thread referencing “AI Prompt Coach”, described as a free tool for improving AI coding prompts using 15 principles derived from Anthropic and OpenAI research.
+
+**Key Points:**
+- Positions the tool as a “prompt coach” for AI coding prompts
+- Claims the tool is free and based on 15 principles
+- Links to the tool landing page (via a URL shortener)
+
+---
+
+### [AI Prompt Coach (tool site)](https://coach.robinebers.com/)
+*2026-02-14T09:51:10Z* | Tags: tools, prompt-engineering, ai-coding, prompts, rubric, scoring
+
+Landing page for AI Prompt Coach, a web app that analyzes prompts and returns a score, per-principle feedback, and example prompts with scores.
+
+**Key Points:**
+- Includes an “Analyze My Prompt” flow and notes results can take ~20–30 seconds to generate
+- Shows example prompts with numeric scores (cards and a prompt/score table)
+- Includes opt-in prompt sharing and a disabled “web search with Perplexity” toggle in the page HTML
+
+---
+
+### [AI Prompt Coach example evaluation (principle breakdown)](https://coach.robinebers.com/p/j579efb0x2bpbx9m1jmzac4yeh7x2b1c)
+*2026-02-14T09:51:10Z* | Tags: tools, prompt-engineering, rubric, scoring, best-practices
+
+Public example evaluation page showing a 15-principle rubric and per-principle scoring, reasoning, and suggestions (including non-applicable items).
+
+**Key Points:**
+- Exposes the 15 principle names used by the coach (e.g., “Name Your Tools and Versions”, “Take It One Step at a Time”)
+- Provides per-principle pass/fail, reasoning, suggestions, and individual scores
+- Marks some principles as non-applicable depending on the prompt type (e.g., debugging vs. greenfield)
+
+---
