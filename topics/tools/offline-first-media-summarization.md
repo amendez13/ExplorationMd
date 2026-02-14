@@ -1,67 +1,73 @@
 [← Back to Topic](README.md) | [← Home](../../README.md)
 
-# Offline-First Media Summarization: Transcripts, TTS Fallback, and Local Caching
+# Summarize (summarize.sh): Offline-First Link, File, and Media Summaries
 
 ## Index
 
-- [Overview](#overview)
-- [Transcript Availability and TTS Fallback](#transcript-availability-and-tts-fallback)
-- [Local Caching and “No Phone Home”](#local-caching-and-no-phone-home)
-- [Server-Side Caching Tradeoffs](#server-side-caching-tradeoffs)
-- [Network and Performance Constraints](#network-and-performance-constraints)
-- [Practical Checklist](#practical-checklist)
+- [What It Is](#what-it-is)
+- [Interfaces](#interfaces)
+- [Offline-First and Caching](#offline-first-and-caching)
+- [Media Pipeline (Transcripts and Fallbacks)](#media-pipeline-transcripts-and-fallbacks)
+- [Slides Mode (YouTube)](#slides-mode-youtube)
+- [Model Backends](#model-backends)
+- [Operational Notes](#operational-notes)
 - [Sources](#sources)
 
 ---
 
-## Overview
+## What It Is
 
-Media summarization pipelines often depend on speech-to-text transcripts. In practice, some “tracks” won’t have transcripts available, so a robust tool needs a fallback path (for example, TTS/voice-based handling) and a caching strategy that doesn’t create privacy surprises. A short implementation thread highlights these constraints: transcript gaps, local caching, an explicit “no phone home” posture, and performance bottlenecks. [1]
+Summarize is a toolset for extracting clean text from links, files, and media and turning it into summaries. It’s available as a CLI and as a browser side panel/extension, and it’s positioned as useful for both agent workflows and humans (especially for YouTube/podcasts). [1] [2] [3]
 
-## Transcript Availability and TTS Fallback
+Key links:
+- Project site: `https://summarize.sh/` [2]
+- Source and releases: `https://github.com/steipete/summarize` [3] [8]
 
-If transcripts are missing for a portion of your inputs, a summarization tool needs a second path to avoid failing open or silently skipping content. One approach mentioned is using TTS as a fallback when transcripts aren’t available. [1]
+## Interfaces
 
-Implication: design the pipeline so “transcript present” is an optimization, not a hard dependency, and make the fallback behavior visible to users (what was summarized via transcript vs fallback). [1]
+- **CLI (automation-friendly):** Accepts URLs and local files (including media), and supports modes like YouTube-specific extraction. [1] [3] [6]
+- **Browser side panel:** A Chrome side panel (and Firefox sidebar) that summarizes the current tab and streams results, backed by a local daemon on `127.0.0.1` authenticated with a shared token. [3] [4]
 
-## Local Caching and “No Phone Home”
+## Offline-First and Caching
 
-The thread notes that results are cached locally and that the summarizer has “no phone home” behavior. [1]
+Summarize documents a local-first cache design intended to avoid repeated extraction/transcription/summarization work: a lightweight SQLite cache plus a separate on-disk media download cache for large assets. [5]
 
-Design implications:
-- **Default to local storage:** Prefer storing intermediate artifacts (transcripts, embeddings, summaries) on-device to reduce third-party exposure. [1]
-- **Make network behavior explicit:** “No phone home” is a trust claim; the UX should reinforce it (clear settings, no hidden telemetry). [1]
-- **Cache invalidation matters:** Local caching can become a correctness issue if input media changes or if different summarization settings are used; cache keys should include the parameters that affect output. [1]
+Notable details:
+- **SQLite cache:** Defaults to `~/.summarize/cache.sqlite` with TTL/size caps and explicit CLI flags like `--no-cache` and `--clear-cache`. [5]
+- **Media cache:** Defaults to `~/.summarize/cache/media` with a TTL and size cap, and can be disabled independently via `--no-media-cache`. [5]
+- **Cache keys:** Designed to include inputs and settings (e.g., model/length/language) so changes don’t accidentally reuse stale results. [5]
 
-## Server-Side Caching Tradeoffs
+## Media Pipeline (Transcripts and Fallbacks)
 
-The author flags that server-side caching “might be problematic.” [1] While the thread doesn’t expand on why, common failure modes include:
-- **Privacy risk:** Server caches can unintentionally retain sensitive audio/text.
-- **Cross-user leakage:** Mis-keyed caches can serve someone else’s summary.
-- **Compliance concerns:** Retention policies and data locality become issues once summaries/transcripts live on a server.
+Summarize treats YouTube as “transcript-first” extraction, with multiple strategies and fallbacks depending on what the video exposes and what tools/keys are available. [6]
 
-The practical takeaway is to treat server-side caching as an opt-in feature with strong isolation, encryption, and retention controls, rather than a default. [1]
+Examples of documented fallbacks:
+- Multiple transcript extraction modes (`--youtube auto|web|no-auto|apify|yt-dlp`) with `yt-dlp` + transcription as a deeper fallback. [6]
+- A recent release makes **Groq Whisper** the preferred cloud transcriber for reliability, with support for custom OpenAI-compatible Whisper endpoints. [8]
 
-## Network and Performance Constraints
+## Slides Mode (YouTube)
 
-Two operational constraints show up:
-- The system is described as being meant for “residential IP” (network assumptions can matter for access or reliability). [1]
-- The workflow is noted as slow, suggesting summarization latency can dominate user experience and costs. [1]
+Summarize supports a “slides” extraction mode for YouTube videos, producing slide screenshots (and optional OCR) and writing outputs to a local directory. [1] [6]
 
-This points toward investing in:
-- **Incremental processing:** process in chunks and stream partial summaries.
-- **Local-first acceleration:** cache aggressively and avoid repeating expensive steps.
-- **Clear progress feedback:** latency needs UI support to avoid “it’s stuck” failure perceptions.
+## Model Backends
 
-## Practical Checklist
+Summarize can route summarization calls through installed CLIs (including Codex, Claude, Gemini, and Cursor Agent) so it can work in “local CLI” setups without API keys, with configurable auto-fallback behavior. [7] [8]
 
-- Handle “no transcript” as a first-class case; document the fallback path. [1]
-- Cache locally by default; include config in cache keys; allow clearing/exporting. [1]
-- If adding server-side caching, isolate per user and define retention explicitly. [1]
-- Surface network assumptions (e.g., IP constraints) as explicit requirements. [1]
-- Treat performance as a product feature: chunking, streaming output, and progress indicators. [1]
+## Operational Notes
+
+The original announcement thread highlights a few pragmatic constraints and tradeoffs (some stated as intentions/claims):
+- **Transcript gaps:** some inputs won’t have transcripts, so the pipeline needs fallbacks. [1] [6]
+- **Local caching + “no phone home”:** described as caching locally and not phoning home. [1] [5]
+- **Server-side caching caution:** described as potentially problematic (implied privacy/correctness risks). [1]
+- **Network and performance constraints:** described as slow, and mentions a “residential IP” assumption. [1]
 
 ## Sources
 
-1. [x.com](https://x.com/i/status/2022513027870810384)
-
+1. [x.com (announcement thread)](https://x.com/i/status/2022513027870810384)
+2. [summarize.sh](https://summarize.sh/)
+3. [github.com/steipete/summarize](https://github.com/steipete/summarize)
+4. [summarize.sh docs: chrome extension](https://summarize.sh/docs/chrome-extension.html)
+5. [summarize.sh docs: cache](https://summarize.sh/docs/cache.html)
+6. [summarize.sh docs: YouTube mode](https://summarize.sh/docs/youtube.html)
+7. [summarize.sh docs: CLI models](https://summarize.sh/docs/cli.html)
+8. [GitHub release v0.11.1 (includes v0.11.0 highlights)](https://github.com/steipete/summarize/releases/tag/v0.11.1)

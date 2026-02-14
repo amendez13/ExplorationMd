@@ -485,8 +485,88 @@
       ],
       "indexed_at": "2026-02-14T00:00:00+00:00",
       "log_path": "topics/tools/logs.md",
-      "title": "Offline-first media summarization notes (local caching, transcript gaps, TTS fallback)",
+      "title": "Summarize (summarize.sh) v0.11 announcement thread (local caching, transcript fallbacks, slides mode)",
       "url": "https://x.com/i/status/2022513027870810384"
+    },
+    {
+      "category": "tools",
+      "corpus_paths": [
+        "topics/tools/offline-first-media-summarization.md",
+        "topics/tools/README.md"
+      ],
+      "indexed_at": "2026-02-14T00:00:00+00:00",
+      "log_path": "topics/tools/logs.md",
+      "title": "summarize.sh (project site)",
+      "url": "https://summarize.sh/"
+    },
+    {
+      "category": "tools",
+      "corpus_paths": [
+        "topics/tools/offline-first-media-summarization.md"
+      ],
+      "indexed_at": "2026-02-14T00:00:00+00:00",
+      "log_path": "topics/tools/logs.md",
+      "title": "Summarize Docs: Cache (design)",
+      "url": "https://summarize.sh/docs/cache.html"
+    },
+    {
+      "category": "tools",
+      "corpus_paths": [
+        "topics/tools/offline-first-media-summarization.md"
+      ],
+      "indexed_at": "2026-02-14T00:00:00+00:00",
+      "log_path": "topics/tools/logs.md",
+      "title": "Summarize Docs: Browser Side Panel (Chrome + Firefox Extension + Daemon)",
+      "url": "https://summarize.sh/docs/chrome-extension.html"
+    },
+    {
+      "category": "tools",
+      "corpus_paths": [
+        "topics/tools/offline-first-media-summarization.md"
+      ],
+      "indexed_at": "2026-02-14T00:00:00+00:00",
+      "log_path": "topics/tools/logs.md",
+      "title": "Summarize Docs: YouTube mode",
+      "url": "https://summarize.sh/docs/youtube.html"
+    },
+    {
+      "category": "tools",
+      "corpus_paths": [
+        "topics/tools/offline-first-media-summarization.md"
+      ],
+      "indexed_at": "2026-02-14T00:00:00+00:00",
+      "log_path": "topics/tools/logs.md",
+      "title": "Summarize Docs: CLI models",
+      "url": "https://summarize.sh/docs/cli.html"
+    },
+    {
+      "category": "tools",
+      "corpus_paths": [
+        "topics/tools/offline-first-media-summarization.md"
+      ],
+      "indexed_at": "2026-02-14T00:00:00+00:00",
+      "log_path": "topics/tools/logs.md",
+      "title": "Summarize GitHub Release v0.11.1 (includes v0.11.0 highlights)",
+      "url": "https://github.com/steipete/summarize/releases/tag/v0.11.1"
+    },
+    {
+      "category": "tools",
+      "corpus_paths": [
+        "topics/tools/offline-first-media-summarization.md",
+        "topics/tools/README.md"
+      ],
+      "indexed_at": "2026-02-14T00:00:00+00:00",
+      "log_path": "topics/tools/logs.md",
+      "title": "Summarize (GitHub repository)",
+      "url": "https://github.com/steipete/summarize"
+    },
+    {
+      "category": "Tools",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-14T06:39:07+00:00",
+      "log_path": "topics/topics/tools/offline-first-media-summarization.md/logs.md",
+      "title": "Summarize (summarize.sh): Offline-First Link, File, and Media Summaries",
+      "url": "note://75"
     }
   ],
   "version": 2

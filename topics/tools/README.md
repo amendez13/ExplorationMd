@@ -11,7 +11,7 @@ This topic is intentionally broad: if a tool is useful, it belongs here.
 - [AI Agent Skills](ai-agent-skills.md) - Modular skills for Claude Code and other AI assistants: React best practices, Convex patterns, SwiftUI, Tauri, and more.
 - [OpenUsage: AI Limits Tracker](openusage-ai-limits-tracker.md) - Menu bar app for tracking AI coding subscription usage across providers.
 - [Obsidian: File-First Notes, Migration, and CLI Search](obsidian-file-first-notes.md) - Why plain-text Markdown notes reduce lock-in and enable better search/LLM workflows.
-- [Offline-First Media Summarization](offline-first-media-summarization.md) - Design notes on transcript gaps, TTS fallback, local caching, and privacy/performance tradeoffs.
+- [Summarize (summarize.sh): Offline-First Media Summaries](offline-first-media-summarization.md) - Catalog entry for `summarize.sh` (CLI + browser side panel) with caching, transcript fallbacks, and slide extraction.
 
 ## Recent Activity
 

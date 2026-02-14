@@ -6,6 +6,90 @@
 
 ---
 
+### [summarize.sh](https://summarize.sh/)
+*2026-02-14* | Tags: tools, summarize, summarization, cli, chrome-extension, firefox, extraction, media
+
+Project page for Summarize, describing it as a fast extraction + summarization tool available both as a CLI and as a browser side panel extension.
+
+**Key Points:**
+- Positions Summarize as “summaries that live where you work” (CLI + Chrome Side Panel)
+- Emphasizes extraction pipeline quality (link/file/media → clean text → summary)
+- Links to docs and the open-source repository for installation and configuration
+
+---
+
+### [Summarize Docs: Cache (design)](https://summarize.sh/docs/cache.html)
+*2026-02-14* | Tags: tools, summarize, caching, sqlite, offline-first, media-cache
+
+Documentation of Summarize’s cache design: a CLI-only SQLite database for transcripts/extractions/summaries plus a separate file cache for downloaded media.
+
+**Key Points:**
+- Default SQLite cache path is `~/.summarize/cache.sqlite`, with TTL and size caps
+- Separate media download cache under `~/.summarize/cache/media` with its own TTL/size limits
+- Cache keys incorporate inputs and settings (e.g., model/length/language) to avoid stale reuse
+
+---
+
+### [Summarize Docs: Browser Side Panel (Chrome + Firefox Extension + Daemon)](https://summarize.sh/docs/chrome-extension.html)
+*2026-02-14* | Tags: tools, summarize, chrome-extension, firefox, daemon, localhost, sse
+
+Architecture and setup notes for the browser side panel: the extension streams summaries but relies on a local daemon for extraction and media tooling.
+
+**Key Points:**
+- Uses a local, token-authenticated daemon on `127.0.0.1` (autostart via launchd/systemd/Scheduled Task)
+- Streams results (SSE) for in-panel rendering and “live” summaries
+- Explains page-vs-media routing: the daemon chooses the best pipeline for the current tab
+
+---
+
+### [Summarize Docs: YouTube mode](https://summarize.sh/docs/youtube.html)
+*2026-02-14* | Tags: tools, summarize, youtube, transcripts, whisper, yt-dlp, slides, ocr
+
+YouTube-specific extraction behavior and fallbacks, including transcript-first modes and slide screenshot extraction.
+
+**Key Points:**
+- Transcript-first flow with selectable strategies (`--youtube auto|web|no-auto|apify|yt-dlp`)
+- `yt-dlp` mode can download audio and transcribe via local `whisper.cpp` (preferred) with cloud fallbacks
+- `--slides` extracts slide screenshots; optional OCR via `--slides-ocr`
+
+---
+
+### [Summarize Docs: CLI models](https://summarize.sh/docs/cli.html)
+*2026-02-14* | Tags: tools, summarize, cli, model-routing, cursor, codex, claude, gemini
+
+Documentation for using installed CLIs as model backends (Codex, Claude, Gemini, Cursor Agent) and configuring auto-fallback behavior.
+
+**Key Points:**
+- Defines `cli/<provider>/<model>` ids and the `--cli` shortcut selection
+- Auto-mode supports configurable CLI fallback and persists the last-success provider
+- Cursor Agent runs via an `agent` binary and can rely on Cursor auth
+
+---
+
+### [Summarize GitHub Release v0.11.1 (includes v0.11.0 highlights)](https://github.com/steipete/summarize/releases/tag/v0.11.1)
+*2026-02-14* | Tags: tools, summarize, release-notes, groq, whisper, cursor-agent, caching
+
+Release notes covering v0.11.0/v0.11.1, including CLI-provider additions and media/transcription reliability improvements.
+
+**Key Points:**
+- Makes Groq Whisper the preferred cloud transcriber and improves fallback flow
+- Adds a Cursor Agent CLI provider (`--cli agent`) and more explicit auto CLI fallback controls
+- Includes cache behavior tweaks for auto presets to avoid stale per-candidate cache hits
+
+---
+
+### [Summarize GitHub Repository](https://github.com/steipete/summarize)
+*2026-02-14* | Tags: tools, summarize, open-source, npm, homebrew, daemon, chrome-extension
+
+Repository with installation instructions, feature overview (URLs/files/media), and the CLI/extension architecture details.
+
+**Key Points:**
+- Installs via npm (`npm i -g @steipete/summarize`) or Homebrew (`brew install steipete/tap/summarize`, macOS arm64)
+- Supports URLs, local files, and media sources like YouTube and podcasts
+- Documents a local-daemon design for the browser side panel and automation-friendly CLI modes
+
+---
+
 ### [OpenUsage - AI Limits Tracker for Cursor, Claude Code, Codex and more](https://www.openusage.ai/)
 *2026-02-12* | Tags: tools, openusage, usage-tracking, limits, quota, menu-bar, open-source, plugin, providers, macos
 
