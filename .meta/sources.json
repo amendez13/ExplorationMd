@@ -618,6 +618,69 @@
       "log_path": "topics/tools/logs.md",
       "title": "AI Prompt Coach example evaluation (15-principle rubric)",
       "url": "https://coach.robinebers.com/p/j579efb0x2bpbx9m1jmzac4yeh7x2b1c"
+    },
+    {
+      "category": "tools",
+      "corpus_paths": [
+        "topics/tools/mcp-servers-exa-ref.md",
+        "topics/tools/README.md"
+      ],
+      "indexed_at": "2026-02-14T00:00:00+00:00",
+      "log_path": "topics/tools/logs.md",
+      "title": "Favorite MCP servers: Exa and Ref",
+      "url": "note://78"
+    },
+    {
+      "category": "tools",
+      "corpus_paths": [
+        "topics/tools/mcp-servers-exa-ref.md",
+        "topics/tools/README.md"
+      ],
+      "indexed_at": "2026-02-14T00:00:00+00:00",
+      "log_path": "topics/tools/logs.md",
+      "title": "Exa MCP Server (GitHub repository)",
+      "url": "https://github.com/exa-labs/exa-mcp-server"
+    },
+    {
+      "category": "tools",
+      "corpus_paths": [
+        "topics/tools/mcp-servers-exa-ref.md",
+        "topics/tools/README.md"
+      ],
+      "indexed_at": "2026-02-14T00:00:00+00:00",
+      "log_path": "topics/tools/logs.md",
+      "title": "Model Context Protocol servers list (community servers)",
+      "url": "https://github.com/modelcontextprotocol/servers"
+    },
+    {
+      "category": "tools",
+      "corpus_paths": [
+        "topics/tools/mcp-servers-exa-ref.md",
+        "topics/tools/README.md"
+      ],
+      "indexed_at": "2026-02-14T00:00:00+00:00",
+      "log_path": "topics/tools/logs.md",
+      "title": "Ref MCP (GitHub repository)",
+      "url": "https://github.com/ref-tools/ref-tools-mcp"
+    },
+    {
+      "category": "tools",
+      "corpus_paths": [
+        "topics/tools/mcp-servers-exa-ref.md",
+        "topics/tools/README.md"
+      ],
+      "indexed_at": "2026-02-14T00:00:00+00:00",
+      "log_path": "topics/tools/logs.md",
+      "title": "ref.tools",
+      "url": "https://ref.tools/"
+    },
+    {
+      "category": "tools",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-14T10:25:09+00:00",
+      "log_path": "topics/topics/tools/logs.md",
+      "title": "MCP Servers Catalog: Exa and Ref",
+      "url": "note://79"
     }
   ],
   "version": 2

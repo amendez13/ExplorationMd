@@ -6,6 +6,64 @@
 
 ---
 
+### [Favorite MCP servers: Exa and Ref](note://78)
+*2026-02-14* | Tags: tools, mcp, model-context-protocol, exa, ref-tools, search, documentation
+
+Short note that two MCP servers (Exa and Ref) have remained the author’s favorites “for months,” framed as notable stability in a fast-moving agent tooling ecosystem.
+
+**Key Points:**
+- Calls out Exa and Ref as durable defaults for MCP-based workflows
+- Implies long-lived utility versus churn in the MCP server landscape
+
+---
+
+### [Exa MCP Server (GitHub repository)](https://github.com/exa-labs/exa-mcp-server)
+*2026-02-14* | Tags: tools, mcp, exa, web-search, code-search, research, http
+
+Repository documenting Exa’s hosted MCP endpoint and available tools for web search, code context search, and research workflows.
+
+**Key Points:**
+- Documents hosted MCP endpoint `https://mcp.exa.ai/mcp` and `npx`-based setup options
+- Lists default and opt-in tools (web search, code context, company/person research, deep researcher)
+- Includes client-specific configuration examples (Cursor, VS Code, Claude Code, etc.)
+
+---
+
+### [Model Context Protocol servers list (community servers)](https://github.com/modelcontextprotocol/servers)
+*2026-02-14* | Tags: tools, mcp, registry, server-list, community
+
+Repository README that links to community-built MCP servers and related resources, including Exa in its third-party server list.
+
+**Key Points:**
+- Positions the repo as a hub for reference implementations and community servers
+- Links to the MCP Registry for browsing published servers
+- Includes an entry linking to Exa’s MCP server repository
+
+---
+
+### [Ref MCP (GitHub repository)](https://github.com/ref-tools/ref-tools-mcp)
+*2026-02-14* | Tags: tools, mcp, ref-tools, documentation, retrieval, token-efficiency
+
+Repository for Ref’s MCP server focused on documentation search and URL reading, with emphasis on session-aware retrieval and minimizing unnecessary context tokens.
+
+**Key Points:**
+- Documents hosted HTTP setup (`https://api.ref.tools/mcp?apiKey=...`) and local stdio setup via `npx`
+- Defines tools like `ref_search_documentation` and `ref_read_url`
+- Describes session-based filtering and partial-page reading to reduce context size
+
+---
+
+### [ref.tools](https://ref.tools/)
+*2026-02-14* | Tags: tools, mcp, ref-tools, documentation, agentic-search
+
+Ref’s product site describing the tool as “context for your coding agent” and the broader approach to documentation retrieval for agents.
+
+**Key Points:**
+- Positions Ref as an agent-oriented documentation context layer
+- Serves as the primary product entry point (pricing/signup/docs links)
+
+---
+
 ### [summarize.sh](https://summarize.sh/)
 *2026-02-14* | Tags: tools, summarize, summarization, cli, chrome-extension, firefox, extraction, media
 
