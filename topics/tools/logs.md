@@ -60,3 +60,17 @@ Spanish thread describing a switch from Apple Notes to Obsidian for a file-first
 - Notes new Obsidian CLI (initially Catalyst) enabling more efficient search, potentially useful for AI agent workflows
 
 ---
+
+### [Local caching, transcript gaps, and privacy tradeoffs in media summarization](https://x.com/i/status/2022513027870810384)
+*2026-02-14* | Tags: tools, summarization, offline-first, caching, privacy, transcripts, tts, performance, residential-ip
+
+Short thread of implementation notes about a media summarization workflow: some inputs lack transcripts so TTS is used as a fallback, outputs are cached locally, and the summarizer is described as having “no phone home” behavior. The author also flags server-side caching as potentially problematic and notes the system can be slow.
+
+**Key Points:**
+- Not all tracks have transcripts; TTS is used as fallback
+- Caches locally; “summarize has no phone home feature”
+- Server-side caching may introduce problems (implied privacy or correctness concerns)
+- Network assumptions may matter (mentioned as being meant for residential IP)
+- Performance can be a limiting factor (“slooooooow”)
+
+---

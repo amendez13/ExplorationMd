@@ -476,6 +476,17 @@
       "log_path": "topics/investment-finance/logs.md",
       "title": "2026 Market Outlook: Bullish Year for Hard Assets",
       "url": "https://www.estrategiasdeinversion.com/analisis/bolsa-y-mercados/el-experto-opina/que-nos-traera-2026-espero-un-ano-alcista-para-n-876773"
+    },
+    {
+      "category": "tools",
+      "corpus_paths": [
+        "topics/tools/offline-first-media-summarization.md",
+        "topics/tools/README.md"
+      ],
+      "indexed_at": "2026-02-14T00:00:00+00:00",
+      "log_path": "topics/tools/logs.md",
+      "title": "Offline-first media summarization notes (local caching, transcript gaps, TTS fallback)",
+      "url": "https://x.com/i/status/2022513027870810384"
     }
   ],
   "version": 2
