@@ -7,6 +7,7 @@
 - [The Communication Gap](#the-communication-gap)
 - [The Power User Gap](#the-power-user-gap)
 - [Job Displacement](#job-displacement)
+- [The Messy Jobs Counterargument](#the-messy-jobs-counterargument)
 - [Why This Automation Wave Is Different](#why-this-automation-wave-is-different)
 - [Urgency and Emotional Weight](#urgency-and-emotional-weight)
 - [Individual Preparedness](#individual-preparedness)
@@ -67,6 +68,42 @@ Dario Amodei (CEO of Anthropic) has publicly predicted 50% of entry-level white-
 - **Customer service**: Capable AI agents handling complex multi-step problems (not the frustrating chatbots of five years ago)
 
 Amodei has also stated that AI models "substantially smarter than almost all humans at almost all tasks" are on track for 2026 or 2027 [2].
+
+## The Messy Jobs Counterargument
+
+Not everyone accepts the rapid automation thesis. Raffaella Sadun (Harvard Business School professor) argues that predictions of white-collar jobs being "fully automated" within 12-18 months reflect marketing language rather than understanding of how organizations actually work [10].
+
+**The "Messy Jobs" concept**: Many white-collar roles are fundamentally about coordination, negotiation, and conflict resolution—tasks that cannot be automated even when component tasks can [10].
+
+**Case study: London housing**
+- London needs 88,000 new homes per year
+- In the first nine months of 2025, just 3,248 private homes started construction
+- Planning permissions have fallen to their lowest level since records began in 2006
+- Technology to design buildings has existed for years (pre-AI)
+
+The bottleneck isn't technical—it's human. What stops homes from being built are environmental regulations, land use rules, and neighbors who weaponize them through lawsuits and political pressure. AI can draft a planning review, but that's a "trivial bit." It cannot convince an environmental group to drop a lawsuit, persuade politicians, or negotiate with neighbors who have incompatible interests [10].
+
+**Case study: Radiologists**
+- Radiologists were "supposed to be gone in 2017" according to AI predictions
+- Reality: Radiologists spend only 1/3 of their time reading scans (the automatable part)
+- Employment and wages for radiologists are sharply up
+
+**Why task automation ≠ job automation** [10]:
+- Organizations exist to resolve conflicts and handle exceptions
+- Decision-making requires authority—someone who can be blamed, sued, or fired
+- Managers "resolve disputes about the rules, not just within them"
+- Most consultants work to elicit tacit, local knowledge about what's actually happening in a firm
+- Coordination itself employs people (think about your last home renovation: the contractor getting window installers and floor installers to show up and do good work)
+
+**What Sadun concedes** [10]:
+- AI will make white-collar workers more productive
+- Single-task, automatable roles will shrink (tax preparation, contract drafting)
+- Many individual tasks will be automated
+- Career ladder disruption is a legitimate concern
+
+**The marketing critique**: "Most tasks fully automated in 18 months" is not a prediction—it's marketing designed to sell enterprise subscriptions and justify capital expenditure [10].
+
+**The core insight**: "The real world is messy. The mess is not a bug. It is what happens when human beings with competing interests try to get things done together" [10].
 
 ## Why This Automation Wave Is Different
 
@@ -283,3 +320,4 @@ The advice: be prepared now rather than caught off-guard later.
 7. [Epistemic Trust - Jaime Gómez-Obregón](https://x.com/JaimeObregon) - On trusting people over messages in the age of AI (2026)
 8. [Cognitive Surrender and Tri-System Theory](https://x.com/i/status/2022937113142984933) - Research on uncritical AI adoption and AGI as System 3 (2026)
 9. [Learning and Unlearning - Jaime Gómez-Obregón](https://x.com/i/status/2022976988751757444) - On skill atrophy, emotional intelligence gaps, and accelerating cognitive tool adoption (2026)
+10. [Messy Jobs - Raffaella Sadun](https://x.com/i/status/2022993691330203673) - Harvard Business School professor's counterargument to rapid white-collar automation claims (2026)

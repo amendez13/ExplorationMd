@@ -205,3 +205,23 @@ Continuation of Jaime Gómez-Obregón's thread on cognitive dynamics in the mode
 - These phenomena aren't new but are accelerating
 
 ---
+
+### [Messy Jobs: Why White-Collar Automation Is Harder Than AI Leaders Claim](https://x.com/i/status/2022993691330203673)
+*2026-02-15T16:00:00Z* | Tags: ai-progress, job-displacement, labor-market, organizational-theory, counterargument
+
+Raffaella Sadun (Harvard Business School professor) pushes back against claims that white-collar jobs will be "fully automated" within 12-18 months, arguing that such predictions reflect marketing rather than understanding of how organizations and labor markets actually work.
+
+**Key Points:**
+- Context: Microsoft's Mustafa Suleyman claimed "most tasks" for lawyers, accountants, project managers, and marketing will be "fully automated" in 12-18 months
+- The author characterizes this as "populist-baiting language" designed to "sell enterprise subscriptions and justify capital expenditure"
+- Core concept: "Messy Jobs"—many white-collar roles involve coordination, negotiation, and conflict resolution that cannot be automated even when component tasks can
+- London housing example: Technology to design buildings exists, but only 3,248 private homes started construction in first nine months of 2025 versus 88,000 needed annually; the bottleneck is human—regulations, lawsuits, negotiations with neighbors, politicians, environmental groups
+- Radiologist example: Radiologists spend only 1/3 of their time reading scans (the automatable part); their roles were "supposed to be gone in 2017" but employment and wages are sharply up
+- Organizations resolve conflicts, deal with exceptions, and require authority—someone who can be blamed, sued, or fired
+- Manager function: "The manager resolves disputes about the rules, not just within them"
+- Task automation ≠ job automation: "Automating the automatable tasks within them is not near to automating the job"
+- Single-task roles will shrink (tax prep, contract drafting), but most white-collar work involves irreducible human elements
+- Career ladder disruption acknowledged as a legitimate concern
+- "The real world is messy. The mess is not a bug. It is what happens when human beings with competing interests try to get things done together."
+
+---

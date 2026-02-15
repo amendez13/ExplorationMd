@@ -739,6 +739,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Agents Have Zero Tolerance for Codebase Entropy",
       "url": "https://x.com/i/status/2022339274767520246"
+    },
+    {
+      "category": "ai-progress",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-15T13:53:52+00:00",
+      "log_path": "topics/ai-progress/logs.md",
+      "title": "Messy Jobs: Why White-Collar Automation Is Harder Than AI Leaders Claim",
+      "url": "https://x.com/i/status/2022993691330203673"
     }
   ],
   "version": 2
