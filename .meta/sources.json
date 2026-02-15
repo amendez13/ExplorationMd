@@ -691,6 +691,14 @@
       "log_path": "topics/ai-progress/logs.md",
       "title": "Spotify says its best developers haven't written a line of code since December, thanks to AI",
       "url": "https://techcrunch.com/2026/02/12/spotify-says-its-best-developers-havent-written-a-line-of-code-since-december-thanks-to-ai/"
+    },
+    {
+      "category": "AI Progress",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-15T07:53:43+00:00",
+      "log_path": "topics/topics/ai-progress/logs.md",
+      "title": "xAI Operations and Western Competitiveness",
+      "url": "https://x.com/i/status/2022491197667774573"
     }
   ],
   "version": 2
