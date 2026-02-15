@@ -781,6 +781,14 @@
       "log_path": "topics/topics/self-improvement/logs.md",
       "title": "Four Burners Theory Critiques and Extensions",
       "url": "note://91"
+    },
+    {
+      "category": "AI Engineering Fundamentals",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-15T22:56:26+00:00",
+      "log_path": "topics/topics/ai-eng-fundamentals/logs.md",
+      "title": "MicroGPT Deep Dive",
+      "url": "https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95"
     }
   ],
   "version": 2
