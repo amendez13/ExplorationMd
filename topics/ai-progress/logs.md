@@ -173,3 +173,19 @@ Twitter thread analyzing xAI's operational model as a response to global AI comp
 - Stark framing: "The choice isn't between chaos and order. It's between execution and extinction."
 
 ---
+
+### [Cognitive Surrender and the Tri-System Theory](https://x.com/i/status/2022937113142984933)
+*2026-02-15T14:00:00Z* | Tags: ai-progress, cognition, cognitive-surrender, decision-making, human-ai-interaction
+
+Catalan academic thread discussing research on "cognitive surrender"—the uncritical abdication of reasoning to AI systems—as distinct from mere "cognitive offloading." Proposes a Tri-System Theory that adds AGI as System 3 alongside Kahneman's System 1 (intuition) and System 2 (reflection).
+
+**Key Points:**
+- Cognitive offloading (e.g., using GPS) delegates judgment; cognitive surrender abdicates reasoning itself
+- Cognitive surrender reflects not just use of external assistance but a renunciation of cognitive control
+- Users accept AI responses without critical evaluation, substituting the AI's reasoning for their own
+- The Tri-System Theory frames AGI as System 3—a cognitive resource that can complement or replace Systems 1 and 2
+- Research shows decision-makers frequently adopt System 3 outputs even when those outputs are systematically incorrect
+- This reflects "blind or uncritical trust" in AI systems
+- The author acknowledges sometimes ignoring AI recommendations—suggesting the phenomenon is observable but not universal
+
+---

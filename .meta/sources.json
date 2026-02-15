@@ -715,6 +715,14 @@
       "log_path": "topics/topics/stories/logs.md",
       "title": "Remove OpenAI Agentic Development Retooling",
       "url": "note://84"
+    },
+    {
+      "category": "AI Progress",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-15T10:58:07+00:00",
+      "log_path": "topics/topics/ai-progress/logs.md",
+      "title": "Cognitive Surrender and Tri-System Theory",
+      "url": "https://x.com/i/status/2022937113142984933"
     }
   ],
   "version": 2

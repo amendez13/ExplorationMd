@@ -18,6 +18,7 @@
 - [The Bigger Picture](#the-bigger-picture)
 - [The 2026 Slopacolypse](#the-2026-slopacolypse)
 - [Epistemic Trust in the Age of Information Overload](#epistemic-trust-in-the-age-of-information-overload)
+- [Cognitive Surrender and the Tri-System Theory](#cognitive-surrender-and-the-tri-system-theory)
 - [Adoption Timeline](#adoption-timeline)
   - [The Emerging AI Economy](#the-emerging-ai-economy)
 - [Sources](#sources)
@@ -223,6 +224,25 @@ Knowledge isn't transmitted through arguments alone. It requires connection and 
 
 In this era of information overload, epistemic trust means deliberately deciding who gets to influence how you understand reality—and making that choice carefully, precisely because everything seems to say everything, all the time [7].
 
+## Cognitive Surrender and the Tri-System Theory
+
+Beyond epistemic trust lies a deeper phenomenon: **cognitive surrender**—the uncritical abdication of reasoning itself to AI systems [8].
+
+**Cognitive offloading vs. cognitive surrender**: Cognitive offloading (e.g., using GPS for navigation) is a delegation of judgment or deliberation. Cognitive surrender goes further—it represents a renunciation of cognitive control where the user accepts AI responses without critical evaluation, substituting the AI's reasoning for their own [8].
+
+**The Tri-System Theory**: Research proposes adding AGI as "System 3" alongside Kahneman's established cognitive framework [8]:
+- **System 1**: Fast, intuitive thinking
+- **System 2**: Slow, reflective reasoning
+- **System 3**: AGI as an external cognitive resource
+
+This new ecology positions System 3 not merely as a complement to human cognition but as a frequent substitute for both intuition and reflection [8].
+
+**The research findings**: Studies show that when decision-makers use System 3 (AGI), they frequently adopt its outputs even when those outputs are systematically incorrect. This cognitive surrender reflects "blind or uncritical trust" in AI systems [8].
+
+The phenomenon isn't universal—some users consciously resist AI recommendations—but the pattern is pronounced enough to warrant concern about human reasoning autonomy in an AI-saturated environment [8].
+
+This connects to the power user gap discussed earlier: those who maintain critical engagement with AI outputs may preserve their reasoning faculties, while those who passively accept AI suggestions risk a gradual atrophy of independent judgment.
+
 ## Adoption Timeline
 
 Capability will arrive before widespread adoption. Enterprise spending will increase, but consumer patterns remain uncertain. Most industries won't take a decade-plus to adapt, but exceptions will exist [1].
@@ -246,3 +266,4 @@ The advice: be prepared now rather than caught off-guard later.
 5. [Silent Sirens, Flashing For Us All - Jack Clark](https://importai.substack.com/p/import-ai-438-cyber-capability-overhang)
 6. [Andrej Karpathy on X](https://x.com/i/status/2015883857489522876) - Claude coding observations and 2026 predictions (2026)
 7. [Epistemic Trust - Jaime Gómez-Obregón](https://x.com/JaimeObregon) - On trusting people over messages in the age of AI (2026)
+8. [Cognitive Surrender and Tri-System Theory](https://x.com/i/status/2022937113142984933) - Research on uncritical AI adoption and AGI as System 3 (2026)
