@@ -6,7 +6,6 @@ First-hand accounts and narratives from practitioners navigating technological c
 
 ## Articles
 
-- [OpenAI Agentic Development Retooling](openai-agentic-retooling.md) - How OpenAI is retooling teams for agentic software development
 - [Sam's Monologue - The Two Towers](sams-monologue-two-towers.md) - The perseverance speech from Tolkien's The Lord of the Rings
 
 ## Recent Activity

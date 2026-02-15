@@ -707,6 +707,14 @@
       "log_path": "topics/topics/stories/logs.md",
       "title": "Sam's Monologue - The Two Towers",
       "url": "https://x.com/i/status/2022928988822245591"
+    },
+    {
+      "category": "removal",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-15T08:01:06+00:00",
+      "log_path": "topics/topics/stories/logs.md",
+      "title": "Remove OpenAI Agentic Development Retooling",
+      "url": "note://84"
     }
   ],
   "version": 2
