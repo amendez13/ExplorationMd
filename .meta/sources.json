@@ -763,6 +763,24 @@
       "log_path": "topics/self-improvement/logs.md",
       "title": "The Four Burners Theory",
       "url": "https://x.com/i/status/2023042477209624886"
+    },
+    {
+      "category": "self-improvement",
+      "corpus_paths": [
+        "topics/self-improvement/four-burners-theory.md"
+      ],
+      "indexed_at": "2026-02-15T12:00:00+00:00",
+      "log_path": "topics/self-improvement/logs.md",
+      "title": "Four Burners Theory Critiques and Extensions",
+      "url": "https://jamesclear.com/four-burners-theory"
+    },
+    {
+      "category": "self-improvement",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-15T22:33:25+00:00",
+      "log_path": "topics/topics/self-improvement/logs.md",
+      "title": "Four Burners Theory Critiques and Extensions",
+      "url": "note://91"
     }
   ],
   "version": 2

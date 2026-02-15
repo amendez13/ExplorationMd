@@ -15,6 +15,16 @@ A mental model for understanding the fundamental tradeoffs in life: you have lim
 - [The Tradeoff Thesis](#the-tradeoff-thesis)
 - [Case Studies](#case-studies)
 - [The Rotation Strategy](#the-rotation-strategy)
+- [Critiques and Limitations](#critiques-and-limitations)
+  - [Missing Burners](#missing-burners)
+  - [Health as the Gas Tank](#health-as-the-gas-tank)
+  - [The Cascading Failure Problem](#the-cascading-failure-problem)
+  - [The Scandinavian Counterexample](#the-scandinavian-counterexample)
+- [Alternative Strategies](#alternative-strategies)
+  - [Outsourcing](#outsourcing)
+  - [Combining Burners](#combining-burners)
+  - [Slider Bars vs On/Off Switches](#slider-bars-vs-onoff-switches)
+  - [The Halo Effect](#the-halo-effect)
 - [Life Design Implications](#life-design-implications)
 - [Sources](#sources)
 
@@ -107,6 +117,73 @@ The goal isn't to burn all four simultaneously. It's to choose which one matters
 
 Seasons change. Burners should change with them. The person who refuses to adjust burns out trying to maintain an impossible equilibrium.
 
+## Critiques and Limitations
+
+The Four Burners Theory has drawn significant pushback. While the core insight about tradeoffs resonates, several critiques challenge its assumptions.
+
+### Missing Burners
+
+The original framework omits critical life domains:
+
+- **Romantic relationships** - distinct from family obligations
+- **Finances** - income success doesn't always correlate with financial health
+- **Spirituality** - meaning-making and purpose
+- **Personal growth** - learning, hobbies, self-development
+- **Mental health** - emotional wellness as its own category
+
+The theory also conflates family and friends into arbitrary categories. Some argue these should be unified under "relationships" while other domains deserve their own burners.
+
+### Health as the Gas Tank
+
+A compelling critique: health isn't just another burner—it's the gas tank that powers everything else.
+
+Without health, no other burner functions. You can't work when you're sick. You can't be present for family when you're depleted. The theory treats health as tradeable, but in reality it's foundational. Work is the most recoverable if neglected; damage to health may cascade permanently across all domains.
+
+### The Cascading Failure Problem
+
+Turning off one burner doesn't produce isolated effects. One interviewed person noted that eliminating friendships would overburden family members to "fill all her emotional needs" alone. This creates relationship strain rather than success in the family domain.
+
+Another person who applied the theory aggressively reported: "I emerged from that high-intensity time with my health wrecked, my writing stalled, and a prominent feeling of loneliness." The burners aren't independent—they're interconnected systems.
+
+### The Scandinavian Counterexample
+
+The theory contradicts cultures demonstrating greater happiness through balance and moderation. Scandinavian concepts like *hygge* (Danish coziness) and *lagom* (Swedish "just enough") prioritize sustainable contentment over maximization.
+
+This suggests the theory's premise—that success requires sacrifice—may itself be culturally specific. Some find satisfaction in doing an adequate job at everything rather than excellence in one domain at the cost of others.
+
+## Alternative Strategies
+
+Beyond rotation, several approaches attempt to work around the burner constraints.
+
+### Outsourcing
+
+Delegating responsibilities (childcare, housework, meal prep) frees capacity for other burners. James Clear notes that outsourcing keeps a burner running without spending your time on it.
+
+However, outsourcing has limits. Core activities—lifting weights, making business decisions, maintaining relationships—require personal involvement. You can't outsource presence.
+
+### Combining Burners
+
+A practical approach: stack activities across domains.
+
+- **Walking meetings** - work + health
+- **Cooking with children** - family + health
+- **Exercise with friends** - friends + health
+- **Family business** - work + family
+
+The key is verifying compatibility. Some combinations work; others don't. Business partnerships with family can strengthen both or destroy both.
+
+### Slider Bars vs On/Off Switches
+
+Rather than binary on/off, treat burners as sliders. Allocate 5-10% minimum to critical domains (especially health), then concentrate remaining effort strategically.
+
+This acknowledges that complete neglect differs from reduced attention. You don't need to be excellent everywhere—you need to avoid catastrophic failure in any domain while excelling where it matters most for your current season.
+
+### The Halo Effect
+
+Early success in one domain eventually opens opportunities in others. Athletes gain business opportunities post-career. Successful entrepreneurs attract relationship prospects. Academic achievement unlocks career options.
+
+This suggests a sequencing strategy: dominate one burner early, then use the halo effect to expand into others from a position of strength.
+
 ## Life Design Implications
 
 This theory shifts how you design your life:
@@ -127,3 +204,9 @@ Questions for self-reflection:
 ## Sources
 
 1. [x.com (Four Burners Theory thread)](https://x.com/i/status/2023042477209624886)
+2. [jamesclear.com - The Four Burners Theory](https://jamesclear.com/four-burners-theory)
+3. [nextbigideaclub.com - The Four Burner Theory for How to Manage Your Ambitions](https://nextbigideaclub.com/magazine/conversation-four-burner-theory-manage-ambitions/15027/)
+4. [nielsbohrmann.com - Four Burners Theory: Why Trade-Offs Are Inevitable](https://nielsbohrmann.com/four-burners-theory/)
+5. [parent.com - Why the Four Burners Theory is Unrealistic](https://www.parent.com/blogs/conversations/2017-why-the-four-burners-theory-is-totally-unrealisitc)
+6. [fourbraincells.com - The Four Burners Theory, Work-Life Balance and More](https://fourbraincells.com/the-four-burners-theory-work-life-balance-and-more/)
+7. [mooremomentum.com - The 4 Burner Theory: A Modern Solution](https://mooremomentum.com/blog/the-4-burner-theory-a-modern-solution-to-work-life-balance/)

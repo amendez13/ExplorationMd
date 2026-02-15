@@ -18,3 +18,20 @@ A viral thread explaining David Sedaris's Four Burners Theory: your life has fou
 - Intentional design over autopilot prevents burnout
 
 ---
+
+### [Four Burners Theory Critiques and Extensions](https://jamesclear.com/four-burners-theory)
+*2026-02-15T12:00:00Z* | Tags: life-design, tradeoffs, work-life-balance, critiques
+
+Aggregated critiques and alternative strategies from multiple sources discussing limitations of the Four Burners Theory: James Clear, Next Big Idea Club, Niels Bohrmann, Four Brain Cells, and others.
+
+**Key Points:**
+- Health may not be a burner but the "gas tank" that powers all other burners
+- Missing burners: mental health, spirituality, finances, personal growth exist outside the framework
+- Scandinavian cultures demonstrate happiness through balance (*hygge*, *lagom*), contradicting the sacrifice premise
+- Cascading failures: turning off one burner creates spillover problems in others
+- Outsourcing has limits—core activities require personal involvement
+- Combining burners (walking meetings, cooking with kids) can stack benefits
+- Slider bars vs on/off switches: maintain 5-10% minimum in critical domains
+- The halo effect: early success in one domain opens opportunities in others
+
+---
