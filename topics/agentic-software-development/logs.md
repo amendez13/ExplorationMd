@@ -558,11 +558,25 @@ arXiv paper by Nenad Tomašev, Matija Franklin, and Simon Osindero addressing ho
 Senior-engineer-focused workflow for making AI coding feel like a tuned development system: preload the right context (especially diagram files) and automate the feedback loops you already trust (typecheck/lint/format) so the agent fixes issues immediately rather than shipping broken changes downstream.
 
 **Key Points:**
-- Maintain a repo “memory” area of context files; Mermaid diagrams act as a compact, model-friendly compression of system flows
+- Maintain a repo "memory" area of context files; Mermaid diagrams act as a compact, model-friendly compression of system flows
 - Load all diagrams at startup via a single glob/concat shell command to skip repetitive context discovery
 - Spend extra tokens up front to buy speed and reliability once execution starts; generate/backfill diagrams after PR boundaries
 - Use aliases and tiny personal CLIs to encode repeatable prompt workflows and remove launch friction
 - Use stop hooks as quality gates: if files changed, run checks (example: `bun typecheck`), feed errors back to the agent, then auto-commit when clean
 - Keep hook stdout clean if it carries a JSON protocol payload; send debug output to stderr instead
+
+---
+
+### [Agents Have Zero Tolerance for Codebase Entropy](https://x.com/i/status/2022339274767520246)
+*2026-02-15* | Tags: agent-native-design, codebase-quality, technical-debt, entropy, documentation, dead-code
+
+Observation that everything done to make codebases "agent-ready" (better docs, less dead code, smaller surfaces) is what engineers always needed. Agents just can't work around the entropy humans learned to tolerate.
+
+**Key Points:**
+- Agent-ready practices are the same as good engineering practices—agents just have zero tolerance for their absence
+- Agents can't "just know" a file is outdated or a code path is dead
+- Agents take codebases at face value, forcing them to be worth taking at face value
+- Human developers learned to work around accumulated entropy; agents surface it immediately
+- Making codebases agent-ready is really about paying down hidden technical debt
 
 ---

@@ -11,6 +11,7 @@ A paradigm shift in software development: building software *for* agents as firs
 - [The Delegation Test](#the-delegation-test)
 - [Design Questions](#design-questions)
 - [Tradeoffs and Boundaries](#tradeoffs-and-boundaries)
+- [The Zero-Tolerance Effect](#the-zero-tolerance-effect)
 - [Why This Matters Now](#why-this-matters-now)
 - [Sources](#sources)
 
@@ -69,6 +70,26 @@ Not everything should be agentic. Key considerations:
 - Use deterministic scripts when: auditability matters, security is critical, behavior must be reproducible
 - Use agent-native design when: tasks benefit from adaptation, context-dependent decisions, or natural language interfaces
 
+## The Zero-Tolerance Effect
+
+An interesting observation: everything we do to make codebases "agent-ready" is what engineers always needed too [2]. Agents have zero tolerance for the entropy humans learned to work around.
+
+**What agents can't do:**
+- "Just know" a file is outdated
+- Recognize a code path is dead through institutional memory
+- Work around undocumented tribal knowledge
+
+Agents take your codebase at face value. This forces the codebase to finally be *worth* taking at face value.
+
+The practices that make codebases agent-ready:
+- Better documentation
+- Less dead code
+- Smaller surfaces
+- Clear boundaries
+- Explicit contracts
+
+These were always best practices. Humans just learned to work around their absence. Agents surface the accumulated entropy that organizations learned to tolerate.
+
 ## Why This Matters Now
 
 Part of the lag is historical: many developers have held ideas for years but lacked technical ability to ship them. Now that AI makes building easier, they execute those held ideas rather than reconsidering what to build in this new context [1].
@@ -78,3 +99,4 @@ The opportunity is in asking: what becomes possible when software's primary user
 ## Sources
 
 1. [X thread on AI-native building vs AI-native software](https://x.com/rauchg/status/example) - Guillermo Rauch, @kelseyhightower, and discussion
+2. [Agents have zero tolerance for codebase entropy](https://x.com/i/status/2022339274767520246)

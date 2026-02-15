@@ -731,6 +731,14 @@
       "log_path": "topics/topics/ai-progress/logs.md",
       "title": "Learning and Unlearning: Emotional Intelligence and Skill Atrophy",
       "url": "https://x.com/i/status/2022976988751757444"
+    },
+    {
+      "category": "Agentic Software Development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-15T13:26:37+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Agents Have Zero Tolerance for Codebase Entropy",
+      "url": "https://x.com/i/status/2022339274767520246"
     }
   ],
   "version": 2
