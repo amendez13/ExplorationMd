@@ -20,6 +20,8 @@
 
 Software development is undergoing a fundamental transformation. Engineers who have adopted agentic tools report that their jobs have changed substantially - agents now write essentially all code and handle significant portions of operations and debugging work [1].
 
+Even in this “agents write the code” world, the high-leverage work doesn’t disappear: someone still has to translate intent into prompts, talk to customers, coordinate across teams, and make product decisions about what to build next [6]. This shifts the center of gravity from typing to judgment, communication, and orchestration.
+
 The goal for organizations adopting this approach: **agents should be the tool of first resort** for any technical task, rather than directly using editors or terminals.
 
 This represents not just a technical change but a deep cultural shift with significant downstream implications.
@@ -173,3 +175,4 @@ The irony: in an era where anyone can ship fast, doing what was always correct (
 3. [X thread on multi-agent orchestration](https://x.com/i/status/2021386270904287295) - Practitioner experience with multi-agent coordination challenges (2026)
 4. [X post on quality vs speed](https://x.com/i/status/2017871044737192409) - Product quality as competitive advantage in the AI era (2026)
 5. [X post on hands-on leadership](https://x.com/i/status/2021767364304679098) - Shifting norms around senior engineers writing code (2026)
+6. [X post on engineers staying essential](https://x.com/i/status/2022762422302576970) - Prompting, customer interaction, cross-team coordination, and product prioritization remain human work (2026)

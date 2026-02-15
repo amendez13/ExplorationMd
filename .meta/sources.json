@@ -747,6 +747,14 @@
       "log_path": "topics/ai-progress/logs.md",
       "title": "Messy Jobs: Why White-Collar Automation Is Harder Than AI Leaders Claim",
       "url": "https://x.com/i/status/2022993691330203673"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-15T15:46:23+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Engineers Stay Essential in the Agent Era",
+      "url": "https://x.com/i/status/2022762422302576970"
     }
   ],
   "version": 2

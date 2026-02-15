@@ -580,3 +580,16 @@ Observation that everything done to make codebases "agent-ready" (better docs, l
 - Making codebases agent-ready is really about paying down hidden technical debt
 
 ---
+
+### [Engineers Stay Essential in the Agent Era](https://x.com/i/status/2022762422302576970)
+*2026-02-15* | Tags: prompting, customer-development, cross-team-coordination, product-judgment, engineering-roles
+
+Reminder that even when “the AI writes the code,” teams still need humans to translate intent into prompts, gather customer signal, coordinate across teams, and decide what to build next. The bottleneck shifts from keystrokes to judgment and communication.
+
+**Key Points:**
+- Prompting/orchestration becomes a core engineering skill as agents handle more implementation
+- Customer conversations and product prioritization remain human responsibilities
+- Cross-team coordination becomes more important as build speed increases
+- “Great engineers” matter more as leverage concentrates in judgment and decision-making
+
+---
