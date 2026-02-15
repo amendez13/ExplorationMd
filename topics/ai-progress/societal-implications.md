@@ -13,6 +13,7 @@
 - [Career Strategy](#career-strategy)
 - [Financial Resilience](#financial-resilience)
 - [Rethinking Education](#rethinking-education)
+- [Learning and Unlearning: Skill Atrophy](#learning-and-unlearning-skill-atrophy)
 - [The Opportunity Side](#the-opportunity-side)
 - [Building Adaptability](#building-adaptability)
 - [The Bigger Picture](#the-bigger-picture)
@@ -145,6 +146,20 @@ What matters most for the next generation:
 
 Nobody knows exactly what the job market looks like in ten years. The people most likely to thrive are those effective at using AI to do things they actually care about [3].
 
+## Learning and Unlearning: Skill Atrophy
+
+Beyond preparing for the future job market, there's a deeper pattern at play: as tools handle lower-level tasks, our skills at those levels atrophy—while new capabilities develop at higher abstraction levels [9].
+
+**The calculator parallel**: Someone who acquired a calculator in 4th grade hasn't done long division by hand since then. They could probably no longer perform manual square root calculations. Yet they went on to learn triple integrals over vector fields—higher-level mathematics that would have been inaccessible without computational tools [9].
+
+The pattern: **"Learn... and forget."** This isn't new, but it's accelerating [9].
+
+**The emotional intelligence gap**: Our world is more cerebral than ever—both rationally and emotionally. Yet one enormous gap in educational curricula has been basic psychology: emotional self-regulation, emotional intelligence, emotional activation, mentalization. These skills impact personal and collective wellbeing far more than many subjects taught rigorously in classrooms [9].
+
+This creates a generational knowledge gap: parents couldn't teach what they didn't know. Adults find themselves past forty, still learning and unlearning fundamental skills for navigating their own emotional landscape [9].
+
+The implication for AI: as cognitive tools handle more tasks, we'll experience the same dynamic—atrophy at lower levels, capability gains at higher abstractions. The question becomes what skills remain worth maintaining, and which emotional and psychological foundations were never built in the first place.
+
 ## The Opportunity Side
 
 The threat narrative dominates, but the opportunity is equally real [3]:
@@ -267,3 +282,4 @@ The advice: be prepared now rather than caught off-guard later.
 6. [Andrej Karpathy on X](https://x.com/i/status/2015883857489522876) - Claude coding observations and 2026 predictions (2026)
 7. [Epistemic Trust - Jaime Gómez-Obregón](https://x.com/JaimeObregon) - On trusting people over messages in the age of AI (2026)
 8. [Cognitive Surrender and Tri-System Theory](https://x.com/i/status/2022937113142984933) - Research on uncritical AI adoption and AGI as System 3 (2026)
+9. [Learning and Unlearning - Jaime Gómez-Obregón](https://x.com/i/status/2022976988751757444) - On skill atrophy, emotional intelligence gaps, and accelerating cognitive tool adoption (2026)

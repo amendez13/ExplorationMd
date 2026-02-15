@@ -189,3 +189,19 @@ Catalan academic thread discussing research on "cognitive surrender"—the uncri
 - The author acknowledges sometimes ignoring AI recommendations—suggesting the phenomenon is observable but not universal
 
 ---
+
+### [Learning and Unlearning: Emotional Intelligence and Skill Atrophy](https://x.com/i/status/2022976988751757444)
+*2026-02-15T15:00:00Z* | Tags: ai-progress, education, skill-atrophy, emotional-intelligence, cognitive-offloading
+
+Continuation of Jaime Gómez-Obregón's thread on cognitive dynamics in the modern world. Argues our world is more cerebral than ever—both rationally and emotionally. Highlights a gap in educational curricula: basic psychology (emotional self-regulation, emotional intelligence, emotional activation, mentalization) was never taught, impacting personal and collective wellbeing. Draws a parallel to skill atrophy with tools.
+
+**Key Points:**
+- A significant gap in educational curricula: basic psychology and emotional intelligence were never systematically taught
+- Skills like emotional self-regulation, mentalization, and emotional activation impact wellbeing more than many "banalities" that are taught rigorously
+- Generational knowledge gaps: parents couldn't teach what they didn't know, leaving adults to learn and unlearn past forty
+- Parallel to tool-driven skill atrophy: the author hasn't done long division by hand since 4th grade (when calculators arrived), and likely couldn't do manual square roots anymore
+- Yet learning continued at higher abstraction levels: from basic arithmetic to triple integrals over vector fields
+- Pattern: "Learn... and forget"—as tools handle lower-level tasks, skills atrophy while new capabilities develop at higher levels
+- These phenomena aren't new but are accelerating
+
+---
