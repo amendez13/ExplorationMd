@@ -789,6 +789,14 @@
       "log_path": "topics/topics/ai-eng-fundamentals/logs.md",
       "title": "MicroGPT Deep Dive",
       "url": "https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95"
+    },
+    {
+      "category": "Productivity",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-16T20:05:11+00:00",
+      "log_path": "topics/productivity/logs.md",
+      "title": "Long-Term Time Tracking",
+      "url": "https://psantosl.github.io/posts/16-years-of-tracking/"
     }
   ],
   "version": 2
