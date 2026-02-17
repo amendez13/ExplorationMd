@@ -22,6 +22,7 @@
 - [Epistemic Trust in the Age of Information Overload](#epistemic-trust-in-the-age-of-information-overload)
 - [Cognitive Surrender and the Tri-System Theory](#cognitive-surrender-and-the-tri-system-theory)
 - [Adoption Timeline](#adoption-timeline)
+  - [Uneven Adoption](#uneven-adoption)
   - [The Emerging AI Economy](#the-emerging-ai-economy)
 - [Sources](#sources)
 
@@ -301,6 +302,10 @@ Capability will arrive before widespread adoption. Enterprise spending will incr
 
 The underlying capability for massive disruption could be here by end of 2026. Ripple effects through the economy will take time, but the ability is arriving now [2].
 
+### Uneven Adoption
+
+Even when an approach is “right in the limit,” real-world adoption tends to start where stakes are highest and benefits are clearest—then spreads (or stalls) depending on friction, cost, and operational fit [11]. This creates a recurring pattern: rapid uptake in critical regions and skepticism or delay in the general case [11].
+
 ### The Emerging AI Economy
 
 The AI economy will move fast relative to everything else—similar to how the crypto economy moved oddly fast relative to the rest of the digital economy, but with a crucial difference: the AI economy already touches much more of "regular" economic reality [5].
@@ -321,3 +326,4 @@ The advice: be prepared now rather than caught off-guard later.
 8. [Cognitive Surrender and Tri-System Theory](https://x.com/i/status/2022937113142984933) - Research on uncritical AI adoption and AGI as System 3 (2026)
 9. [Learning and Unlearning - Jaime Gómez-Obregón](https://x.com/i/status/2022976988751757444) - On skill atrophy, emotional intelligence gaps, and accelerating cognitive tool adoption (2026)
 10. [Messy Jobs - Raffaella Sadun](https://x.com/i/status/2022993691330203673) - Harvard Business School professor's counterargument to rapid white-collar automation claims (2026)
+11. [Critical Regions vs "Right in the Limit"](https://x.com/i/status/2023476423055601903)

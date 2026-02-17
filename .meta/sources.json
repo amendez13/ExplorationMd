@@ -847,6 +847,16 @@
       "log_path": "topics/ai-progress/logs.md",
       "title": "Tailwind docs + llms.txt discussion",
       "url": "https://github.com/tailwindlabs/tailwindcss.com/pull/2388#issuecomment-3717222957"
+    },
+    {
+      "category": "ai-progress",
+      "corpus_paths": [
+        "topics/ai-progress/societal-implications.md"
+      ],
+      "indexed_at": "2026-02-17T05:45:52+00:00",
+      "log_path": "topics/ai-progress/logs.md",
+      "title": "Critical Regions vs \"Right in the Limit\"",
+      "url": "https://x.com/i/status/2023476423055601903"
     }
   ],
   "version": 2
