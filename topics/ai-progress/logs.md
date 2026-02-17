@@ -5,7 +5,6 @@
 *Chronological record of sources for this topic*
 
 ---
-
 ### [Something Big Is Happening](https://x.com/mattshumer_)
 *2026-02-11T15:00:00Z* | Tags: ai-progress, job-displacement, capability-trends, recursive-improvement
 
@@ -223,5 +222,67 @@ Raffaella Sadun (Harvard Business School professor) pushes back against claims t
 - Single-task roles will shrink (tax prep, contract drafting), but most white-collar work involves irreducible human elements
 - Career ladder disruption acknowledged as a legitimate concern
 - "The real world is messy. The mess is not a bug. It is what happens when human beings with competing interests try to get things done together."
+
+---
+
+### [Shifting structures in a software world dominated by AI](https://x.com/i/status/2023387043967959138)
+*2026-02-17T05:34:17Z* | Tags: ai-progress, software-ecosystems, supply-chain, monoliths, formal-verification, programming-languages, open-source
+
+Twitter thread with first-order reflections on how ubiquitous AI agents could reshape software structure and incentives: fewer dependencies, weaker “Lindy” moats for legacy code, more emphasis on verification, shifts in language adoption, and pressure on open-source economics.
+
+**Key Points:**
+- Dependency trees become less attractive when agents make rewriting/extraction cheap; “monolith” incentives return alongside smaller attack surface and faster builds
+- Lindy/Chesterton’s fence weakens as agents can rapidly study and rewrite legacy systems, lowering the moat of longevity
+- Unknown unknowns persist; the limiting factor becomes testing coverage and (where possible) formal verification
+- Strongly typed / verifiable languages may gain relative advantage as human ergonomics and community dynamics matter less
+- Open-source incentives shift if machines write/read most code; model “alignment” becomes more decisive for what gets built and maintained
+
+---
+
+### [Cursor build: long-running agent builds a browser](https://x.com/mntruell/status/2012825801381580880)
+*2026-02-17T05:34:17Z* | Tags: ai-progress, ai-coding, autonomy, long-running-agents, rust, systems
+
+Video/post describing a week-long, largely uninterrupted agent run that produced a multi-million-line codebase implementing a from-scratch browser stack (rendering engine in Rust, HTML parsing, CSS cascade, layout, text shaping, paint, and a custom JS VM). It “kind of works,” rendering simple sites quickly but far from Chromium/WebKit parity.
+
+**Key Points:**
+- Demonstrates feasibility of week-long autonomous agent runs producing large multi-file systems
+- Suggests that “rewriting from first principles” is increasingly accessible as an experimentation mode
+- Highlights the gap between impressive demos and production-grade correctness/parity
+
+---
+
+### [Building a C compiler with a team of parallel Claudes](https://www.anthropic.com/engineering/building-c-compiler)
+*2026-02-17T05:34:17Z* | Tags: ai-progress, agent-teams, compilers, autonomous-software-development, evaluation
+
+Anthropic engineering post describing an experiment using agent teams (multiple Claude instances) to build a C compiler with limited human intervention, and lessons learned about autonomous development workflows and verification.
+
+**Key Points:**
+- Agent teams can build complex, spec-heavy systems when given clear success criteria and feedback loops
+- Reinforces that verification/evaluation is the gating function for trusting autonomous output
+- Points toward “orchestration” (parallelism, coordination, review) as a core competency for agentic engineering
+
+---
+
+### [From Human Ergonomics to Agent Ergonomics](https://wesmckinney.com/blog/agent-ergonomics/)
+*2026-02-17T05:34:17Z* | Tags: ai-progress, programming-languages, agent-ergonomics, tooling, explicitness
+
+Essay arguing that languages and developer tools historically optimized for human ergonomics may need to shift toward “agent ergonomics,” emphasizing machine-legible structure, explicitness, stable interfaces, and verification-friendly workflows.
+
+**Key Points:**
+- Predicts that the center of gravity shifts from human learning curves toward machine compatibility
+- Highlights value of explicit APIs/contracts and machine-checkable invariants for agent-written code
+- Frames “agent ergonomics” as a new axis for language and tooling design
+
+---
+
+### [Tailwind docs + llms.txt discussion](https://github.com/tailwindlabs/tailwindcss.com/pull/2388#issuecomment-3717222957)
+*2026-02-17T05:34:17Z* | Tags: ai-progress, open-source, monetization, docs, llms-txt, incentives
+
+GitHub discussion around adding an `llms.txt` endpoint for LLM-optimized documentation, including maintainer concerns that AI-driven shifts in how people access docs can weaken discovery funnels that support OSS-adjacent businesses.
+
+**Key Points:**
+- Maintainers describe a tension between helping models stay up-to-date and protecting the docs traffic that drives commercial discovery
+- Illustrates how “LLM-mediated answers” can redirect value away from the documentation sites that historically sustained projects
+- Suggests OSS sustainability pressures may come from distribution/discovery changes, not just from code-generation
 
 ---

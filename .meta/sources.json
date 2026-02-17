@@ -797,6 +797,56 @@
       "log_path": "topics/productivity/logs.md",
       "title": "Long-Term Time Tracking",
       "url": "https://psantosl.github.io/posts/16-years-of-tracking/"
+    },
+    {
+      "category": "ai-progress",
+      "corpus_paths": [
+        "topics/ai-progress/software-ecosystem-restructuring.md"
+      ],
+      "indexed_at": "2026-02-17T05:34:17+00:00",
+      "log_path": "topics/ai-progress/logs.md",
+      "title": "Shifting structures in a software world dominated by AI",
+      "url": "https://x.com/i/status/2023387043967959138"
+    },
+    {
+      "category": "ai-progress",
+      "corpus_paths": [
+        "topics/ai-progress/software-ecosystem-restructuring.md"
+      ],
+      "indexed_at": "2026-02-17T05:34:17+00:00",
+      "log_path": "topics/ai-progress/logs.md",
+      "title": "Cursor build: long-running agent builds a browser",
+      "url": "https://x.com/mntruell/status/2012825801381580880"
+    },
+    {
+      "category": "ai-progress",
+      "corpus_paths": [
+        "topics/ai-progress/software-ecosystem-restructuring.md"
+      ],
+      "indexed_at": "2026-02-17T05:34:17+00:00",
+      "log_path": "topics/ai-progress/logs.md",
+      "title": "Building a C compiler with a team of parallel Claudes",
+      "url": "https://www.anthropic.com/engineering/building-c-compiler"
+    },
+    {
+      "category": "ai-progress",
+      "corpus_paths": [
+        "topics/ai-progress/software-ecosystem-restructuring.md"
+      ],
+      "indexed_at": "2026-02-17T05:34:17+00:00",
+      "log_path": "topics/ai-progress/logs.md",
+      "title": "From Human Ergonomics to Agent Ergonomics",
+      "url": "https://wesmckinney.com/blog/agent-ergonomics/"
+    },
+    {
+      "category": "ai-progress",
+      "corpus_paths": [
+        "topics/ai-progress/software-ecosystem-restructuring.md"
+      ],
+      "indexed_at": "2026-02-17T05:34:17+00:00",
+      "log_path": "topics/ai-progress/logs.md",
+      "title": "Tailwind docs + llms.txt discussion",
+      "url": "https://github.com/tailwindlabs/tailwindcss.com/pull/2388#issuecomment-3717222957"
     }
   ],
   "version": 2

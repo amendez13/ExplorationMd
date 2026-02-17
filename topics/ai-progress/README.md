@@ -11,6 +11,7 @@ Observations and analysis of AI capability advancement and its implications.
 - [Societal Implications](societal-implications.md) - Job displacement, communication gaps, individual preparedness, adoption timelines
 - [Recursive Improvement](recursive-improvement.md) - AI systems contributing to their own development
 - [Geopolitical Competition](geopolitical-competition.md) - US-China AI race, organizational speed, and the talent compounding problem
+- [Software Ecosystem Restructuring](software-ecosystem-restructuring.md) - How agents reshape dependencies, legacy software, languages, and open-source incentives
 
 ## Recent Activity
 
