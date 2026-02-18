@@ -17,6 +17,7 @@
 - [Learning and Unlearning: Skill Atrophy](#learning-and-unlearning-skill-atrophy)
 - [The Opportunity Side](#the-opportunity-side)
 - [Building Adaptability](#building-adaptability)
+- [The Wizard Mindset: Identity Without Fracture](#the-wizard-mindset-identity-without-fracture)
 - [The Bigger Picture](#the-bigger-picture)
 - [The 2026 Slopacolypse](#the-2026-slopacolypse)
 - [Epistemic Trust in the Age of Information Overload](#epistemic-trust-in-the-age-of-information-overload)
@@ -227,6 +228,25 @@ The specific tools don't matter as much as the muscle of learning new ones quick
 
 Adaptability is the closest thing to a durable advantage that exists right now [3].
 
+## The Wizard Mindset: Identity Without Fracture
+
+Not everyone experiences the AI transition as threatening. Eric S. Raymond, with 50 years of programming experience, reports no identity disruption from AI coding assistance—and offers a reframe for those who do feel disoriented [12].
+
+**The observation**: Many software developers have their identities bound up in being good at hand-coding—the craft itself and how it feels to practice it. When AI makes hand-coding unnecessary, this creates genuine distress.
+
+**The historical parallel**: Raymond felt nothing similar when compilers replaced assembly language around 1983. Better tools didn't diminish the programmer—they gave access to more powerful abstractions.
+
+**The wizard reframe**: Rather than thinking of yourself as "a person who writes code," think of yourself as "a person who is good at assuming the kind of mental states required to bend reality with the application of spells" [12].
+
+From this perspective:
+- **Languages come and go**: 8086 assembler → high-level languages → AI prompts. The invocation method changes; the practitioner remains.
+- **The constant is will**: "Writing code is a way to manifest my will." Whether spells are "painstakingly scribed in runes of power" or "spoken to an obedient machine spirit," the essential act is the same.
+- **You remain essential**: "You are the magic-wielder. Without you, none of it happens."
+
+**The limitation of this frame**: Raymond acknowledges this perspective may not transfer easily. "Maybe the fact that I'm not feeling any of this disorientation disqualifies me from having anything to say to people who are." The reframe requires separating identity from specific techniques—which may be exactly what some practitioners cannot do.
+
+The contrast with earlier sections is notable: while others emphasize career adaptation and practical preparation, Raymond addresses the psychological core—the question of who you are when your tools fundamentally change.
+
 ## The Bigger Picture
 
 The implications extend beyond jobs to existential stakes [3].
@@ -327,3 +347,4 @@ The advice: be prepared now rather than caught off-guard later.
 9. [Learning and Unlearning - Jaime Gómez-Obregón](https://x.com/i/status/2022976988751757444) - On skill atrophy, emotional intelligence gaps, and accelerating cognitive tool adoption (2026)
 10. [Messy Jobs - Raffaella Sadun](https://x.com/i/status/2022993691330203673) - Harvard Business School professor's counterargument to rapid white-collar automation claims (2026)
 11. [Critical Regions vs "Right in the Limit"](https://x.com/i/status/2023476423055601903)
+12. [Identity and the Wizard Mindset - Eric S. Raymond](https://x.com/i/status/2023978360351682848) - On adapting to AI coding assistance without identity fracture (2026)

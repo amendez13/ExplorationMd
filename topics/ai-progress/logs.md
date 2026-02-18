@@ -290,10 +290,26 @@ GitHub discussion around adding an `llms.txt` endpoint for LLM-optimized documen
 ### [Critical Regions vs "Right in the Limit"](https://x.com/i/status/2023476423055601903)
 *2026-02-17T05:45:52Z* | Tags: ai-progress, adoption, practicality, diffusion
 
-Brief exchange expressing a common adoption pattern: an approach may be compelling in high-stakes or “critical” contexts, while remaining doubtful or awkward to apply broadly in day-to-day settings—despite being conceptually “right” in the long run.
+Brief exchange expressing a common adoption pattern: an approach may be compelling in high-stakes or "critical" contexts, while remaining doubtful or awkward to apply broadly in day-to-day settings—despite being conceptually "right" in the long run.
 
 **Key Points:**
 - Adoption is often uneven: critical regions justify earlier deployment than the general case
-- “Right in the limit” can still be a poor near-term fit if costs/friction dominate outside high-need contexts
+- "Right in the limit" can still be a poor near-term fit if costs/friction dominate outside high-need contexts
+
+---
+
+### [Identity and the Wizard Mindset](https://x.com/i/status/2023978360351682848)
+*2026-02-18T12:00:00Z* | Tags: ai-progress, identity, adaptation, mindset, programming-culture
+
+Eric S. Raymond (pioneering open-source developer, author of "The Cathedral and the Bazaar") reflects on why AI coding assistance doesn't threaten his professional identity, offering a reframe for developers experiencing disorientation.
+
+**Key Points:**
+- Many developers are feeling disoriented because their identities are bound up in hand-coding—the craft itself, not just the outcomes
+- Raymond reports no identity fracture: "I don't miss coding by hand, not any more than I missed writing assembler when compilers ate the world" (~1983)
+- The "wizard" reframe: think of yourself not as "a person who writes code" but as "a person who is good at assuming the mental states required to bend reality with the application of spells"
+- Languages of invocation come and go (8086 assembler → modern languages → AI prompts); the constant is the practitioner's will to make things happen
+- Whether spells are "painstakingly scribed in runes of power" or "spoken to an obedient machine spirit" doesn't change who wields the magic
+- Historical parallel: the transition from assembler to compiled languages didn't diminish programmers—it gave them better tools
+- Core insight: "You are the magic-wielder. Without you, none of it happens. Same as it ever was."
 
 ---
