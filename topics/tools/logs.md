@@ -247,8 +247,24 @@ Landing page for AI Prompt Coach, a web app that analyzes prompts and returns a 
 Public example evaluation page showing a 15-principle rubric and per-principle scoring, reasoning, and suggestions (including non-applicable items).
 
 **Key Points:**
-- Exposes the 15 principle names used by the coach (e.g., “Name Your Tools and Versions”, “Take It One Step at a Time”)
+- Exposes the 15 principle names used by the coach (e.g., "Name Your Tools and Versions", "Take It One Step at a Time")
 - Provides per-principle pass/fail, reasoning, suggestions, and individual scores
 - Marks some principles as non-applicable depending on the prompt type (e.g., debugging vs. greenfield)
+
+---
+
+### [Claude Code Telegram Bot (GitHub Repository)](https://github.com/RichardAtCT/claude-code-telegram)
+*2026-02-18* | Tags: tools, telegram, claude-code, remote-access, mobile, bot, ai-workflow
+
+Telegram bot providing remote access to Claude Code through natural language chat. Enables mobile-friendly codebase interaction, GitHub webhook notifications, and scheduled tasks.
+
+**Key Points:**
+- Two operating modes: Agentic (conversational) and Classic (terminal-like commands)
+- Full Claude Code integration via Python SDK with CLI fallback
+- Multi-layer security: user whitelist, directory sandboxing, rate limiting, audit logging
+- FastAPI webhook server with GitHub HMAC-SHA256 verification
+- Cron-based scheduler for automated codebase health checks and notifications
+- Session export in Markdown, HTML, and JSON formats
+- Usage and cost tracking per user
 
 ---

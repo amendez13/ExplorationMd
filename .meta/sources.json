@@ -865,6 +865,14 @@
       "log_path": "topics/ai-progress/logs.md",
       "title": "Identity and the Wizard Mindset",
       "url": "https://x.com/i/status/2023978360351682848"
+    },
+    {
+      "category": "Tools",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-18T05:45:24+00:00",
+      "log_path": "topics/topics/tools/logs.md",
+      "title": "Claude Code Telegram Bot",
+      "url": "https://github.com/RichardAtCT/claude-code-telegram"
     }
   ],
   "version": 2
