@@ -590,6 +590,25 @@ Reminder that even when “the AI writes the code,” teams still need humans to
 - Prompting/orchestration becomes a core engineering skill as agents handle more implementation
 - Customer conversations and product prioritization remain human responsibilities
 - Cross-team coordination becomes more important as build speed increases
-- “Great engineers” matter more as leverage concentrates in judgment and decision-making
+- "Great engineers" matter more as leverage concentrates in judgment and decision-making
+
+---
+
+### [Telegram Plugin for Claude Code - Mobile Agent Control](https://x.com/i/status/2023960820091154569)
+*2026-02-19* | Tags: mobile-control, telegram, remote-access, claude-code, oss, autonomous-agents, security
+
+Levelsio (Pieter Levels) shares his use of a Telegram plugin for Claude Code that enables mobile-first agent control. The discussion covers the architecture, operational patterns, and security considerations for running agents remotely via messaging interfaces.
+
+**Key Points:**
+- Uses a Telegram plugin for Claude Code (OSS, no logins/payments) as alternative to SSH on mobile
+- "More annoying to type inside SSH on iPhone than Telegram" - mobile typing optimized for messaging apps
+- Simpler than OpenClaw: fewer status messages, no authentication overhead, minimal wrapper
+- Can run as cron with heartbeat pattern; uses a script that checks every minute
+- Suggests "SOUL .md" mission files to give agents persistent context and operating parameters
+- Can grant repo access and let agent create PRs autonomously
+- Reliability: "literally only made a mistake once in 12 months"
+- Cost: ~$100/month for Claude API usage (separate from free interface)
+- Security concern: "not convinced it's secure yet" - prompt injection risk increases with broader system access
+- Use case: direct agents from anywhere (e.g., restaurant at 7pm)
 
 ---

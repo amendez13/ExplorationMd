@@ -18,6 +18,7 @@ Knowledge and resources about AI-powered coding agents and development workflows
 - [Agent Limitations](agent-limitations.md) - Practical constraints and failure modes of coding agents, including latency, context debt, and setup overhead
 - [OSS Sustainability](oss-sustainability.md) - How coding agents disrupt OSS monetization and overwhelm maintainers with low-quality contributions
 - [Agent-Native Design](agent-native-design.md) - Designing software for agents as first-class users, not just using agents to build software
+- [Mobile Agent Control](mobile-agent-control.md) - Running agents remotely via Telegram for mobile-first control and monitoring
 
 ## Recent Activity
 
