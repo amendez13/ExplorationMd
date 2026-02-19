@@ -873,6 +873,14 @@
       "log_path": "topics/topics/tools/logs.md",
       "title": "Claude Code Telegram Bot",
       "url": "https://github.com/RichardAtCT/claude-code-telegram"
+    },
+    {
+      "category": "ai-progress",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-19T16:17:53+00:00",
+      "log_path": "N/A - content not added (tweet about postal address unrelated to AI progress)",
+      "title": "Content Not Added - Irrelevant",
+      "url": "https://x.com/i/status/2024072049719742926"
     }
   ],
   "version": 2
