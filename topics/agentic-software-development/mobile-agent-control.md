@@ -13,6 +13,8 @@ Running AI coding agents remotely from mobile devices using messaging interfaces
 - [Comparison with OpenClaw](#comparison-with-openclaw)
 - [Operational Considerations](#operational-considerations)
   - [Monitoring and Heartbeats](#monitoring-and-heartbeats)
+  - [Server Setup](#server-setup)
+  - [Backup Strategy](#backup-strategy)
   - [Mission Files](#mission-files)
   - [Autonomy Patterns](#autonomy-patterns)
 - [Security Considerations](#security-considerations)
@@ -77,6 +79,23 @@ Running agents autonomously requires monitoring. Referenced patterns:
 - **Cron-style heartbeat**: Run agent checks on a schedule (similar to OpenClaw's heartbeat pattern)
 - **Minute-level monitoring**: A script that "checks stuff every minute" to verify agent health
 - **Error tracking**: Reliability reported as "literally only made a mistake once in 12 months"
+- **Error reporting separation**: Error monitoring is implemented as a separate pre-AI cron job that checks error logs and sends notifications to Telegram—this is distinct from the agent itself and doesn't require AI capabilities
+
+### Server Setup
+
+Setting up mobile agent control requires server-side configuration:
+
+- SSH into the server to install Claude Code
+- Install and configure the Telegram plugin on the server
+- The server runs the agent; the mobile device sends commands via Telegram
+
+### Backup Strategy
+
+For autonomous agents with server access:
+
+- **Daily backups**: Regular snapshots of agent environment and state
+- **Weekly backups**: Longer-term retention for rollback capability
+- Backups are essential when agents have repository write access
 
 ### Mission Files
 
@@ -127,3 +146,4 @@ The cost is in the underlying model API consumption, not the access interface.
 ## Sources
 
 1. [Levelsio - Telegram Claude Code Bot Discussion](https://x.com/i/status/2023960820091154569)
+2. [Levelsio - Operational Details Follow-up](https://x.com/i/status/2024503974997483997)

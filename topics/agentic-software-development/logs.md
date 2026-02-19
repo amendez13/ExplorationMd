@@ -612,3 +612,16 @@ Levelsio (Pieter Levels) shares his use of a Telegram plugin for Claude Code tha
 - Use case: direct agents from anywhere (e.g., restaurant at 7pm)
 
 ---
+
+### [Telegram Plugin for Claude Code - Operational Details](https://x.com/i/status/2024503974997483997)
+*2026-02-19* | Tags: mobile-control, telegram, claude-code, server-setup, error-reporting, backups
+
+Follow-up replies from Levelsio providing additional operational details for the Telegram-based agent control setup. Covers server setup requirements, error monitoring architecture, and backup practices.
+
+**Key Points:**
+- Server setup requires SSH access to set up Claude Code and the Telegram plugin on the server
+- Error reporting uses a separate pre-AI cron job that checks error logs and sends notifications to Telegram (not part of the agent itself)
+- Maintains daily and weekly backups for the agent environment
+- Positions the Telegram plugin as simpler than OpenClaw for basic mobile control needs
+
+---

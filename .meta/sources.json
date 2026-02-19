@@ -889,6 +889,14 @@
       "log_path": "topics/topics/agentic-software-development/logs.md",
       "title": "Mobile Agent Control via Telegram",
       "url": "https://x.com/i/status/2023960820091154569"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-19T16:47:32+00:00",
+      "log_path": "topics/topics/agentic-software-development/logs.md",
+      "title": "Telegram Plugin for Claude Code - Operational Details",
+      "url": "https://x.com/i/status/2024503974997483997"
     }
   ],
   "version": 2
