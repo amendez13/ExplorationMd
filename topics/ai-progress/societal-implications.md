@@ -18,6 +18,7 @@
 - [The Opportunity Side](#the-opportunity-side)
 - [Building Adaptability](#building-adaptability)
 - [The Wizard Mindset: Identity Without Fracture](#the-wizard-mindset-identity-without-fracture)
+- [Adaptation as the Core Skill](#adaptation-as-the-core-skill)
 - [The Bigger Picture](#the-bigger-picture)
 - [The 2026 Slopacolypse](#the-2026-slopacolypse)
 - [Epistemic Trust in the Age of Information Overload](#epistemic-trust-in-the-age-of-information-overload)
@@ -247,6 +248,34 @@ From this perspective:
 
 The contrast with earlier sections is notable: while others emphasize career adaptation and practical preparation, Raymond addresses the psychological core—the question of who you are when your tools fundamentally change.
 
+## Adaptation as the Core Skill
+
+Jaime Gómez-Obregón offers a complementary perspective to Raymond's "wizard mindset"—one grounded in a personal reckoning with being surpassed [13].
+
+**The acknowledgment**: "I only know how to do two things well: design and program software, and write and communicate. In both, I have just been surpassed by machines. For some months now they design, program, and write better than me. And much faster."
+
+**The surprising response**: Rather than worry, the author is "more excited than ever." The reason lies in a deeper self-understanding.
+
+**The real skill**: Believing he was good at two things, he realizes he was actually only good at one—**adapting**. The specific competencies (programming, writing) were expressions of a more fundamental capability.
+
+**The generational shift**: "I grew up in a world where 'what you know' was more important than 'how you are.' The coming world is exactly the opposite."
+
+This inverts the traditional career advice. Technical knowledge was once the differentiator; character, flexibility, and presence may become what matters.
+
+**The practical acceptance**:
+- Still knows how to design, program, and write
+- Adapts to the reality that machines now execute these tasks
+- Speaks to machines that do the work for him
+- Can use machines to assist and do things better or faster
+
+**The irreducible human domain**: Sometimes the author programs, designs, or writes "for the pure joy of doing it. For a cathartic impulse. Out of rage, out of euphoria, for whatever reason."
+
+In that space—creation for its own sake, driven by emotion and will—"no machine will displace me."
+
+**The conclusion**: "I will be more human than ever."
+
+This perspective complements Raymond's wizard mindset: both see the essential self as unchanged by new tools. But where Raymond emphasizes continuity of will and magical thinking across tool generations, Gómez-Obregón emphasizes adaptation itself as the throughline—and carves out a protected space for purely human expression that exists outside productivity concerns entirely.
+
 ## The Bigger Picture
 
 The implications extend beyond jobs to existential stakes [3].
@@ -348,3 +377,4 @@ The advice: be prepared now rather than caught off-guard later.
 10. [Messy Jobs - Raffaella Sadun](https://x.com/i/status/2022993691330203673) - Harvard Business School professor's counterargument to rapid white-collar automation claims (2026)
 11. [Critical Regions vs "Right in the Limit"](https://x.com/i/status/2023476423055601903)
 12. [Identity and the Wizard Mindset - Eric S. Raymond](https://x.com/i/status/2023978360351682848) - On adapting to AI coding assistance without identity fracture (2026)
+13. [Adaptation as the Core Skill - Jaime Gómez-Obregón](https://x.com/JaimeObregon) - On being surpassed by machines and finding the irreducible human domain (2026)

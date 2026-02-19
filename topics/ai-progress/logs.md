@@ -298,6 +298,23 @@ Brief exchange expressing a common adoption pattern: an approach may be compelli
 
 ---
 
+### [Adaptation as the Core Skill](https://x.com/JaimeObregon)
+*2026-02-19T12:00:00Z* | Tags: ai-progress, adaptation, identity, human-purpose, craftsmanship
+
+Jaime Gómez-Obregón reflects on being surpassed by machines in his two core competencies—software design/programming and writing/communication—and why this doesn't worry him.
+
+**Key Points:**
+- Author acknowledges machines now design, program, and write better and faster than him in his two primary skills
+- Rather than worry, the author is "more excited than ever"
+- The deeper realization: believing he only did two things well, he actually did only one—adapt
+- Generational shift: grew up in a world where "what you know" mattered more than "how you are"; the coming world inverts this
+- Practical acceptance: still knows how to design, program, and write, but adapts to the reality of speaking to machines that execute these tasks
+- The irreplaceable domain: sometimes programming, designing, or writing for the pure joy of it—a cathartic impulse from rage, euphoria, or other emotions—"there, no machine will displace me"
+- Conclusion: "I will be more human than ever"
+- References Eric S. Raymond's reflection on 50 years of computing progress as explaining one reason for his optimism
+
+---
+
 ### [Identity and the Wizard Mindset](https://x.com/i/status/2023978360351682848)
 *2026-02-18T12:00:00Z* | Tags: ai-progress, identity, adaptation, mindset, programming-culture
 
