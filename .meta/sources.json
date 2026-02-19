@@ -897,6 +897,14 @@
       "log_path": "topics/topics/agentic-software-development/logs.md",
       "title": "Telegram Plugin for Claude Code - Operational Details",
       "url": "https://x.com/i/status/2024503974997483997"
+    },
+    {
+      "category": "Agentic Software Development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-19T16:48:27+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Per-Site VPS Architecture for Telegram Agent Control",
+      "url": "https://x.com/i/status/2024507875356279026"
     }
   ],
   "version": 2

@@ -625,3 +625,18 @@ Follow-up replies from Levelsio providing additional operational details for the
 - Positions the Telegram plugin as simpler than OpenClaw for basic mobile control needs
 
 ---
+
+### [Telegram Plugin for Claude Code - Per-Site VPS Architecture](https://x.com/i/status/2024507875356279026)
+*2026-02-19* | Tags: mobile-control, telegram, claude-code, systemd, hetzner, vps, daemon, session-resume
+
+Levelsio describes his per-site VPS architecture where each site runs on its own Hetzner VPS with Claude Code and the Telegram bot installed as a system daemon. Enables direct, persistent conversations with each site's agent.
+
+**Key Points:**
+- Each site runs on its own dedicated Hetzner VPS
+- Claude Code and claw-telegram-bot installed on each VPS
+- Telegram bot runs as a system daemon (systemd): starts on boot, auto-restarts if quit
+- Message flow: Telegram message → bot resumes previous Claude Code session → writes input → captures response → sends back via Telegram
+- Enables "talking directly to your sites" through Telegram
+- Very simple architecture despite powerful capabilities
+
+---

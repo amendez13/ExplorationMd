@@ -89,6 +89,28 @@ Setting up mobile agent control requires server-side configuration:
 - Install and configure the Telegram plugin on the server
 - The server runs the agent; the mobile device sends commands via Telegram
 
+#### Per-Site VPS Architecture
+
+A more sophisticated setup runs each site on its own dedicated Hetzner VPS:
+
+- Each VPS runs Claude Code plus the Telegram bot (claw-telegram-bot)
+- The Telegram bot is installed as a **system daemon** via systemd:
+  - Starts automatically on boot
+  - Auto-restarts if the process quits
+  - Runs persistently without manual intervention
+
+The message flow is straightforward:
+1. User sends a message via Telegram
+2. Bot receives the message and **resumes the previous Claude Code session**
+3. Bot writes the Telegram message as input to Claude Code
+4. Claude Code processes the request
+5. Bot captures Claude Code's response
+6. Response is sent back to the user via Telegram
+
+> "A message comes in, it opens a Claude Code that resumes the previous session, writes whatever I said on Telegram and once Claude Code responds it sends it back to Telegram. Very simple."
+
+This architecture enables direct, persistent conversations with each site's agent—effectively talking to your infrastructure through Telegram.
+
 ### Backup Strategy
 
 For autonomous agents with server access:
@@ -147,3 +169,4 @@ The cost is in the underlying model API consumption, not the access interface.
 
 1. [Levelsio - Telegram Claude Code Bot Discussion](https://x.com/i/status/2023960820091154569)
 2. [Levelsio - Operational Details Follow-up](https://x.com/i/status/2024503974997483997)
+3. [Levelsio - Per-Site VPS Architecture](https://x.com/i/status/2024507875356279026)
