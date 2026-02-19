@@ -315,6 +315,23 @@ Jaime Gómez-Obregón reflects on being surpassed by machines in his two core co
 
 ---
 
+### [Bespoke Software and the End of the App Store](https://x.com/i/status/2024583544157458452)
+*2026-02-19T14:00:00Z* | Tags: ai-progress, bespoke-software, ephemeral-apps, ai-native-services, vibe-coding
+
+Andrej Karpathy describes building a highly customized fitness tracking dashboard in one hour via "vibe coding" and argues that the traditional app store model is becoming obsolete. The future is AI-generated, ephemeral applications created on demand for specific use cases.
+
+**Key Points:**
+- Built a custom cardio experiment tracker (~300 lines of code) in 1 hour that would have taken ~10 hours two years ago
+- The agent reverse-engineered the Woodway treadmill cloud API, processed data, debugged unit/calendar issues, and built a web UI
+- "There will never be (and shouldn't be) a specific app on the app store for this kind of thing"—the long tail is better served by on-demand generation
+- The concept of browsing discrete apps is "somehow wrong and outdated when LLM agents can improvise the app on the spot and just for you"
+- Critical infrastructure gap: 99% of products/services still lack AI-native CLI/API access; services maintain human-readable docs/frontends instead of agent-friendly interfaces
+- Services should reconfigure as "sensors and actuators with agent native ergonomics"—turning physical state into digital knowledge via clean APIs
+- The vision: what took 1 hour should eventually take 1 minute, requiring rich personal context, skill libraries, and persistent AI orchestration
+- "The future are services of AI-native sensors & actuators orchestrated via LLM glue into highly custom, ephemeral apps. It's just not here yet."
+
+---
+
 ### [Identity and the Wizard Mindset](https://x.com/i/status/2023978360351682848)
 *2026-02-18T12:00:00Z* | Tags: ai-progress, identity, adaptation, mindset, programming-culture
 

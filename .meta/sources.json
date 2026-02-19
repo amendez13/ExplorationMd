@@ -905,6 +905,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Per-Site VPS Architecture for Telegram Agent Control",
       "url": "https://x.com/i/status/2024507875356279026"
+    },
+    {
+      "category": "ai-progress",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-19T21:40:30+00:00",
+      "log_path": "topics/ai-progress/logs.md",
+      "title": "Bespoke Software and the End of the App Store",
+      "url": "https://x.com/i/status/2024583544157458452"
     }
   ],
   "version": 2

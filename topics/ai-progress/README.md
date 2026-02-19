@@ -12,6 +12,7 @@ Observations and analysis of AI capability advancement and its implications.
 - [Recursive Improvement](recursive-improvement.md) - AI systems contributing to their own development
 - [Geopolitical Competition](geopolitical-competition.md) - US-China AI race, organizational speed, and the talent compounding problem
 - [Software Ecosystem Restructuring](software-ecosystem-restructuring.md) - How agents reshape dependencies, legacy software, languages, and open-source incentives
+- [Bespoke Software](bespoke-software.md) - The end of the app store model and the rise of AI-generated ephemeral applications
 
 ## Recent Activity
 
