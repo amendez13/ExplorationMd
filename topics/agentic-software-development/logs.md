@@ -503,7 +503,7 @@ Discussion sparked by Guillermo Rauch's observation: most people who are AI-nati
 
 ---
 
-### [The SHIP Framework for Non-Coders](https://youtube.com)
+### [The SHIP Framework for Non-Coders](https://www.youtube.com/watch?v=s_54GhcpDvE)
 *2026-02-13* | Tags: ship-framework, no-code, system-architecture, blueprints, tool-selection, test-builds, solo-workflow
 
 20-year coder shares the SHIP framework for building apps with AI without writing code. The insight: experienced coders initially struggled with AI because their approach was wrong—the skill needed isn't coding, it's system architecture. Like giving a carpenter blueprints instead of just saying "build me a house."
@@ -638,5 +638,21 @@ Levelsio describes his per-site VPS architecture where each site runs on its own
 - Message flow: Telegram message → bot resumes previous Claude Code session → writes input → captures response → sends back via Telegram
 - Enables "talking directly to your sites" through Telegram
 - Very simple architecture despite powerful capabilities
+
+---
+
+### [Rob — The SHIP Framework for Building Apps with AI (YouTube)](https://www.youtube.com/watch?v=s_54GhcpDvE)
+*2026-02-20* | Tags: ship-framework, system-architecture, planning, tool-selection, prototyping, rebuild, ai-coding, solo-workflow
+
+Rob describes a simple 4-step “SHIP” framework for getting unstuck from the build → break → re-prompt loop common with AI coding tools. The core message is that the leverage comes from architecture and decision-making (“blueprints”), not from writing code. This entry also links the specific video corresponding to the earlier placeholder YouTube link in the 2026-02-13 log entry.
+
+**Key Points:**
+- SHIP = Systems Planning, Handpick Your Tools, Initial Test Build, Production Build
+- Systems Planning: write down the app’s main components and constraints before prompting an AI coder (data, auth, integrations)
+- Handpick Tools: don’t accept the AI’s default stack recommendations; explicitly compare cost, free tiers, and consolidation vs. lock-in tradeoffs
+- Initial Test Build: build the smallest/ugliest version to validate the system works; skip polish, edge cases, and non-core features
+- Production Build: throw away the test build and rebuild cleanly from a refined plan, rather than trying to “fix” AI-generated prototype spaghetti
+- Prompting tip for non-engineers: ask for explanations “without technical jargon” so you can make tradeoffs deliberately
+- (Sponsor segment, claimed): Warp is presented as a top-performing terminal-based AI coding agent on benchmarks
 
 ---

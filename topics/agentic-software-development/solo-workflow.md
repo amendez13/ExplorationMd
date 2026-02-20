@@ -547,6 +547,6 @@ The analogy: building architects don't lay bricks, but understanding systems, st
 6. [Andrej Karpathy on X](https://x.com/i/status/2015883857489522876) - Claude coding observations (2026)
 7. [X discussion on abstraction moats](https://x.com/i/status/2010044820740563412) - Code as abstractions; moats in complexity or higher abstraction (2026)
 8. [Developer on X](https://x.com/i/status/2005421816110862601) - Using Claude as an ML lab assistant for end-to-end experimentation loops (2026)
-9. [Rob's SHIP Framework (YouTube)](https://youtube.com) - Four-step framework for non-coders building apps with AI (2026)
+9. [Rob's SHIP Framework (YouTube)](https://www.youtube.com/watch?v=s_54GhcpDvE) - Four-step framework for non-coders building apps with AI (accessed 2026-02-20)
 10. [YouTube: “How I use Claude Code for real engineering”](https://youtu.be/kZ-zzHVUrO4?si=Ue6dee2iQmKy6tOu) - Plan-first workflow for large projects (2026)
 11. [The senior engineer's guide to AI coding: Context loading, custom hooks, and automation](note://76) - Diagram-driven context loading plus hooks/automation for quality gates (2026)
