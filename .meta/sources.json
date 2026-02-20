@@ -931,6 +931,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Karpathy: The Decade of Agents",
       "url": "https://www.youtube.com/watch?v=lXUZvyajciY"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-20T11:27:48+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Move Karpathy talk to talks subdirectory",
+      "url": "note://106"
     }
   ],
   "version": 2

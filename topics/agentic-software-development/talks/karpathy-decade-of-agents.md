@@ -1,4 +1,4 @@
-[← Back to Topic](README.md) | [← Home](../../README.md)
+[← Back to Topic](../README.md) | [← Home](../../../README.md)
 
 # Karpathy: The Decade of Agents
 
