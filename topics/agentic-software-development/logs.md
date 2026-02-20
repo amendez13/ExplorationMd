@@ -676,3 +676,26 @@ Andrej Karpathy (former Tesla AI director, OpenAI researcher) provides extensive
 - Missing brain parts: transformer is cortical tissue, but hippocampus, amygdala equivalents absent; continual learning (sleep → distillation) missing
 
 ---
+
+### [State of AI 2026 - Lex Fridman with Sebastian Raschka and Nathan Lambert](https://www.youtube.com/watch?v=EV7WhVT270Q)
+*2026-02-20* | Tags: ai-landscape, scaling-laws, post-training, rlvr, open-models, claude-code, tool-use, agentic-development, interview
+
+Wide-ranging podcast discussion covering the AI competitive landscape (US vs China), scaling laws across pre-training/RL/inference, RLVR and the "aha moment," agentic coding tools, and predictions for the next decade. Sebastian Raschka (author of *Build an LLM from Scratch*) and Nathan Lambert (AI2 post-training lead, RLHF book author) share both research and practitioner perspectives.
+
+**Key Points:**
+- No technology winner will emerge—ideas flow freely between labs; differentiation comes from budget, hardware, and organizational culture
+- Claude Opus 4.5 hype is "almost a meme"—Anthropic bet hard on code and Claude Code is paying off; Google has structural TPU/data center advantages
+- Chinese open-weight models: strategy to capture market share when enterprises won't pay for Chinese API subscriptions; licenses are "friendlier" than Llama/Gemma
+- Architecture remarkably stable from GPT-2 to today—MoE, Group Query Attention, RMSNorm are incremental tweaks, not revolutions
+- Three scaling axes all still work: pre-training, RL training, inference-time compute; no sign of plateaus
+- RLVR: give question + answer, model develops step-by-step reasoning and self-correction organically; "aha moment" emerges without explicit teaching
+- Sebastian verified: Qwen 3 base 15% → 50% accuracy on MATH-500 in just 50 RLVR steps; knowledge was already there, RLVR unlocks it
+- RLHF does not scale (seminal paper is about "over-optimization"); RLVR does scale (OpenAI o1 showed the plot)
+- Claude Code appears to utilize Opus 4.5 better than alternatives; same model in different interfaces produces notably different results
+- Tool use is "huge unlock" for hallucination reduction—use calculator for math, search for facts—but trust/containerization infrastructure needed
+- AI is "jagged"—superhuman at some things (frontend, data analysis), bad at others (distributed ML, novel research code)
+- No discrete "superhuman coder" moment expected—continuous improvement with persistent gaps
+- 2026 predictions: $2,000 subscription tier, more open-weight builders (many Chinese), software engineering shifts to system design and goals
+- Learn by building from scratch (Sebastian), go narrow after fundamentals (Nathan), struggle matters for deep learning
+
+---

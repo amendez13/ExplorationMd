@@ -939,6 +939,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Move Karpathy talk to talks subdirectory",
       "url": "note://106"
+    },
+    {
+      "category": "youtube_video",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-20T11:32:46+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "State of AI 2026: Fridman, Raschka, Lambert",
+      "url": "https://www.youtube.com/watch?v=EV7WhVT270Q"
     }
   ],
   "version": 2

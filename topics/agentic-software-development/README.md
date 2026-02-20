@@ -23,6 +23,7 @@ Knowledge and resources about AI-powered coding agents and development workflows
 ## Talks
 
 - [Karpathy: The Decade of Agents](talks/karpathy-decade-of-agents.md) - Why agents will take a decade to mature, RL limitations, cognitive core hypothesis, and self-driving lessons
+- [State of AI 2026: Fridman, Raschka, Lambert](talks/fridman-raschka-lambert-ai-2026.md) - Competitive landscape, scaling laws, RLVR breakthroughs, Claude Code advantages, and tool use as the next frontier
 
 ## Recent Activity
 
