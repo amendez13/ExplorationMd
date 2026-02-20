@@ -347,3 +347,24 @@ Eric S. Raymond (pioneering open-source developer, author of "The Cathedral and 
 - Core insight: "You are the magic-wielder. Without you, none of it happens. Same as it ever was."
 
 ---
+
+### [Andrej Karpathy on the Decade of Agents - Dwarkesh Podcast](https://www.youtube.com/watch?v=lXUZvyajciY)
+*2026-02-20* | Tags: ai-progress, capability-trends, timelines, intelligence-explosion, gdp, self-driving, education, karpathy, interview
+
+Andrej Karpathy provides extensive views on AI capability timelines, why he expects continuity rather than discontinuity in economic growth, lessons from self-driving deployment, and his new focus on education with Eureka Labs.
+
+**Key Points:**
+- "Decade of agents" timeline based on 15 years of watching AI predictions succeed and fail; problems tractable but not trivial
+- Self-driving started in 1980s, isn't done yet—demos easy, products hard; "march of nines" where each reliability 9 requires constant work
+- Demo-to-product gap especially large when cost of failure is high (self-driving: injury; software: security breaches)
+- GDP won't show AI discontinuity—couldn't find iPhone or computers in GDP curves either; expects same exponential, gradual diffusion
+- Skeptical of "intelligence explosion" framing—sees AI as continuation of computing automation going back decades
+- Counter to explosion: no "god in a box" unlock; will be gradual deployment, rehiring after over-automation, same pattern as before
+- Pre-training is "crappy evolution"—not building animals, building "ghosts" that imitate internet documents
+- Missing brain parts: transformer = cortical tissue; hippocampus, amygdala equivalents absent; no continual learning (sleep → distillation)
+- Eureka Labs vision: build "Starfleet Academy" for technical education; AI tutors not ready yet but coming
+- Education insight: when tutor understood exactly where student was, served perfect material, student was "the only constraint to learning"
+- Post-AGI education becomes like gym—people will learn for fun/self-improvement once friction removed
+- Physics education creates best cognitive tools: "spherical cow" abstraction, first-order approximations, pattern recognition
+
+---

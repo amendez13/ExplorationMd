@@ -644,15 +644,35 @@ Levelsio describes his per-site VPS architecture where each site runs on its own
 ### [Rob — The SHIP Framework for Building Apps with AI (YouTube)](https://www.youtube.com/watch?v=s_54GhcpDvE)
 *2026-02-20* | Tags: ship-framework, system-architecture, planning, tool-selection, prototyping, rebuild, ai-coding, solo-workflow
 
-Rob describes a simple 4-step “SHIP” framework for getting unstuck from the build → break → re-prompt loop common with AI coding tools. The core message is that the leverage comes from architecture and decision-making (“blueprints”), not from writing code. This entry also links the specific video corresponding to the earlier placeholder YouTube link in the 2026-02-13 log entry.
+Rob describes a simple 4-step "SHIP" framework for getting unstuck from the build → break → re-prompt loop common with AI coding tools. The core message is that the leverage comes from architecture and decision-making ("blueprints"), not from writing code. This entry also links the specific video corresponding to the earlier placeholder YouTube link in the 2026-02-13 log entry.
 
 **Key Points:**
 - SHIP = Systems Planning, Handpick Your Tools, Initial Test Build, Production Build
-- Systems Planning: write down the app’s main components and constraints before prompting an AI coder (data, auth, integrations)
-- Handpick Tools: don’t accept the AI’s default stack recommendations; explicitly compare cost, free tiers, and consolidation vs. lock-in tradeoffs
+- Systems Planning: write down the app's main components and constraints before prompting an AI coder (data, auth, integrations)
+- Handpick Tools: don't accept the AI's default stack recommendations; explicitly compare cost, free tiers, and consolidation vs. lock-in tradeoffs
 - Initial Test Build: build the smallest/ugliest version to validate the system works; skip polish, edge cases, and non-core features
-- Production Build: throw away the test build and rebuild cleanly from a refined plan, rather than trying to “fix” AI-generated prototype spaghetti
-- Prompting tip for non-engineers: ask for explanations “without technical jargon” so you can make tradeoffs deliberately
+- Production Build: throw away the test build and rebuild cleanly from a refined plan, rather than trying to "fix" AI-generated prototype spaghetti
+- Prompting tip for non-engineers: ask for explanations "without technical jargon" so you can make tradeoffs deliberately
 - (Sponsor segment, claimed): Warp is presented as a top-performing terminal-based AI coding agent on benchmarks
+
+---
+
+### [Andrej Karpathy on the Decade of Agents - Dwarkesh Podcast](https://www.youtube.com/watch?v=lXUZvyajciY)
+*2026-02-20* | Tags: agent-timelines, rl-limitations, cognitive-core, model-collapse, self-driving-analogy, karpathy, interview
+
+Andrej Karpathy (former Tesla AI director, OpenAI researcher) provides extensive views on why AI agents will require a decade to mature, fundamental limitations of RL, the cognitive deficits of current models, and lessons from self-driving deployment.
+
+**Key Points:**
+- "Decade of agents" not "year of agents"—agents lack continual learning, multimodality, confusion management; problems are tractable but will take ~10 years
+- Current coding agents struggle with novel code—kept trying to use PyTorch DDP despite custom implementation, couldn't adapt to repository-specific styles
+- RL is "sucking supervision through a straw"—upweights entire trajectory from single end reward, no selective credit assignment like humans do
+- Process supervision via LLM judges is gameable—adversarial examples like "dhdhdhdh" got 100% reward; infinity of such exploits
+- Pre-training stores ~0.07 bits/token; in-context learning stores ~320KB/token (35 million times more)—context is working memory, weights are hazy recollection
+- Model collapse: outputs look reasonable individually but are "silently collapsed" to tiny manifold; ChatGPT has ~3 jokes; blocks synthetic data scaling
+- Cognitive core hypothesis: a billion-parameter model stripped of memorized knowledge could be highly capable if trained on refined data
+- Self-driving took 40+ years (demos from 1980s) and isn't done—"march of nines" where each 9 (90%→99%→99.9%) requires constant work
+- Software has same safety property as self-driving—mistakes can leak millions of SSNs; vibe coding fine for throwaway, production needs care
+- GDP won't show AI discontinuity—iPhone, computers don't show up either; expects gradual diffusion into same exponential
+- Missing brain parts: transformer is cortical tissue, but hippocampus, amygdala equivalents absent; continual learning (sleep → distillation) missing
 
 ---

@@ -921,8 +921,16 @@
       ],
       "indexed_at": "2026-02-20T07:30:30+00:00",
       "log_path": "topics/agentic-software-development/logs.md",
-      "title": "Rob — The SHIP Framework for Building Apps with AI (YouTube)",
+      "title": "Rob \u2014 The SHIP Framework for Building Apps with AI (YouTube)",
       "url": "https://www.youtube.com/watch?v=s_54GhcpDvE"
+    },
+    {
+      "category": "youtube_video",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-20T08:33:21+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Karpathy: The Decade of Agents",
+      "url": "https://www.youtube.com/watch?v=lXUZvyajciY"
     }
   ],
   "version": 2
