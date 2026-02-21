@@ -750,3 +750,25 @@ Real-world example of AGENTS.md placed in a subdirectory (`src/inspector/`) rath
 - Pattern is maintainable: subsystem teams can update their own AGENTS.md independently
 
 ---
+
+### [Peter Steinberger on Agentic Engineering with Cloudbot - Pragmatic Engineer Podcast](https://www.youtube.com/watch?v=8lF7HmQ_RgY)
+*2026-02-21* | Tags: cloudbot, parallel-agents, feedback-loops, prompt-requests, codex, workflow, cli-over-mcp, interview
+
+Peter Steinberger (creator of PSPDFKit) discusses his radical AI-first development workflow after returning from a 3-year burnout break. He's building Cloudbot, a personal AI assistant with full computer access controllable via WhatsApp/Telegram. Covers running 5-10 agents in parallel, "weaving" code instead of merging it, and why he prefers GPT 5.2 Codex over Claude for complex tasks.
+
+**Key Points:**
+- Runs 5-10 agents in parallel; main project gets focus while satellite projects cook in background
+- "Closing the loop" is the core principle—agents must be able to debug and test themselves; that's why AI is good at code but mediocre at creative writing
+- Prefers GPT 5.2 Codex over Claude: takes 10x longer (10-40 min reading before writing) but much higher first-try success rate
+- Claude reads 3 files then feels "confident enough" to write; Codex silently reads files for 10 minutes first
+- PRs are now "prompt requests"—wants contributors to share prompts used, not just code; prompts are higher signal
+- Basically rewrites every pull request; code quality of PRs has dropped due to vibe coding
+- CLIs over MCPs: MCPs require pre-loading all tools, can't filter or chain; models are "really good at bash"
+- Built `make-porter` to convert any MCP to CLI on demand
+- Cloudbot has bootstrap phase creating user.md (info), soul.md (values), identity.md (name, emoji, inside jokes)
+- Agent can edit its own configuration and update itself
+- "I write better code now that I don't write code myself"
+- Two developer types: builders (thrive with AI, care about outcomes) vs coders (struggle, love solving hard problems)
+- Would hire based on GitHub activity and "loving the game"; could run a company with 30% of the people
+
+---

@@ -995,6 +995,14 @@
       "log_path": "topics/topics/agentic-software-development/logs.md",
       "title": "Mitchell Hashimoto AI Workflow Stages Integration",
       "url": "note://113"
+    },
+    {
+      "category": "youtube_video",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-21T21:02:39+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Peter Steinberger on Agentic Engineering with Cloudbot",
+      "url": "https://www.youtube.com/watch?v=8lF7HmQ_RgY"
     }
   ],
   "version": 2
