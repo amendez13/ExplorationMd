@@ -734,3 +734,19 @@ Anthropic research study investigating whether AI coding assistance helps develo
 - Implications: organizations should design AI deployment strategies that preserve learning opportunities, particularly for junior developers who need to develop oversight capabilities
 
 ---
+
+### [Ghostty Inspector AGENTS.md - Subsystem-Specific Agent Instructions](https://github.com/ghostty-org/ghostty/blob/ca07f8c3f775fe437d46722db80a755c2b6e6399/src/inspector/AGENTS.md)
+*2026-02-21* | Tags: agents-md, subdirectory-placement, ghostty, imgui, zig, patterns
+
+Real-world example of AGENTS.md placed in a subdirectory (`src/inspector/`) rather than at repository root. Ghostty's inspector subsystem (a browser-DevTools-like tool for terminal state inspection) demonstrates the pattern of scoped, subsystem-specific agent instructions.
+
+**Key Points:**
+- Subdirectory AGENTS.md files provide scoped context when agents work in specific parts of a codebase
+- The file is concise (12 lines) with no redundancy—only subsystem-relevant information
+- Points to external resources (dcimgui.h header, ImGui demo) rather than explaining dependencies inline
+- Includes a find command (`find . -type f -name dcimgui.h`) for resource discovery
+- Documents build flags specific to the subsystem (`-Demit-macos-app=false` for macOS API validation)
+- Explicitly states what's missing ("This package does not include unit tests") to prevent wasted exploration
+- Pattern is maintainable: subsystem teams can update their own AGENTS.md independently
+
+---

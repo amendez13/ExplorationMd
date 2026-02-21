@@ -979,6 +979,14 @@
       "log_path": "topics/topics/agentic-software-development/logs.md",
       "title": "How AI Assistance Impacts the Formation of Coding Skills",
       "url": "https://www.anthropic.com/research/AI-assistance-coding-skills"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-21T08:22:10+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Ghostty Inspector AGENTS.md - Subsystem-Specific Agent Instructions",
+      "url": "https://github.com/ghostty-org/ghostty/blob/ca07f8c3f775fe437d46722db80a755c2b6e6399/src%2Finspector%2FAGENTS.md"
     }
   ],
   "version": 2
