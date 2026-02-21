@@ -955,6 +955,14 @@
       "log_path": "topics/technical-it/logs.md",
       "title": "What is OAuth?",
       "url": "https://leaflet.pub/p/did:plc:3vdrgzr2zybocs45yfhcr6ur/3mfd2oxx5v22b"
+    },
+    {
+      "category": "Technical IT",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-21T07:14:22+00:00",
+      "log_path": "topics/topics/technical-it/authentication/logs.md",
+      "title": "Rename authentication.md to what-is-oauth.md",
+      "url": "note://109"
     }
   ],
   "version": 2

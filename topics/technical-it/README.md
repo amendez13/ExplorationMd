@@ -6,7 +6,8 @@ Technical infrastructure topics including authentication, networking, and system
 
 ## Articles
 
-- [Authentication](authentication.md) - OAuth history, OIDC fundamentals, and delegated authorization explained
+### Authentication
+- [What is OAuth?](authentication/what-is-oauth.md) - OAuth history, OIDC fundamentals, and delegated authorization explained
 
 ## Recent Activity
 
