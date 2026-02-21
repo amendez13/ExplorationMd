@@ -947,6 +947,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "State of AI 2026: Fridman, Raschka, Lambert",
       "url": "https://www.youtube.com/watch?v=EV7WhVT270Q"
+    },
+    {
+      "category": "Technical IT",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-21T06:49:13+00:00",
+      "log_path": "topics/technical-it/logs.md",
+      "title": "What is OAuth?",
+      "url": "https://leaflet.pub/p/did:plc:3vdrgzr2zybocs45yfhcr6ur/3mfd2oxx5v22b"
     }
   ],
   "version": 2
