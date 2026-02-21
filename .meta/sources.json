@@ -963,6 +963,14 @@
       "log_path": "topics/topics/technical-it/authentication/logs.md",
       "title": "Rename authentication.md to what-is-oauth.md",
       "url": "note://109"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-21T07:19:08+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "My AI Adoption Journey",
+      "url": "https://mitchellh.com/writing/my-ai-adoption-journey"
     }
   ],
   "version": 2

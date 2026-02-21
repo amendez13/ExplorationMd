@@ -19,6 +19,7 @@ Knowledge and resources about AI-powered coding agents and development workflows
 - [OSS Sustainability](oss-sustainability.md) - How coding agents disrupt OSS monetization and overwhelm maintainers with low-quality contributions
 - [Agent-Native Design](agent-native-design.md) - Designing software for agents as first-class users, not just using agents to build software
 - [Mobile Agent Control](mobile-agent-control.md) - Running agents remotely via Telegram for mobile-first control and monitoring
+- [AI Adoption Journey](ai-adoption-journey.md) - Mitchell Hashimoto's staged approach to AI tool adoption, from chatbot abandonment to continuous agent operation
 
 ## Talks
 

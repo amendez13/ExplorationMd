@@ -699,3 +699,22 @@ Wide-ranging podcast discussion covering the AI competitive landscape (US vs Chi
 - Learn by building from scratch (Sebastian), go narrow after fundamentals (Nathan), struggle matters for deep learning
 
 ---
+
+### [My AI Adoption Journey](https://mitchellh.com/writing/my-ai-adoption-journey)
+*2026-02-21* | Tags: adoption-journey, workflow-stages, agents-md, verification, parallel-work, skill-formation, hashimoto
+
+Mitchell Hashimoto (software craftsman, HashiCorp founder) shares his structured journey from AI skepticism to continuous agent operation. Emphasizes deliberate phases of inefficiency before workflow transformation, with specific stages for building competence and trust.
+
+**Key Points:**
+- Three universal phases of tool adoption: inefficiency period, adequacy phase, workflow transformation—skipping stages leads to shallow adoption
+- Stage 1: Abandon chatbots—pure chat requires too much human correction; move to agents that can read files, execute programs, and loop autonomously
+- Stage 2: Reproduce work manually—complete tasks twice (manual then agent) to build intuition for what agents handle well
+- Three principles from dual-execution: break sessions into clear tasks, separate planning from execution, provide agents verification mechanisms
+- Stage 3: End-of-day agents—30-minute sessions before leaving for deep research, parallel exploration, issue triage; provides "warm start" next morning
+- Stage 4: Parallel work—delegate high-confidence tasks while working on preferred projects; crucially turn off notifications to avoid context-switching costs
+- Stage 5: Harness engineering—AGENTS.md files documenting agent behaviors, custom programmatic tools for verification, constraint specification
+- Stage 6: Continuous operation—10-20% of workday covered by background agents; one agent at a time outperforms multiple simultaneous
+- Use slower, higher-quality models for complex changes
+- Skill formation tradeoff: delegating means not developing skills; junior developers lack fundamentals to judge when agents are wrong
+
+---
