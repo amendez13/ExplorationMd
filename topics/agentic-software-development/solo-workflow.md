@@ -18,6 +18,15 @@
   - [Automation: Aliases, CLIs, and Hooks](#automation-aliases-clis-and-hooks)
   - [Handling Drift](#handling-drift)
   - [Large-Project Workflow (Plan-First)](#large-project-workflow-plan-first)
+- [End-of-Day Agents](#end-of-day-agents)
+  - [Effective End-of-Day Tasks](#effective-end-of-day-tasks)
+  - [The Warm Start Effect](#the-warm-start-effect)
+- [Parallel Delegation Model](#parallel-delegation-model)
+  - [Notification Discipline](#notification-discipline)
+  - [Trust Thresholds](#trust-thresholds)
+- [Harness Engineering](#harness-engineering)
+  - [AGENTS.md as Living Documentation](#agentsmd-as-living-documentation)
+  - [Programmatic Verification Tools](#programmatic-verification-tools)
 - [Example: Agentic ML Experimentation](#example-agentic-ml-experimentation-human-in-the-loop)
   - [What The Agent Did](#what-the-agent-did)
   - [Artifacts That Made It Work](#artifacts-that-made-it-work)
@@ -92,6 +101,22 @@ flowchart TB
     O3[Oversight shift<br/>watch stream<br/>spot check code]
   end
 
+  subgraph DELEGATION[Parallel delegation]
+    DEL1[End-of-day agents<br/>research triage exploration]
+    DEL2[Warm start next morning<br/>context already prepared]
+    DEL3[Parallel work model<br/>delegate while you focus]
+    DEL4[Notifications off<br/>control interruption timing]
+    DEL1 --> DEL2
+    DEL3 --> DEL4
+  end
+
+  subgraph HARNESS[Harness engineering]
+    H1[AGENTS.md<br/>document agent failures]
+    H2[Programmatic tools<br/>screenshots validation scripts]
+    H3[Constraint specification<br/>boundaries agents must respect]
+    H1 --> H2 --> H3
+  end
+
   subgraph RISKS[Failure modes and risks]
     R1[Subtle mistakes<br/>confidently wrong]
     R2[Abstraction bloat<br/>coupling]
@@ -103,6 +128,8 @@ flowchart TB
   MINDSET --> LEVERAGE
   LEVERAGE --> SESSION
   SHIP --> SESSION
+  DELEGATION --> SESSION
+  HARNESS --> VERIFY
   OPS --> SESSION
   RISKS --> VERIFY
   VERIFY --> SESSION
@@ -245,15 +272,84 @@ When an agent drifts, it can be faster to restart from a known-good checkpoint t
 
 ### Large-Project Workflow (Plan-First)
 
-For multi-hour or multi-session engineering tasks, a reliable pattern is to invest up front in a plan that makes “done” unambiguous, then execute in phases sized to fit within context-window limits [10].
+For multi-hour or multi-session engineering tasks, a reliable pattern is to invest up front in a plan that makes "done" unambiguous, then execute in phases sized to fit within context-window limits [10].
 
 **Core loop** [10]:
-1. **Dump a rough prompt** (often dictated) to get moving, even if it’s incomplete.
+1. **Dump a rough prompt** (often dictated) to get moving, even if it's incomplete.
 2. **Use plan mode to explore and ask questions**, surfacing unknowns and decisions before writing code.
 3. **Convert the plan into phases**, each small enough to complete without a reset.
 4. **Execute with higher autonomy** once the plan is stable, while tracking progress against the checklist.
 
-**Durability**: Persist the plan outside the chat (for example, in a GitHub issue) so you can “rehydrate” the agent after a context reset without re-discovering requirements [10].
+**Durability**: Persist the plan outside the chat (for example, in a GitHub issue) so you can "rehydrate" the agent after a context reset without re-discovering requirements [10].
+
+## End-of-Day Agents
+
+A structured pattern for leveraging agent capabilities during downtime: block the last 30 minutes of every day to kick off one or more agents before leaving [12]. This creates a deliberate window for async agent work that produces a "warm start" the next morning.
+
+### Effective End-of-Day Tasks
+
+Three work categories are particularly suited to end-of-day agent runs [12]:
+
+1. **Deep research sessions** - Agents survey unfamiliar fields comprehensively: identifying libraries by language and license, generating multi-page analyses covering pros, cons, development activity, and community sentiment. This is work that takes concentration and exploration—perfect for delegating to an agent that doesn't get tired.
+
+2. **Parallel exploration** - When facing vague ideas with unknown unknowns, run concurrent agents to explore multiple approaches simultaneously. By the next morning, you have a landscape of options rather than starting from zero.
+
+3. **Issue/PR triage** - Agents can use the GitHub CLI to process issues and PRs in parallel, generating categorized reports rather than responding directly. This guides human attention toward high-value, low-effort tasks.
+
+### The Warm Start Effect
+
+The power of end-of-day agents is temporal leverage: work that completes while you're away accelerates the next day's start. Instead of beginning a morning by exploring a new library or triaging a backlog, you arrive to a synthesized summary ready for action [12].
+
+This pattern only works once you've built enough intuition to identify tasks agents handle well (see [Skill Formation](skill-formation.md) for the progression that leads here).
+
+## Parallel Delegation Model
+
+Once confident in agent capabilities, the next stage is running delegation and focused work simultaneously: assign high-confidence tasks to agents while working manually on preferred projects [12].
+
+### Notification Discipline
+
+The critical practice that makes parallel work viable: **turn off agent desktop notifications entirely** [12].
+
+Context-switching costs can erase the productivity gains from parallel work. Each notification that pulls attention back to the agent task fragments focus on the primary task. The gains from parallel execution only materialize if you maintain control over interruption timing.
+
+This requires sufficient trust in the agent to let it run without constant monitoring—trust that develops through earlier stages of adoption where you've learned what agents handle well versus poorly.
+
+### Trust Thresholds
+
+The parallel model only works when:
+- You can identify "slam dunk" tasks with high confidence that the agent will succeed
+- You trust the agent enough to not watch it constantly
+- You're willing to trade skill development in delegated areas for progress on preferred work
+
+This represents an explicit tradeoff: by delegating certain tasks, you don't develop skills in those areas. The compensation is that you stay productive on the work you've chosen to prioritize [12].
+
+## Harness Engineering
+
+When agents make the same mistakes repeatedly, the response is infrastructure: engineer solutions that prevent recurrence rather than correcting the same error each time [12].
+
+### AGENTS.md as Living Documentation
+
+The first approach is **better implicit prompting through AGENTS.md files** [12]. When an agent fails in a specific way, document the failure and the correction:
+
+- What the agent did wrong
+- What the correct behavior should be
+- Patterns or gotchas specific to this project
+
+This creates a growing body of project-specific guidance that the agent reads on each session, preventing the same mistakes from recurring.
+
+The Ghostty repository provides practical examples of this pattern, with AGENTS.md files documenting agent behaviors at both repository and subsystem levels (see [AGENTS.md Library](agents-md-library.md)).
+
+### Programmatic Verification Tools
+
+The second approach is **creating programmed tools for verification** [12]:
+
+- **Screenshot tools** that capture visual output for verification
+- **Filtered testing scripts** that run relevant subsets of tests
+- **Validation helpers** that check specific conditions agents often miss
+
+These tools are paired with AGENTS.md updates that tell the agent when and how to use them. The result is a tighter feedback loop: the agent can self-verify using tools you've created, reducing the need for human intervention.
+
+This is infrastructure investment—upfront cost that compounds over time. Each tool and each AGENTS.md update prevents a category of future mistakes. Over time, the agent becomes more reliable in your specific codebase because you've engineered the constraints that keep it on track.
 
 ## Example: Agentic ML Experimentation (Human-in-the-Loop)
 
@@ -548,5 +644,6 @@ The analogy: building architects don't lay bricks, but understanding systems, st
 7. [X discussion on abstraction moats](https://x.com/i/status/2010044820740563412) - Code as abstractions; moats in complexity or higher abstraction (2026)
 8. [Developer on X](https://x.com/i/status/2005421816110862601) - Using Claude as an ML lab assistant for end-to-end experimentation loops (2026)
 9. [Rob's SHIP Framework (YouTube)](https://www.youtube.com/watch?v=s_54GhcpDvE) - Four-step framework for non-coders building apps with AI (accessed 2026-02-20)
-10. [YouTube: “How I use Claude Code for real engineering”](https://youtu.be/kZ-zzHVUrO4?si=Ue6dee2iQmKy6tOu) - Plan-first workflow for large projects (2026)
+10. [YouTube: "How I use Claude Code for real engineering"](https://youtu.be/kZ-zzHVUrO4?si=Ue6dee2iQmKy6tOu) - Plan-first workflow for large projects (2026)
 11. [The senior engineer's guide to AI coding: Context loading, custom hooks, and automation](note://76) - Diagram-driven context loading plus hooks/automation for quality gates (2026)
+12. [mitchellh.com](https://mitchellh.com/writing/my-ai-adoption-journey) - Mitchell Hashimoto's AI adoption journey: end-of-day agents, parallel delegation, and harness engineering (2026)

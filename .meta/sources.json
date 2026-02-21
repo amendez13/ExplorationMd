@@ -987,6 +987,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Ghostty Inspector AGENTS.md - Subsystem-Specific Agent Instructions",
       "url": "https://github.com/ghostty-org/ghostty/blob/ca07f8c3f775fe437d46722db80a755c2b6e6399/src%2Finspector%2FAGENTS.md"
+    },
+    {
+      "category": "Agentic Software Development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-21T08:35:36+00:00",
+      "log_path": "topics/topics/agentic-software-development/logs.md",
+      "title": "Mitchell Hashimoto AI Workflow Stages Integration",
+      "url": "note://113"
     }
   ],
   "version": 2
