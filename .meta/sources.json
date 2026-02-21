@@ -971,6 +971,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "My AI Adoption Journey",
       "url": "https://mitchellh.com/writing/my-ai-adoption-journey"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-21T08:16:57+00:00",
+      "log_path": "topics/topics/agentic-software-development/logs.md",
+      "title": "How AI Assistance Impacts the Formation of Coding Skills",
+      "url": "https://www.anthropic.com/research/AI-assistance-coding-skills"
     }
   ],
   "version": 2

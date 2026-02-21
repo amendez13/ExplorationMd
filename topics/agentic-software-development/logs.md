@@ -718,3 +718,19 @@ Mitchell Hashimoto (software craftsman, HashiCorp founder) shares his structured
 - Skill formation tradeoff: delegating means not developing skills; junior developers lack fundamentals to judge when agents are wrong
 
 ---
+
+### [How AI Assistance Impacts the Formation of Coding Skills](https://www.anthropic.com/research/AI-assistance-coding-skills)
+*2026-02-21* | Tags: skill-formation, research, learning, debugging, junior-developers, anthropic
+
+Anthropic research study investigating whether AI coding assistance helps developers learn new skills or creates a shortcut that undermines skill development. Randomized controlled trial with 52 junior software engineers learning Python's Trio library.
+
+**Key Points:**
+- AI assistance significantly impaired skill mastery: participants in the AI group scored 17% lower than those who coded by hand (equivalent of nearly two letter grades)
+- Performance gap was particularly pronounced on debugging questions—this area may suffer most when developers rely on AI
+- Productivity tradeoff: AI users completed tasks roughly two minutes faster, but improvement wasn't statistically significant
+- Critical nuance: how developers use AI matters tremendously
+- High-performing approaches: requesting explanations alongside code generation, using AI for conceptual inquiry while solving problems independently, follow-up questions for clarification
+- Low-performing approaches: complete delegation of code writing, relying on AI for debugging rather than independent problem-solving
+- Implications: organizations should design AI deployment strategies that preserve learning opportunities, particularly for junior developers who need to develop oversight capabilities
+
+---
