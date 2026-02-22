@@ -1003,6 +1003,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Peter Steinberger on Agentic Engineering with Cloudbot",
       "url": "https://www.youtube.com/watch?v=8lF7HmQ_RgY"
+    },
+    {
+      "category": "ai-progress",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-22T06:53:28+00:00",
+      "log_path": "topics/topics/ai-progress/logs.md",
+      "title": "Exception Handling: The Real Agent Challenge",
+      "url": "https://x.com/i/status/2025400607012765845"
     }
   ],
   "version": 2

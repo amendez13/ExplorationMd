@@ -368,3 +368,21 @@ Andrej Karpathy provides extensive views on AI capability timelines, why he expe
 - Physics education creates best cognitive tools: "spherical cow" abstraction, first-order approximations, pattern recognition
 
 ---
+
+### [Exception Handling: The Real Agent Challenge](https://x.com/i/status/2025400607012765845)
+*2026-02-22T12:00:00Z* | Tags: ai-progress, agents, exception-handling, automation, organizational-theory
+
+Steven Sinofsky (former Microsoft executive) argues that the fundamental challenge for AI agents isn't handling expected cases—it's exception handling. The history of software automation has always been about navigating the unexpected.
+
+**Key Points:**
+- No doubt agents will be deployed at massive scale for buying, writing, drawing, inquiring, answering, and other tasks
+- The real question: "What will the agent do when something unintended or unexpected happens?"
+- The history of software automation is not about getting the expected case to work—it's about exception handling
+- Current human processes involve two things: software to handle the expected, and a human to navigate exceptions
+- Human role often involves "making the system do things it should not do"—overriding security and taking responsibility
+- Real-world example: Comcast automatically awarded a $100 credit but billing systems couldn't process it; a human spent a day offline "working the system" to make it appear on the bill
+- The "agent" could award the credit, but billing and customer service systems couldn't follow through
+- Everything we imagine agents doing requires thinking through every possible path to handle an exception
+- This has always been why automation is difficult—not technical capability but exception coverage
+
+---

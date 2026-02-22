@@ -8,6 +8,8 @@
 - [The Power User Gap](#the-power-user-gap)
 - [Job Displacement](#job-displacement)
 - [The Messy Jobs Counterargument](#the-messy-jobs-counterargument)
+  - [The Organizational Perspective](#the-organizational-perspective)
+  - [The Exception Handling Perspective](#the-exception-handling-perspective)
 - [Why This Automation Wave Is Different](#why-this-automation-wave-is-different)
 - [Urgency and Emotional Weight](#urgency-and-emotional-weight)
 - [Individual Preparedness](#individual-preparedness)
@@ -74,7 +76,11 @@ Amodei has also stated that AI models "substantially smarter than almost all hum
 
 ## The Messy Jobs Counterargument
 
-Not everyone accepts the rapid automation thesis. Raffaella Sadun (Harvard Business School professor) argues that predictions of white-collar jobs being "fully automated" within 12-18 months reflect marketing language rather than understanding of how organizations actually work [10].
+Not everyone accepts the rapid automation thesis. Critics argue from two complementary angles: organizational complexity (jobs are about coordination and conflict resolution, not just tasks) and exception handling (the hard part of automation is navigating the unexpected, not handling the expected case).
+
+### The Organizational Perspective
+
+Raffaella Sadun (Harvard Business School professor) argues that predictions of white-collar jobs being "fully automated" within 12-18 months reflect marketing language rather than understanding of how organizations actually work [10].
 
 **The "Messy Jobs" concept**: Many white-collar roles are fundamentally about coordination, negotiation, and conflict resolution—tasks that cannot be automated even when component tasks can [10].
 
@@ -107,6 +113,26 @@ The bottleneck isn't technical—it's human. What stops homes from being built a
 **The marketing critique**: "Most tasks fully automated in 18 months" is not a prediction—it's marketing designed to sell enterprise subscriptions and justify capital expenditure [10].
 
 **The core insight**: "The real world is messy. The mess is not a bug. It is what happens when human beings with competing interests try to get things done together" [10].
+
+### The Exception Handling Perspective
+
+Steven Sinofsky (former Microsoft executive) offers a complementary critique from software engineering history. The fundamental challenge for AI agents isn't handling expected cases—it's exception handling [14].
+
+**The historical pattern**: Every human process today involves two components:
+- Software to handle the expected case
+- A human to navigate and tell the software what to do after undertaking the effort to solve for the unexpected and undocumented exception
+
+Anyone who has spent time at an airline counter, post office, DMV, or Comcast office immediately recognizes this: the problem almost always boils down to an exception to the process [14].
+
+**The human role**: Humans "make the system do things it should not do"—overriding security and taking responsibility for the result. This is the essence of exception handling in complex organizations [14].
+
+**Real-world case study**: Comcast automatically awarded a $100 credit for service downtime, but the credit never appeared on the bill. The customer spent half an hour with a bot with no success. A human customer service agent could see the credit but there was no software path to process it. That person spent a day offline "working the system" to make the credit appear [14].
+
+The lesson: the agent could award the credit, but billing and customer service systems couldn't follow through. The chain of systems required human intervention at the seams [14].
+
+**The automation constant**: Everything we imagine agents doing requires thinking through every possible path to handle an exception. This has always been why automation is difficult—the history of software automation is not about getting the expected case to work. It's about handling the unexpected [14].
+
+This perspective connects to the "Messy Jobs" argument: while Sadun emphasizes human coordination and conflict resolution, Sinofsky emphasizes that even seemingly straightforward tasks contain exception paths that require human judgment and system override authority.
 
 ## Why This Automation Wave Is Different
 
@@ -378,3 +404,4 @@ The advice: be prepared now rather than caught off-guard later.
 11. [Critical Regions vs "Right in the Limit"](https://x.com/i/status/2023476423055601903)
 12. [Identity and the Wizard Mindset - Eric S. Raymond](https://x.com/i/status/2023978360351682848) - On adapting to AI coding assistance without identity fracture (2026)
 13. [Adaptation as the Core Skill - Jaime Gómez-Obregón](https://x.com/JaimeObregon) - On being surpassed by machines and finding the irreducible human domain (2026)
+14. [Exception Handling: The Real Agent Challenge - Steven Sinofsky](https://x.com/i/status/2025400607012765845) - On why exception handling, not expected cases, is the fundamental automation challenge (2026)
