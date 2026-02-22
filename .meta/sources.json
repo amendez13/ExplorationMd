@@ -1021,6 +1021,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Karpathy on PicoClaw, Skills Systems, and the Meta-Learning Analogy",
       "url": "https://x.com/i/status/2024997757757653224"
+    },
+    {
+      "category": "Mobile Agent Control",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-22T14:47:50+00:00",
+      "log_path": "topics/topics/agentic-software-development/logs.md",
+      "title": "Karpathy on PicoClaw and Skills Systems (Additional Thread Link)",
+      "url": "https://x.com/i/status/2024987174077432126"
     }
   ],
   "version": 2

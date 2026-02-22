@@ -191,4 +191,4 @@ The cost is in the underlying model API consumption, not the access interface.
 1. [Levelsio - Telegram Claude Code Bot Discussion](https://x.com/i/status/2023960820091154569)
 2. [Levelsio - Operational Details Follow-up](https://x.com/i/status/2024503974997483997)
 3. [Levelsio - Per-Site VPS Architecture](https://x.com/i/status/2024507875356279026)
-4. [Karpathy on PicoClaw and Skills Systems](https://x.com/i/status/2024997757757653224)
+4. [Karpathy on PicoClaw and Skills Systems](https://x.com/i/status/2024997757757653224) (see also [thread](https://x.com/i/status/2024987174077432126))

@@ -776,6 +776,8 @@ Peter Steinberger (creator of PSPDFKit) discusses his radical AI-first developme
 ### [Karpathy on PicoClaw, Skills Systems, and the Meta-Learning Analogy](https://x.com/i/status/2024997757757653224)
 *2026-02-22* | Tags: picoclaw, mobile-control, skills, meta-learning, hardware, lightweight-agents, karpathy
 
+Additional thread context: [2024987174077432126](https://x.com/i/status/2024987174077432126)
+
 Andrej Karpathy comments on PicoClaw, a lightweight agent control system, and reflects on skills systems and their connection to meta-learning concepts from deep learning.
 
 **Key Points:**
