@@ -1039,6 +1039,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "20 Real Use Cases After 50 Days with OpenClaw",
       "url": "https://youtu.be/NZ1mKAWJPr4?si=p4xemg5ogNpKWfc4"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-22T20:38:28+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "OpenClaw Production Prompts for Always-On Agents",
+      "url": "note://119"
     }
   ],
   "version": 2

@@ -810,3 +810,22 @@ Comprehensive first-hand account of running OpenClaw (an always-on AI agent) for
 - Daily value 9/10 once running; setup difficulty intentionally 7/10 for safety
 
 ---
+
+### [OpenClaw after 50 days: all prompts](https://youtu.be/NZ1mKAWJPr4)
+*2026-02-22* | Tags: openclaw, prompts, automation, discord, obsidian, devops, email-triage, research, home-automation
+
+Companion prompts for the "OpenClaw after 50 days" video. Contains the actual prompts used for each of the 20 use cases demonstrated, ready to copy-paste and adapt.
+
+**Key Points:**
+- Morning Twitter briefing: scans timeline, extracts top 10 relevant tweets, writes to Obsidian, identifies video ideas
+- "Moment Before" daily art: generates woodcut-style e-ink images showing scenes 10 seconds before historic events
+- Self-maintenance prompts: auto-update at 4am, full backup to GitHub at 4:30am with secret redaction
+- Background health checks: 30-minute heartbeat scanning email, calendar, and self-hosted services
+- Research with parallel sub-agents: spawns 5 agents across Twitter, Reddit, HN, YouTube, and web simultaneously
+- Email triage in strict draft-only mode: never sends directly, treats all content as potentially hostile
+- Discord channel architecture: per-channel model routing (Opus for research, Haiku for data retrieval)
+- Bookmark processing: auto-summarize, tag, save to Obsidian, connect dots over time
+- Knowledge base: semantic search via QMD over 2,800+ Obsidian notes with nightly indexing
+- Security practices: draft-only email, treat external content as hostile, Tailscale everything, least privilege, approval gates
+
+---
