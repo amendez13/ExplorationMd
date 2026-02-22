@@ -790,3 +790,23 @@ Andrej Karpathy comments on PicoClaw, a lightweight agent control system, and re
 - This framing connects agent skills to the meta-learning concept of task-agnostic adaptability
 
 ---
+
+### [20 Real Use Cases After 50 Days with OpenClaw](https://youtu.be/NZ1mKAWJPr4?si=p4xemg5ogNpKWfc4)
+*2026-02-22* | Tags: openclaw, always-on-agents, automation, obsidian, discord, knowledge-base, practical-experience
+
+Comprehensive first-hand account of running OpenClaw (an always-on AI agent) for over 50 days. Covers 20 real use cases across daily automation, research, DevOps, and personal assistance. Includes honest assessment of what breaks and how to mitigate failures.
+
+**Key Points:**
+- Three foundational principles after 50 days: markdown-first from the beginning, separate contexts per workflow, match model to task
+- Evolution through distinct phases: week one novelty, week three automations, week five context pollution, week seven model matching, week eight system thinking
+- Morning briefings scan tweets, extract video ideas, write to Obsidian, and connect dots across sources
+- Parallel sub-agent research spawns 5+ agents simultaneously (Twitter, Reddit, HN, YouTube, forums) producing 50+ page research files in minutes
+- Discord channel architecture is the biggest unlock: per-channel model routing (Opus for research, cheap models for data retrieval and link processing)
+- Semantic search over ~3000 Obsidian notes via nightly QMD indexing enables meaning-based retrieval, not just keyword matching
+- Replaced Raindrop, parts of Zapier, parts of YouTube Studio analytics, and half of Apple Shortcuts
+- Biggest pain: silent context compaction with no warning; mitigate by writing to files, running compact manually, monitoring context usage
+- Security: draft-only email mode, approval for destructive actions, treat inbox content as potentially hostile (no robust prompt injection solution yet)
+- Works better as assistant than autonomous agent for complex tasks; simpler tasks more reliable
+- Daily value 9/10 once running; setup difficulty intentionally 7/10 for safety
+
+---

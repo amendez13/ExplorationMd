@@ -1029,6 +1029,16 @@
       "log_path": "topics/topics/agentic-software-development/logs.md",
       "title": "Karpathy on PicoClaw and Skills Systems (Additional Thread Link)",
       "url": "https://x.com/i/status/2024987174077432126"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [
+        "topics/agentic-software-development/always-on-agents.md"
+      ],
+      "indexed_at": "2026-02-22T00:00:00+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "20 Real Use Cases After 50 Days with OpenClaw",
+      "url": "https://youtu.be/NZ1mKAWJPr4?si=p4xemg5ogNpKWfc4"
     }
   ],
   "version": 2
