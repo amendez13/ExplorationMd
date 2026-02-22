@@ -10,6 +10,7 @@ A knowledge repository organized by topic. Content is curated from various sourc
 - [Investment and Finance](topics/investment-finance/README.md) - Investment strategies, market analysis, and financial planning
 - [Productivity](topics/productivity/README.md) - Time tracking, measurement systems, and insights from long-term personal data collection
 - [Self-Improvement](topics/self-improvement/README.md) - Frameworks, mental models, and strategies for personal growth and life design
+- [Software Engineering Careers](topics/software-engineering-careers/README.md) - Tech compensation, career levels, and strategies for career growth
 - [Stories](topics/stories/README.md) - First-hand accounts from practitioners navigating technological change
 - [Technical IT](topics/technical-it/README.md) - Authentication, networking, and systems architecture
 - [Tools](topics/tools/README.md) - AI-assisted workflow tools for usage tracking, note-taking, and searchable knowledge systems
