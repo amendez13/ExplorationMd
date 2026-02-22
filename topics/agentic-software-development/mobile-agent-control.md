@@ -11,6 +11,7 @@ Running AI coding agents remotely from mobile devices using messaging interfaces
   - [Why Telegram Over SSH](#why-telegram-over-ssh)
   - [Project Architecture](#project-architecture)
 - [Comparison with OpenClaw](#comparison-with-openclaw)
+- [PicoClaw: Lightweight Agent Control](#picoclaw-lightweight-agent-control)
 - [Operational Considerations](#operational-considerations)
   - [Monitoring and Heartbeats](#monitoring-and-heartbeats)
   - [Server Setup](#server-setup)
@@ -69,6 +70,26 @@ OpenClaw and the Telegram plugin serve different purposes:
 | Use case | Remote triggering | Automated multi-step workflows |
 
 The Telegram approach is positioned as "simpler" for users who want mobile access without full orchestration capabilities.
+
+## PicoClaw: Lightweight Agent Control
+
+PicoClaw represents the extreme lightweight end of the mobile agent control spectrum. The system runs on minimal hardware (<$10) because the heavy computational work happens on LLM provider compute clusters.
+
+### Hardware Philosophy
+
+The framing captures the evolution of AI interfaces:
+
+> "First there was chat, then there was code, now there is claw."
+
+For local hardware, an M4 Mac mini at $599 is recommended as a sweet spot—providing "breathing room" for future expansion into local models while remaining affordable.
+
+### Skills System and Meta-Learning
+
+Beyond the control interface, the skills system architecture is noted as particularly interesting. Andrej Karpathy draws a connection to meta-learning concepts from deep learning:
+
+In 2017, the MAML (Model-Agnostic Meta-Learning) paper proposed optimizing for a model that could finetune to any new task in very few steps—"the most potent model." The software equivalent would be **the most easily forkable repo**—a codebase optimized to be adapted to any new purpose quickly.
+
+This framing connects agent skills to the meta-learning concept of task-agnostic adaptability. A well-designed skills system should enable an agent to pick up new capabilities with minimal additional context or configuration, similar to how a meta-learned model adapts to new tasks with minimal fine-tuning.
 
 ## Operational Considerations
 
@@ -170,3 +191,4 @@ The cost is in the underlying model API consumption, not the access interface.
 1. [Levelsio - Telegram Claude Code Bot Discussion](https://x.com/i/status/2023960820091154569)
 2. [Levelsio - Operational Details Follow-up](https://x.com/i/status/2024503974997483997)
 3. [Levelsio - Per-Site VPS Architecture](https://x.com/i/status/2024507875356279026)
+4. [Karpathy on PicoClaw and Skills Systems](https://x.com/i/status/2024997757757653224)

@@ -1011,6 +1011,16 @@
       "log_path": "topics/topics/ai-progress/logs.md",
       "title": "Exception Handling: The Real Agent Challenge",
       "url": "https://x.com/i/status/2025400607012765845"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [
+        "topics/agentic-software-development/mobile-agent-control.md"
+      ],
+      "indexed_at": "2026-02-22T00:00:00+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Karpathy on PicoClaw, Skills Systems, and the Meta-Learning Analogy",
+      "url": "https://x.com/i/status/2024997757757653224"
     }
   ],
   "version": 2
