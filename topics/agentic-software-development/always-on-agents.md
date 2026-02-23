@@ -14,6 +14,19 @@ A comprehensive first-hand account of running an always-on AI agent system for o
   - [Week Seven: Model Matching](#week-seven-model-matching)
   - [Week Eight and Beyond: System Thinking](#week-eight-and-beyond-system-thinking)
 - [Three Foundational Principles](#three-foundational-principles)
+- [Mac Mini Setup Guide](#mac-mini-setup-guide)
+  - [Hardware Requirements](#hardware-requirements)
+  - [Setup Phases Overview](#setup-phases-overview)
+  - [Pre-Flight Preparation](#pre-flight-preparation)
+  - [Installation Process](#installation-process)
+  - [Configuration and Onboarding](#configuration-and-onboarding)
+  - [Verification and Integration](#verification-and-integration)
+- [Security Hardening](#security-hardening)
+  - [Account Separation](#account-separation)
+  - [System Hardening](#system-hardening)
+  - [SOUL.md Security Constraints](#soulmd-security-constraints)
+  - [Third-Party Skills Warning](#third-party-skills-warning)
+  - [Emergency Procedures](#emergency-procedures)
 - [Daily Automations](#daily-automations)
   - [Morning Briefings](#morning-briefings)
   - [Historical Learning Display](#historical-learning-display)
@@ -38,6 +51,9 @@ A comprehensive first-hand account of running an always-on AI agent system for o
   - [Why Discord](#why-discord)
   - [Per-Channel Model Routing](#per-channel-model-routing)
   - [Context Separation](#context-separation)
+  - [Telegram Organization](#telegram-organization)
+- [Search Provider Configuration](#search-provider-configuration)
+- [Cost Management](#cost-management)
 - [What Breaks and How](#what-breaks-and-how)
   - [Memory Loss and Context Compaction](#memory-loss-and-context-compaction)
   - [Cost Reality](#cost-reality)
@@ -45,6 +61,8 @@ A comprehensive first-hand account of running an always-on AI agent system for o
   - [Tasks That Need Babysitting](#tasks-that-need-babysitting)
   - [Security Concerns](#security-concerns)
 - [Mitigation Strategies](#mitigation-strategies)
+- [Memory Management](#memory-management)
+- [Maintenance and Updates](#maintenance-and-updates)
 - [Assessment](#assessment)
 - [Getting Started](#getting-started)
 - [Sources](#sources)
@@ -95,6 +113,112 @@ After 50 days, three principles emerged as essential:
 1. **Markdown-first from the beginning** - Plain text files that move with you
 2. **Separate contexts** - Different channels/conversations for different workflows
 3. **Match model to task** - Use expensive models only where they add value
+
+## Mac Mini Setup Guide
+
+A comprehensive guide for deploying OpenClaw on Mac Mini hardware for 24/7 operation.
+
+### Hardware Requirements
+
+- Mac Mini with Apple Silicon
+- 16GB minimum RAM (base configuration)
+- macOS 14+
+- Optional: Amphetamine app for reliable sleep prevention
+
+### Setup Phases Overview
+
+The complete setup spans seven phases:
+
+1. **Pre-flight preparation** - Credentials, API keys, spending limits
+2. **Hardware setup** - Fresh macOS installation, FileVault encryption
+3. **Software installation** - Xcode CLI tools, Homebrew, Node.js 22+
+4. **Onboarding configuration** - Interactive wizard, heartbeat optimization, hooks
+5. **Verification** - Gateway health checks, Control UI access
+6. **Channel integration** - Telegram and Discord setup
+7. **Security hardening** - Account separation, firewall, VPN, permissions
+
+### Pre-Flight Preparation
+
+Before installation:
+
+1. **Credential management**: Use a password manager (Bitwarden, 1Password, or Apple Keychain) to organize all credentials
+2. **API key acquisition**: Obtain keys from Anthropic, OpenAI, Brave Search, Perplexity, and Exa.ai
+3. **Bot creation**: Create Telegram bot via @BotFather and Discord application via Developer Portal
+4. **Critical**: Set spending limits on EVERY API provider before starting the install—a runaway agent can burn through API credits alarmingly fast
+
+### Installation Process
+
+1. **Fresh macOS installation** with FileVault encryption enabled
+2. **Install Xcode Command Line Tools**: `xcode-select --install`
+3. **Install Homebrew**: Standard Homebrew installation
+4. **Install Node.js 22+**: Required runtime for OpenClaw gateway
+5. **Install OpenClaw CLI**: Via official installer
+
+### Configuration and Onboarding
+
+The interactive wizard handles:
+
+- Authentication setup
+- Channel configuration
+- Skills installation
+
+**Heartbeat optimization**: Switch to Haiku model and extend intervals to hourly (instead of every 10 minutes) to reduce costs.
+
+**Hook enablement**: Configure hooks for boot routines, command logging, and session memory.
+
+### Verification and Integration
+
+1. **Gateway health checks**: Verify gateway is running with `openclaw health` and `openclaw doctor`
+2. **Control UI access**: Access browser-based control interface with tokenized authentication
+3. **Channel verification**: Run `openclaw channels status --probe`
+
+**Directory structure**:
+- `~/.openclaw/` - Main configuration directory
+- `~/.openclaw/workspace/` - Skills, markdown configuration, SOUL.md, MEMORY.md
+- `~/.openclaw/credentials/` - OAuth tokens, API keys
+- `/tmp/openclaw/` - Runtime logs
+
+Environment variable overrides: `OPENCLAW_HOME`, `OPENCLAW_WORKSPACE`, `OPENCLAW_LOG_DIR`
+
+## Security Hardening
+
+### Account Separation
+
+- Create separate admin and standard user accounts
+- Use admin account only for system changes
+- Run daily operations from standard user account
+
+### System Hardening
+
+1. **FileVault disk encryption**: Enable with proper authorization procedures
+2. **macOS firewall**: Enable with stealth mode
+3. **Tailscale VPN**: Required for secure remote access
+4. **File permissions**: 700 on config directories, 600 on sensitive files
+
+### SOUL.md Security Constraints
+
+Define explicit restrictions in SOUL.md for what the agent cannot do:
+
+- **CRITICAL**: Never execute commands with sudo or attempt privilege escalation
+- Never modify system configuration files
+- Never access credentials outside designated directories
+- Never send emails without explicit approval
+
+### Third-Party Skills Warning
+
+Security research found that 7% of ClawHub skills contained critical security flaws, with 283 skills exposing sensitive credentials. VirusTotal partnership now provides automated scanning, though signature-based detection "is not a silver bullet" against prompt injection attacks.
+
+**Critical updates**:
+- Version 2026.1.29+ addresses CVE-2026-25253
+- Breaking change: authentication mode "none" removed (previously exposed 30,000+ instances)
+
+### Emergency Procedures
+
+1. **Immediate gateway shutdown**: Stop the OpenClaw service
+2. **API key revocation**: Revoke all API keys from provider dashboards
+3. **Token reset**: Reset Discord and Telegram bot tokens
+4. **Forensic review**: Audit logs for unauthorized actions
+5. **Total rebuild option**: For suspected compromise, rebuild from scratch using backups
 
 ## Daily Automations
 
@@ -330,6 +454,56 @@ Context pollution eliminated. Always know where to go for what.
 
 Be careful about adding more channels—only add when genuinely needed.
 
+### Telegram Organization
+
+Telegram provides an alternative channel structure:
+
+- **Topic-based private group**: Use topics for parallel conversation threads within a single group
+- **Session expiration**: Extend beyond default daily reset for topic continuity
+- **Bot allowlist**: Configure using numeric user IDs for security
+
+Discord and Telegram serve different needs—Discord for robust channel architecture with model routing, Telegram for mobile-friendly quick access and family integrations.
+
+## Search Provider Configuration
+
+Three search provider options with different strengths:
+
+1. **Brave Search** (Default)
+   - General-purpose keyword search
+   - No additional configuration needed
+   - Good for most web lookups
+
+2. **Perplexity**
+   - AI-powered synthesis with citations
+   - Requires config swap in settings
+   - Note: Critical model name fix may be needed in configuration
+
+3. **Exa.ai**
+   - Neural/semantic search
+   - Requires custom skill implementation
+   - Best for research tasks requiring conceptual matching
+
+For Exa.ai skill creation, you'll need:
+- Skill folder structure with SKILL.md definition
+- Python script implementation
+- Environment variable configuration for API key
+
+## Cost Management
+
+Cost control is foundational security for always-on agents:
+
+**Model routing strategy**:
+- Haiku for heartbeat monitoring (hourly checks instead of every 10 minutes)
+- Deepseek v3 for web browsing
+- Gemini 2.5 Flash for image analysis
+- Opus 4.6 for primary reasoning tasks
+
+**Key practices**:
+- Set monthly spending limits on ALL providers before deployment
+- Route tasks to the cheapest capable model
+- Use per-channel model configuration in Discord
+- Monitor usage regularly through provider dashboards
+
 ## What Breaks and How
 
 ### Memory Loss and Context Compaction
@@ -397,6 +571,48 @@ For sub-agent context management, explicitly launch sub-agents so:
 
 For security, implement everything in the official security documentation and verify with the agent.
 
+## Memory Management
+
+**Session configuration**:
+- Session expiration: Default daily reset, extended for topic channels
+- Manual compaction: Run `/compact` before system does it automatically
+- Context monitoring: Use status command to check remaining context; if over 50% full, start a new session
+
+**Local embeddings**: Option for private memory search via node-llama-cpp
+
+**Import capability**: Can import history from ChatGPT, Anthropic, and Google Gemini
+
+**Daily self-review**: Automated review of memory files to maintain relevance
+
+**In-session slash commands**:
+- `/new` - Fresh session, preserves memories
+- `/compact` - Compress context window
+- `/think high/low` - Adjust reasoning level
+- `/memory` - Memory file management
+
+## Maintenance and Updates
+
+**Update process**:
+- Channel-based versioning: stable vs experimental
+- Health checks: `openclaw health` and `openclaw doctor`
+- Security audit: `openclaw security audit --deep`
+
+**Monitoring commands**:
+- Status: `openclaw status --all`
+- Channel verification: `openclaw channels status --probe`
+
+**Backup strategy**:
+- GitHub sync for workspace code (skills, markdown configuration, prompts)
+- Google Drive backup for databases and large files
+- Document restore procedures
+- Migration guide for machine transitions
+
+**Best practices**:
+- Dedicated cron notification topic for monitoring background jobs
+- Master reference file (workspace.md) documenting full configuration
+- Cross-reference automation against official documentation
+- Monthly credential rotation schedule
+
 ## Assessment
 
 **Setup difficulty:** 7/10 (intentionally not easier—it can be dangerous if misused)
@@ -455,3 +671,4 @@ Everything else grows from there.
 ## Sources
 
 1. [Rad - 20 Real Use Cases After 50 Days with OpenClaw](https://youtu.be/NZ1mKAWJPr4?si=p4xemg5ogNpKWfc4)
+2. [Robert Heubanks - OpenClaw on Mac Mini: The Complete Setup Guide](https://robertheubanks.substack.com/p/openclaw-on-mac-mini-the-complete)

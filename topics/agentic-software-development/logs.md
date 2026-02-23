@@ -829,3 +829,21 @@ Companion prompts for the "OpenClaw after 50 days" video. Contains the actual pr
 - Security practices: draft-only email, treat external content as hostile, Tailscale everything, least privilege, approval gates
 
 ---
+
+### [OpenClaw on Mac Mini: The Complete Setup Guide](https://robertheubanks.substack.com/p/openclaw-on-mac-mini-the-complete)
+*2026-02-23* | Tags: openclaw, mac-mini, setup-guide, security-hardening, deployment, always-on-agents
+
+Comprehensive guide for deploying OpenClaw on Mac Mini hardware for 24/7 operation. Covers installation phases, security hardening, search provider configuration, cost optimization, and emergency procedures.
+
+**Key Points:**
+- Seven-phase setup: pre-flight preparation, hardware setup, software installation, onboarding configuration, verification, channel integration, security hardening
+- Security: separate admin/standard accounts, FileVault encryption, macOS firewall with stealth mode, Tailscale VPN, file permission lockdown (700/600)
+- SOUL.md security constraints: never execute sudo, never modify system config, never access credentials outside designated directories
+- Third-party skills warning: 7% of ClawHub skills contained critical security flaws; 283 skills exposed credentials; CVE-2026-25253 addressed in v2026.1.29+
+- Search providers: Brave Search (default keyword), Perplexity (AI synthesis with citations), Exa.ai (neural/semantic search requiring custom skill)
+- Cost optimization: Haiku for heartbeats (hourly not every 10 min), Deepseek v3 for browsing, Gemini 2.5 Flash for images, Opus 4.6 for reasoning
+- Memory management: session expiration configuration, local embeddings via node-llama-cpp, import from ChatGPT/Anthropic/Gemini
+- Emergency procedures: gateway shutdown, API key revocation, token reset, forensic review, total rebuild option
+- Hardware: Mac Mini with Apple Silicon, 16GB minimum RAM, macOS 14+, Amphetamine for sleep prevention
+
+---

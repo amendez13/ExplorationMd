@@ -1047,6 +1047,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "OpenClaw Production Prompts for Always-On Agents",
       "url": "note://119"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-23T06:48:14+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "OpenClaw on Mac Mini: The Complete Setup Guide",
+      "url": "https://robertheubanks.substack.com/p/openclaw-on-mac-mini-the-complete?r=3omwak&utm_medium=ios&triedRedirect=true"
     }
   ],
   "version": 2
