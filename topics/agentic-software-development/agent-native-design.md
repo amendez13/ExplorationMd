@@ -10,6 +10,8 @@ A paradigm shift in software development: building software *for* agents as firs
 - [The Distinction](#the-distinction)
 - [The Delegation Test](#the-delegation-test)
 - [Design Questions](#design-questions)
+- [The CLI Advantage](#the-cli-advantage)
+- [Agent-Accessibility Checklist](#agent-accessibility-checklist)
 - [Tradeoffs and Boundaries](#tradeoffs-and-boundaries)
 - [The Zero-Tolerance Effect](#the-zero-tolerance-effect)
 - [Why This Matters Now](#why-this-matters-now)
@@ -58,6 +60,27 @@ The first retrofits existing patterns. The second rethinks the approach entirely
 
 Both are valid—the choice depends on the use case.
 
+## The CLI Advantage
+
+CLIs are particularly powerful for agent-native design precisely because they are "legacy" technology [3]. Agents can natively and easily use them, combine them, and interact with them via the entire terminal toolkit.
+
+**Example**: Install a Polymarket CLI and ask Claude or Codex to build arbitrary dashboards, interfaces, or logic on top of it. Add the GitHub CLI and agents can navigate repos, see issues, PRs, discussions, and even the code itself. A terminal dashboard showing highest-volume markets with 24-hour changes can be built in approximately three minutes.
+
+The power multiplies when CLIs become modules in larger pipelines. An agent can chain multiple CLIs together, parse their output, and build custom integrations without any dedicated API work.
+
+## Agent-Accessibility Checklist
+
+For any product or service, ask whether agents can access and use it [3]:
+
+| Question | Why It Matters |
+|----------|----------------|
+| Are legacy docs exportable in markdown? | Agents consume markdown naturally; PDFs and HTML require conversion |
+| Have you written Skills for your product? | Skills provide structured, reusable agent entry points |
+| Is the product usable via CLI? | CLIs are the most agent-friendly interface |
+| Is the product usable via MCP? | MCP servers extend agent reach to databases, Notion, Figma, etc. |
+
+The imperative: build for agents. If your product can't be accessed programmatically by an agent, it's invisible to the emerging agentic workflow.
+
 ## Tradeoffs and Boundaries
 
 Not everything should be agentic. Key considerations:
@@ -100,3 +123,4 @@ The opportunity is in asking: what becomes possible when software's primary user
 
 1. [X thread on AI-native building vs AI-native software](https://x.com/rauchg/status/example) - Guillermo Rauch, @kelseyhightower, and discussion
 2. [Agents have zero tolerance for codebase entropy](https://x.com/i/status/2022339274767520246)
+3. [CLIs are super exciting for agents](https://x.com/i/status/2026360908398862478) - @karpathy on CLIs as agent-native interfaces

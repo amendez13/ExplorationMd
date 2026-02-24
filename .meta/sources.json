@@ -1063,6 +1063,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Agent Swarm Orchestration",
       "url": "note://124"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-24T18:38:09+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "CLIs as Agent-Native Interfaces",
+      "url": "https://x.com/i/status/2026360908398862478"
     }
   ],
   "version": 2

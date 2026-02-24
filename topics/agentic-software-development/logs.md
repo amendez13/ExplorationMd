@@ -866,3 +866,21 @@ Elvis Sun shares his full agent swarm setup where OpenClaw acts as an orchestrat
 - The system one-shots almost all small to medium tasks without intervention
 
 ---
+
+### [CLIs as Agent-Native Interfaces](https://x.com/i/status/2026360908398862478)
+*2026-02-24* | Tags: cli, agent-native-design, legacy-technology, polymarket, github-cli, skills, mcp, product-strategy, karpathy
+
+Andrej Karpathy argues that CLIs are exciting precisely because they're "legacy" technology—agents can natively and easily use, combine, and interact with them via the entire terminal toolkit. Demonstrates building a Polymarket terminal dashboard in ~3 minutes.
+
+**Key Points:**
+- CLIs are agent-friendly because they're mature, well-documented, and designed for programmatic interaction
+- Example workflow: install Polymarket CLI + GitHub CLI, ask agent to build custom dashboards or navigate repos
+- Built a terminal dashboard showing highest-volume Polymarket markets with 24hr changes in approximately 3 minutes
+- CLIs become more powerful as modules in larger pipelines—agents can chain them together
+- Agent-accessibility checklist for products/services:
+  - Are legacy docs exportable in markdown?
+  - Have you written Skills for your product?
+  - Is the product usable via CLI or MCP?
+- "It's 2026. Build. For. Agents."
+
+---
