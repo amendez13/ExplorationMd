@@ -1055,6 +1055,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "OpenClaw on Mac Mini: The Complete Setup Guide",
       "url": "https://robertheubanks.substack.com/p/openclaw-on-mac-mini-the-complete?r=3omwak&utm_medium=ios&triedRedirect=true"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-24T06:52:44+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Agent Swarm Orchestration",
+      "url": "note://124"
     }
   ],
   "version": 2

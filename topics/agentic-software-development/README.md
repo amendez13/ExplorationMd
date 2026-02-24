@@ -20,6 +20,7 @@ Knowledge and resources about AI-powered coding agents and development workflows
 - [Agent-Native Design](agent-native-design.md) - Designing software for agents as first-class users, not just using agents to build software
 - [Mobile Agent Control](mobile-agent-control.md) - Running agents remotely via Telegram for mobile-first control and monitoring
 - [Always-On Agents](always-on-agents.md) - OpenClaw after 50 days: practical use cases, channel architecture, knowledge base integration, and honest failure modes
+- [Agent Swarm Orchestration](agent-swarm-orchestration.md) - Using OpenClaw as an orchestration layer to manage fleets of Codex and Claude Code agents with adaptive respawning and proactive task discovery
 - [AI Adoption Journey](ai-adoption-journey.md) - Mitchell Hashimoto's staged approach to AI tool adoption, from chatbot abandonment to continuous agent operation
 - [Skill Formation](skill-formation.md) - Research on how AI coding assistance affects skill development, with implications for junior developer training
 - [AGENTS.md Library](agents-md-library.md) - Curated collection of real-world AGENTS.md files demonstrating effective patterns for subsystem-specific agent instructions

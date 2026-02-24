@@ -847,3 +847,22 @@ Comprehensive guide for deploying OpenClaw on Mac Mini hardware for 24/7 operati
 - Hardware: Mac Mini with Apple Silicon, 16GB minimum RAM, macOS 14+, Amphetamine for sleep prevention
 
 ---
+
+### [OpenClaw + Codex/ClaudeCode Agent Swarm: The One-Person Dev Team](https://x.com/i/status/2025920521871716562)
+*2026-02-24* | Tags: agent-swarm, orchestration, multi-agent, codex, claude-code, openclaw, worktrees, tmux, automation
+
+Elvis Sun shares his full agent swarm setup where OpenClaw acts as an orchestration layer managing fleets of Codex and Claude Code agents. The orchestrator ("Zoe") holds all business context while coding agents focus purely on code, solving the context window zero-sum problem through specialization.
+
+**Key Points:**
+- Two-tier architecture: orchestrator holds business context (customer data, meeting notes, past decisions), coding agents hold codebase context
+- Each agent runs in its own git worktree and tmux session for isolation; mid-task redirection via `tmux send-keys` instead of killing agents
+- 8-step workflow: customer request → scope with orchestrator → spawn agent → monitor loop → PR creation → triple AI review → human review → merge
+- Triple code review: Codex (thorough, edge cases), Gemini Code Assist (free, security issues), Claude Code (validation only)
+- Ralph Loop V2: orchestrator adaptively respawns failed agents with updated context, not just the same prompt
+- Proactive task discovery: morning Sentry scans spawn bug fix agents, meeting note scans spawn feature agents, evening git log scans spawn documentation agents
+- Definition of Done: PR created, branch synced, CI passing, all three reviews passed, screenshots included (if UI changes)
+- Hardware bottleneck is RAM—each worktree needs its own node_modules; 16GB Mac Mini tops out at 4-5 parallel agents
+- Reported metrics: 94 commits in one day, ~50 commits/day average, 7 PRs in 30 minutes, $100/month Claude + $90/month Codex
+- The system one-shots almost all small to medium tasks without intervention
+
+---
