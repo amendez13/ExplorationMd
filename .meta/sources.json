@@ -1079,6 +1079,14 @@
       "log_path": "topics/topics/ai-progress/logs.md",
       "title": "AI-Enabled Cross-Framework Rewrites and Security Implications",
       "url": "https://x.com/i/status/2026906253377613985"
+    },
+    {
+      "category": "ai-progress",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-26T23:07:52+00:00",
+      "log_path": "topics/ai-progress/logs.md",
+      "title": "Solo Developer Outshipping Large Teams with AI",
+      "url": "https://x.com/i/status/2027019191044173874"
     }
   ],
   "version": 2

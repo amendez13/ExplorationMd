@@ -60,6 +60,12 @@ Current experience from practitioners [2]:
 - AI runs for minutes, hours, and even days autonomously (using Stop hooks)
 - One year prior, the same AI struggled with basic bash escaping and worked only seconds to minutes at a time
 
+**Solo developer vs large team equivalence** [6]:
+- Peter Steinberger's OpenClaw project demonstrates that "one standout dev going all-in on sensible AI usage can out-ship a team of 50+ engineers" according to Gergely Orosz (The Pragmatic Engineer)
+- The pattern is clearest for specific use cases: rewriting existing software with high test coverage yields ~100x efficiency gains
+- Important variable: test suite coverage is decisive—software without tests is harder and riskier to rewrite with AI assistance
+- This creates a new incentive dynamic: protecting and hiding actual test suites may become a competitive concern
+
 ## Enterprise Adoption Signals
 
 Signals of AI-driven productivity gains are also starting to appear in large, mature product organizations. In Spotify's Q4 earnings call, co-CEO Gustav Söderström said the company's best developers "have not written a single line of code since December" as internal tooling and Claude Code take over much of the direct code production [5]. Spotify described an internal system ("Honk") that enables remote, real-time development and deployment workflows—for example, asking Claude (via Slack on a phone) to fix a bug or add an iOS feature during a commute, then reviewing the result and merging to production before arriving at the office [5].
@@ -105,3 +111,4 @@ Important: Default models in free tiers are often a year or more behind what pay
 3. [Fifty Years of Progress - Eric S. Raymond](https://x.com/esrtweet/status/2004829013068444050)
 4. [Claude Code Creator Reflects on One Year of Progress - Boris Cherny](https://x.com/i/status/2004887829252317325)
 5. [TechCrunch: Spotify says its best developers haven't written a line of code since December, thanks to AI](https://techcrunch.com/2026/02/12/spotify-says-its-best-developers-havent-written-a-line-of-code-since-december-thanks-to-ai/)
+6. [Solo Developer Outshipping Large Teams - Gergely Orosz](https://x.com/i/status/2027019191044173874)
