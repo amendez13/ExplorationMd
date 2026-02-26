@@ -1071,6 +1071,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "CLIs as Agent-Native Interfaces",
       "url": "https://x.com/i/status/2026360908398862478"
+    },
+    {
+      "category": "AI Progress",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-26T06:55:52+00:00",
+      "log_path": "topics/topics/ai-progress/logs.md",
+      "title": "AI-Enabled Cross-Framework Rewrites and Security Implications",
+      "url": "https://x.com/i/status/2026906253377613985"
     }
   ],
   "version": 2
