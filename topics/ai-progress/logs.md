@@ -415,3 +415,21 @@ Gergely Orosz (The Pragmatic Engineer) highlights Peter Steinberger and OpenClaw
 - Important caveat noted: test suite coverage is a key variable—software without tests is harder/riskier to rewrite, creating incentive to protect actual test suites
 
 ---
+
+### [Vibe Coding One-Year Retrospective: From Throwaway Projects to Agentic Engineering](https://x.com/i/status/2026731645169185220)
+*2026-02-26T16:00:00Z* | Tags: ai-progress, vibe-coding, agentic-engineering, workflow-evolution, expertise-multiplier
+
+Andrej Karpathy reflects on one year since coining "vibe coding," introducing "agentic engineering" as the professional evolution. Emphasizes that deep technical expertise is now *more* valuable as a multiplier, not less.
+
+**Key Points:**
+- One year ago, LLM capability was low enough that vibe coding was mainly for "fun throwaway projects, demos and explorations"
+- Today, programming via LLM agents is "increasingly becoming a default workflow for professionals, except with more oversight and scrutiny"
+- Introduces "agentic engineering" as the new term: "agentic" because you orchestrate agents who write code 99% of the time; "engineering" to emphasize the art, science, and learnable expertise involved
+- "It's not magic, it's delegation"—going faster requires being explicit and understanding what the AI is doing, what tools it has, and what is hard vs easy
+- The "holding it wrong" problem: UI work is more tractable with tools like `/chrome`; network/concurrency issues require gathering context the agent needs that is "only in your head accessible through legacy ways (e.g. web UIs)"
+- Core workflow shift: "Arrange the thing so that you can put agents into longer loops and remove yourself as the bottleneck"
+- Tesla framing applied to software: "Every action is error"—minimize human intervention in the loop
+- Pushback on "prompters" framing: at top tiers, deep technical expertise may be *even more* of a multiplier than before because of the added leverage
+- Looking forward to 2026: continued improvements on both the model layer and the agent layer; excited about the product of the two
+
+---

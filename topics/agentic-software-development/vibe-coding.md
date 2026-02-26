@@ -9,6 +9,7 @@
 - [Techniques](#techniques)
 - [When to Use Vibe Coding](#when-to-use-vibe-coding)
 - [Contrast with Traditional Approaches](#contrast-with-traditional-approaches)
+- [One-Year Retrospective: Agentic Engineering](#one-year-retrospective-agentic-engineering)
 - [Sources](#sources)
 
 ---
@@ -90,6 +91,43 @@ Vibe coding represents the opposite end of the spectrum from careful, methodical
 
 The key insight is that different contexts call for different levels of rigor. Vibe coding acknowledges that for low-stakes projects, the overhead of careful review may not be worth the time investment.
 
+## One-Year Retrospective: Agentic Engineering
+
+In February 2026, Karpathy published a one-year retrospective on vibe coding [2]. The core observation: what started as a throwaway approach has evolved into something more serious.
+
+### From Fun to Professional Default
+
+One year ago, LLM capability was low enough that vibe coding was mainly for "fun throwaway projects, demos and explorations." Today, programming via LLM agents is "increasingly becoming a default workflow for professionals, except with more oversight and scrutiny."
+
+### Introducing "Agentic Engineering"
+
+Karpathy proposes "agentic engineering" as the professional evolution:
+
+- **"Agentic"** because the new default is that you are not writing the code directly 99% of the time—you are orchestrating agents who do, acting as oversight
+- **"Engineering"** to emphasize that there is an art, science, and expertise to it—something you can learn and become better at, with its own depth of a different kind
+
+### It's Not Magic, It's Delegation
+
+The key insight from the retrospective: "It's not magic, it's delegation." Going faster requires:
+- Being explicit about what you want
+- Understanding what the AI is doing on your behalf
+- Knowing what tools are at its disposal
+- Understanding what is hard and what is easy
+
+### Deep Expertise as Multiplier
+
+Karpathy pushes back on the "prompters" framing: at top tiers, deep technical expertise may be *even more* of a multiplier than before because of the added leverage. The ability to understand what the agent is doing and guide it effectively compounds with technical knowledge.
+
+### Workflow Evolution
+
+The retrospective describes a workflow shift toward:
+- Making knowledge and context accessible to tools (not just in your head, accessed through legacy web UIs)
+- Making things you care about testable, observable, and legible
+- Arranging systems so agents can run in longer loops with you removed as the bottleneck
+
+Echoing Tesla's safety framing: "Every action is error"—the same principle now applies to software development.
+
 ## Sources
 
 1. [Andrej Karpathy on X](https://x.com/karpathy/status/1886192184808149383) - Original "vibe coding" definition (2025)
+2. [Andrej Karpathy on X](https://x.com/i/status/2026731645169185220) - One-year retrospective and "agentic engineering" (2026)

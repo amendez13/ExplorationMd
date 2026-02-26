@@ -1087,6 +1087,14 @@
       "log_path": "topics/ai-progress/logs.md",
       "title": "Solo Developer Outshipping Large Teams with AI",
       "url": "https://x.com/i/status/2027019191044173874"
+    },
+    {
+      "category": "ai-progress",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-26T23:17:27+00:00",
+      "log_path": "topics/ai-progress/logs.md",
+      "title": "Vibe Coding One-Year Retrospective: Agentic Engineering",
+      "url": "https://x.com/i/status/2026731645169185220"
     }
   ],
   "version": 2
