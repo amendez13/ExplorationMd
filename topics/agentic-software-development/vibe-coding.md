@@ -10,6 +10,7 @@
 - [When to Use Vibe Coding](#when-to-use-vibe-coding)
 - [Contrast with Traditional Approaches](#contrast-with-traditional-approaches)
 - [One-Year Retrospective: Agentic Engineering](#one-year-retrospective-agentic-engineering)
+- [GLM-5 and the Agentic Engineering Threshold](#glm-5-and-the-agentic-engineering-threshold)
 - [Sources](#sources)
 
 ---
@@ -127,7 +128,21 @@ The retrospective describes a workflow shift toward:
 
 Echoing Tesla's safety framing: "Every action is error"—the same principle now applies to software development.
 
+## GLM-5 and the Agentic Engineering Threshold
+
+In February 2026, Zhipu AI and Tsinghua University released GLM-5, a 744B parameter open-weights model that many in the AI community framed as marking "the moment vibe coding died and agentic engineering was born" [3].
+
+The model's capabilities represent what mature agentic systems look like:
+- **Autonomous project execution**: Plans, builds, tests, debugs, and iterates on software projects for hours without human intervention
+- **Full-stack agent benchmarks**: 77.8% on SWE-bench Verified (real GitHub bug fixes), #1 on BrowseComp (web browsing tasks)
+- **Long-horizon planning**: Ran a simulated vending machine business for 365 days, managing inventory, cash flow, and purchasing decisions
+
+The release was notable for its anonymous debut as "Pony Alpha" on OpenRouter—users couldn't tell it apart from Claude or GPT models until Zhipu revealed its origin. This demonstrated that open-source models have reached parity with proprietary frontier systems for agentic coding tasks.
+
+The gap between "vibe coding" (hands-off, throwaway projects) and "agentic engineering" (professional, oversight-heavy) maps to model capability. As models like GLM-5 become capable of multi-hour autonomous execution with high success rates, the distinction shifts from "can I trust this?" to "how do I architect effective oversight?"
+
 ## Sources
 
 1. [Andrej Karpathy on X](https://x.com/karpathy/status/1886192184808149383) - Original "vibe coding" definition (2025)
 2. [Andrej Karpathy on X](https://x.com/i/status/2026731645169185220) - One-year retrospective and "agentic engineering" (2026)
+3. [x.com](https://x.com/i/status/2027682677302956055) - GLM-5 release and agentic engineering threshold (2026)

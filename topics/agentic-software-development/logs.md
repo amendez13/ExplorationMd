@@ -903,3 +903,26 @@ Andrej Karpathy reflects on one year since coining "vibe coding," introducing "a
 - Looking forward to 2026: continued improvements on both the model layer and the agent layer; excited about the product of the two
 
 ---
+
+### [GLM-5: First Open-Source Model to Match Frontier Agentic Capabilities](https://x.com/i/status/2027682677302956055)
+*2026-02-28* | Tags: glm-5, zhipu-ai, tsinghua, open-source, frontier-models, agentic-engineering, benchmarks, chinese-ai, mixture-of-experts
+
+Zhipu AI and Tsinghua University release GLM-5, a 744B parameter open-weights model that matches Claude Opus 4.5 and Gemini 3 Pro on agentic coding benchmarks. The model was initially released anonymously as "Pony Alpha" on OpenRouter, where users mistook it for a Claude or DeepSeek model. Marks a significant milestone in open-source agentic AI capabilities.
+
+**Key Points:**
+- First open-weights model to score 50 on Artificial Analysis Intelligence Index v4.0 (8-point jump from predecessor)
+- #1 open model on LMArena for both text and code, alongside Claude Opus 4.5 and Gemini 3 Pro
+- Anonymous release as "Pony Alpha" proved capability without brand bias—25% of users guessed Claude, 20% guessed DeepSeek
+- Architecture: 744B total parameters, 40B active (Mixture of Experts), 200K context window, trained on 28.5T tokens
+- Adopted DeepSeek's Sparse Attention (50% compute reduction by skipping 90% redundant attention entries in long contexts)
+- Fully asynchronous RL system: inference engine generates trajectories continuously while training engine updates weights in parallel
+- Three-stage RL pipeline: Reasoning RL → Agentic RL (coding/search) → General RL (alignment), with cross-stage distillation
+- SWE-bench Verified: 77.8% (beats Gemini 3 Pro and GPT-5.2, approaching Claude Opus 4.5's 80.9%)
+- Terminal-Bench 2.0: matches Claude Opus 4.5 when fixing ambiguous instructions
+- BrowseComp (web browsing agent): 75.9% with context management (#1 across all models)
+- Simulated vending machine business test: $4,432 profit over 365 days (#1 among open-source models)
+- Trained on 10,000+ real GitHub issues across Python, Java, Go, C++, Rust, JavaScript, TypeScript, PHP, Ruby
+- Optimized for seven Chinese chip platforms (Huawei Ascend, Moore Threads, etc.)—matches dual-GPU international clusters at 50% cost
+- Geopolitical significance: Chinese open-weights model matches Western frontier labs
+
+---

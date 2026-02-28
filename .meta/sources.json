@@ -1095,6 +1095,14 @@
       "log_path": "topics/ai-progress/logs.md",
       "title": "Vibe Coding One-Year Retrospective: Agentic Engineering",
       "url": "https://x.com/i/status/2026731645169185220"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-28T16:35:42+00:00",
+      "log_path": "topics/topics/agentic-software-development/logs.md",
+      "title": "GLM-5: First Open-Source Frontier Agentic Model",
+      "url": "https://x.com/i/status/2027682677302956055"
     }
   ],
   "version": 2
