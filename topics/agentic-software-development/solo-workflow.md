@@ -34,6 +34,11 @@
   - [Failure Modes Observed](#failure-modes-observed)
   - [Practical Playbook](#practical-playbook)
 - [Inference-Speed Shipping](#inference-speed-shipping)
+- [Live Production Workflows](#live-production-workflows)
+  - [The Levelsio Pattern](#the-levelsio-pattern)
+  - [Site Isolation Architecture](#site-isolation-architecture)
+  - [Bug Board to PR Pipeline](#bug-board-to-pr-pipeline)
+  - [When Live Production Works](#when-live-production-works)
 - [Design Principles](#design-principles)
 - [Speedup vs. Expansion](#speedup-vs-expansion)
 - [Leverage Through Declarative Framing](#leverage-through-declarative-framing)
@@ -446,6 +451,51 @@ Even at inference-speed, certain decisions remain manual [2]:
 
 This represents a paradigm shift from **code review to architectural oversight**. The developer's role becomes system design and direction rather than implementation details.
 
+## Live Production Workflows
+
+Some practitioners take agents directly to production, bypassing staging environments entirely. This approach trades traditional deployment safety for velocity and simplicity [13].
+
+### The Levelsio Pattern
+
+Pieter Levels (Levelsio) runs agents directly on production VPS instances, testing changes live in browser [13]:
+
+- **Live verification**: "It barely made any mistakes, I just have browser open and test live"
+- **Simple stack**: Vanilla PHP/JS/CSS/HTML—no framework complexity for agents to mishandle
+- **Commit discipline**: Agents push commits after every update when instructed
+- **Visual validation**: Uses screenshot tools (Superscan) to verify UI changes
+
+### Site Isolation Architecture
+
+Risk mitigation through architectural isolation rather than staging environments [13]:
+
+- **Per-site VPS**: Each site runs on its own Hetzner VPS
+- **Blast radius containment**: "If shit goes down (it doesn't), it's only one site"
+- **Independent agents**: Each site can have its own agent instance with project-specific context
+- **Cost-effective**: Hetzner recommended as "more self-managed" than AWS; Claude subscription runs $100-200/month
+
+### Bug Board to PR Pipeline
+
+A proposed workflow for connecting external bug tracking to agent-driven fixes [13]:
+
+1. Users report bugs via bug board (e.g., FeatureBase)
+2. Agent has read-only access to GitHub repository
+3. Agent creates PRs based on bug board items
+4. Human reviews and accepts or rejects the PR
+
+This pattern maintains human oversight for the merge decision while delegating the implementation work.
+
+### When Live Production Works
+
+This approach suits specific conditions:
+
+- **Simple, well-understood stacks** where agent mistakes are obvious
+- **Per-project isolation** limiting blast radius
+- **Fast rollback capability** through extensive backups
+- **Low-stakes applications** where brief downtime is acceptable
+- **Solo operators** who can respond immediately to issues
+
+The key enabler is that agents "improve the codebase" overall when properly directed [13], but this requires active human guidance rather than pure autonomy.
+
 ## Design Principles
 
 When working with LLMs on code design, leverage the principle that **core code is often implied by a core data structure and natural operations on it** [1]. If you define your data structures well, the LLM can often infer appropriate operations and implementations.
@@ -647,3 +697,4 @@ The analogy: building architects don't lay bricks, but understanding systems, st
 10. [YouTube: "How I use Claude Code for real engineering"](https://youtu.be/kZ-zzHVUrO4?si=Ue6dee2iQmKy6tOu) - Plan-first workflow for large projects (2026)
 11. [The senior engineer's guide to AI coding: Context loading, custom hooks, and automation](note://76) - Diagram-driven context loading plus hooks/automation for quality gates (2026)
 12. [mitchellh.com](https://mitchellh.com/writing/my-ai-adoption-journey) - Mitchell Hashimoto's AI adoption journey: end-of-day agents, parallel delegation, and harness engineering (2026)
+13. [Levelsio on X](https://x.com/i/status/2027566773814403448) - Live production agent coding with per-site VPS isolation (2026)

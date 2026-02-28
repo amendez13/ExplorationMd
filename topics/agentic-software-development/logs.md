@@ -904,6 +904,26 @@ Andrej Karpathy reflects on one year since coining "vibe coding," introducing "a
 
 ---
 
+### [Levelsio on Live Production Agent Coding](https://x.com/i/status/2027566773814403448)
+*2026-02-28* | Tags: live-production, hetzner, vanilla-stack, site-isolation, bug-board, solo-workflow, levelsio
+
+Pieter Levels (Levelsio) shares his workflow of running AI agents directly on production VPS instances, testing changes live in browser rather than using staging environments. Emphasizes simplicity through vanilla PHP/JS/CSS/HTML stack and per-site VPS isolation.
+
+**Key Points:**
+- Runs agents directly on production servers, tests live in browser - "It barely made any mistakes"
+- Each site isolated on its own Hetzner VPS - if one goes down, others unaffected
+- Uses vanilla PHP/JS/CSS/HTML stack - "Nope PHP JS CSS HTML vanilla"
+- Agents push commits after every update when instructed
+- Cost is $100-200/month for Claude subscription
+- Bug board integration via FeatureBase (featurebase.app)
+- Future workflow: read-only GitHub repo access for agents to create PRs from bug board items, enabling human review before merge
+- Feels AI improves the codebase overall, though requires direction to maintain quality
+- Uses Superscan (screenshotapi.net) for visual validation
+- Recommends Hetzner over AWS as "more self-managed"
+- Maintains extensive backups as safety net
+
+---
+
 ### [GLM-5: First Open-Source Model to Match Frontier Agentic Capabilities](https://x.com/i/status/2027682677302956055)
 *2026-02-28* | Tags: glm-5, zhipu-ai, tsinghua, open-source, frontier-models, agentic-engineering, benchmarks, chinese-ai, mixture-of-experts
 

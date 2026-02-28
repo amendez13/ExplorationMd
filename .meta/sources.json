@@ -1103,6 +1103,14 @@
       "log_path": "topics/topics/agentic-software-development/logs.md",
       "title": "GLM-5: First Open-Source Frontier Agentic Model",
       "url": "https://x.com/i/status/2027682677302956055"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-02-28T19:14:50+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Levelsio on Live Production Agent Coding",
+      "url": "https://x.com/i/status/2027566773814403448"
     }
   ],
   "version": 2
