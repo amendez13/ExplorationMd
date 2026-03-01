@@ -1119,6 +1119,14 @@
       "log_path": "topics/topics/ai-progress/logs.md",
       "title": "Software Investability in the AI Era",
       "url": "https://x.com/i/status/2027984377091919892"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-03-01T08:07:26+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Agent Orchestration Hardening Patterns",
+      "url": "https://x.com/i/status/2027721280242532455"
     }
   ],
   "version": 2

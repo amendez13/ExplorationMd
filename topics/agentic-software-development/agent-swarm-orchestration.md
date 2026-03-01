@@ -9,6 +9,10 @@ A one-person dev team powered by an orchestration layer that spawns, monitors, a
 - [The Architecture](#the-architecture)
   - [Why Two Tiers](#why-two-tiers)
   - [The Context Window Constraint](#the-context-window-constraint)
+- [Hardening the Orchestration Layer](#hardening-the-orchestration-layer)
+  - [Observability](#observability)
+  - [Control Flow Ownership](#control-flow-ownership)
+  - [Interruption Mechanisms](#interruption-mechanisms)
 - [The Eight-Step Workflow](#the-eight-step-workflow)
   - [Step 1: Customer Request to Scoping](#step-1-customer-request-to-scoping)
   - [Step 2: Spawn the Agent](#step-2-spawn-the-agent)
@@ -68,6 +72,57 @@ The orchestrator and coding agents have drastically different context loads:
 ### The Context Window Constraint
 
 Context windows are zero-sum. Fill it with code and there's no room for business context. Fill it with customer history and there's no room for the codebase. The two-tier system solves this: each AI is loaded with exactly what it needs for its role.
+
+## Hardening the Orchestration Layer
+
+An orchestration layer without proper controls is like an air traffic controller with no radar—the planes are flying, you just don't know where. Getting agents to work is not the hard part. The real complexity is getting multiple agents to coordinate effectively while maintaining safety and reliability. [2]
+
+### Observability
+
+Your job isn't to wire agents together. It's to know at every moment:
+- What each agent decided
+- Why it decided it
+- Whether to trust that decision
+
+Without observability, multi-agent pipelines fail silently. Consider a classic failure: Planner → Researcher → Executor pipeline that works in demos. In production, the Planner emits a subtly malformed subtask, the Researcher returns low-confidence results without erroring, and the Executor fires an irreversible API call. No exception raised—every agent technically "succeeded."
+
+**Mitigation**: Instrument each handoff with structured trace logs, confidence thresholds, and human-in-the-loop gates before irreversible actions. The failure gets caught at the Researcher's output before the Executor ever runs.
+
+### Control Flow Ownership
+
+In naive pipelines, agents decide what runs next. An agent returns `next_step: "execute"` and the orchestrator blindly complies. This is the agent version of SQL injection—untrusted output determining trusted behavior.
+
+A hardened orchestrator **owns the control flow**. Agents request next actions. The orchestrator approves them.
+
+**Before (dangerous)**:
+```
+Agent returns send_email action → Orchestrator executes it
+```
+
+**After (hardened)**:
+```
+Agent returns send_email action →
+Orchestrator checks:
+  - Is this action in the allowed registry?
+  - Is the recipient approved?
+  - Has this fired in the last N seconds?
+→ Then executes
+```
+
+Same capability. Completely different blast radius.
+
+### Interruption Mechanisms
+
+Most orchestrators handle the happy path. What they don't handle: an agent 45 seconds deep, $2 in API costs burned, stuck in a reasoning loop it will never exit.
+
+A well-designed orchestrator tracks:
+- Token consumption
+- Wall-clock time
+- Action repetition
+
+When any threshold is crossed, it interrupts, captures partial state, and surfaces a decision to a human or supervisor agent.
+
+**The design question**: If an agent started making confident but wrong decisions right now, how many actions would execute before you could stop it? The answer tells you exactly how much work remains to harden your orchestrator.
 
 ## The Eight-Step Workflow
 
@@ -335,3 +390,4 @@ Setup takes about 10 minutes.
 ## Sources
 
 1. [Elvis Sun - OpenClaw + Codex/ClaudeCode Agent Swarm: The One-Person Dev Team](https://x.com/i/status/2025920521871716562)
+2. [@asmah2107 - Agent Orchestration: Observability, Control Flow, and Interruption](https://x.com/i/status/2027721280242532455)

@@ -946,3 +946,19 @@ Zhipu AI and Tsinghua University release GLM-5, a 744B parameter open-weights mo
 - Geopolitical significance: Chinese open-weights model matches Western frontier labs
 
 ---
+
+### [Agent Orchestration: Observability, Control Flow, and Interruption](https://x.com/i/status/2027721280242532455)
+*2026-03-01* | Tags: orchestration, multi-agent, observability, control-flow, safety, hardening
+
+Thread on three critical patterns for hardening multi-agent orchestration layers. Uses the air traffic controller analogy: without proper observability, planes are flying but you don't know where. Emphasizes that wiring agents together is the easy part—knowing what each agent decided, why, and whether to trust it is the real challenge.
+
+**Key Points:**
+- Observability is the first magic keyword: know at every moment what each agent decided, why, and whether to trust it
+- Control flow ownership is the second: agents request actions, orchestrator approves—untrusted output should never determine trusted behavior (agent version of SQL injection)
+- Example hardening: before executing `send_email`, check allowed registry, recipient approval, and rate limiting
+- Interruption is the third: track token consumption, wall-clock time, and action repetition; interrupt and capture partial state when thresholds crossed
+- Classic failure mode: Planner → Researcher → Executor pipeline where malformed subtask leads to low-confidence results to irreversible API call, all technically "succeeding"
+- Mitigation: instrument handoffs with structured trace logs, confidence thresholds, and human-in-the-loop gates before irreversible actions
+- The design question: if an agent started making confident but wrong decisions right now, how many actions would execute before you could stop it?
+
+---
