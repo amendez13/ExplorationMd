@@ -433,3 +433,19 @@ Andrej Karpathy reflects on one year since coining "vibe coding," introducing "a
 - Looking forward to 2026: continued improvements on both the model layer and the agent layer; excited about the product of the two
 
 ---
+
+### [Software Investability in the AI Era](https://x.com/i/status/2027984377091919892)
+*2026-03-01T12:00:00Z* | Tags: ai-progress, software-economics, investment, defensibility, commoditization
+
+Software engineer's perspective on why the "easy phase" of software investment is over. AI makes basic features a commodity, shifting what counts as defensible software.
+
+**Key Points:**
+- The easy phase is over: slapping a subscription on a basic tool doesn't work anymore
+- Users have too many options, switching costs are low, AI makes basic features a commodity
+- Investors aren't avoiding software—they're avoiding *replaceable* software
+- The defensibility test: if your product can be rebuilt in a weekend with open source + an API, it's not fundable
+- What remains valuable: software tied to real workflows, data moats, infrastructure, hardware, regulation, or deep domain knowledge
+- Where money is going: dev tools, security, infra, vertical SaaS, AI applied to real industries, fintech rails, healthcare systems
+- Framing: "Software is not un-investable. Lazy software is."
+
+---

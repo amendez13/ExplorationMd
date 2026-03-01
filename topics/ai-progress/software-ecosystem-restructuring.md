@@ -13,6 +13,10 @@
 - [Languages Shift Toward Types and Verification](#languages-shift-toward-types-and-verification)
 - [Open Source Economics Reconfigure](#open-source-economics-reconfigure)
 - [New Languages May Optimize for Agents](#new-languages-may-optimize-for-agents)
+- [Software Investability Shifts](#software-investability-shifts)
+  - [What Becomes Un-Investable](#what-becomes-un-investable)
+  - [What Remains Valuable](#what-remains-valuable)
+  - [The Defensibility Test](#the-defensibility-test)
 - [Implications](#implications)
 - [Sources](#sources)
 
@@ -83,6 +87,36 @@ The source argues that classic language design tradeoffs (expressiveness vs simp
 
 If “optimal” languages for agents emerge, they may look quite different from languages shaped primarily by human psychology and community adoption loops [1].
 
+## Software Investability Shifts
+
+The restructuring creates distinct categories of software value. As basic features become commoditized by AI, the investment thesis for software changes fundamentally [7].
+
+### What Becomes Un-Investable
+
+Software that can be rebuilt in a weekend with open source components plus an API is no longer defensible. Key warning signs [7]:
+
+- Low switching costs for users
+- Features that are easily replicable
+- No data moats or network effects
+- Pure "subscription on a basic tool" business model
+
+### What Remains Valuable
+
+Investment continues to flow toward software tied to real constraints [7]:
+
+- **Real workflows**: Deep integration into how organizations actually operate
+- **Data moats**: Accumulated data that improves the product over time
+- **Infrastructure**: Core systems that other software depends on
+- **Hardware integration**: Physical-digital interfaces
+- **Regulation**: Licensed or compliance-gated domains
+- **Deep domain knowledge**: Vertical expertise that takes years to accumulate
+
+Concrete categories seeing continued investment: dev tools, security, infrastructure, vertical SaaS, AI applied to real industries, fintech rails, healthcare systems [7].
+
+### The Defensibility Test
+
+The key question shifts from "Is this software?" to "Is this replaceable software?" The commodity line has moved: what previously required a team and months now requires an API call and a weekend. Defensibility requires moats that AI cannot easily cross—relationships, regulation, physical presence, or accumulated data [7].
+
 ## Implications
 
 - **Architecture**: Favor slimmer dependency chains when agents make reimplementation/extraction cheap, but pair this with stronger verification gates to avoid subtle regressions [1].
@@ -90,6 +124,7 @@ If “optimal” languages for agents emerge, they may look quite different from
 - **Language choices**: Expect upward pressure toward languages and patterns that make invariants explicit and machine-checkable [1, 4].
 - **OSS/business**: Monitor whether AI shifts discovery from docs/search to model-mediated answers, and how that changes sustainability incentives [1, 5].
 - **Security posture**: Vibe-coded systems will attract adversarial scrutiny; security review and responsible disclosure become critical infrastructure for AI-generated codebases [6].
+- **Investment thesis**: Software value increasingly requires non-replicable moats; "lazy software" that can be rebuilt quickly is no longer fundable [7].
 
 ## Sources
 
@@ -99,3 +134,4 @@ If “optimal” languages for agents emerge, they may look quite different from
 4. [From Human Ergonomics to Agent Ergonomics (Wes McKinney)](https://wesmckinney.com/blog/agent-ergonomics/)
 5. [Tailwind docs + llms.txt discussion (GitHub issue comment)](https://github.com/tailwindlabs/tailwindcss.com/pull/2388#issuecomment-3717222957)
 6. [Cloudflare Vinext rewrite and security disclosure (X threads)](https://x.com/i/status/2026906253377613985)
+7. [Software investability in the AI era (X thread)](https://x.com/i/status/2027984377091919892)

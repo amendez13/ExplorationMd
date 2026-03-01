@@ -1111,6 +1111,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Levelsio on Live Production Agent Coding",
       "url": "https://x.com/i/status/2027566773814403448"
+    },
+    {
+      "category": "ai-progress",
+      "corpus_paths": [],
+      "indexed_at": "2026-03-01T07:39:06+00:00",
+      "log_path": "topics/topics/ai-progress/logs.md",
+      "title": "Software Investability in the AI Era",
+      "url": "https://x.com/i/status/2027984377091919892"
     }
   ],
   "version": 2
