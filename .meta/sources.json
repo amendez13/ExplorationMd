@@ -1127,6 +1127,14 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Agent Orchestration Hardening Patterns",
       "url": "https://x.com/i/status/2027721280242532455"
+    },
+    {
+      "category": "ai-progress",
+      "corpus_paths": [],
+      "indexed_at": "2026-03-02T19:37:52+00:00",
+      "log_path": "topics/ai-progress/logs.md",
+      "title": "A Motorcycle for the Mind - Naval Podcast",
+      "url": "https://x.com/i/status/2028314493206585471"
     }
   ],
   "version": 2

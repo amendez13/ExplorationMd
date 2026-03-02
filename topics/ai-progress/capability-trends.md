@@ -10,6 +10,7 @@
 - [Enterprise Adoption Signals](#enterprise-adoption-signals)
 - [METR Task Duration Measurements](#metr-task-duration-measurements)
 - [Cost Dynamics](#cost-dynamics)
+- [The New Programming Abstraction](#the-new-programming-abstraction)
 - [Model Recommendations](#model-recommendations)
 - [Sources](#sources)
 
@@ -96,6 +97,21 @@ Token costs for frontier models don't drop significantly at any given capability
 
 Result: costs continuously drop for equivalent capability, but the ceiling keeps rising.
 
+## The New Programming Abstraction
+
+Naval Ravikant frames the current transition as an abstraction layer shift: "English is the hottest new programming language" (echoing Andrej Karpathy). Rather than learning prompt engineering tricks, the approach is to let AI adapt to natural human communication—AI adapts to us faster than we can adapt to it [7].
+
+**Vibe coding as product management**: Instead of managing engineers by telling them what to do, you tell a computer what to do. The computer is tireless, egoless, and available 24/7. Naval describes building apps by describing desired functionality in plain English, letting AI plan, build, test, and iterate [7].
+
+**The market structure implication**: "There is no demand for average." The best application in any category dominates, mirroring internet dynamics (Amazon, YouTube). This creates three tiers [7]:
+- Dominant megaapps in each category
+- A massive long tail of niche applications (previously unprofitable, now viable)
+- Disappearance of mid-market software companies
+
+**Training models is the new coding**: Traditional programming specifies every step precisely. AI model training inverts this—researchers set up structures, pour in massive datasets, and let systems find their own programs. "This is the forefront of programming... the new programmers are the people developing these models." These AI researchers command enormous compensation because they operate at a new abstraction level [7].
+
+**Why software engineering retains value**: Despite the abstraction shift, engineers who understand underlying architecture can debug AI mistakes and solve novel problems. "All abstractions are leaky." A good engineer operating at the edge of knowledge can still "run circles around vibe coders" [7].
+
 ## Model Recommendations
 
 For best results as of early 2026:
@@ -112,3 +128,4 @@ Important: Default models in free tiers are often a year or more behind what pay
 4. [Claude Code Creator Reflects on One Year of Progress - Boris Cherny](https://x.com/i/status/2004887829252317325)
 5. [TechCrunch: Spotify says its best developers haven't written a line of code since December, thanks to AI](https://techcrunch.com/2026/02/12/spotify-says-its-best-developers-havent-written-a-line-of-code-since-december-thanks-to-ai/)
 6. [Solo Developer Outshipping Large Teams - Gergely Orosz](https://x.com/i/status/2027019191044173874)
+7. [A Motorcycle for the Mind - Naval Podcast](https://nav.al/ai) - Naval and Nivi on vibe coding, abstraction shifts, and English as programming language (2026)

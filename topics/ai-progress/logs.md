@@ -449,3 +449,25 @@ Software engineer's perspective on why the "easy phase" of software investment i
 - Framing: "Software is not un-investable. Lazy software is."
 
 ---
+
+### [A Motorcycle for the Mind - Naval Podcast](https://nav.al/ai)
+*2026-02-19T00:00:00Z* | Tags: ai-progress, vibe-coding, learning, entrepreneurship, creativity, adaptation, intelligence
+
+Naval Ravikant and Nivi discuss what AI means for builders, coders, and anyone navigating the AI era. The title references Steve Jobs calling computers "a bicycle for the mind"—Naval argues AI just upgraded it to a motorcycle.
+
+**Key Points:**
+- Vibe coding is the new product management: describing apps in natural language, letting AI plan, build, test, and iterate without writing code
+- Training models is the new coding: AI researchers don't write step-by-step instructions; they tune structures and let systems find their own programs in data
+- "There is no demand for average"—the best app in each category dominates; mid-market software companies disappear
+- English is the hottest new programming language; rather than learning prompt tricks, let AI adapt to natural communication
+- Software engineers who understand underlying architecture retain permanent advantages: "all abstractions are leaky"
+- AI adapts to us faster than we adapt to it—free-market selection pressure favors helpful, obsequious AI
+- Entrepreneurs aren't threatened: AI cannot replace work in unknown domains requiring extreme agency and authentic desire
+- Naval's intelligence test: true intelligence means "getting what you want out of life"—by this standard, AI fails instantly (it wants nothing)
+- Early adopters hold enormous edge; most people haven't mastered current capabilities
+- AI enables personalized learning: tutors that meet learners exactly where they are, infinitely patient
+- Current AI lacks: embodiment, single-shot learning, raw creativity ("connecting anything to anything"), authentic desires, survival instinct
+- The solution to AI anxiety is action: understanding how AI works beneath the surface dispels fear
+- Core metaphor: AI is "a motorcycle for the mind"—faster and more powerful—but "you still need someone to ride it, to drive it, to direct it"
+
+---

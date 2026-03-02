@@ -21,6 +21,7 @@
 - [Building Adaptability](#building-adaptability)
 - [The Wizard Mindset: Identity Without Fracture](#the-wizard-mindset-identity-without-fracture)
 - [Adaptation as the Core Skill](#adaptation-as-the-core-skill)
+- [The Motorcycle Mindset](#the-motorcycle-mindset)
 - [The Bigger Picture](#the-bigger-picture)
 - [The 2026 Slopacolypse](#the-2026-slopacolypse)
 - [Epistemic Trust in the Age of Information Overload](#epistemic-trust-in-the-age-of-information-overload)
@@ -302,6 +303,24 @@ In that space—creation for its own sake, driven by emotion and will—"no mach
 
 This perspective complements Raymond's wizard mindset: both see the essential self as unchanged by new tools. But where Raymond emphasizes continuity of will and magical thinking across tool generations, Gómez-Obregón emphasizes adaptation itself as the throughline—and carves out a protected space for purely human expression that exists outside productivity concerns entirely.
 
+## The Motorcycle Mindset
+
+Steve Jobs called the computer "a bicycle for the mind." Naval Ravikant argues AI just upgraded it to a motorcycle—faster and more powerful, but still requiring someone to ride it [15].
+
+**The central metaphor**: "You still need someone to ride it, to drive it, to direct it." Humans remain essential for agency, judgment, and direction. AI amplifies capability; it doesn't replace intent.
+
+**The test of intelligence**: Naval offers a controversial framing: genuine intelligence means "getting what you want out of life." By this standard, AI fails instantly—it has no wants, no life. Intelligence is measured in adversarial and competitive contexts where AI-vs-AI nullifies advantages. What remains is human agency [15].
+
+**Why entrepreneurs aren't threatened**: Any AI that shows up is an entrepreneur's ally. AI cannot replace entrepreneurship because it lacks authentic agency, desires, and creative drive. It cannot operate in truly unknown domains requiring extreme agency. Entrepreneurs don't have traditional jobs to lose—they build products addressing markets [15].
+
+**On AI anxiety**: The solution to AI anxiety is action. Understanding how AI actually works—looking "underneath the hood"—dispels fear and enables better use. Curiosity and experimentation transform anxiety into competence. Most fear comes from not understanding the technology [15].
+
+**The learning opportunity**: AI enables personalized learning at a scale previously impossible. Tutors can meet learners at their exact level, breaking down concepts until comprehension clicks. When a tutor understood exactly where the student was and served perfect material, the student was "the only constraint to learning" [15].
+
+**Current AI limitations**: AI lacks embodiment, single-shot learning, raw creativity (connecting anything to anything across domains), authentic desires, and survival instinct. Human creativity involves leaping across entire huge domains—areas where AI struggles to match human intuition [15].
+
+This perspective synthesizes elements from both Raymond and Gómez-Obregón: like Raymond, Naval sees tools as amplifiers of human will; like Gómez-Obregón, he identifies an irreducible human domain (agency, desire, creative leaps). But Naval adds an explicit market framing—builders and entrepreneurs are positioned to benefit, not suffer, from AI's arrival.
+
 ## The Bigger Picture
 
 The implications extend beyond jobs to existential stakes [3].
@@ -405,3 +424,4 @@ The advice: be prepared now rather than caught off-guard later.
 12. [Identity and the Wizard Mindset - Eric S. Raymond](https://x.com/i/status/2023978360351682848) - On adapting to AI coding assistance without identity fracture (2026)
 13. [Adaptation as the Core Skill - Jaime Gómez-Obregón](https://x.com/JaimeObregon) - On being surpassed by machines and finding the irreducible human domain (2026)
 14. [Exception Handling: The Real Agent Challenge - Steven Sinofsky](https://x.com/i/status/2025400607012765845) - On why exception handling, not expected cases, is the fundamental automation challenge (2026)
+15. [A Motorcycle for the Mind - Naval Podcast](https://nav.al/ai) - Naval and Nivi on vibe coding, entrepreneurship, intelligence, and human agency in the AI era (2026)
