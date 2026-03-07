@@ -13,6 +13,7 @@ Observations and analysis of AI capability advancement and its implications.
 - [Geopolitical Competition](geopolitical-competition.md) - US-China AI race, organizational speed, and the talent compounding problem
 - [Software Ecosystem Restructuring](software-ecosystem-restructuring.md) - How agents reshape dependencies, legacy software, languages, and open-source incentives
 - [Bespoke Software](bespoke-software.md) - The end of the app store model and the rise of AI-generated ephemeral applications
+- [Meaning in a Post-Agent World](meaning-post-agent.md) - Reclaiming agency and joy in building when the process matters as much as the output
 
 ## Recent Activity
 

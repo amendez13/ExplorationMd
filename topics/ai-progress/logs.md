@@ -471,3 +471,19 @@ Naval Ravikant and Nivi discuss what AI means for builders, coders, and anyone n
 - Core metaphor: AI is "a motorcycle for the mind"—faster and more powerful—but "you still need someone to ride it, to drive it, to direct it"
 
 ---
+
+### [The Builder's Slump](https://x.com/)
+*2026-03-07* | Tags: ai-progress, meaning, agency, craftsmanship, builder-identity
+
+Reflection on the psychological experience of builders in the AI era—when the process of creation matters as much as the output, and the world seems to devalue that process.
+
+**Key Points:**
+- For those who love building, the current moment can feel like a slump: the world says your thinking process is extraneous and must be commoditized
+- Humans are multidimensional—we need room to touch the code, explore, and rise above local minima
+- In engineering, the journey is the destination; the working system is the reward, but the process toward it matters
+- Antidote: deliberate inefficiency—build from scratch, read physical books, reason on paper, engage with community, mentor, explore under the hood
+- Activities that aren't the most efficient are precisely the point
+- Agency is one of the most important things a creator can have—give the gift of it to yourself
+- "It's still there, waiting for you"
+
+---

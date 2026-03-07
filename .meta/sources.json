@@ -1135,6 +1135,14 @@
       "log_path": "topics/ai-progress/logs.md",
       "title": "A Motorcycle for the Mind - Naval Podcast",
       "url": "https://x.com/i/status/2028314493206585471"
+    },
+    {
+      "category": "AI Progress",
+      "corpus_paths": [],
+      "indexed_at": "2026-03-07T06:42:19+00:00",
+      "log_path": "topics/ai-progress/logs.md",
+      "title": "Meaning in a Post-Agent World",
+      "url": "note://134"
     }
   ],
   "version": 2
