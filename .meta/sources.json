@@ -1151,6 +1151,14 @@
       "log_path": "topics/ai-progress/logs.md",
       "title": "Agent-First Software",
       "url": "note://135"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-03-08T20:14:34+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "The Smartphone Camera Analogy for AI Software Creation",
+      "url": "https://x.com/i/status/2030735601390211105"
     }
   ],
   "version": 2

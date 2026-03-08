@@ -16,6 +16,7 @@ Understanding when and how AI coding agents fail is essential for effective use.
 - [Why IDEs Still Matter](#why-ides-still-matter)
 - [The Agent Swarm Reality](#the-agent-swarm-reality)
 - [Delegation Limitations](#delegation-limitations)
+- [The Smartphone Camera Analogy](#the-smartphone-camera-analogy)
 - [Mitigation Strategies](#mitigation-strategies)
 - [Sources](#sources)
 
@@ -131,6 +132,24 @@ Current agents lack frameworks for these dimensions. When an agent spawns a sub-
 
 This limitation is particularly acute in multi-agent systems where the orchestration problem compounds: not only must each agent handle its own task correctly, but the system must manage the delegation relationships themselves.
 
+## The Smartphone Camera Analogy
+
+AI coding agents have democratized software creation in a way that parallels smartphones democratizing filmmaking [3]. Anyone can now start creating software, just as anyone with an iPhone can start creating movies (remember "Shot on iPhone" films?).
+
+But here's the catch: **the tool doesn't replace the craft**.
+
+To make *enjoyable* movies on a smartphone, you'll probably figure out you want to learn cinematography basics—composition, lighting, pacing, storytelling. The camera gives you access to the medium, but quality still requires understanding the fundamentals.
+
+The same applies to AI-assisted software development:
+
+- **Barrier to entry has genuinely dropped**: Non-programmers can build functional software
+- **Quality still requires fundamentals**: Understanding architecture, error handling, security, maintainability
+- **The gap surfaces eventually**: Quick prototypes work; production systems reveal the missing knowledge
+
+This isn't gatekeeping—it's acknowledging that AI shifts *who* can participate while not eliminating the need for skills that make software *good*. The limitation isn't in the AI tool; it's in expecting the tool to substitute for craft knowledge.
+
+For teams using AI agents extensively, this suggests a ceiling: agents can generate code faster than ever, but the humans directing them still need enough software engineering knowledge to distinguish good output from plausible output.
+
 ## Mitigation Strategies
 
 Based on observed failure patterns:
@@ -166,3 +185,4 @@ Based on observed failure patterns:
 
 1. [Andrej Karpathy on X](https://x.com/i/status/2015883857489522876) - Observations from intensive Claude coding (2026)
 2. [Intelligent AI Delegation](https://arxiv.org/abs/2602.11865) - Tomašev, Franklin, Osindero (arXiv, February 2026)
+3. [Smartphone Camera Analogy](https://x.com/i/status/2030735601390211105) - Simon Willison analogy on AI democratization (2026)

@@ -962,3 +962,17 @@ Thread on three critical patterns for hardening multi-agent orchestration layers
 - The design question: if an agent started making confident but wrong decisions right now, how many actions would execute before you could stop it?
 
 ---
+
+### [The Smartphone Camera Analogy for AI Software Creation](https://x.com/i/status/2030735601390211105)
+*2026-03-08* | Tags: democratization, skill-requirements, analogy, simonw, cinematography
+
+Simon Willison's analogy (shared by another developer): AI enabling anyone to create software parallels how smartphones enabled anyone to create movies. Democratization doesn't eliminate the need for fundamentals.
+
+**Key Points:**
+- Smartphones + cameras made moviemaking accessible to everyone (remember "Shot on iPhone" films)
+- To make *enjoyable* movies on an iPhone, you'll probably figure out you want to learn cinematography basics
+- Same applies to AI software creation: anyone can start building, but decent software requires learning software engineering fundamentals
+- Not about gatekeeping—the barrier to entry has genuinely dropped
+- The tool doesn't replace the craft; it changes who can access the craft
+
+---
