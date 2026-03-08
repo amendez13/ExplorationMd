@@ -487,3 +487,21 @@ Reflection on the psychological experience of builders in the AI era—when the 
 - "It's still there, waiting for you"
 
 ---
+
+### [Building for Trillions of Agents](https://x.com/levie)
+*2026-03-08T12:00:00Z* | Tags: ai-progress, agent-infrastructure, api-first, business-models, software-design
+
+Aaron Levie (CEO of Box) argues that AI agents have crossed a capability threshold—they now run in persistent sandboxed environments with their own compute, file systems, memory, and tool access. The implication: agents will become the primary users of all software, and the future requires "building for trillions of agents."
+
+**Key Points:**
+- Coding agents (Claude Code, Devin, Codex, Cursor) defined the architecture; now expanding to general knowledge work (Claude Cowork, Perplexity Computer, Manus, OpenClaw)
+- Agents will handle contract review, customer support, financial auditing, drug discovery, code generation, sales presentations, consumer transactions
+- "Make something agents want"—the Paul Graham principle applied to agent users who won't see your webinar or ad
+- Everything must become API-first: if a feature doesn't have an API, it doesn't exist for agents; confusing APIs compromise agent usefulness
+- The sign-up test: most dev tools don't let you sign up via API, making them invisible to agents that can't self-onboard
+- Business model shift: seat-based pricing doesn't work when agents do hours of work from a few words; consumption/volume-based pricing needed
+- Agent infrastructure emerging: sandboxed compute (E2B, Daytona, Modal, Cloudflare), agent identity/email (Agentmail), agent-native search (Parallel, Exa), agent wallets (Stripe, Coinbase)
+- Scale prediction: enterprises may have 100x-1,000x more agents than people; agents become primary software users
+- Security and governance: agents accessing sensitive data need identities, authentication, action controls, and audit trails
+
+---

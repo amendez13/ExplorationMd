@@ -1143,6 +1143,14 @@
       "log_path": "topics/ai-progress/logs.md",
       "title": "Meaning in a Post-Agent World",
       "url": "note://134"
+    },
+    {
+      "category": "AI Progress",
+      "corpus_paths": [],
+      "indexed_at": "2026-03-08T20:12:09+00:00",
+      "log_path": "topics/ai-progress/logs.md",
+      "title": "Agent-First Software",
+      "url": "note://135"
     }
   ],
   "version": 2
