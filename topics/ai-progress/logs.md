@@ -505,3 +505,25 @@ Aaron Levie (CEO of Box) argues that AI agents have crossed a capability thresho
 - Security and governance: agents accessing sensitive data need identities, authentication, action controls, and audit trails
 
 ---
+
+### [Marc Andreessen on AI, Job Creation, and the Philosopher's Stone - Lenny's Podcast](https://youtu.be/87Pm0SGTtN8)
+*2026-03-14T12:00:00Z* | Tags: ai-progress, economics, job-market, productivity-growth, demographics, superpowered-individuals, education, venture-capital, podcast
+
+Marc Andreessen (co-founder of Netscape, Andreessen Horowitz) provides a comprehensive economic and historical frame for understanding AI's impact: slow productivity growth for 50 years, declining population growth, and AI arriving precisely when needed to compensate. Argues the job loss narrative is fundamentally miscalibrated.
+
+**Key Points:**
+- AI as the "philosopher's stone": technology that transmutes sand (silicon) into thought—the most common thing into the most rare
+- Productivity paradox: despite feeling like rapid change, productivity growth for 50 years has been half the 1940-1970 rate and a third of 1870-1940 levels
+- Demographic timing: AI arrives precisely when population decline would otherwise cause economic contraction; "We're going to have AI and robots precisely when we actually need them"
+- Job loss reframing: "Everybody wants to talk about job loss but really what you want to look at is task loss. The job persists longer than the individual tasks"
+- Supermpowered individuals: AI makes good people very good and great people spectacularly great—10x productivity gains for top performers
+- "Mexican standoff" among PMs, engineers, designers: each role believes AI lets them do the other two; they're all correct
+- T-shaped becomes E-shaped: being good at two+ things creates multiplicative (not additive) career advantage
+- Education revolution: one-on-one tutoring (the "Bloom two sigma effect") now accessible to everyone via AI
+- Learn to code still matters: understanding what AI produces requires depth; vibe coding without comprehension caps out at mediocrity
+- Indeterminate optimism: the venture capital thesis—back many determined optimist founders and let the ecosystem discover what works
+- AGI framing skepticism: human-level is an arbitrary threshold; AI will exceed human capability, and that's the interesting part
+- IQ analogy: human IQ caps at ~160 (Einstein level) due to biological limits; AI models already testing at 130-140 and will exceed 200+
+- Price deflation: if AI dramatically increases productivity, prices collapse, everyone gets effectively richer, and safety nets become cheaper
+
+---

@@ -15,6 +15,11 @@ Observations and analysis of AI capability advancement and its implications.
 - [Bespoke Software](bespoke-software.md) - The end of the app store model and the rise of AI-generated ephemeral applications
 - [Meaning in a Post-Agent World](meaning-post-agent.md) - Reclaiming agency and joy in building when the process matters as much as the output
 - [Agent-First Software](agent-first-software.md) - Designing software for agents as primary users, API-first principles, and infrastructure for trillions of agents
+- [Andreessen's Economic Frame](andreessen-economic-frame.md) - AI as the philosopher's stone: productivity paradox, demographic timing, supermpowered individuals, and role convergence
+
+## Podcasts
+
+- [Marc Andreessen - Lenny's Podcast](andreessen-economic-frame.md) - Economic and historical context for AI: 50 years of slow productivity growth, job loss vs task loss, and why human-level AGI is an arbitrary threshold
 
 ## Recent Activity
 

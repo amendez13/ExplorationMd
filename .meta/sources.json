@@ -1167,6 +1167,14 @@
       "log_path": "topics/stories/logs.md",
       "title": "Odysseus Returns to Ithaca",
       "url": "https://x.com/i/status/2032411369786531841"
+    },
+    {
+      "category": "youtube_video",
+      "corpus_paths": [],
+      "indexed_at": "2026-03-14T22:24:08+00:00",
+      "log_path": "topics/ai-progress/logs.md",
+      "title": "Andreessen's Economic Frame for AI",
+      "url": "https://youtu.be/87Pm0SGTtN8?is=axxHV6WzhDmzXCcW"
     }
   ],
   "version": 2
