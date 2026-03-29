@@ -14,6 +14,7 @@ Official guidance from Anthropic on getting the most out of Claude Code, from co
   - [CLAUDE.md Essentials](#claudemd-essentials)
   - [Permissions and Sandboxing](#permissions-and-sandboxing)
   - [CLI Tools and MCP](#cli-tools-and-mcp)
+  - [Extension Layout Convention](#extension-layout-convention)
   - [Hooks](#hooks)
   - [Skills](#skills)
   - [Custom Subagents](#custom-subagents)
@@ -185,6 +186,26 @@ CLI tools are the most context-efficient way to interact with external services.
 Claude is effective at learning new CLI tools: "Use 'foo-cli-tool --help' to learn about foo tool, then use it to solve A, B, C."
 
 With MCP servers (`claude mcp add`), you can connect Notion, Figma, databases, monitoring data, and automate workflows.
+
+### Extension Layout Convention
+
+Anthropic’s documentation describes Claude Code features like hooks, skills, subagents, and MCP servers [1], but many teams still struggle with *where* to put things and how to keep setups consistent across repos [2].
+
+One community-proposed convention is to treat Claude Code configuration as a small set of “extension types” and keep them in predictable places so the agent can find them quickly and you can scale beyond “chatbot mode” usage [2].
+
+**A practical layout (adapt as needed)** [2]:
+
+```text
+CLAUDE.md              # project memory / operating rules
+.claude/               # extensions hub
+  commands/            # reusable slash commands
+  skills/              # auto-triggered workflows (SKILL.md + scripts/refs/assets)
+  agents/              # sub-agents (often .yml)
+  plugins/             # packaged setups you reuse across projects
+.mcp.json              # external tool connections (MCP servers)
+```
+
+The value is less the exact folder names and more the separation of concerns: persistent instructions (`CLAUDE.md`), reusable procedures (skills/commands), delegated specialists (agents), deterministic automation (hooks) [1], and external tool boundaries (MCP) [1] [2].
 
 ### Hooks
 
@@ -423,3 +444,4 @@ Recognizing these patterns early saves time [1]:
 ## Sources
 
 1. [Claude Code Best Practices](https://code.claude.com/docs/en/best-practices) - Official Anthropic documentation on tips and patterns for Claude Code
+2. [Dharmik Pawar - Claude Code structure](https://x.com/Dharmikpawar31/status/2037792844916965714) - Community-proposed project layout for Claude Code extensions and MCP configuration

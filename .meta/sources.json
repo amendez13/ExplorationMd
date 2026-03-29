@@ -1175,6 +1175,16 @@
       "log_path": "topics/ai-progress/logs.md",
       "title": "Andreessen's Economic Frame for AI",
       "url": "https://youtu.be/87Pm0SGTtN8?is=axxHV6WzhDmzXCcW"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [
+        "topics/agentic-software-development/best-practices.md"
+      ],
+      "indexed_at": "2026-03-29T13:46:52+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Claude Code Project Structure: CLAUDE.md, Extensions, and MCP",
+      "url": "https://x.com/Dharmikpawar31/status/2037792844916965714"
     }
   ],
   "version": 2

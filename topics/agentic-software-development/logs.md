@@ -976,3 +976,17 @@ Simon Willison's analogy (shared by another developer): AI enabling anyone to cr
 - The tool doesn't replace the craft; it changes who can access the craft
 
 ---
+
+### [Claude Code Project Structure: CLAUDE.md, Extensions, and MCP](https://x.com/Dharmikpawar31/status/2037792844916965714)
+*2026-03-29T13:46:52Z* | Tags: claude-code, project-structure, skills, hooks, mcp, commands, agents, plugins, context-management
+
+A community-suggested Claude Code project layout that groups reusable workflows (skills), deterministic automation (hooks), subagents, and external tool connections (MCP) into a predictable structure. Frames the setup as an engineering system rather than “just folders”, with emphasis on scaling concerns like context limits and repeatable setup from zero to production.
+
+**Key Points:**
+- Use `CLAUDE.md` as a project “memory layer” and a `.claude/` directory as an extensions hub
+- Keep reusable pieces separated: slash commands, skills (`SKILL.md` workflows), subagents, and packaged plugin setups
+- Treat MCP configuration (e.g., `.mcp.json`) as the boundary for integrating external tools and services
+- Operational focus: define hook events and skill structure (scripts/refs/assets) to make automation reliable
+- Scaling lens: context limits become a practical bottleneck; structure helps reduce “chatbot mode” failure at scale
+
+---
