@@ -323,7 +323,7 @@
       ],
       "indexed_at": "2026-02-12T12:15:11+00:00",
       "log_path": "topics/agentic-software-development/logs.md",
-      "title": "OSS Monetization and the \u201cAttention Layer\u201d Problem",
+      "title": "OSS Monetization and the “Attention Layer” Problem",
       "url": "https://x.com/i/status/2009688028931875156"
     },
     {
@@ -921,7 +921,7 @@
       ],
       "indexed_at": "2026-02-20T07:30:30+00:00",
       "log_path": "topics/agentic-software-development/logs.md",
-      "title": "Rob \u2014 The SHIP Framework for Building Apps with AI (YouTube)",
+      "title": "Rob — The SHIP Framework for Building Apps with AI (YouTube)",
       "url": "https://www.youtube.com/watch?v=s_54GhcpDvE"
     },
     {
@@ -1185,6 +1185,16 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Claude Code Project Structure: CLAUDE.md, Extensions, and MCP",
       "url": "https://x.com/Dharmikpawar31/status/2037792844916965714"
+    },
+    {
+      "category": "Prompt Library",
+      "corpus_paths": [
+        "topics/agentic-software-development/prompt-library.md"
+      ],
+      "indexed_at": "2026-03-31T13:05:45+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Staff-Level Prompt Framing: Role, Constraints, Architecture, Output",
+      "url": "https://x.com/i/status/2038617634690957560"
     }
   ],
   "version": 2

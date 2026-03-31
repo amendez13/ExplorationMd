@@ -990,3 +990,17 @@ A community-suggested Claude Code project layout that groups reusable workflows 
 - Scaling lens: context limits become a practical bottleneck; structure helps reduce “chatbot mode” failure at scale
 
 ---
+
+### [Staff-Level Prompting: Role, Constraints, Architecture, Output Format](https://x.com/i/status/2038617634690957560)
+*2026-03-31* | Tags: prompting, prompt-engineering, role, constraints, architecture, output-format, context, claude
+
+Short thread arguing that “build this / write code / fix this bug” prompts underuse capable coding agents. Recommends briefing agents like a staff engineer: assign a role, state constraints, set architecture expectations, specify output format, and include real-world context.
+
+**Key Points:**
+- Start with an explicit role (“act as…”) to set decision-making scope
+- Provide constraints up front (time, security, performance, compatibility) to avoid rework
+- State architecture expectations (interfaces/modules, testing/observability) rather than just the end feature
+- Require an output format that forces assumptions/questions to be explicit before implementation
+- Include real-world context (users, deployment environment, existing system constraints) to reduce wrong assumptions
+
+---

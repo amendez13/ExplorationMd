@@ -6,6 +6,7 @@
 - [Relentless Product Discovery Interrogation](#relentless-product-discovery-interrogation)
 - [Self-Correction CLAUDE.md Reminder](#self-correction-claudemd-reminder)
 - [Staff Engineer Plan Review](#staff-engineer-plan-review)
+- [Staff-Level Task Brief](#staff-level-task-brief)
 - [Elegant Solution Refinement](#elegant-solution-refinement)
 - [Prove It Works](#prove-it-works)
 - [Autonomous Codebase Exploration and Bug Fixing](#autonomous-codebase-exploration-and-bug-fixing)
@@ -89,6 +90,50 @@ Review this plan as a staff engineer. Identify any gaps in error handling, edge 
 ```
 
 Use this after generating a plan in one Claude session - spin up a second session, share the plan, and have it critique the approach before implementation begins [3].
+
+---
+
+## Staff-Level Task Brief
+
+Many agent failures come from ambiguous instructions (“build this”, “write code”, “fix this bug”). Use this prompt template to force a crisp role, constraints, architecture expectations, and an explicit output format before any work starts [7].
+
+Prompt:
+
+```text
+You are acting as: [ROLE] (staff-level engineer).
+
+Task:
+- Goal: [WHAT SUCCESS LOOKS LIKE]
+- Non-goals: [WHAT WE ARE NOT DOING]
+
+Context (real-world details that matter):
+- Product/users: [...]
+- Deployment/runtime: [...]
+- Existing system constraints: [...]
+
+Constraints (must follow):
+- Time/effort budget: [...]
+- Security/privacy/compliance: [...]
+- Performance/SLOs: [...]
+- Compatibility: [...]
+
+Architecture expectations:
+- High-level approach: [...]
+- Key interfaces/modules: [...]
+- Data/storage choices: [...]
+- Testing strategy: [...]
+- Observability/logging: [...]
+
+Output format:
+1) Clarifying questions (only what blocks progress)
+2) Assumptions (explicitly listed)
+3) Proposed plan (step-by-step)
+4) Implementation (code changes)
+5) Verification steps (commands + expected results)
+6) Risks/rollout notes
+
+Do not start implementation until you’ve listed clarifying questions and assumptions, and I confirm the plan.
+```
 
 ---
 
@@ -881,3 +926,4 @@ Start by pulling the full list of entities from my HA instance and organize them
 4. [doodlestein on X](https://x.com/doodlestein/status/1999934160442687526) - Autonomous agent prompts for multi-project management (2026)
 5. [Josh Pigford on GitHub](https://gist.github.com/Shpigford/c7f9a32e8e6a0e0babb3f8dca4268e2f) - README generator prompt (2026)
 6. [OpenClaw after 50 days: all prompts](https://youtu.be/NZ1mKAWJPr4) - Companion prompts for 20 real workflows (2026)
+7. [X thread](https://x.com/i/status/2038617634690957560) - Prompt framing: role, constraints, architecture expectations, output format, and real-world context
