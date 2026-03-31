@@ -1195,6 +1195,16 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Staff-Level Prompt Framing: Role, Constraints, Architecture, Output",
       "url": "https://x.com/i/status/2038617634690957560"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [
+        "topics/agentic-software-development/openclaw-complete-guide.md"
+      ],
+      "indexed_at": "2026-03-31T19:46:34+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "OpenClaw: The complete guide to building, training, and living with your personal AI agent",
+      "url": "https://www.lennysnewsletter.com/p/openclaw-the-complete-guide-to-building"
     }
   ],
   "version": 2

@@ -1004,3 +1004,18 @@ Short thread arguing that “build this / write code / fix this bug” prompts u
 - Include real-world context (users, deployment environment, existing system constraints) to reduce wrong assumptions
 
 ---
+
+### [OpenClaw: The complete guide to building, training, and living with your personal AI agent](https://www.lennysnewsletter.com/p/openclaw-the-complete-guide-to-building)
+*2026-03-31T12:45:57Z* | Tags: openclaw, setup-guide, onboarding, telegram, skills, hooks, integrations, security, prompt-injection, multi-agent, cost
+
+Hands-on guide to OpenClaw (an always-on personal agent framework): what it is, how to install and onboard safely, how its “workspace-as-memory” files work, and how to grow from one agent to a multi-agent team with scoped tools and scheduled routines. Emphasizes that the main job is *management*: defining roles, setting boundaries, and iterating on the agent’s instruction/memory files over time.
+
+**Key Points:**
+- Safety-first setup: avoid installing on your primary machine; prefer isolated hardware/VPS/hosted options
+- Install + onboarding flow: pick a model, authenticate provider (API keys recommended), connect a chat channel (Telegram), enable web search, install default skills, enable hooks (session memory highlighted)
+- “Identity lives in Markdown”: agent workspaces include files like `SOUL.md`, `TOOLS.md`, `USER.md`, and `AGENTS.md` that are re-read on startup
+- Practical starter prompts: recurring logistics, meeting prep, lead triage/enrichment, and generating docs work from support tickets
+- Multi-agent “team” pattern: many role-specific agents on one machine, each with its own tools, crons, and workspace
+- Operational cautions: start with read-only tokens, watch for prompt injection, audit/update regularly, and expect costs to scale with API usage
+
+---
