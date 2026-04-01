@@ -1205,6 +1205,16 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "OpenClaw: The complete guide to building, training, and living with your personal AI agent",
       "url": "https://www.lennysnewsletter.com/p/openclaw-the-complete-guide-to-building"
+    },
+    {
+      "category": "ai-eng-fundamentals",
+      "corpus_paths": [
+        "topics/ai-eng-fundamentals/llm-os-metaphor.md"
+      ],
+      "indexed_at": "2026-04-01T07:56:58+00:00",
+      "log_path": "topics/ai-eng-fundamentals/logs.md",
+      "title": "LLM OS: CPU/RAM/Filesystem Metaphor",
+      "url": "https://x.com/i/status/1723140519554105733"
     }
   ],
   "version": 2

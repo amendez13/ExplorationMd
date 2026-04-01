@@ -7,6 +7,7 @@ Core concepts and implementations in machine learning and deep learning. This to
 ## Articles
 
 - [MicroGPT Deep Dive](microgpt-deep-dive.md) - Andrej Karpathy's minimal GPT implementation dissected: autograd, attention, and training in pure Python
+- [LLM OS: CPU/RAM/Filesystem Metaphor](llm-os-metaphor.md) - A systems metaphor for LLM apps: model as CPU, context window as RAM, embeddings as filesystem
 
 ## Recent Activity
 

@@ -17,3 +17,15 @@ Andrej Karpathy's minimal GPT implementation in pure Python with zero dependenci
 - Temperature-controlled sampling for inference
 
 ---
+
+### [LLM OS: CPU/RAM/Filesystem Metaphor](https://x.com/i/status/1723140519554105733)
+*2026-04-01T07:57:00Z* | Tags: llm, systems, analogy, context-window, embeddings, retrieval, rag
+
+A compact “LLM OS” framing that maps LLM application constraints to familiar computer architecture terms: the model as CPU (tok/s throughput), the context window as RAM (working set), and embeddings + vector retrieval as a filesystem for long-term storage. Useful as a quick mental model for where quality and performance bottlenecks tend to appear in production LLM systems.
+
+**Key Points:**
+- Treat context limits as working-set management, not as an afterthought
+- Embeddings + retrieval behave like an I/O layer that must be designed and measured
+- Throughput (tok/s), concurrency (batching), and latency budgets shape product UX
+
+---
