@@ -323,7 +323,7 @@
       ],
       "indexed_at": "2026-02-12T12:15:11+00:00",
       "log_path": "topics/agentic-software-development/logs.md",
-      "title": "OSS Monetization and the “Attention Layer” Problem",
+      "title": "OSS Monetization and the \u201cAttention Layer\u201d Problem",
       "url": "https://x.com/i/status/2009688028931875156"
     },
     {
@@ -921,7 +921,7 @@
       ],
       "indexed_at": "2026-02-20T07:30:30+00:00",
       "log_path": "topics/agentic-software-development/logs.md",
-      "title": "Rob — The SHIP Framework for Building Apps with AI (YouTube)",
+      "title": "Rob \u2014 The SHIP Framework for Building Apps with AI (YouTube)",
       "url": "https://www.youtube.com/watch?v=s_54GhcpDvE"
     },
     {
@@ -1215,6 +1215,14 @@
       "log_path": "topics/ai-eng-fundamentals/logs.md",
       "title": "LLM OS: CPU/RAM/Filesystem Metaphor",
       "url": "https://x.com/i/status/1723140519554105733"
+    },
+    {
+      "category": "Tools",
+      "corpus_paths": [],
+      "indexed_at": "2026-04-04T22:50:29+00:00",
+      "log_path": "topics/topics/tools/logs.md",
+      "title": "LLM Knowledge Bases",
+      "url": "https://x.com/i/status/2039805659525644595"
     }
   ],
   "version": 2

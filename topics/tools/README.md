@@ -11,6 +11,7 @@ This topic is intentionally broad: if a tool is useful, it belongs here.
 - [AI Agent Skills](ai-agent-skills.md) - Modular skills for Claude Code and other AI assistants: React best practices, Convex patterns, SwiftUI, Tauri, and more.
 - [AI Prompt Coach](ai-prompt-coach.md) - Rubric-based scoring and feedback for improving AI coding prompts.
 - [Claude Code Telegram Bot](claude-code-telegram.md) - Remote Claude Code access via Telegram for mobile-friendly codebase interaction and automated notifications.
+- [LLM Knowledge Bases](llm-knowledge-bases.md) - Building personal wikis where an LLM compiles raw sources into interconnected markdown, with Obsidian as the viewing frontend.
 - [MCP Servers Catalog: Exa and Ref](mcp-servers-exa-ref.md) - Two durable MCP server picks for search/research (Exa) and token-efficient documentation retrieval (Ref).
 - [OpenUsage: AI Limits Tracker](openusage-ai-limits-tracker.md) - Menu bar app for tracking AI coding subscription usage across providers.
 - [Obsidian: File-First Notes, Migration, and CLI Search](obsidian-file-first-notes.md) - Why plain-text Markdown notes reduce lock-in and enable better search/LLM workflows.

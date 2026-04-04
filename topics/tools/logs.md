@@ -268,3 +268,23 @@ Telegram bot providing remote access to Claude Code through natural language cha
 - Usage and cost tracking per user
 
 ---
+
+### [LLM Knowledge Bases](https://x.com/karpathy/status/2039805659525644595)
+*2026-04-04* | Tags: tools, knowledge-base, llm, obsidian, wiki, markdown, rag, q-and-a, karpathy
+
+Andrej Karpathy describes his workflow for building personal knowledge bases using LLMs. Sources are indexed into a raw directory, then an LLM "compiles" a wiki of interconnected markdown files with summaries, backlinks, and concept articles. Obsidian serves as the IDE for viewing and navigating the wiki.
+
+**Key Points:**
+- Data ingest: Index source documents (articles, papers, repos, datasets, images) into a `raw/` directory, then use an LLM to incrementally "compile" a wiki as a nested directory of `.md` files
+- Wiki structure: LLM writes summaries of all raw data, categorizes into concepts, writes articles, and creates cross-links and backlinks
+- Tooling: Obsidian Web Clipper extension for converting web articles to markdown; hotkey to download related images locally for LLM reference
+- IDE: Obsidian as the frontend for viewing raw data, compiled wiki, and derived visualizations (e.g., Marp for slides)
+- Q&A: At sufficient scale (~100 articles, ~400K words), ask complex questions against the wiki; LLM researches answers across the knowledge base
+- No fancy RAG needed at small scale: LLM auto-maintains index files and brief summaries, reads related data fairly easily
+- Output: LLM renders markdown files, slide shows (Marp format), or matplotlib images viewable in Obsidian; outputs often filed back into wiki to enhance it
+- Linting: Run LLM "health checks" to find inconsistent data, impute missing data (with web searchers), find interesting connections for new article candidates
+- Extra tools: Vibe-coded a naive search engine over the wiki (web UI + CLI for LLM to use as a tool for larger queries)
+- Future direction: As repo grows, consider synthetic data generation + finetuning to have LLM "know" the data in weights instead of just context windows
+- Philosophy: Human rarely writes or edits the wiki manually—it's the domain of the LLM
+
+---
