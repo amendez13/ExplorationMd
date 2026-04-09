@@ -1223,6 +1223,16 @@
       "log_path": "topics/topics/tools/logs.md",
       "title": "LLM Knowledge Bases",
       "url": "https://x.com/i/status/2039805659525644595"
+    },
+    {
+      "category": "ai-progress",
+      "corpus_paths": [
+        "topics/ai-progress/ai-assisted-decompilation.md"
+      ],
+      "indexed_at": "2026-04-09T16:27:47+00:00",
+      "log_path": "topics/ai-progress/logs.md",
+      "title": "AI-Assisted Decompilation and the End of Code Secrecy",
+      "url": "https://x.com/i/status/2042002143045890412"
     }
   ],
   "version": 2

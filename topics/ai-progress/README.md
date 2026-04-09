@@ -13,6 +13,7 @@ Observations and analysis of AI capability advancement and its implications.
 - [Geopolitical Competition](geopolitical-competition.md) - US-China AI race, organizational speed, and the talent compounding problem
 - [Software Ecosystem Restructuring](software-ecosystem-restructuring.md) - How agents reshape dependencies, legacy software, languages, and open-source incentives
 - [Bespoke Software](bespoke-software.md) - The end of the app store model and the rise of AI-generated ephemeral applications
+- [AI-Assisted Decompilation](ai-assisted-decompilation.md) - How LLMs weaken code secrecy and shift defensibility away from implementation
 - [Meaning in a Post-Agent World](meaning-post-agent.md) - Reclaiming agency and joy in building when the process matters as much as the output
 - [Agent-First Software](agent-first-software.md) - Designing software for agents as primary users, API-first principles, and infrastructure for trillions of agents
 - [Andreessen's Economic Frame](andreessen-economic-frame.md) - AI as the philosopher's stone: productivity paradox, demographic timing, supermpowered individuals, and role convergence

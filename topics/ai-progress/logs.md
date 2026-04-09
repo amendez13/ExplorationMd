@@ -527,3 +527,15 @@ Marc Andreessen (co-founder of Netscape, Andreessen Horowitz) provides a compreh
 - Price deflation: if AI dramatically increases productivity, prices collapse, everyone gets effectively richer, and safety nets become cheaper
 
 ---
+
+### [AI-Assisted Decompilation and the End of Code Secrecy](https://x.com/i/status/2042002143045890412)
+*2026-04-09T16:27:47Z* | Tags: ai-progress, reverse-engineering, decompilation, ip, software-moats, open-source, saas, vibe-coding
+
+X thread arguing that LLMs collapse two long-standing barriers to decompilation: the specialist labor needed to reconstruct meaning from binaries, and the lack of intent/assumptions in decompiled output. The author predicts compilation will no longer protect proprietary logic for long, and frames the result as an “open-source world” where copying becomes mostly a question of who cares enough to spend tokens.
+
+**Key Points:**
+- LLMs can assist with the detailed “human side” of decompilation work that used to require specialists
+- LLMs can add high-quality explanatory comments by inferring intent from patterns learned across many similar codebases
+- Treat compilation/closed source as delay rather than durable protection; reverse engineering time windows shrink
+- Strategic pressure shifts: software businesses need moats beyond “hidden code” (data, distribution, operations, workflows)
+- Parallel pressure on SaaS: customers may question subscriptions when they can “vibe code” internal substitutes
