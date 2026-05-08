@@ -539,3 +539,17 @@ X thread arguing that LLMs collapse two long-standing barriers to decompilation:
 - Treat compilation/closed source as delay rather than durable protection; reverse engineering time windows shrink
 - Strategic pressure shifts: software businesses need moats beyond “hidden code” (data, distribution, operations, workflows)
 - Parallel pressure on SaaS: customers may question subscriptions when they can “vibe code” internal substitutes
+
+---
+
+### [The Case for Strategic Illegibility](https://x.com/bhalligan/status/2051388275756339493)
+*2026-05-04* | Tags: ai-progress, illegibility, ai-legibility, moats, knowledge-management, enterprise-ai, vendor-risk
+
+Brian Halligan (HubSpot co-founder) argues that the current rush to make companies “legible to AI” (structured internal knowledge, clean labels, explicit context) has a downside: when proprietary operating logic becomes machine-executable, vendors can pattern-match across customers and ship your “edge” back to the market as standardized best practices.
+
+**Key Points:**
+- Legibility to AI increases speed and autonomy, but may also commoditize differentiated operating logic if it becomes easy for vendors to generalize
+- “Strategic illegibility” frames a new discipline: decide what must remain partially undocumented/unstated to preserve non-transferable advantage
+- Candidate illegible assets include taste, negotiation intuition, informal power maps, founder judgment, customer intimacy, and contrarian beliefs
+- Decision heuristics: a vendor test (would a vendorized agent weaken you?), departure test (what must be preserved for continuity?), replication test (could a competitor rebuild the capability from the legible version?)
+- Risk claim: extreme legibility can constrain reality to what models can read, pushing organizations toward “machine average” strategy and taste

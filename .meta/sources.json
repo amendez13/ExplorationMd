@@ -1233,6 +1233,24 @@
       "log_path": "topics/ai-progress/logs.md",
       "title": "AI-Assisted Decompilation and the End of Code Secrecy",
       "url": "https://x.com/i/status/2042002143045890412"
+    },
+    {
+      "category": "ai-progress",
+      "corpus_paths": [
+        "topics/ai-progress/strategic-illegibility.md"
+      ],
+      "indexed_at": "2026-05-08T05:43:38+00:00",
+      "log_path": "topics/ai-progress/logs.md",
+      "title": "The Case for Strategic Illegibility",
+      "url": "https://x.com/bhalligan/status/2051388275756339493"
+    },
+    {
+      "category": "ai-progress",
+      "corpus_paths": [],
+      "indexed_at": "2026-05-08T05:45:48+00:00",
+      "log_path": "topics/topics/ai-progress/logs.md",
+      "title": "Strategic Illegibility: Protecting Moats in an AI-Legible World",
+      "url": "note://146"
     }
   ],
   "version": 2
