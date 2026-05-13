@@ -6,6 +6,20 @@
 
 ---
 
+### [Slop Engineering: Disposable Components for Fast Feedback](https://x.com/i/status/2052397933522506079)
+*2026-05-13* | Tags: slop, prototyping, iteration, ralph-loop, plugins, sdk, api-design, alpha, transparency, feedback
+
+Thread arguing that “AI slop” can be a productive tool when used intentionally: ship rough, disposable components (especially UI and example plugins) to accelerate parallel experimentation and user feedback, while keeping high standards for the core primitives and being explicit about what will be rewritten.
+
+**Key Points:**
+- Slop is valuable for exploring design space quickly (e.g., rough UIs, example plugins/providers) while focusing quality on the core system
+- Use agents to generate many disposable artifacts (plugins/providers) to stress-test an SDK/API, then regenerate when the interface changes
+- Treat generated examples as probes: extract repeated patterns into the formal SDK, and uncover usability pain (e.g., installation friction at scale)
+- Draw hard boundaries: don’t ship slop to GA, don’t surprise other projects with slop PRs, and don’t accept first-pass output without review
+- Transparency enables earlier testing: label slop as slop, collect feedback on primitives now, rewrite later when direction stabilizes
+
+---
+
 ### [Claude Code Power User Tips from the Creator](https://x.com/bcherny/status/2017742759218794768)
 *2026-02-10* | Tags: claude-code, workflow, parallelism, prompting, skills, environment-setup
 

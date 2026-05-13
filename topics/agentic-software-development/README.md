@@ -11,6 +11,7 @@ Knowledge and resources about AI-powered coding agents and development workflows
 - [Team and Organization Adoption](team-adoption.md) - Team-level and organizational strategies for adopting agentic development workflows and hands-on technical leadership
 - [Solo Workflow](solo-workflow.md) - Individual workflow and mindset for LLM-assisted development, including diagram-driven context loading and quality-gate automation
 - [Vibe Coding](vibe-coding.md) - Andrej Karpathy's hands-off approach to AI-assisted development for throwaway projects
+- [Slop Engineering](slop-engineering.md) - Using disposable AI-generated components to accelerate experimentation and feedback while keeping core standards high
 - [Prompt Library](prompt-library.md) - Reusable prompt templates for planning and discovery
 - [Overnight Agents](overnight-agents.md) - Nightly automation loops for compounding learnings and autonomous feature shipping
 - [Agent Tooling](agent-tooling.md) - Infrastructure for managing AI-generated code, including Entire's reasoning capture platform

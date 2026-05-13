@@ -1261,6 +1261,16 @@
       "log_path": "topics/ai-progress/logs.md",
       "title": "Urgency Inflation: Why Faster AI Can Increase Work",
       "url": "https://x.com/i/status/2054342678762926509"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [
+        "topics/agentic-software-development/slop-engineering.md"
+      ],
+      "indexed_at": "2026-05-13T10:19:23+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "Slop Engineering: Disposable Components for Fast Feedback",
+      "url": "https://x.com/i/status/2052397933522506079"
     }
   ],
   "version": 2
