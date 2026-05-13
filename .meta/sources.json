@@ -1251,6 +1251,16 @@
       "log_path": "topics/topics/ai-progress/logs.md",
       "title": "Strategic Illegibility: Protecting Moats in an AI-Legible World",
       "url": "note://146"
+    },
+    {
+      "category": "ai-progress",
+      "corpus_paths": [
+        "topics/ai-progress/urgency-inflation.md"
+      ],
+      "indexed_at": "2026-05-13T06:10:56+00:00",
+      "log_path": "topics/ai-progress/logs.md",
+      "title": "Urgency Inflation: Why Faster AI Can Increase Work",
+      "url": "https://x.com/i/status/2054342678762926509"
     }
   ],
   "version": 2

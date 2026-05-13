@@ -553,3 +553,17 @@ Brian Halligan (HubSpot co-founder) argues that the current rush to make compani
 - Candidate illegible assets include taste, negotiation intuition, informal power maps, founder judgment, customer intimacy, and contrarian beliefs
 - Decision heuristics: a vendor test (would a vendorized agent weaken you?), departure test (what must be preserved for continuity?), replication test (could a competitor rebuild the capability from the legible version?)
 - Risk claim: extreme legibility can constrain reality to what models can read, pushing organizations toward “machine average” strategy and taste
+
+---
+
+### [Urgency Inflation: Why Faster AI Can Increase Work](https://x.com/i/status/2054342678762926509)
+*2026-05-13T06:10:56Z* | Tags: ai-progress, productivity-paradox, urgency, latency, jevons-paradox, parkinsons-law, social-acceleration, 24-7
+
+Spanish-language X thread arguing that AI often doesn’t reduce working hours because it changes what counts as “urgent”: faster execution compresses response norms, expands scope (“produce what’s possible”), and internalizes acceleration into self-expectations.
+
+**Key Points:**
+- Rebound dynamics: time saved per task often converts into more total tasks, more analysis variants, and more communication volume (Jevons-style reasoning)
+- Expectations ratchet: work expands to fill *capability available* (a “post-AI” framing of Parkinson’s Law)
+- Latency collapse: if answers arrive in seconds, tolerated waiting time drops, making urgency feel ambient rather than exceptional
+- Social acceleration framing: connects AI-enabled speedups to “frenetic standstill” and “24/7” availability pressures (as cited in the thread)
+- Countermeasures: separate execution speed from decision urgency, intentionally add friction (office hours/batching), and measure outcomes over throughput

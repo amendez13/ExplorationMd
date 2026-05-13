@@ -8,6 +8,7 @@ Observations and analysis of AI capability advancement and its implications.
 
 - [Capability Trends](capability-trends.md) - Observations on model improvements, METR measurements, and cost dynamics
 - [Relative Competition and Work Hours](relative-competition-work-hours.md) - Why better tools can increase output expectations instead of reducing hours
+- [Urgency Inflation](urgency-inflation.md) - How faster AI collapses latency tolerance and turns “urgent” into the default
 - [Societal Implications](societal-implications.md) - Job displacement, communication gaps, individual preparedness, adoption timelines
 - [Recursive Improvement](recursive-improvement.md) - AI systems contributing to their own development
 - [Geopolitical Competition](geopolitical-competition.md) - US-China AI race, organizational speed, and the talent compounding problem
