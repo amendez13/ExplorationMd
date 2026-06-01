@@ -6,6 +6,19 @@
 
 ---
 
+### [We Should Be More Tired Than the Model](https://newsletter.vickiboykis.com/archive/we-should-be-more-tired-than-the-model/)
+*2026-06-01T20:03:31Z* | Tags: fatigue, oversight, verification, review-bottleneck, cognitive-load, trust, skill-formation, adoption
+
+Vicki Boykis argues that as models improve, human effort shifts from producing output to judging it: verifying assumptions, catching subtle errors, and deciding what (and when) to trust. The result is a “tiredness gap”: models can generate endlessly, but humans burn out doing repeated evaluation passes.
+
+**Key Points:**
+- Better outputs can increase review burden because plausible mistakes are harder to detect than obvious failures
+- The limiting factor in agentic workflows becomes sustained human judgment, not generation speed
+- Verification needs to become explicit artifacts (success criteria, tests, checklists) so it compounds rather than repeats
+- Adoption should be staged: guardrails and evaluation muscles matter before scaling throughput
+
+---
+
 ### [Slop Engineering: Disposable Components for Fast Feedback](https://x.com/i/status/2052397933522506079)
 *2026-05-13* | Tags: slop, prototyping, iteration, ralph-loop, plugins, sdk, api-design, alpha, transparency, feedback
 

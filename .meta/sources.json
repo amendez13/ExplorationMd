@@ -1271,6 +1271,16 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "Slop Engineering: Disposable Components for Fast Feedback",
       "url": "https://x.com/i/status/2052397933522506079"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [
+        "topics/agentic-software-development/more-tired-than-the-model.md"
+      ],
+      "indexed_at": "2026-06-01T20:03:31+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "We Should Be More Tired Than the Model",
+      "url": "https://newsletter.vickiboykis.com/archive/we-should-be-more-tired-than-the-model/"
     }
   ],
   "version": 2

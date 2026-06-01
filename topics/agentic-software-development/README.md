@@ -17,6 +17,7 @@ Knowledge and resources about AI-powered coding agents and development workflows
 - [Agent Tooling](agent-tooling.md) - Infrastructure for managing AI-generated code, including Entire's reasoning capture platform
 - [OpenAI Agent Primitives](openai-agent-primitives.md) - Skills, Shell Tool, and Compaction patterns for long-running agents
 - [Agent Limitations](agent-limitations.md) - Practical constraints and failure modes of coding agents, including latency, context debt, and setup overhead
+- [More Tired Than the Model](more-tired-than-the-model.md) - Why better models can increase human fatigue by shifting the bottleneck to judgment and verification
 - [OSS Sustainability](oss-sustainability.md) - How coding agents disrupt OSS monetization and overwhelm maintainers with low-quality contributions
 - [Agent-Native Design](agent-native-design.md) - Designing software for agents as first-class users, not just using agents to build software
 - [Mobile Agent Control](mobile-agent-control.md) - Running agents remotely via Telegram for mobile-first control and monitoring
