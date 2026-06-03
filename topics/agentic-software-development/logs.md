@@ -1046,3 +1046,20 @@ Hands-on guide to OpenClaw (an always-on personal agent framework): what it is, 
 - Operational cautions: start with read-only tokens, watch for prompt injection, audit/update regularly, and expect costs to scale with API usage
 
 ---
+
+### [A Practical Guide to Becoming an AI-Native Engineer](https://blog.bytebytego.com/p/a-practical-guide-to-becoming-an)
+*2026-06-02* | Tags: ai-native-engineering, context-engineering, specification-driven-development, verification, adlc, security, team-adoption
+
+ByteByteGo publishes Shah Rahman's playbook for professional AI-native engineering. The article argues that the productivity gap is not access to better models, but the decision to move from writing code to orchestrating agentic work through context, specifications, decomposition, verification, and guardrails.
+
+**Key Points:**
+- AI-native engineering is distinct from vibe coding: professional leverage depends on engineering judgment, not only natural-language prompting
+- Four core practices: synchronized context engineering, specification-driven development, critical verification, and problem decomposition
+- Recommended time allocation: 40% context-setting, 20% generation/testing iteration, 40% review and verification
+- Individual adoption path: foundation with one assistant, integration through plan-execute-review loops, mastery through multi-agent and cross-agent verification workflows
+- Team adoption requires psychological safety, evolved review rubrics for AI-generated code, and standardized shared context libraries
+- Agentic Development Life Cycle: planning, building, testing, review, documentation, and codification into context files, skills, and MCP tools
+- AI reduces construction cost but not decision cost; the process win comes from faster learning cycles, prototypes, and ruthless scope discipline
+- Guardrails are mandatory: least privilege, data classification, prompt-injection protection, sandboxing, static analysis, human review for critical systems, and skill-atrophy prevention
+
+---

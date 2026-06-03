@@ -1281,6 +1281,24 @@
       "log_path": "topics/agentic-software-development/logs.md",
       "title": "We Should Be More Tired Than the Model",
       "url": "https://newsletter.vickiboykis.com/archive/we-should-be-more-tired-than-the-model/"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [
+        "topics/agentic-software-development/ai-native-engineering.md"
+      ],
+      "indexed_at": "2026-06-03T21:42:38+00:00",
+      "log_path": "topics/agentic-software-development/logs.md",
+      "title": "A Practical Guide to Becoming an AI-Native Engineer",
+      "url": "https://blog.bytebytego.com/p/a-practical-guide-to-becoming-an"
+    },
+    {
+      "category": "agentic-software-development",
+      "corpus_paths": [],
+      "indexed_at": "2026-06-03T21:44:11+00:00",
+      "log_path": "topics/topics/agentic-software-development/logs.md",
+      "title": "A Practical Guide to Becoming an AI-Native Engineer",
+      "url": "https://blog.bytebytego.com/p/a-practical-guide-to-becoming-an?utm_source=post-email-title&publication_id=817132&post_id=200146462&utm_campaign=email-post-title&isFreemail=true&r=25xd4g&triedRedirect=true&utm_medium=email"
     }
   ],
   "version": 2
