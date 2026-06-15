@@ -1299,6 +1299,16 @@
       "log_path": "topics/topics/agentic-software-development/logs.md",
       "title": "A Practical Guide to Becoming an AI-Native Engineer",
       "url": "https://blog.bytebytego.com/p/a-practical-guide-to-becoming-an?utm_source=post-email-title&publication_id=817132&post_id=200146462&utm_campaign=email-post-title&isFreemail=true&r=25xd4g&triedRedirect=true&utm_medium=email"
+    },
+    {
+      "category": "ai-progress",
+      "corpus_paths": [
+        "topics/ai-progress/space-based-ai-infrastructure.md"
+      ],
+      "indexed_at": "2026-06-15T00:00:00+00:00",
+      "log_path": "topics/ai-progress/logs.md",
+      "title": "Space-Based AI Infrastructure and Starcloud",
+      "url": "https://x.com/unclebobmartin/status/2063597563261939884"
     }
   ],
   "version": 2

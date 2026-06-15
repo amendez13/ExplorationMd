@@ -19,6 +19,7 @@ Observations and analysis of AI capability advancement and its implications.
 - [Meaning in a Post-Agent World](meaning-post-agent.md) - Reclaiming agency and joy in building when the process matters as much as the output
 - [Agent-First Software](agent-first-software.md) - Designing software for agents as primary users, API-first principles, and infrastructure for trillions of agents
 - [Andreessen's Economic Frame](andreessen-economic-frame.md) - AI as the philosopher's stone: productivity paradox, demographic timing, supermpowered individuals, and role convergence
+- [Space-Based AI Infrastructure](space-based-ai-infrastructure.md) - Orbital data centers as a response to AI's power, cooling, and deployment bottlenecks
 
 ## Podcasts
 

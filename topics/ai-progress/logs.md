@@ -567,3 +567,16 @@ Spanish-language X thread arguing that AI often doesn’t reduce working hours b
 - Latency collapse: if answers arrive in seconds, tolerated waiting time drops, making urgency feel ambient rather than exceptional
 - Social acceleration framing: connects AI-enabled speedups to “frenetic standstill” and “24/7” availability pressures (as cited in the thread)
 - Countermeasures: separate execution speed from decision urgency, intentionally add friction (office hours/batching), and measure outcomes over throughput
+
+---
+
+### [Space-Based AI Infrastructure and Starcloud](https://x.com/unclebobmartin/status/2063597563261939884)
+*2026-06-15T00:00:00Z* | Tags: ai-progress, ai-infrastructure, data-centers, orbital-compute, starcloud, energy, cooling
+
+Sparse X thread from Robert C. Martin whose only substantive preserved phrase is "Talk to starcloud." Treated as a pointer into the debate over whether space-based data centers could relieve AI's terrestrial power, cooling, and deployment bottlenecks; supporting context comes from Starcloud/World Economic Forum and MCJ sources.
+
+**Key Points:**
+- The X thread itself is low-signal and should not be treated as evidence beyond pointing attention toward Starcloud
+- Starcloud argues orbital data centers could use continuous solar power and passive radiative cooling to address terrestrial power, water, land, and permitting constraints
+- The approach depends on falling launch costs, sufficient launch cadence, optical communications, radiation management, and responsible orbital debris mitigation
+- The broader AI-progress lesson is that physical infrastructure has become a first-order constraint, alongside models, data, chips, and software
