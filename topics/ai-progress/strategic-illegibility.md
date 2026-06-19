@@ -33,7 +33,7 @@ This can be viewed as building a second “digital twin” version of the compan
 
 Halligan’s core risk claim is not about vendors training foundation models on your data (often restricted by contract), but about **pattern matching**: once your playbook is legible enough for an agent to execute, it is legible enough for a vendor to abstract across many customers, productize it, and redistribute it as a reference architecture. “Your edge becomes their feature.” [1]
 
-This is closely related to broader AI-era moat erosion themes: when reading, writing, and reasoning over operational artifacts gets cheaper, competitive advantage shifts away from “hidden implementation” toward harder-to-transfer assets. (Compare with [AI-Assisted Decompilation and the End of Code Secrecy](ai-assisted-decompilation.md).)
+This is closely related to broader AI-era moat erosion themes: when reading, writing, and reasoning over operational artifacts gets cheaper, competitive advantage shifts away from “hidden implementation” toward harder-to-transfer assets. (Compare with [AI-Assisted Decompilation and the End of Code Secrecy](ai-assisted-decompilation.md) and [The AI-Era Firm](enterprise-ai-strategy.md), which argues the durable asset is a company-owned learning loop rather than the model.)
 
 ## Strategic Illegibility: What to Keep Partially Unwritten
 

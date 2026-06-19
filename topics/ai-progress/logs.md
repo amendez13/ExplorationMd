@@ -580,3 +580,20 @@ Sparse X thread from Robert C. Martin whose only substantive preserved phrase is
 - Starcloud argues orbital data centers could use continuous solar power and passive radiative cooling to address terrestrial power, water, land, and permitting constraints
 - The approach depends on falling launch costs, sufficient launch cadence, optical communications, radiation management, and responsible orbital debris mitigation
 - The broader AI-progress lesson is that physical infrastructure has become a first-order constraint, alongside models, data, chips, and software
+
+---
+
+### [The AI-Era Firm: Human Capital, Token Capital, and the Learning Loop](https://x.com/satyanadella/status/2066182223213293753)
+*2026-06-19T00:00:00Z* | Tags: ai-progress, enterprise-ai, strategy, moats, commoditization, learning-loop, monopoly, microsoft
+
+Satya Nadella argues that the durable advantage in the AI era is not access to the best foundation model—which is commoditizing—but ownership of a proprietary learning loop that converts employee expertise (human capital) into company-owned AI capability (token capital). The latter third turns to economics and politics: a warning against value concentrating in a handful of frontier model owners, and a statement of Microsoft's preference for AI as a platform business rather than a winner-take-all model business.
+
+**Key Points:**
+- AI changes the firm: unlike past tech waves, AI participates in knowledge work itself, creating a human↔AI "cognitive loop"
+- Two forms of capital: human capital (expertise, judgment, tacit knowledge) creates token capital (agents, fine-tuned models, memory, workflows)
+- The model is not the asset: differentiation lives in data, workflows, evaluations, institutional knowledge, and reinforcement signals
+- "Company veteran AI": a firm should swap the underlying model (GPT↔Claude) without losing accumulated expertise—"control and sovereignty"
+- Institutional knowledge becomes software: capture what's trapped in employees' heads before they leave
+- The learning loop is the new IP—a compounding "hill climbing machine" flywheel
+- Monopoly warning: millions of companies feeding a few frontier models is economically, politically, and socially unstable
+- "A frontier without an ecosystem is not stable"—Microsoft frames AI as a platform business (Windows/Azure/GitHub lineage)

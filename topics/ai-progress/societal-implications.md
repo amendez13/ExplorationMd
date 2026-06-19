@@ -408,6 +408,8 @@ Clark predicts that by summer 2026 "it will be as though the digital world is go
 
 The advice: be prepared now rather than caught off-guard later.
 
+On *who captures* the value in this fast-moving economy—and the risk of it concentrating in a few frontier model owners—see [The AI-Era Firm](enterprise-ai-strategy.md).
+
 ## Sources
 
 1. [X thread on AI progress](https://x.com/i/status/2021256989876109403)

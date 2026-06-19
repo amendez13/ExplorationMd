@@ -16,6 +16,7 @@ Observations and analysis of AI capability advancement and its implications.
 - [Bespoke Software](bespoke-software.md) - The end of the app store model and the rise of AI-generated ephemeral applications
 - [AI-Assisted Decompilation](ai-assisted-decompilation.md) - How LLMs weaken code secrecy and shift defensibility away from implementation
 - [Strategic Illegibility](strategic-illegibility.md) - How AI legibility can commoditize moats, and what to keep deliberately hard to generalize
+- [The AI-Era Firm](enterprise-ai-strategy.md) - Nadella on human capital vs token capital, the learning loop as IP, model commoditization, and the monopoly warning
 - [Meaning in a Post-Agent World](meaning-post-agent.md) - Reclaiming agency and joy in building when the process matters as much as the output
 - [Agent-First Software](agent-first-software.md) - Designing software for agents as primary users, API-first principles, and infrastructure for trillions of agents
 - [Andreessen's Economic Frame](andreessen-economic-frame.md) - AI as the philosopher's stone: productivity paradox, demographic timing, supermpowered individuals, and role convergence
