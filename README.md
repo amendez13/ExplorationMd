@@ -28,3 +28,26 @@ Start from any topic above to explore the knowledge base. Every document is reac
 ---
 
 *Indexed by [Link Indexer](https://github.com/amendez13/automation)*
+
+## Secret Scanning (gitleaks)
+
+`.github/workflows/gitleaks.yml` runs the standardized `Secret Scanning` job on
+`[self-hosted, fargate]`. It downloads gitleaks 8.30.1 and verifies the pinned
+Linux x64 archive SHA-256 before execution.
+
+Pull requests scan `base.sha..head.sha`. Pushes and manual runs scan the event
+commit's full reachable history. Both include first-parent merge patches;
+sibling branch refs are outside the scan scope. The job validates the revisions
+and complete Git traversal, then fails on scanner errors even if gitleaks
+returns zero.
+
+Reports use `--redact=100`. The job uploads redacted SARIF as an artifact and
+attempts GitHub code scanning ingestion when supported. Findings fail the job;
+real credentials require approved remediation. Any false-positive exclusion
+must be verified, justified in its PR, and restricted to an exact fingerprint.
+
+This workflow is byte-identical to the reviewed template in
+[automation#1020](https://github.com/amendez13/automation/pull/1020), delivered
+under [automation#376](https://github.com/amendez13/automation/issues/376).
+After merge, confirm a green Secret Scanning run on main. Roll back through a
+reviewed revert PR if needed.
